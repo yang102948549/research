@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-15T11:11:56.957629+00:00",
+  "title": "생성형 인공지능",
+  "sortNm": "title",
+  "request_limit": 14,
+  "request_count": 14,
+  "operations": [
+    {
+      "operation": "articleSearch",
+      "requests": [
+        {
+          "label": "size1",
+          "page": 1,
+          "requested_size": 1,
+          "status": "ok",
+          "total": 3670,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "e28c9d44037bf1d195ea7b800780fd1bb1f806f8c84adb7a14b10b5f3409e14c"
+        },
+        {
+          "label": "first10",
+          "page": 1,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 3670,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "e28c9d44037bf1d195ea7b800780fd1bb1f806f8c84adb7a14b10b5f3409e14c"
+        },
+        {
+          "label": "second10",
+          "page": 2,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 3670,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "5634c665ce1dd40f2ab2eb189359fdccbe11e47e3b7680e01939f246653eb21c"
+        },
+        {
+          "label": "first20",
+          "page": 1,
+          "requested_size": 20,
+          "status": "ok",
+          "total": 3670,
+          "returned_records": 20,
+          "identifiable_records": 20,
+          "identity_sequence_sha256": "e1f805422424cab101568bdfac258409d9fe1c6f76d13b505132c6f922dac8e7"
+        },
+        {
+          "label": "repeat10",
+          "page": 1,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 3670,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "e28c9d44037bf1d195ea7b800780fd1bb1f806f8c84adb7a14b10b5f3409e14c"
+        },
+        {
+          "label": "last10",
+          "page": 367,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 3670,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "ac0acefe6f2ce516bf5795cb7380889b70f71a374bad176e2a779e266babf5c7"
+        },
+        {
+          "label": "after_last10",
+          "page": 368,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 3670,
+          "returned_records": 0,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "checks": {
+        "prefix_totals_stable": true,
+        "size1_honored": false,
+        "size10_honored": true,
+        "size20_honored": true,
+        "prefix_identities_available": true,
+        "prefix_unique_within_pages": true,
+        "first_two_pages_disjoint": true,
+        "first_two_match_size20": true,
+        "repeat_first_page_stable": true,
+        "totals_stable": true,
+        "identities_available": true,
+        "unique_within_pages": true,
+        "last_page_count": true,
+        "after_last_empty": true,
+        "last_page_distinct_from_first": true,
+        "last_page_consistent_with_second": true
+      },
+      "status": "sampled_pass_size1_not_honored"
+    },
+    {
+      "operation": "referenceSearch",
+      "requests": [
+        {
+          "label": "size1",
+          "page": 1,
+          "requested_size": 1,
+          "status": "ok",
+          "total": 10223,
+          "returned_records": 10,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "82e71347ea87f3e555653a9e152c45d3c0a354656f7ec7d2cd6bbcfcf902dad3"
+        },
+        {
+          "label": "first10",
+          "page": 1,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 10223,
+          "returned_records": 10,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "82e71347ea87f3e555653a9e152c45d3c0a354656f7ec7d2cd6bbcfcf902dad3"
+        },
+        {
+          "label": "second10",
+          "page": 2,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 10223,
+          "returned_records": 10,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "82e71347ea87f3e555653a9e152c45d3c0a354656f7ec7d2cd6bbcfcf902dad3"
+        },
+        {
+          "label": "first20",
+          "page": 1,
+          "requested_size": 20,
+          "status": "ok",
+          "total": 10223,
+          "returned_records": 20,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "9809fd9c89a980e0006c9ddbbacd9660fce6e23a6d16fc755efb6c8866d6f086"
+        },
+        {
+          "label": "repeat10",
+          "page": 1,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 10223,
+          "returned_records": 10,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "82e71347ea87f3e555653a9e152c45d3c0a354656f7ec7d2cd6bbcfcf902dad3"
+        },
+        {
+          "label": "last10",
+          "page": 1023,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 10223,
+          "returned_records": 10,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "82e71347ea87f3e555653a9e152c45d3c0a354656f7ec7d2cd6bbcfcf902dad3"
+        },
+        {
+          "label": "after_last10",
+          "page": 1024,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 10223,
+          "returned_records": 10,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "82e71347ea87f3e555653a9e152c45d3c0a354656f7ec7d2cd6bbcfcf902dad3"
+        }
+      ],
+      "checks": {
+        "prefix_totals_stable": true,
+        "size1_honored": false,
+        "size10_honored": true,
+        "size20_honored": true,
+        "prefix_identities_available": false,
+        "prefix_unique_within_pages": null,
+        "first_two_pages_disjoint": null,
+        "first_two_match_size20": null,
+        "repeat_first_page_stable": null,
+        "totals_stable": true,
+        "identities_available": false,
+        "unique_within_pages": null,
+        "last_page_count": false,
+        "after_last_empty": false,
+        "last_page_distinct_from_first": null,
+        "last_page_consistent_with_second": null
+      },
+      "status": "needs_review"
+    }
+  ],
+  "evidence_verified": false,
+  "scope": "Sampled page boundaries only; not proof of entire result-set completeness",
+  "status": "needs_review",
+  "finished_at": "2026-10-15T11:12:01.741410+00:00"
+}

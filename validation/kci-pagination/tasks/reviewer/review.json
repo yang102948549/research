@@ -1,0 +1,45 @@
+{
+  "task_id": "kci-pagination-review",
+  "role": "independent_implementation_reviewer",
+  "scope": "Static implementation review; no credentials accessed and no live API validation performed.",
+  "reviewed_files": ["validation/transfer-recovery/evidence-paper-workflow/scripts/sources.py", "validation/transfer-recovery/evidence-paper-workflow/tests/test_sources.py", "validation/transfer-recovery/evidence-paper-workflow/references/orchestration.md"],
+  "findings": [
+    {
+      "id": "KCI-P1",
+      "severity": "high",
+      "location": "KCIClient.collect overlap check",
+      "bug": "Duplicates within a returned page are never compared with one another. A first page containing the same record twice and total=2 is accepted as complete despite only one distinct article.",
+      "test": "Return two identical ART IDs within page 1, total=2. Assert a duplicate/inconsistent status, no page advancement and no false complete."
+    },
+    {
+      "id": "KCI-P2",
+      "severity": "high",
+      "location": "KCIClient.collect record dictionary equality",
+      "bug": "Cross-page overlap detection uses whole record dictionaries including XML. The same article ID with altered whitespace, attribute ordering, provider verification or updated metadata is accepted as a different article, allowing missing articles to be hidden by duplicate counts.",
+      "test": "Page 1 and page 2 return the same article-id with different title/XML formatting, total=2. Assert overlap by stable article identity. Repeat for referenceSearch using its verified schema-specific identifier."
+    },
+    {
+      "id": "KCI-P3",
+      "severity": "high",
+      "location": "parse_kci and KCIClient.collect completion predicate",
+      "bug": "Positive totals smaller than the returned or cumulative record count are not rejected. Completion uses >= total, so total=1 with ten records is declared complete and persisted as valid.",
+      "test": "Test total=1 with ten unique records and a later page that overshoots the remaining total. Assert inconsistent_response and preserve the last accepted checkpoint."
+    },
+    {
+      "id": "KCI-P4",
+      "severity": "medium",
+      "location": "KCIClient.request pagination validation",
+      "bug": "int() is used only to validate pagination, while original values are serialized. displayCount=1.5 or page=True pass validation but send non-integral wire values, which can trigger server defaults and obscure the observed 1-request/10-return anomaly.",
+      "test": "Reject fractional floats and booleans, or normalize only accepted canonical integer inputs before URL serialization. Assert query values actually transmitted."
+    }
+  ],
+  "pagination_validation_requirements": [
+    "Returning ten records for displayCount=1 alone does not establish a pagination bug: an effective default size may be used consistently. Compare stable IDs for requested sizes 1, 10 and 20 on pages 1 and 2, recording requested and observed counts.",
+    "Verify page 2 differs from page 1; verify ordered concatenation of two ten-record pages against a twenty-record page where the endpoint supports it. An unchanged total alone does not prove an unchanged result set.",
+    "Test a 21-record fixed-size response sequence 10/10/1 with requested size 1, interruption after page 1, and resume at page 2. Require 21 unique IDs and exact completion without deriving next_page from requested size.",
+    "Test ignored page parameters returning the same IDs, changing totals, empty premature pages, short non-final pages, and max_pages exhaustion followed by resume.",
+    "Resume currently trusts stored query/status/count/page contents and returns completed checkpoints without revalidation. Add checkpoint consistency checks if resumable integrity is part of the contract, and explicitly record that same-total live dataset drift cannot be fully ruled out without snapshot support."
+  ],
+  "existing_test_gap": "The sole collection test uses synthetic title-only records and one item per page. It does not exercise provider identifiers, server-default page sizes, duplicate pages, count overshoot, or result-set drift.",
+  "evidence_verified": false
+}

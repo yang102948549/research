@@ -74,7 +74,7 @@ class SourcesTests(unittest.TestCase):
     def test_interruption_and_resume_checkpoint(self):
         def interrupted(url):
             if "page=1&" in url:
-                return response(2, "<record><title>one</title></record>")
+                return response(2, "<record><articleInfo article-id='ART1'><title>one</title></articleInfo></record>")
             raise OSError("disconnected")
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
             checkpoint = Path(directory) / "search.json"
@@ -85,7 +85,7 @@ class SourcesTests(unittest.TestCase):
             calls = []
             def resumed(url):
                 calls.append(url)
-                return response(2, "<record><title>two</title></record>")
+                return response(2, "<record><articleInfo article-id='ART2'><title>two</title></articleInfo></record>")
             final = KCIClient(fetch=resumed).collect("a", checkpoint, page_size=1)
             self.assertEqual(final["status"], "complete")
             self.assertEqual(final["collected_count"], 2)

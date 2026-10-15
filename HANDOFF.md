@@ -94,3 +94,25 @@ python -X utf8 "$env:USERPROFILE/.codex/skills/evidence-paper-workflow/scripts/c
 ## GitHub 업로드 준비
 
 전달 bundle의 정상 이력을 기반으로 최신 재개·KCI 기록을 반영했다. 현재 폴더의 build-status.json은 0.3으로 오래되어 업로드 작업본에서는 bundle의 0.4 기록을 기준으로 최신 KCI 상태를 추가했다. 원래 폴더의 파일과 손상된 .git은 보존했다.
+
+
+## 2026-10-15 KCI 페이지 검증 및 새 연구 준비
+
+정상 작업본은 validation/transfer-recovery이다. 페이지 처리 코드 보완 후 77개 회귀시험 통과. 실서버 페이지 검증은 API 키 부재로 대기하며 validation/kci-pagination/REPORT.md의 명령으로 실행한다. 현재 생성형 AI·LLM의 도덕적 지위 문헌연구를 research-workspaces/ai-moral-status에 준비했다. 예비 후보 6건과 질문 제안만 기록했고 질문·개요 승인이나 본문 작성은 수행하지 않았다. 이번 변경은 아직 GitHub에 푸시하지 않았다.
+
+사용자는 총괄-하위 구조를 명시했다. 현재 스킬은 총괄 1명과 동시 하위 최대 2명이며, 검색·분석·집필·독립검토는 단계별 역할이다. 현재 세션은 총괄 포함 4개 실행 슬롯을 제공하므로 하위 2명은 스킬 설정상의 제한이다. 사용자가 규모를 검토 중이며 제한 변경은 아직 적용하지 않았다.
+
+
+## 2026-10-15 사용자 요청에 따른 동시 실행 구성 변경
+
+이 절은 앞선 동시 3개/하위 2명 제한 기록을 대체한다. 총괄 1명 + 동시 하위 최대 3명(총 4개)으로 SKILL.md, orchestration.md, README 및 연구 설정을 변경했다. 총괄만 공통 장부를 수정하며 하위 재위임은 하지 않는다. 호스트 슬롯 부족 시 대기열로 운영한다. 현재 KCI_API_KEY는 미설정이며 실서버 페이지 검증은 사용자 로컬 실행 결과를 기다린다.
+
+
+## 2026-10-15 20:08 KCI 실서버 결과 판정
+
+articleSearch는 1/10/20건 및 2페이지 응답 확인, 마지막 1911페이지 network_error로 미완료. referenceSearch는 미실행. assessment-20261015-200850.json에 증명 가능한 관찰만 기록. 부분 판정 보존 및 HTTP 상태 진단 보완 후 78개 시험 통과. 재시험 검색어는 생성형 인공지능. 연구 검색계획은 research-workspaces/ai-moral-status/search-plan.json에 준비했으며 아직 실행/질문 승인으로 기록하지 않았다.
+
+
+## 2026-10-15 20:12 이후 연구 진행
+
+KCI articleSearch 표본 통과, referenceSearch는 식별자·경계 응답 문제로 보류. 최신 판정 assessment-20261015-201156.json 참조. 사용자는 잠정적 보호를 제외하고 도덕적 지위 인정 근거에 집중하도록 범위를 수정했으며 실제 응답을 질문 해시와 함께 기록했다. 총괄+하위3명의 조사로 신규 후보14편을 통합하고 공개 HTML2편을 확보·초기 추출했다. 연구 진행과 다음 작업은 research-workspaces/ai-moral-status/PROGRESS.md 참조. 원고/개요 승인·의미 검증은 아직 미완료다.

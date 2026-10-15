@@ -8,7 +8,7 @@
   "upstream_scripts_executed": false,
   "official_skill_validator": "passed (workspace-local PyYAML dependency)",
   "regression_tests": {
-    "passed": 64,
+    "passed": 78,
     "failed": 0
   },
   "independent_behavioral_evaluation": {
@@ -67,5 +67,19 @@
     "report": "../validation/kci-live/user-reported-result.json",
     "evidence_verified": false,
     "pagination_verified": false
+  },
+  "kci_pagination": {
+    "code_tests": "passed",
+    "live_status": "article_sampled_pass_reference_unresolved",
+    "report": "../validation/kci-pagination/REPORT.md",
+    "independent_code_review": "finding_resolved",
+    "live_assessment": "../validation/kci-pagination/assessment-20261015-201156.json"
+  },
+  "agent_topology": {
+    "coordinator": 1,
+    "workers_max": 3,
+    "total_max": 4,
+    "shared_ledger_writer": "coordinator",
+    "worker_redelegation": false
   }
 }

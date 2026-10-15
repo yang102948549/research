@@ -1,0 +1,28 @@
+{
+  "task_id": "kci-pagination-review-followup",
+  "scope": "Static implementation review only; no live validation or credentials accessed.",
+  "reviewed_files": ["evidence-paper-workflow/scripts/sources.py", "evidence-paper-workflow/scripts/kci_pagination_probe.py", "evidence-paper-workflow/scripts/kci_pagination_probe.ps1", "evidence-paper-workflow/tests/test_kci_pagination.py"],
+  "assessment": "Original collection defects are addressed for article identities. One concrete probe false-pass remains.",
+  "findings": [
+    {
+      "id": "KCI-F1",
+      "severity": "high",
+      "location": "probe last_page_distinct_from_first check",
+      "bug": "The last page is compared only to the first page, so overlap with the already sampled second page passes. A duplicate and missing final record can receive sampled_pass even though the overlap is visible in collected samples.",
+      "reproduction": "total=21; first10=ART1..ART10; second10=ART11..ART20; first20=ART1..ART20; repeat10 equals first10; last10=[ART11]; after_last10=[]; size1=[ART1]. All current critical checks pass.",
+      "fix": "When last_page>2 require last disjoint from both first and second. When last_page==2 require last equals second, because they are repeated requests to the same page. Preserve existing last_page==1 equality check.",
+      "tests": ["21-result response with last item duplicated from second page must needs_review", "20-result response with last10 different from second10 must needs_review", "Normal 11-, 20-, 21- and 30-result boundaries remain sampled_pass"]
+    }
+  ],
+  "reference_semantics": {
+    "positive": "Retaining the citing article ID from the immediate outputData parent prevents identical reference text cited by different articles from being merged. Missing parent identities prevent sampled_pass.",
+    "limitation": "Reference identity is a citing article plus canonical XML hash, not a stable reference identifier. Changed metadata within a repeated reference will appear distinct. This cannot prove reference-level unique completeness; scope/report should retain that limitation unless official stable IDs are available.",
+    "contract_dependency": "Current fixtures assume total and displayCount count flattened record nodes rather than outputData citing-article groups. Confirm this against actual referenceSearch contract before treating a live size mismatch as a transport error. No live schema assertion was made in this review."
+  },
+  "security": {
+    "assessment": "No direct key, URL or XML output found in probe reports. Key travels through process environment, hidden prompt is used only if absent, and finally restores prior environment and frees the BSTR.",
+    "remaining_test": "Add fake server responses echoing credentials in XML and transport exceptions; assert probe JSON contains neither credentials nor URL/XML. Existing main probe test only proves absence when server does not echo."
+  },
+  "resume_limitations": "Version 2 checkpoints still trust saved complete status and internal page/count consistency. Same-total live drift across resume is not detected; do not claim snapshot completeness.",
+  "evidence_verified": false
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-15",
+  "source_file": "live-20261015-201156-642.json",
+  "source_sha256": "979535c3de444d580f82c90a7a5b684722341d85fce58f675cfd13595a29b984",
+  "status": "article_sampled_pass_reference_unresolved",
+  "articleSearch": {
+    "total": 3670,
+    "status": "sampled_pass_size1_not_honored",
+    "approved_operational_page_sizes": [
+      10,
+      20
+    ],
+    "scope": "first two pages, repeat, last and beyond-last; not all 367 pages"
+  },
+  "referenceSearch": {
+    "total": 10223,
+    "status": "needs_review",
+    "identifiable_records": 0,
+    "last_page_returned": 10,
+    "expected_last_page_records_under_assumed_contract": 3,
+    "beyond_last_returned": 10,
+    "cause": "unresolved schema/identity and page semantics; cannot infer repeated records from null-ID fingerprints",
+    "use_for_research_collection": false
+  },
+  "evidence_verified": false
+}

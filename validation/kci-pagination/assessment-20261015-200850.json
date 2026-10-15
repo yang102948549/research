@@ -1,0 +1,27 @@
+{
+  "assessed_date": "2026-10-15",
+  "source_file": "live-20261015-200850-107.json",
+  "source_sha256": "952861c788073699a9104c1600fd7e886abbc1dabd5046e5675200d142e45277",
+  "status": "partial_live_validation",
+  "title": "인공지능",
+  "observations": {
+    "search_total": 19106,
+    "size1_returned": 10,
+    "size10_returned": 10,
+    "size20_returned": 20,
+    "size1_matches_size10_sequence": true,
+    "page2_differs_from_page1_sequence": true,
+    "repeated_page1_sequence_stable": true,
+    "failed_page": 1911,
+    "failure_status": "network_error"
+  },
+  "not_established": [
+    "first/second page disjointness; ordered fingerprints alone cannot recover individual identities",
+    "concatenated first/second pages matching size20",
+    "last-page and beyond-last-page behavior",
+    "referenceSearch pagination",
+    "cause of network_error: prior tool did not retain HTTP status"
+  ],
+  "next_probe_title": "생성형 인공지능",
+  "evidence_verified": false
+}

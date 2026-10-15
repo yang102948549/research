@@ -14,6 +14,7 @@ import unicodedata
 from datetime import datetime, timezone
 from urllib.parse import urlencode, quote
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 import xml.etree.ElementTree as ET
 
 
@@ -34,6 +35,28 @@ def redact(value, secret=""):
 
 def _tag(node):
     return node.tag.rsplit("}", 1)[-1]
+
+
+def record_identity(record, operation):
+    """Stable article ID, or reference content bound to its citing article."""
+    try:
+        root = ET.fromstring(record['xml'])
+    except (KeyError, TypeError, ET.ParseError):
+        return None
+    if operation == 'articleSearch':
+        ids = [n.get('article-id', '') for n in root.iter() if _tag(n) == 'articleInfo']
+        return ids[0] if len(ids) == 1 and re.fullmatch(r'ART[0-9]{1,20}', ids[0]) else None
+    parent = record.get('citing_article_id')
+    if operation != 'referenceSearch' or not parent:
+        return None
+    canonical = ET.canonicalize(record['xml'], strip_text=True)
+    return parent + ':' + hashlib.sha256(canonical.encode()).hexdigest()
+
+
+def positive_integer(value):
+    if isinstance(value, bool) or not re.fullmatch(r'[0-9]+', str(value)) or int(value) < 1:
+        raise ValueError('Expected positive integer')
+    return int(value)
 
 
 def parse_kci(payload, secret="", operation=None):
@@ -66,12 +89,18 @@ def parse_kci(payload, secret="", operation=None):
     except (ValueError, TypeError):
         return {"status": "malformed_xml"}
     records = []
+    parents = {child: parent for parent in root.iter() for child in parent}
     for node in root.iter():
         if _tag(node) == "record":
             provider_verified = next((n.text for n in node.iter() if _tag(n) == "verified"), None)
             records.append({"xml": redact(ET.tostring(node, encoding="unicode"), secret),
                             "provider_verified": provider_verified if provider_verified in {"Y", "N"} and provider_verified != secret else None,
                             "evidence_verification": "unreviewed"})
+            if operation == 'referenceSearch':
+                parent = parents.get(node)
+                identifier = parent.get('article-id', '') if parent is not None and _tag(parent) == 'outputData' else ''
+                if re.fullmatch(r'ART[0-9]{1,20}', identifier) and identifier != secret:
+                    records[-1]['citing_article_id'] = identifier
     if operation == "articleDetail":
         # The detail contract has no total. Require one identifiable article,
         # including a nonempty title, rather than accepting an empty record.
@@ -110,11 +139,12 @@ class KCIClient:
         if set(params) - self.allowed_parameters:
             return {"status": "unknown_parameter"}
         try:
-            pagination_valid = 1 <= int(params.get("displayCount", 10)) <= 100 and int(params.get("page", 1)) >= 1
+            pagination_valid = positive_integer(params.get("displayCount", 10)) <= 100 and positive_integer(params.get("page", 1)) >= 1
         except (ValueError, TypeError):
             pagination_valid = False
         if not pagination_valid:
             return {"status": "invalid_pagination"}
+        params = {k: positive_integer(v) if k in {'page', 'displayCount'} else v for k, v in params.items()}
         secret = os.environ.get("KCI_API_KEY", "")
         if not secret:
             return {"status": "not_configured"}
@@ -129,24 +159,31 @@ class KCIClient:
                         result = {"status": "identifier_mismatch"}
                 result["request_url"] = redact(url, secret)
                 return result
+            except HTTPError as error:
+                if attempt == self.retries:
+                    return {"status": "http_error", "http_status": error.code,
+                            "attempts": attempt + 1, "request_url": redact(url, secret)}
             except Exception:
                 # Never serialize exception strings: transports can echo the full URL/key.
                 if attempt == self.retries:
                     return {"status": "network_error", "attempts": attempt + 1, "request_url": redact(url, secret)}
 
     def collect(self, title, checkpoint, operation="articleSearch", page_size=100, max_pages=100, **filters):
-        if not 1 <= page_size <= 100 or max_pages < 1:
+        page_size, max_pages = positive_integer(page_size), positive_integer(max_pages)
+        if page_size > 100 or operation not in {'articleSearch', 'referenceSearch'}:
             raise ValueError("Invalid collection bounds")
         path = Path(checkpoint)
         query = {"operation": operation, "title": title, "page_size": page_size, "filters": filters}
         # Persist only non-secret request fields; request() prohibits credential overrides.
         if set(filters) - (self.allowed_parameters - {"page", "displayCount", "title"}):
             raise ValueError("Reserved query field")
-        state = {"query": query, "searched_at": datetime.now(timezone.utc).isoformat(), "next_page": 1, "total": None, "records": [], "completed_pages": [], "status": "pending"}
+        state = {"pagination_contract": 2, "query": query, "searched_at": datetime.now(timezone.utc).isoformat(), "next_page": 1, "total": None, "records": [], "completed_pages": [], "status": "pending"}
         if path.exists():
             state = json.loads(path.read_text(encoding="utf-8"))
             if state["query"] != query:
                 raise ValueError("Checkpoint query mismatch")
+            if state.get('pagination_contract') != 2:
+                raise ValueError('Legacy checkpoint requires explicit revalidation; use a new checkpoint')
             if state["status"] == "complete":
                 return state
         for _ in range(max_pages):
@@ -155,18 +192,29 @@ class KCIClient:
             if result["status"] not in {"ok", "zero_results"}:
                 state["status"] = result["status"]
             else:
+                incoming = [record_identity(r, operation) for r in result['records']]
+                prior = [record_identity(r, operation) for r in state['records']]
+                expected = min(page_size, max(0, result['total'] - len(state['records'])))
                 if state["total"] is not None and state["total"] != result["total"]:
                     state["status"] = "result_set_changed"
-                elif result["total"] > len(state["records"]) and not result["records"]:
-                    state["status"] = "incomplete_page"
-                elif any(record in state["records"] for record in result["records"]):
+                elif len(state['records']) + len(incoming) > result['total']:
+                    state['status'] = 'total_exceeded'
+                elif len(incoming) != expected:
+                    state['status'] = 'page_size_mismatch'
+                elif None in incoming or None in prior:
+                    state['status'] = 'unverifiable_record_identity'
+                elif len(incoming) != len(set(incoming)):
+                    state['status'] = 'duplicate_records_in_page'
+                elif set(incoming).intersection(prior):
                     state["status"] = "overlapping_pages"
                 else:
                     state["total"] = result["total"]
                     state["records"].extend(result["records"])
                     state["completed_pages"].append(page)
                     state["next_page"] += 1
-                    state["status"] = "complete" if len(state["records"]) >= result["total"] else "partial"
+                    state["status"] = "complete" if len(state["records"]) == result["total"] else "partial"
+            state['last_page_check'] = {'page': page, 'requested_size': page_size,
+                                        'returned_records': len(result.get('records', [])), 'status': state['status']}
             state["collected_count"] = len(state["records"])
             state["updated_at"] = datetime.now(timezone.utc).isoformat()
             path.parent.mkdir(parents=True, exist_ok=True)

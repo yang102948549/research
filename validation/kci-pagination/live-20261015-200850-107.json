@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-15T11:08:50.608753+00:00",
+  "title": "인공지능",
+  "sortNm": "title",
+  "request_limit": 14,
+  "request_count": 6,
+  "operations": [
+    {
+      "operation": "articleSearch",
+      "requests": [
+        {
+          "label": "size1",
+          "page": 1,
+          "requested_size": 1,
+          "status": "ok",
+          "total": 19106,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "8fd00ea1fa419ac746a049b68e24abdb1795245a4a1bbd1e70426e786a26e8bb"
+        },
+        {
+          "label": "first10",
+          "page": 1,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 19106,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "8fd00ea1fa419ac746a049b68e24abdb1795245a4a1bbd1e70426e786a26e8bb"
+        },
+        {
+          "label": "second10",
+          "page": 2,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 19106,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "ebf0e5d3800dad111446d6e2151d5b0096e971c16a85c6203367610813304c11"
+        },
+        {
+          "label": "first20",
+          "page": 1,
+          "requested_size": 20,
+          "status": "ok",
+          "total": 19106,
+          "returned_records": 20,
+          "identifiable_records": 20,
+          "identity_sequence_sha256": "dd75ddf4c3ea2aabc7524dbbf8146fd2e98ab6294abbbe3ae588291e355108c2"
+        },
+        {
+          "label": "repeat10",
+          "page": 1,
+          "requested_size": 10,
+          "status": "ok",
+          "total": 19106,
+          "returned_records": 10,
+          "identifiable_records": 10,
+          "identity_sequence_sha256": "8fd00ea1fa419ac746a049b68e24abdb1795245a4a1bbd1e70426e786a26e8bb"
+        },
+        {
+          "label": "last10",
+          "page": 1911,
+          "requested_size": 10,
+          "status": "network_error",
+          "total": null,
+          "returned_records": 0,
+          "identifiable_records": 0,
+          "identity_sequence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "checks": {},
+      "status": "network_error"
+    }
+  ],
+  "evidence_verified": false,
+  "scope": "Sampled page boundaries only; not proof of entire result-set completeness",
+  "status": "network_error"
+}
