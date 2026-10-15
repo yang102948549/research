@@ -1,0 +1,47 @@
+{
+  "research_id": "pilot-kross-2013",
+  "task_id": "outline-review",
+  "reviewer_id": "independent-outline-review-agent",
+  "input_version": 11,
+  "review_type": "agent_reviewed",
+  "human_reviewed": false,
+  "source_file_hash": "57af401c1c177c919fa770f1fc88392bc79ee20190328dfab6d4354934a76291",
+  "ledger_file_hash": "96071e11cda9d17cc0b5209c6e0f4ea1bbd0dfb63456ebf2855943b0ee75320d",
+  "outline_file_hash": "14b5a5fc991260a2911c7f0774d84d7ece9ed37f4ce4ca90d08b0706e34ac4e2",
+  "claims": [
+    {
+      "verdict": "pass",
+      "id": "C001",
+      "rationale": "E001 quote is an exact substring and context exactly matches direct paragraph 1 of XML sec s2c2. Five text prompts per day over fourteen days correctly describes the experience-sampling schedule. Random prompt timing is not random assignment of Facebook use. Do not imply complete compliance or five completed responses per participant per day."
+    },
+    {
+      "verdict": "pass",
+      "id": "C002",
+      "rationale": "E002 quote and context match XML s4 paragraph 1 exactly. Original results distinguish within-person interval Facebook use predicting subsequent affect conditional on prior affect, from mean Facebook use over fourteen days predicting post-study life satisfaction conditional on baseline satisfaction and average affect. The claim accurately attributes the broad result to the authors and says predicts rather than causes. It must not be expanded into an unconditional or universal effect."
+    },
+    {
+      "verdict": "pass",
+      "id": "C003",
+      "rationale": "E003 is an exact clause in XML s4a paragraph 3 and its full context matches. The Korean claim correctly preserves the authors stated need for manipulation experiments to establish definitive causal relations; temporal ordering and measured controls alone do not establish definitive causation."
+    },
+    {
+      "verdict": "pass",
+      "id": "C004",
+      "rationale": "E004 quote and context match XML s4a paragraph 1. The claim accurately states uncertainty about additional age groups; adjacent text also cautions about other networks. This is uncertainty of generalizability, not proof that the association cannot generalize."
+    }
+  ],
+  "outline_verdict": "pass",
+  "outline_rationale": "The approved single-source question is answered coherently by method C001, reported association C002, and causal/generalization boundaries C003-C004. All core outline claims have direct original-source support. The conclusion links only the limits; repeating C002 in the final synthesis would make the answer more explicit but is not a blocking defect for this short pilot. No unsupported core outline identified.",
+  "methods_context": "Read original XML methods, results, discussion, future research and caveats directly. Recruitment was young adult volunteers around Ann Arbor with Facebook accounts and touch-screen smartphones. Naturally occurring self-reported use was observed; affect and life satisfaction use distinct measurement schedules and analyses. Exploratory interaction with direct social contact cautions against universal wording. No new numerical effect-size claim is approved by this review.",
+  "limitations": [
+    "Single-source methodological pilot, not systematic review or contemporary field consensus.",
+    "No human citation review or human outline approval is established by this report.",
+    "Raw data, supplements, statistical code and table/figure images were not independently audited; no statistical replication performed.",
+    "Original author caveats include relatively small effects and a single bipolar affect item; these are contextual cautions, not additional ledger claims.",
+    "Retraction/correction status not comprehensively checked.",
+    "Final manuscript and paragraph-level citation verification remain future work after user outline approval."
+  ],
+  "unresolved": [],
+  "verification_status": "pass",
+  "next_task": "user-outline-approval"
+}

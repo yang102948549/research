@@ -1,0 +1,108 @@
+{
+  "paper_id": "LEE1994",
+  "title": "취약계층 노인의 부양실태 비교분석",
+  "authors": [
+    "이가옥",
+    "서미경",
+    "김정석"
+  ],
+  "year": 1994,
+  "journal": "보건사회논집",
+  "volume": "14",
+  "issue": "2",
+  "pages": "3-19",
+  "metadata_url": "https://www.kihasa.re.kr/hswr/v.14/2/1994",
+  "source_url": "https://www.kihasa.re.kr/hswr/assets/pdf/191/journal-14-2-3.pdf",
+  "source_sha256": "bace3afd803447db197ca0c8f2054a1cd44a94e1399e5601d33f97adc2bcb0bf",
+  "page_count": 17,
+  "scan_checks": [
+    {
+      "pdf_page": 1,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 2,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 3,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 4,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 5,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 6,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 7,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 8,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 9,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 10,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 11,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 12,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 13,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 14,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 15,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 16,
+      "text_characters": 0,
+      "image_count": 1
+    },
+    {
+      "pdf_page": 17,
+      "text_characters": 0,
+      "image_count": 1
+    }
+  ],
+  "not_synthetic": true,
+  "identity_status": "metadata_compared",
+  "authors_initial_guess_corrected_before_artifact": true
+}

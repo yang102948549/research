@@ -1,0 +1,16 @@
+{
+  "repository": "airmang/python-hwpx",
+  "commit": "3da8615c483dbda82be4f70307bbd3998ad62d28",
+  "files": [
+    {
+      "source": "src/hwpx/data/Skeleton.hwpx",
+      "local": "blank.hwpx",
+      "sha256": "c91fb77a9933a3e5645a25778e2d2b99e98137ed99572a5d1dd29ef0c0fd4c98"
+    },
+    {
+      "source": "LICENSE",
+      "local": "template-LICENSE",
+      "sha256": "fee6f3e30bfe064913de5de0bbe42e1fb2467958ee458199a192bde5e36c0875"
+    }
+  ]
+}

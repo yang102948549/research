@@ -1,0 +1,242 @@
+{
+  "id": "ET-C1",
+  "source_id": "LEE1994",
+  "author": "scan_table_source",
+  "quote": "49.54",
+  "context": "표2 신체적 부양자, 지역 군부, 없음. 백분율49.54; 있음50.46; 계100.00(261). 주석1·4 적용.",
+  "excerpt_kind": "table",
+  "citation_type": "direct",
+  "transcription_method": "manual_visual",
+  "transcription_note": "원본 스캔 셀을 시각 대조하여49.54로 전사. raw OCR4954를 별도 보존. 독립 판정 대기.",
+  "locator": {
+    "kind": "pdf",
+    "pdf_page": 5,
+    "printed_page": "7",
+    "bbox": [
+      128.855,
+      412.726,
+      161.654,
+      422.097
+    ],
+    "context_bbox": [
+      50.761,
+      167.902,
+      470.515,
+      642.322
+    ]
+  },
+  "table_context": {
+    "label": "표2",
+    "row": "지역 > 군부",
+    "column": "신체적 부양자 > 없음",
+    "unit": "%",
+    "cell_trace": {
+      "value": "49.54",
+      "bbox": [
+        128.855,
+        412.726,
+        161.654,
+        422.097
+      ],
+      "row_index": 6,
+      "column_index": 0,
+      "row_headers": [
+        {
+          "text": "지역",
+          "span": [
+            5,
+            6
+          ],
+          "bbox": [
+            55.447,
+            400.231,
+            83.56,
+            411.554
+          ]
+        },
+        {
+          "text": "군부",
+          "span": [
+            6,
+            6
+          ],
+          "bbox": [
+            93.713,
+            411.945,
+            116.75,
+            422.878
+          ]
+        }
+      ],
+      "column_headers": [
+        {
+          "text": "신체적 부양자",
+          "span": [
+            0,
+            2
+          ],
+          "bbox": [
+            126.902,
+            306.518,
+            245.215,
+            319.794
+          ]
+        },
+        {
+          "text": "없음",
+          "span": [
+            0,
+            0
+          ],
+          "bbox": [
+            130.026,
+            320.575,
+            160.483,
+            335.023
+          ]
+        }
+      ],
+      "unit": {
+        "text": "%",
+        "status": "printed",
+        "bbox": [
+          429.516,
+          175.711,
+          468.953,
+          187.425
+        ]
+      },
+      "notes": [
+        {
+          "id": "1",
+          "text": "승수부여 관계로 총계가 일치하지 않을 수 있음.",
+          "bbox": [
+            50.761,
+            555.247,
+            390.469,
+            566.18
+          ],
+          "applies_to_cell": true,
+          "scope": "승수부여 관계로 표 전체 총계 불일치 가능"
+        },
+        {
+          "id": "2",
+          "text": "무응답 10명 제외함.",
+          "bbox": [
+            50.761,
+            565.79,
+            390.469,
+            576.723
+          ],
+          "applies_to_cell": false,
+          "scope": "주수입원 형태"
+        },
+        {
+          "id": "3",
+          "text": "무응답 4명 제외함.",
+          "bbox": [
+            50.761,
+            576.332,
+            390.469,
+            587.266
+          ],
+          "applies_to_cell": false,
+          "scope": "주관적 경제평가"
+        },
+        {
+          "id": "4",
+          "text": "일상생활 수행에 제한을 받고 있는 노인에 대한 분포임.",
+          "bbox": [
+            50.761,
+            586.875,
+            390.469,
+            597.808
+          ],
+          "applies_to_cell": true,
+          "scope": "신체적 부양자"
+        },
+        {
+          "id": "5",
+          "text": "신체적 부양을 받고 있는 노인에 대한 분포임.",
+          "bbox": [
+            50.761,
+            597.418,
+            390.469,
+            608.351
+          ],
+          "applies_to_cell": false,
+          "scope": "신체적 부양 만족정도"
+        },
+        {
+          "id": "6",
+          "text": "대리응답 111명, 무응답 1명 제외함.",
+          "bbox": [
+            50.761,
+            607.96,
+            390.469,
+            618.894
+          ],
+          "applies_to_cell": false,
+          "scope": "정서적 부양자"
+        },
+        {
+          "id": "7",
+          "text": "정서적 부양을 받고 있는 노인에 대한 분포임(무응답 2명 제외함).",
+          "bbox": [
+            50.761,
+            618.503,
+            390.469,
+            629.436
+          ],
+          "applies_to_cell": false,
+          "scope": "정서적 부양 만족정도"
+        },
+        {
+          "id": "8",
+          "text": "*: p<0.05",
+          "bbox": [
+            50.761,
+            629.046,
+            390.469,
+            639.979
+          ],
+          "applies_to_cell": false,
+          "scope": "별표가 있는 행 집단의 통계 유의성"
+        }
+      ],
+      "population_scope": "주석4: 일상생활 수행에 제한을 받고 있는 노인에 대한 분포. 그 중 지역=군부, 신체적 부양자=없음. 계(명)의 괄호 인원261과 백분율49.54를 구분한다."
+    }
+  },
+  "pdf_review": {
+    "reviewer": "complex_table_review",
+    "timestamp": "2026-10-15T07:37:07.686571+00:00",
+    "verdict": "pass",
+    "rationale": "신체적 부양자4) → 지역 → 군부 → 없음49.54; 주4 일상생활 수행에 제한을 받고 있는 노인에 대한 분포임.",
+    "checked_features": [
+      "reading_order",
+      "context",
+      "negation",
+      "numbers",
+      "page_label",
+      "citation_status",
+      "table_headers",
+      "table_units",
+      "table_notes",
+      "merged_headers",
+      "cell_mapping",
+      "note_scope",
+      "unit_origin"
+    ],
+    "proof": {
+      "source_sha256": "bace3afd803447db197ca0c8f2054a1cd44a94e1399e5601d33f97adc2bcb0bf",
+      "dpi": 150,
+      "crop_sha256": "4dd6d2dd014977e02efeac2da76a0d32240598fcbbc6f811de43bfa91c935f2e",
+      "pixel_sha256": "4685982aef2550907bbec2d49d2c015ebf1b9fbd143b3c34eacdcc766634ccb6",
+      "width": 876,
+      "height": 990,
+      "annotations": false,
+      "crop_path": "tasks/source/C1-proof.png"
+    },
+    "evidence_binding": "d0754c3f61ebd5fba87a7a69568c0eb926aac2d93ecdd4f7a7f68994e03ec1ef"
+  }
+}

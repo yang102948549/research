@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-15T07:37:21.476542+00:00",
+  "scope": "official KIHASA journal archive; no KCI authenticated search",
+  "queries": [
+    "site:kihasa.re.kr/hswr 1994 소득",
+    "site:kihasa.re.kr/hswr 1995 빈곤"
+  ],
+  "issue_url": "https://www.kihasa.re.kr/hswr/v.14/2/1994",
+  "selection": "First empirical elderly support article selected after contact-sheet inspection; 17 original scan pages. Table2 selected for6panels,3columns each,grouped rows,units8notes.",
+  "network_failure": "sandbox DNS failed; approved external read retry succeeded",
+  "ocr_failure": "sandbox Windows OCR E_ACCESSDENIED; approved local OCR retry succeeded",
+  "result_count_in_issue": 8,
+  "downloaded_papers": 1
+}

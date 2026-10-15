@@ -1,0 +1,4 @@
+interface:
+  display_name: "근거 추적형 문헌 연구"
+  short_description: "원문·주장·인용을 추적하며 한국어 검토 원고 작성"
+  default_prompt: "evidence-paper-workflow로 연구질문과 범위를 확인하고 원문 근거가 연결된 문헌연구를 진행해줘."

@@ -1,0 +1,57 @@
+[
+  {
+    "type": "article-journal",
+    "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+    "author": [
+      {
+        "family": "Kross",
+        "given": "Ethan"
+      },
+      {
+        "family": "Verduyn",
+        "given": "Philippe"
+      },
+      {
+        "family": "Demiralp",
+        "given": "Emre"
+      },
+      {
+        "family": "Park",
+        "given": "Jiyoung"
+      },
+      {
+        "family": "Lee",
+        "given": "David Seungjae"
+      },
+      {
+        "family": "Lin",
+        "given": "Natalie"
+      },
+      {
+        "family": "Shablack",
+        "given": "Holly"
+      },
+      {
+        "family": "Jonides",
+        "given": "John"
+      },
+      {
+        "family": "Ybarra",
+        "given": "Oscar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "PLOS ONE",
+    "volume": "8",
+    "issue": "8",
+    "page": "e69841",
+    "DOI": "10.1371/journal.pone.0069841",
+    "id": "S001"
+  }
+]

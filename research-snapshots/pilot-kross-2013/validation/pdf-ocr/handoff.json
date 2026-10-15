@@ -1,0 +1,45 @@
+{
+  "research_id": "pilot-kross-2013",
+  "task_id": "pdf-ocr-validation",
+  "role": "원문확보·파싱 검증",
+  "input_version": 16,
+  "artifact_paths": [
+    "REPORT.md",
+    "checks.json",
+    "source-extraction.json",
+    "scan-extraction.json",
+    "scan-ocr.json",
+    "real-mixed-page-18-ocr.json",
+    "calendar-ocr.json"
+  ],
+  "paper_ids": [],
+  "evidence_ids": [],
+  "unresolved": [
+    "모의 스캔 부정 표현 오인식",
+    "상자 속 단순 관점 구절 누락",
+    "달력 표 요일 및 정기 휴관 오인식",
+    "실제 한국어 학술논문 레이아웃 미검증",
+    "실제 종이 스캔 미검증"
+  ],
+  "verification_status": "partial_validation",
+  "next_task": "coordinator integration",
+  "artifact_sha256": {
+    "REPORT.md": "32294d8586136f3bb772cdd8d51e50451de7075a599afcb22cee8f251d6b676e",
+    "checks.json": "70be685f17c87a22e7ec939cbbf33caa59c3b7d746f6ab71a03b8889427dfdad",
+    "source-extraction.json": "50f8991d4be29d568448d0a7eed36fbd07e2ac894c451fb9fab16df314b86d37",
+    "scan-extraction.json": "d079b32a56789f1b574e1a193ad8f2e6009611c4de0a6f139d0831d8ab948013",
+    "scan-ocr.json": "d0220d87c88cc09e5942d27ce1f5dbd434406857b8e7fd14f833e5f7a3c397cb",
+    "real-mixed-page-18-ocr.json": "3d208107827ef38e7b6a9c15e8a32bd0af9b7e0d0e77602ff6ec04e8645eca35",
+    "calendar-ocr.json": "eb8c05ffd07ecc11e0b9b198e00444417b011baeaa3698d918f802990c154edf"
+  },
+  "path_base": "validation/pdf-ocr",
+  "evidence_scope": "시험 자료이며 연구 근거가 아님",
+  "regression_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "ocr_phrase_checks": {
+    "passed": 8,
+    "total": 10
+  }
+}

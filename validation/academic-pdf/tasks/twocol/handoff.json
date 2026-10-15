@@ -1,0 +1,62 @@
+{
+  "research_id": "academic-pdf-validation-20261015",
+  "task_id": "twocol",
+  "role": "source_and_parsing_validation",
+  "input_version": "installed-skill-before-current-turn-fixes",
+  "output_paths": [
+    "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\twocol\\article.pdf",
+    "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\twocol\\extraction.json",
+    "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\twocol\\evidence-candidates.json"
+  ],
+  "paper_ids": [
+    "TW-P001"
+  ],
+  "evidence_ids": [
+    "TW-E001",
+    "TW-E002",
+    "TW-E003",
+    "TW-E004"
+  ],
+  "unresolved": [
+    "mixed-layout proposed order is wrong; preserve needs_review",
+    "complete table structure not inferred",
+    "first-page printed label absent",
+    "PDF includes trailing blank page 20"
+  ],
+  "verification_status": "selected_visual_excerpts_checked; independent semantic gate pending",
+  "next_task": "coordinator independent gate review and parser mixed-layout correction",
+  "source": {
+    "title": "지역대표도서관 입지 선정에 관한 연구 - 부산광역시를 중심으로 -",
+    "authors": [
+      "유재우",
+      "구본진",
+      "장덕현"
+    ],
+    "year": 2015,
+    "journal": "한국문헌정보학회지",
+    "volume": 49,
+    "issue": 3,
+    "pages": "291-309",
+    "doi": "10.4275/KSLIS.2015.49.3.291",
+    "url": "https://www.accesson.kr/kslis/assets/pdf/9356/journal-49-3-291.pdf",
+    "sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+    "identity_check": "title/author/year/DOI/journal read in original first-page rendered image; source host official society journal AccessON",
+    "pdf_page_count": 20,
+    "two_column_visual_pages": [
+      2,
+      4
+    ]
+  },
+  "search_log": {
+    "date_local": "2026-10-15",
+    "queries": [
+      "site.accesson.kr/liss \"pdf\" 도서관",
+      "site:accesson.kr/kslis/assets/pdf 도서관"
+    ],
+    "scope": "web search discovery, official AccessON journal PDF",
+    "visible_results": 18,
+    "selection": "first result is real social-science journal, selectable Korean two-column prose, provenance footnote and numeric tables",
+    "other_candidates": "not downloaded; no systematic review claim",
+    "network_failure": "initial sandbox download DNS failure, escalated read-only official download succeeded"
+  }
+}

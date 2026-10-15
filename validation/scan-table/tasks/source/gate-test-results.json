@@ -1,0 +1,222 @@
+{
+  "timestamp": "2026-10-15T07:39:58.472401+00:00",
+  "pending_candidate_errors": [
+    "PDF independent visual review missing/failed",
+    "PDF visual review stale for quote/context/locator",
+    "PDF critical features not reviewed",
+    "PDF proof source hash mismatch",
+    "PDF original/proof verification failed: PDF proof dpi required"
+  ],
+  "source": "actual original scanned scholarly PDF",
+  "review_input": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\scan-table\\tasks\\reviewer\\review.json",
+  "tests": [
+    {
+      "id": "actual_correct_C1",
+      "expected": "pass",
+      "actual": "pass",
+      "matches_expectation": true,
+      "errors": [],
+      "review_binding_recomputed": false
+    },
+    {
+      "id": "stale_quote",
+      "expected": "blocked",
+      "actual": "blocked",
+      "matches_expectation": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF table cell value differs from quotation"
+      ],
+      "review_binding_recomputed": false
+    },
+    {
+      "id": "raw_ocr",
+      "expected": "blocked",
+      "actual": "blocked",
+      "matches_expectation": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF raw OCR is not approved transcription"
+      ],
+      "review_binding_recomputed": false
+    },
+    {
+      "id": "row_index_outside_span",
+      "expected": "blocked",
+      "actual": "blocked",
+      "matches_expectation": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF table trace invalid: table cell outside header span"
+      ],
+      "review_binding_recomputed": false
+    },
+    {
+      "id": "bad_unit",
+      "expected": "blocked",
+      "actual": "blocked",
+      "matches_expectation": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF table trace invalid: table unit origin required"
+      ],
+      "review_binding_recomputed": false
+    },
+    {
+      "id": "missing_notes",
+      "expected": "blocked",
+      "actual": "blocked",
+      "matches_expectation": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF table trace invalid: table notes inventory required (explicit none if absent)"
+      ],
+      "review_binding_recomputed": false
+    },
+    {
+      "id": "missing_cell_trace",
+      "expected": "blocked",
+      "actual": "blocked",
+      "matches_expectation": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF scanned table cell trace required"
+      ],
+      "review_binding_recomputed": false
+    },
+    {
+      "id": "header_outside_context",
+      "expected": "blocked",
+      "actual": "blocked",
+      "matches_expectation": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF table trace invalid: table trace outside reviewed context"
+      ],
+      "review_binding_recomputed": false
+    }
+  ],
+  "status": "completed",
+  "actual_review": {
+    "id": "C1",
+    "text": "Physical support absence rural49.54%, ADL-limited elderly",
+    "verdict": "pass",
+    "rationale": "신체적 부양자4) → 지역 → 군부 → 없음49.54; 주4 일상생활 수행에 제한을 받고 있는 노인에 대한 분포임.",
+    "pdf_page": 5,
+    "printed_page": "7",
+    "checked_features": [
+      "reading_order",
+      "context",
+      "negation",
+      "numbers",
+      "page_label",
+      "citation_status",
+      "table_headers",
+      "table_units",
+      "table_notes",
+      "merged_headers",
+      "cell_mapping",
+      "note_scope",
+      "unit_origin"
+    ]
+  },
+  "independent_semantic_cases": [
+    {
+      "id": "C1",
+      "verdict": "pass",
+      "rationale": "신체적 부양자4) → 지역 → 군부 → 없음49.54; 주4 일상생활 수행에 제한을 받고 있는 노인에 대한 분포임.",
+      "gate_action": "eligible_for_structural_checks"
+    },
+    {
+      "id": "C2",
+      "verdict": "revise",
+      "rationale": "Original49.54; decimal missing.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C3",
+      "verdict": "pass",
+      "rationale": "신체적 부양자 전체 계(명)100.00(548); unit% outside parentheses, persons inside.",
+      "gate_action": "eligible_for_structural_checks"
+    },
+    {
+      "id": "C4",
+      "verdict": "revise",
+      "rationale": "Original548, not618.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C5",
+      "verdict": "pass",
+      "rationale": "신체적 부양 만족정도5) 전체 부족하지 않다84.08; 주5 신체적 부양을 받고 있는 노인에 대한 분포임.",
+      "gate_action": "eligible_for_structural_checks"
+    },
+    {
+      "id": "C6",
+      "verdict": "revise",
+      "rationale": "주5 limits population to support recipients.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C7",
+      "verdict": "pass",
+      "rationale": "정서적 부양 만족정도7) 전체 부족하다10.22; 주7 정서적 부양을 받고 있는 노인에 대한 분포임(무응답2명 제외함).",
+      "gate_action": "eligible_for_structural_checks"
+    },
+    {
+      "id": "C8",
+      "verdict": "revise",
+      "rationale": "Original10.22; decimal missing.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C9",
+      "verdict": "revise",
+      "rationale": "Original승수부여, not rounding.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C10",
+      "verdict": "pass",
+      "rationale": "주1 승수부여 관계로 총계가 일치하지 않을 수 있음.",
+      "gate_action": "eligible_for_structural_checks"
+    },
+    {
+      "id": "C11",
+      "verdict": "revise",
+      "rationale": "군부 없음49.54;50.46 is 있음.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C12",
+      "verdict": "revise",
+      "rationale": "시부 없음44.14;49.54 is 군부.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C13",
+      "verdict": "revise",
+      "rationale": "신체적 부양자 지역 has no star. Absence of star does not support significance claim.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C14",
+      "verdict": "pass",
+      "rationale": "신체적 부양자 연령*; 주8 *:p<0.05.",
+      "gate_action": "eligible_for_structural_checks"
+    },
+    {
+      "id": "C15",
+      "verdict": "revise",
+      "rationale": "계(명) parentheses548 persons, not%.",
+      "gate_action": "blocked_by_independent_review"
+    },
+    {
+      "id": "C16",
+      "verdict": "revise",
+      "rationale": "Printed77.68 must be preserved/flagged, not silently changed. Anomaly requires hold/additional source check.",
+      "gate_action": "blocked_by_independent_review"
+    }
+  ],
+  "limitation": "Mutation evidence retains actual original review binding; stale review is expected. No synthetic reviewer pass assigned to mutations. Structural errors are separately visible in errors."
+}

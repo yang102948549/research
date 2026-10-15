@@ -1,0 +1,267 @@
+{
+  "research_id": "academic-pdf-validation",
+  "paper_id": "SCAN-KIHASA-1994-14-2-62",
+  "title": "가족영역에서의 ‘삶의 질’의 분석방법 연구",
+  "authors": [
+    "장현섭",
+    "김현옥"
+  ],
+  "year": 1994,
+  "journal": "보건사회논집",
+  "volume": 14,
+  "issue": 2,
+  "pages": "62-81",
+  "pdf_url": "https://www.kihasa.re.kr/hswr/assets/pdf/186/journal-14-2-62.pdf",
+  "metadata_url": "https://www.kihasa.re.kr/hswr/v.14/2/62/",
+  "sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+  "scan_classification": "publisher-supplied raster scan; no text layer",
+  "observed_layout": "first page one column; body two columns; footnotes in right column on PDF page 2",
+  "page_diagnostics": [
+    {
+      "pdf_page": 1,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 2,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 3,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 4,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 5,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 6,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 7,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 8,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 9,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 10,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 11,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 12,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 13,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 14,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 15,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 16,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 17,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 18,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 19,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    },
+    {
+      "pdf_page": 20,
+      "text_chars": 0,
+      "image_count": 1,
+      "image_area_fraction": 1.0
+    }
+  ],
+  "ocr_tested_pages": [
+    2
+  ],
+  "ocr_engine": "Windows.Media.Ocr ko, local only",
+  "samples": [
+    {
+      "evidence_id": "SCAN-E001",
+      "excerpt_kind": "prose",
+      "visual_transcription": "의 窮極的인 目標인 행복과 만족스러운 삶은 보장되지 못할 수 있다는 회의에서",
+      "critical_text": "보장되지 못할 수 있다는",
+      "critical_match": true,
+      "claim": "이 구절은 행복과 만족스러운 삶의 보장을 부정적으로 한정한다.",
+      "limitation": "김동일·경철인(1980)을 인용하는 문맥이다. 이 논문의 직접 실증결과로 사용할 수 없다.",
+      "mutation_to_reject": "행복과 만족스러운 삶은 보장된다는",
+      "citation_type": "secondary",
+      "paper_id": "SCAN-KIHASA-1994-14-2-62",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "pdf_page": 2,
+      "printed_page": "63",
+      "bbox": [
+        48.72727272727273,
+        396.6181818181818,
+        250.4,
+        425.4909090909091
+      ],
+      "context_bbox": [
+        48.72727272727273,
+        365.2,
+        250.4,
+        441.8545454545455
+      ],
+      "original_ocr": "의 窮極的인 目標인 행복과 만족스러운 삶은 보\n장되지 못할 수 있다는 회의에서 '삶의 質'에 대",
+      "original_context_ocr": "었다. 고도의 산업화로 물질적 풍요를 누리고\n경제적으로 높은 생활수준을 성취하더라도 人間\n의 窮極的인 目標인 행복과 만족스러운 삶은 보\n장되지 못할 수 있다는 회의에서 '삶의 質'에 대\n한 관심이 고조되었다(김동일•경철인, 1980: 96).",
+      "visual_review": {
+        "reviewer": "academic_scan",
+        "tool": "PyMuPDF render + view_image",
+        "status": "critical_text_match"
+      },
+      "evidence_verified": false,
+      "human_reviewed": false,
+      "gate_expected": "hold_until_independent_review",
+      "context_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\scan\\SCAN-E001.png"
+    },
+    {
+      "evidence_id": "SCAN-E002",
+      "excerpt_kind": "footnote",
+      "visual_transcription": "Nester E. Terleckyj, Estimates of Possibilities for Improvements in the Quality of Life in the United States, 1971 ~ 1981, Washington: National Planning Association, 1973.",
+      "critical_text": "1971 ~ 1981",
+      "critical_match": false,
+      "footnote_marker": "1)",
+      "claim": "각주 1)의 서지 제목은 1971~1981년을 포함한다.",
+      "limitation": "OCR는 기간을 7977 ~ 7987로 오인식했다. 원래 인용된 저작은 확보하지 않았으며 원 논문 각주에 실린 서지의 재인용이다.",
+      "mutation_to_reject": "7977 ~ 7987",
+      "citation_type": "secondary",
+      "paper_id": "SCAN-KIHASA-1994-14-2-62",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "pdf_page": 2,
+      "printed_page": "63",
+      "bbox": [
+        285.6727272727273,
+        511.4909090909091,
+        476.54545454545456,
+        554.4363636363636
+      ],
+      "context_bbox": [
+        275.5272727272727,
+        479.41818181818184,
+        476.54545454545456,
+        554.4363636363636
+      ],
+      "original_ocr": "Nester E. TerIeckyj, Estimates Possibilities\nfor lmprovements in the QuaIit., of Life in the\nUnited States, 7977 ~ 7987, Wash.•ngton: National\nPIanning Association, 1973.",
+      "original_context_ocr": "1) 미국에서의 노력은 다방면에 걸쳐서 이루어졌지만\n이 시대의 대표적인 저작 중에서 한 가지만 보기\n를 들면 다음과 같다.\nNester E. TerIeckyj, Estimates Possibilities\nfor lmprovements in the QuaIit., of Life in the\nUnited States, 7977 ~ 7987, Wash.•ngton: National\nPIanning Association, 1973.",
+      "visual_review": {
+        "reviewer": "academic_scan",
+        "tool": "PyMuPDF render + view_image",
+        "status": "ocr_mismatch_hold"
+      },
+      "evidence_verified": false,
+      "human_reviewed": false,
+      "gate_expected": "hold_ocr_mismatch",
+      "context_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\scan\\SCAN-E002.png"
+    },
+    {
+      "evidence_id": "SCAN-E003",
+      "excerpt_kind": "prose",
+      "visual_transcription": "1960년 美國에서 『國家目標에 관한 大統領諮問",
+      "critical_text": "1960년",
+      "critical_match": false,
+      "claim": "본문에 제시된 연도는 1960년이다.",
+      "limitation": "OCR는 1960을 1%0으로 인식했다. 역사적 사실 자체의 독립 검증이 아닌 원문 전사 시험이다.",
+      "mutation_to_reject": "1%0년",
+      "citation_type": "secondary",
+      "paper_id": "SCAN-KIHASA-1994-14-2-62",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "pdf_page": 2,
+      "printed_page": "63",
+      "bbox": [
+        48.4,
+        444.72727272727275,
+        250.07272727272726,
+        457.23636363636365
+      ],
+      "context_bbox": [
+        48.07272727272727,
+        444.72727272727275,
+        250.72727272727272,
+        537.0909090909091
+      ],
+      "original_ocr": "1%0년 美國에서 『國家目標에 관한 大統領諮問",
+      "original_context_ocr": "1%0년 美國에서 『國家目標에 관한 大統領諮問\n委員會의 報告書』(The Report of the President's\nCommission on National Goal)가 나은 것은 그\n러한 시대적 관심사의 표현이었다. 1964년에는\n존슨 대통령의 연설문에서도 언급되기에 이르렀\n다(SchuessIer & Fisher, 1985: 130).",
+      "visual_review": {
+        "reviewer": "academic_scan",
+        "tool": "PyMuPDF render + view_image",
+        "status": "ocr_mismatch_hold"
+      },
+      "evidence_verified": false,
+      "human_reviewed": false,
+      "gate_expected": "hold_ocr_mismatch",
+      "context_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\scan\\SCAN-E003.png"
+    }
+  ],
+  "limitations": [
+    "Only one selected page OCR-tested; not full-paper semantic validation.",
+    "This conceptual paper was not used for numeric table testing.",
+    "Page 1 printed number absent; page 2 printed 63 directly observed."
+  ]
+}

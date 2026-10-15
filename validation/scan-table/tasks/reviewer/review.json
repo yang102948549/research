@@ -1,0 +1,632 @@
+{
+  "reviewer": "complex_table_review",
+  "method": "Independent visual inspection of source/page5.png only; no collector transcription or OCR read",
+  "pdf_page": 5,
+  "printed_page": "7",
+  "table": "表 2 年齡·性 및 地域에 따른 扶養實態의 分布",
+  "structure": {
+    "panel_grid": [
+      3,
+      2
+    ],
+    "column_hierarchy": "Each of six panel headings spans its three numeric columns; same numeric column position has different meaning in different panels.",
+    "row_hierarchy": "전체 followed by 연령→전기/후기, 성→남자/여자, 지역→시부/군부. Group labels appear once across paired rows; * applies to group significance, not every numeric cell.",
+    "unit": "단위: % applies percentage cells; 계(명) contains 100.00 plus parenthetical persons, so one displayed entry has two units.",
+    "merge_observation": "Visual spanning/grouped headers in raster source; no claim that native spreadsheet merge metadata exists."
+  },
+  "cells": [
+    {
+      "panel": "주수입원 형태",
+      "row": "전체",
+      "columns": [
+        "자립형",
+        "의존형",
+        "계(명)"
+      ],
+      "values": [
+        "48.4",
+        "51.6",
+        "100.00 (2,048)"
+      ]
+    },
+    {
+      "panel": "주관적 경제평가",
+      "row": "전체",
+      "columns": [
+        "어렵다",
+        "어렵지 않다",
+        "계(명)"
+      ],
+      "values": [
+        "77.68",
+        "20.32",
+        "100.00 (2,054)"
+      ],
+      "warning": "Original appears 77.68, despite not summing to 100 with 20.32; preserve and flag, do not silently correct to79.68."
+    },
+    {
+      "panel": "신체적 부양자",
+      "row": "전체",
+      "columns": [
+        "없음",
+        "있음",
+        "계(명)"
+      ],
+      "values": [
+        "46.71",
+        "53.29",
+        "100.00 (548)"
+      ]
+    },
+    {
+      "panel": "신체적 부양자",
+      "row": "연령/전기",
+      "values": [
+        "58.31",
+        "41.69",
+        "100.00 (207)"
+      ]
+    },
+    {
+      "panel": "신체적 부양자",
+      "row": "연령/후기",
+      "values": [
+        "39.69",
+        "60.31",
+        "100.00 (342)"
+      ]
+    },
+    {
+      "panel": "신체적 부양 만족정도",
+      "row": "전체",
+      "columns": [
+        "부족하다",
+        "부족하지 않다",
+        "계(명)"
+      ],
+      "values": [
+        "15.92",
+        "84.08",
+        "100.00 (292)"
+      ]
+    },
+    {
+      "panel": "신체적 부양 만족정도",
+      "row": "연령/전기",
+      "values": [
+        "24.26",
+        "75.74",
+        "100.00 (86)"
+      ]
+    },
+    {
+      "panel": "신체적 부양 만족정도",
+      "row": "연령/후기",
+      "values": [
+        "12.46",
+        "87.54",
+        "100.00 (206)"
+      ]
+    },
+    {
+      "panel": "신체적 부양 만족정도",
+      "row": "성/남자",
+      "values": [
+        "7.00",
+        "93.00",
+        "100.00 (85)"
+      ]
+    },
+    {
+      "panel": "신체적 부양 만족정도",
+      "row": "성/여자",
+      "values": [
+        "19.59",
+        "80.41",
+        "100.00 (207)"
+      ]
+    },
+    {
+      "panel": "정서적 부양자",
+      "row": "전체",
+      "columns": [
+        "없음",
+        "있음",
+        "계(명)"
+      ],
+      "values": [
+        "23.50",
+        "76.50",
+        "100.00 (1,946)"
+      ]
+    },
+    {
+      "panel": "정서적 부양 만족정도",
+      "row": "전체",
+      "columns": [
+        "부족하다",
+        "부족하지 않다",
+        "계(명)"
+      ],
+      "values": [
+        "10.22",
+        "89.78",
+        "100.00 (1,487)"
+      ]
+    },
+    {
+      "panel": "정서적 부양 만족정도",
+      "row": "연령/전기",
+      "values": [
+        "9.86",
+        "90.14",
+        "100.00 (972)"
+      ]
+    },
+    {
+      "panel": "정서적 부양 만족정도",
+      "row": "연령/후기",
+      "values": [
+        "10.90",
+        "89.10",
+        "100.00 (516)"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "marker": "1",
+      "text": "승수부여 관계로 총계가 일치하지 않을 수 있음.",
+      "scope": "whole table",
+      "interpretation": "Weighting caveat; must not substitute rounding as source explanation."
+    },
+    {
+      "marker": "2",
+      "text": "무응답 10명 제외함.",
+      "scope": "주수입원 형태"
+    },
+    {
+      "marker": "3",
+      "text": "무응답 4명 제외함.",
+      "scope": "주관적 경제평가"
+    },
+    {
+      "marker": "4",
+      "text": "일상생활 수행에 제한을 받고 있는 노인에 대한 분포임.",
+      "scope": "신체적 부양자"
+    },
+    {
+      "marker": "5",
+      "text": "신체적 부양을 받고 있는 노인에 대한 분포임.",
+      "scope": "신체적 부양 만족정도"
+    },
+    {
+      "marker": "6",
+      "text": "대리응답 111명, 무응답 1명 제외함.",
+      "scope": "정서적 부양자"
+    },
+    {
+      "marker": "7",
+      "text": "정서적 부양을 받고 있는 노인에 대한 분포임(무응답 2명 제외함).",
+      "scope": "정서적 부양 만족정도"
+    },
+    {
+      "marker": "8",
+      "text": "*: p<0.05",
+      "scope": "starred row groups"
+    }
+  ],
+  "negative_controls": [
+    {
+      "candidate": "Physical-support satisfaction total dissatisfied1592%",
+      "verdict": "revise",
+      "reason": "Original15.92%, decimal missing."
+    },
+    {
+      "candidate": "Physical-support satisfaction total satisfied15.92%",
+      "verdict": "revise",
+      "reason": "Column switched: 부족하지 않다84.08%."
+    },
+    {
+      "candidate": "Physical-support satisfaction total dissatisfied24.26%",
+      "verdict": "revise",
+      "reason": "전기 subgroup value substituted for 전체."
+    },
+    {
+      "candidate": "Physical-support satisfaction count292%",
+      "verdict": "revise",
+      "reason": "Parenthetical292 persons, not percentage."
+    },
+    {
+      "candidate": "All surveyed elderly physical-support satisfaction dissatisfied15.92%",
+      "verdict": "revise",
+      "reason": "Note5 restricts denominator to recipients of physical support."
+    },
+    {
+      "candidate": "Physical support absent23.50%",
+      "verdict": "revise",
+      "reason": "Wrong spanning panel:23.50 is emotional support absence; physical46.71%."
+    },
+    {
+      "candidate": "Total mismatch is due to rounding per note1",
+      "verdict": "revise",
+      "reason": "Source specifically says 승수부여."
+    }
+  ],
+  "unresolved": [
+    "This is selected-cell visual review, not a full transcription of all table cells.",
+    "주관적 경제평가 total first percentage77.68 is visually anomalous with20.32; hold any corrected-value claim until author/source clarification."
+  ],
+  "verification_status": "pending",
+  "timestamp": "2026-10-15T07:37:07.686571+00:00",
+  "cases": [
+    {
+      "id": "C1",
+      "text": "Physical support absence rural49.54%, ADL-limited elderly",
+      "verdict": "pass",
+      "rationale": "신체적 부양자4) → 지역 → 군부 → 없음49.54; 주4 일상생활 수행에 제한을 받고 있는 노인에 대한 분포임.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C2",
+      "text": "Same4954%",
+      "verdict": "revise",
+      "rationale": "Original49.54; decimal missing.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C3",
+      "text": "Physical support total100.00(548), percent then persons",
+      "verdict": "pass",
+      "rationale": "신체적 부양자 전체 계(명)100.00(548); unit% outside parentheses, persons inside.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C4",
+      "text": "Same count618",
+      "verdict": "revise",
+      "rationale": "Original548, not618.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C5",
+      "text": "Physical satisfaction total not insufficient84.08%, recipients",
+      "verdict": "pass",
+      "rationale": "신체적 부양 만족정도5) 전체 부족하지 않다84.08; 주5 신체적 부양을 받고 있는 노인에 대한 분포임.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C6",
+      "text": "Same84.08% all elderly",
+      "verdict": "revise",
+      "rationale": "주5 limits population to support recipients.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C7",
+      "text": "Emotional satisfaction total insufficient10.22%, recipients excluding2 missing",
+      "verdict": "pass",
+      "rationale": "정서적 부양 만족정도7) 전체 부족하다10.22; 주7 정서적 부양을 받고 있는 노인에 대한 분포임(무응답2명 제외함).",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C8",
+      "text": "Same1022%",
+      "verdict": "revise",
+      "rationale": "Original10.22; decimal missing.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C9",
+      "text": "Note1 mismatch due to rounding",
+      "verdict": "revise",
+      "rationale": "Original승수부여, not rounding.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C10",
+      "text": "Note1 weighting totals may differ",
+      "verdict": "pass",
+      "rationale": "주1 승수부여 관계로 총계가 일치하지 않을 수 있음.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C11",
+      "text": "Physical rural absence50.46%",
+      "verdict": "revise",
+      "rationale": "군부 없음49.54;50.46 is 있음.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C12",
+      "text": "Physical city absence49.54%",
+      "verdict": "revise",
+      "rationale": "시부 없음44.14;49.54 is 군부.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C13",
+      "text": "Physical region significant p<0.05",
+      "verdict": "revise",
+      "rationale": "신체적 부양자 지역 has no star. Absence of star does not support significance claim.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C14",
+      "text": "Physical age significant p<0.05",
+      "verdict": "pass",
+      "rationale": "신체적 부양자 연령*; 주8 *:p<0.05.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C15",
+      "text": "548 means548%",
+      "verdict": "revise",
+      "rationale": "계(명) parentheses548 persons, not%.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    },
+    {
+      "id": "C16",
+      "text": "Economic77.68 changed to79.68 to total100",
+      "verdict": "revise",
+      "rationale": "Printed77.68 must be preserved/flagged, not silently changed. Anomaly requires hold/additional source check.",
+      "pdf_page": 5,
+      "printed_page": "7",
+      "checked_features": [
+        "reading_order",
+        "context",
+        "negation",
+        "numbers",
+        "page_label",
+        "citation_status",
+        "table_headers",
+        "table_units",
+        "table_notes",
+        "merged_headers",
+        "cell_mapping",
+        "note_scope",
+        "unit_origin"
+      ]
+    }
+  ]
+}

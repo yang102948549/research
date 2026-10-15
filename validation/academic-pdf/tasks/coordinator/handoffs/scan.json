@@ -1,0 +1,54 @@
+{
+  "research_id": "academic-pdf-validation",
+  "task_id": "scan",
+  "role": "source-extraction-validation",
+  "input_version": 16,
+  "artifact_paths": [
+    "tasks/scan/article.pdf",
+    "tasks/scan/build_record.py",
+    "tasks/scan/contact.png",
+    "tasks/scan/evidence-candidates.json",
+    "tasks/scan/handoff.json",
+    "tasks/scan/ocr-page2.json",
+    "tasks/scan/page1.png",
+    "tasks/scan/page2.png",
+    "tasks/scan/parsed.json",
+    "tasks/scan/REPORT.md",
+    "tasks/scan/SCAN-E001.png",
+    "tasks/scan/SCAN-E002.png",
+    "tasks/scan/SCAN-E003.png",
+    "tasks/scan/search-log.json"
+  ],
+  "paper_ids": [
+    "SCAN-KIHASA-1994-14-2-62"
+  ],
+  "evidence_ids": [
+    "SCAN-E001",
+    "SCAN-E002",
+    "SCAN-E003"
+  ],
+  "unresolved": [
+    "Whole-document semantic validation and original cited works outside this selected-source fidelity test."
+  ],
+  "verification_status": "pass",
+  "next_task": "source fidelity validation complete; original OCR errors retained",
+  "assigned_input_version": "source sha256 ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+  "reconciliation_note": "Original task-local handoff used noncanonical keys/status/version. Coordinator retained it, reconciled IDs and selected independently checked source regions against ledger version 16 and rechecked source/proof hashes. This is validation completion, not manuscript or raw OCR approval.",
+  "original_handoff_path": "tasks/scan/handoff.json",
+  "artifact_hashes": {
+    "tasks/scan/article.pdf": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+    "tasks/scan/build_record.py": "3fe0642b31b546b950c20d0193df128e015775aad4847f766203c1775289ae2b",
+    "tasks/scan/contact.png": "f158b4314862e420eaac5ce00767fb135f59016bc18776ae261e7406a0b269c3",
+    "tasks/scan/evidence-candidates.json": "0ebfdfc65fa291a2b3864d5e63cc87936524662a85aac9e1b59c85ce34193097",
+    "tasks/scan/handoff.json": "eb32986ab1e777b695cfe6c58c0a358831fae9697a6ec8aa1662032217603a37",
+    "tasks/scan/ocr-page2.json": "2b0fc715f80903d12641a28deaf2c069b7aa3a1726172623a1cf04677decbdb9",
+    "tasks/scan/page1.png": "366568a410eaa1741a0d53387866e91ffc3af44a59af4ad63d585a064a3f468d",
+    "tasks/scan/page2.png": "0ae638167b67775e7385b5da82eb45c06dd7fdc160465b3653acc1189e3681e4",
+    "tasks/scan/parsed.json": "347b9eff40f7bbb9a0428a79c9d6d294adfb237cbd4a518d29233130f3d006dc",
+    "tasks/scan/REPORT.md": "6e7be996fc8922013849ce14e742732e2befe2b98ce2bc06b668f15e88ae0ad0",
+    "tasks/scan/SCAN-E001.png": "42e93cbdc43d728449289c9ec016595e55ffcc892f6d2e7ce195fd2e69d961e0",
+    "tasks/scan/SCAN-E002.png": "8f70fee3437b46b68ac60c26f3ceec09debf9488c93215392b6a688b0d6478e9",
+    "tasks/scan/SCAN-E003.png": "495d4fba194f45dbd0f5ade4acea27fa7a93483add4c29a74615c4661143577e",
+    "tasks/scan/search-log.json": "d3ab0bd923d144cbe616f268e5e86f5040ea4c5c3afa07335ef32bd82fbd9610"
+  }
+}

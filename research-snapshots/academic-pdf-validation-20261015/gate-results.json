@@ -1,0 +1,193 @@
+{
+  "timestamp": "2026-10-15T07:13:22.009530+00:00",
+  "scope": "Actual academic sources, selected excerpts only; no research question/outline approvals or manuscript",
+  "independent_cases": [
+    {
+      "case_id": "T1",
+      "evidence_id": "TW-E001",
+      "verdict": "pass",
+      "accepted": true,
+      "rationale": "오른쪽 본문 부정 표현과 일부 경우 발생이라는 원문 범위에 부합한다."
+    },
+    {
+      "case_id": "T2",
+      "evidence_id": "TW-E001",
+      "verdict": "revise",
+      "accepted": false,
+      "rationale": "좋지 않은을 좋은으로 뒤집고 모두라는 전칭을 추가했다. 원문과 모순된다."
+    },
+    {
+      "case_id": "T3",
+      "evidence_id": "TW-E002",
+      "verdict": "pass",
+      "accepted": true,
+      "rationale": "첫 번째 별표(*) 각주를 이미지로 확인했다. 2014년 연구 축약을 명시한다."
+    },
+    {
+      "case_id": "T4",
+      "evidence_id": "TW-E002",
+      "verdict": "revise",
+      "accepted": false,
+      "rationale": "각주는 축약 연구임을 명시하므로 무관한 독립 연구라는 주장은 반대이다."
+    },
+    {
+      "case_id": "T5",
+      "evidence_id": "TW-E003",
+      "verdict": "pass",
+      "accepted": true,
+      "rationale": "표1의 열 머리글 구분/비중/대지면적과 증축 면적 행을 교차 확인했다. 두 값과 단위가 모두 맞다."
+    },
+    {
+      "case_id": "T6",
+      "evidence_id": "TW-E003",
+      "verdict": "revise",
+      "accepted": false,
+      "rationale": "증축 행은 20%, 2,000㎡이다. 30%, 3,000㎡는 다른 행(기준층 최대 바닥 면적 또는 주차 면적)의 값이므로 행 오연결이다."
+    },
+    {
+      "case_id": "T7",
+      "evidence_id": "TW-E004",
+      "verdict": "pass",
+      "accepted": true,
+      "rationale": "표1 합계 행의 대지면적 값과 제곱미터 단위를 확인했다."
+    },
+    {
+      "case_id": "T8",
+      "evidence_id": "TW-E004",
+      "verdict": "revise",
+      "accepted": false,
+      "rationale": "합계의 10,000을 1,000으로 축소한 수치 오류이다."
+    },
+    {
+      "case_id": "S1",
+      "evidence_id": "SCAN-E001",
+      "verdict": "pass",
+      "accepted": true,
+      "rationale": "원문은 물질적 풍요와 높은 생활수준을 성취하더라도 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개하며 단락 끝에 (김동일·경철인, 1980: 96)을 표시한다. 다른 문헌에 기대어 소개한다는 범위와 가능성 표현을 유지한 주장이다."
+    },
+    {
+      "case_id": "S2",
+      "evidence_id": "SCAN-E001",
+      "verdict": "revise",
+      "accepted": false,
+      "rationale": "부정·가능성 표현을 정반대로 바꾸었다. 이 문단은 연구 발전과정을 서술하며 다른 문헌을 인용하고 있어 저자가 행복 보장을 직접 실증했다는 근거도 아니다."
+    },
+    {
+      "case_id": "S3",
+      "evidence_id": "SCAN-E002",
+      "verdict": "pass",
+      "accepted": true,
+      "rationale": "각주 1 영어 서지의 제목 끝은 1971 ~ 1981로 직접 읽힌다. 뒤의 출판연도 1973과 제목에 들어 있는 기간은 별개이다."
+    },
+    {
+      "case_id": "S4",
+      "evidence_id": "SCAN-E002",
+      "verdict": "revise",
+      "accepted": false,
+      "rationale": "실제 기간은 1971 ~ 1981이다. 제시된 7977~7987은 각 숫자를 잘못 전사한 것으로 원문과 불일치한다."
+    },
+    {
+      "case_id": "S5",
+      "evidence_id": "SCAN-E003",
+      "verdict": "pass",
+      "accepted": true,
+      "rationale": "왼쪽 열의 보고서 소개 문장은 1960년으로 시작한다. 이 판정은 이 논문 인쇄문자의 전사 정확성에 한하며 보고서의 실제 역사적 발행연도를 별도로 확증한 것은 아니다."
+    },
+    {
+      "case_id": "S6",
+      "evidence_id": "SCAN-E003",
+      "verdict": "revise",
+      "accepted": false,
+      "rationale": "원본 숫자는 1960년이다. 1%0년은 숫자 96을 퍼센트 기호처럼 잘못 읽은 표기로 원문과 불일치한다."
+    }
+  ],
+  "structural_mutations": [
+    {
+      "case": "nonexistent_page",
+      "blocked": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF original/proof verification failed: PDF sequence page outside actual document"
+      ]
+    },
+    {
+      "case": "wrong_bbox",
+      "blocked": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF original/proof verification failed: PDF bbox outside page or empty"
+      ]
+    },
+    {
+      "case": "changed_table_number",
+      "blocked": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF quote absent from selected native-text region"
+      ]
+    },
+    {
+      "case": "removed_table_headers",
+      "blocked": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF table label/row/column/unit context required"
+      ]
+    },
+    {
+      "case": "raw_ocr",
+      "blocked": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator",
+        "PDF raw OCR is not approved transcription"
+      ]
+    },
+    {
+      "case": "self_review",
+      "blocked": true,
+      "errors": [
+        "PDF independent visual review missing/failed"
+      ]
+    },
+    {
+      "case": "changed_printed_page",
+      "blocked": true,
+      "errors": [
+        "PDF visual review stale for quote/context/locator"
+      ]
+    },
+    {
+      "case": "missing_original_crop",
+      "blocked": true,
+      "errors": [
+        "PDF reviewed crop missing or modified"
+      ]
+    },
+    {
+      "case": "pdf_format_downgrade",
+      "blocked": true,
+      "errors": [
+        "PDF source requires PDF locator; format downgrade rejected"
+      ]
+    },
+    {
+      "case": "renamed_pdf_format_downgrade",
+      "blocked": true,
+      "errors": [
+        "PDF source requires PDF locator; format downgrade rejected"
+      ]
+    }
+  ],
+  "correct_claims_passed": 7,
+  "incorrect_claims_rejected": 7,
+  "structural_mutations_blocked": 10,
+  "source_count": 2,
+  "selected_evidence_count": 7,
+  "actual_ocr_errors_retained": [
+    "1971~1981 -> 7977~7987",
+    "1960 -> 1%0"
+  ],
+  "approval_status": "not_requested_not_fabricated",
+  "human_reviewed": false,
+  "limitation": "Role-separated same model review is not complete independence or proof of hallucination-free operation."
+}

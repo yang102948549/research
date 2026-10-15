@@ -1,0 +1,77 @@
+{
+  "parse_status": "needs_review",
+  "source_sha256": "4495f2127459d4a7060c3dde4f47693059f10ae2c3fe7984bc0ba46efefc3834",
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        842.0,
+        1191.0
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            842.0,
+            1191.0
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        842.0,
+        1191.0
+      ],
+      "status": "ocr_required",
+      "blocks": [
+        {
+          "bbox": [
+            20.0,
+            11.399999618530273,
+            224.06396484375,
+            22.392000198364258
+          ],
+          "text": "SIMULATED SCAN - selectable header regression fixture\n",
+          "block_id": "p2-b0"
+        }
+      ],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0648193359375,
+            0.0,
+            841.9351806640625,
+            1191.0
+          ],
+          "reason": "raster_region_without_text",
+          "note": "May be figure/table; OCR output still requires original-image review."
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    }
+  ],
+  "ocr": "not_executed"
+}

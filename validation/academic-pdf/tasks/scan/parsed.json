@@ -1,0 +1,587 @@
+{
+  "parse_status": "needs_review",
+  "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": null,
+      "page_bbox": [
+        0.0,
+        0.0,
+        524.4000244140625,
+        736.7999877929688
+      ],
+      "status": "ocr_required",
+      "blocks": [],
+      "ocr_regions": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            524.4000244140625,
+            736.7999877929688
+          ],
+          "reason": "missing_or_replacement_text"
+        }
+      ],
+      "two_column_candidate": false,
+      "proposed_block_order": null,
+      "reading_order_verified": false,
+      "limitations": [
+        "Column order, headers, footnotes, table cells and printed page labels require visual review."
+      ]
+    }
+  ],
+  "ocr": "not_executed"
+}

@@ -1,0 +1,157 @@
+{
+  "research_id": "academic-pdf-validation",
+  "task_id": "review-scan",
+  "reviews": [
+    {
+      "case_id": "S1",
+      "claim": "이 논문은 다른 문헌을 인용하면서 물질적 풍요와 높은 생활수준만으로 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개한다.",
+      "verdict": "pass",
+      "rationale": "원문은 물질적 풍요와 높은 생활수준을 성취하더라도 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개하며 단락 끝에 (김동일·경철인, 1980: 96)을 표시한다. 다른 문헌에 기대어 소개한다는 범위와 가능성 표현을 유지한 주장이다.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": 63,
+        "bbox": [
+          47,
+          363,
+          253,
+          443
+        ]
+      },
+      "short_original_transcription": "행복과 만족스러운 삶은 보장되지 못할 수 있다는 회의에서",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "reviewer": "academic_twocol",
+      "author": "academic_scan/source-extraction agent (separate from reviewer)",
+      "method": "Rendered actual source PDF page 2 and three enlarged original-image crops; did not read scan evidence candidates, report or answer key.",
+      "scope": "Source fidelity only, not independent verification of cited historical facts.",
+      "human_reviewed": false
+    },
+    {
+      "case_id": "S2",
+      "claim": "이 논문은 물질적 풍요와 높은 생활수준이 행복과 만족스러운 삶을 보장한다고 직접 실증했다.",
+      "verdict": "revise",
+      "rationale": "부정·가능성 표현을 정반대로 바꾸었다. 이 문단은 연구 발전과정을 서술하며 다른 문헌을 인용하고 있어 저자가 행복 보장을 직접 실증했다는 근거도 아니다.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": 63,
+        "bbox": [
+          47,
+          363,
+          253,
+          443
+        ]
+      },
+      "short_original_transcription": "행복과 만족스러운 삶은 보장되지 못할 수 있다는 회의에서",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "reviewer": "academic_twocol",
+      "author": "academic_scan/source-extraction agent (separate from reviewer)",
+      "method": "Rendered actual source PDF page 2 and three enlarged original-image crops; did not read scan evidence candidates, report or answer key.",
+      "scope": "Source fidelity only, not independent verification of cited historical facts.",
+      "human_reviewed": false
+    },
+    {
+      "case_id": "S3",
+      "claim": "각주 1에 적힌 영어 서지 제목에는 1971~1981이라는 기간이 들어 있다.",
+      "verdict": "pass",
+      "rationale": "각주 1 영어 서지의 제목 끝은 1971 ~ 1981로 직접 읽힌다. 뒤의 출판연도 1973과 제목에 들어 있는 기간은 별개이다.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": 63,
+        "bbox": [
+          273,
+          477,
+          480,
+          556
+        ]
+      },
+      "short_original_transcription": "United States, 1971 ~ 1981,",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "reviewer": "academic_twocol",
+      "author": "academic_scan/source-extraction agent (separate from reviewer)",
+      "method": "Rendered actual source PDF page 2 and three enlarged original-image crops; did not read scan evidence candidates, report or answer key.",
+      "scope": "Source fidelity only, not independent verification of cited historical facts.",
+      "human_reviewed": false
+    },
+    {
+      "case_id": "S4",
+      "claim": "각주 1에 적힌 영어 서지 제목에는 7977~7987이라는 기간이 들어 있다.",
+      "verdict": "revise",
+      "rationale": "실제 기간은 1971 ~ 1981이다. 제시된 7977~7987은 각 숫자를 잘못 전사한 것으로 원문과 불일치한다.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": 63,
+        "bbox": [
+          273,
+          477,
+          480,
+          556
+        ]
+      },
+      "short_original_transcription": "United States, 1971 ~ 1981,",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "reviewer": "academic_twocol",
+      "author": "academic_scan/source-extraction agent (separate from reviewer)",
+      "method": "Rendered actual source PDF page 2 and three enlarged original-image crops; did not read scan evidence candidates, report or answer key.",
+      "scope": "Source fidelity only, not independent verification of cited historical facts.",
+      "human_reviewed": false
+    },
+    {
+      "case_id": "S5",
+      "claim": "본문 왼쪽 열에서 미국의 보고서를 소개하는 문장의 연도는 1960년이다.",
+      "verdict": "pass",
+      "rationale": "왼쪽 열의 보고서 소개 문장은 1960년으로 시작한다. 이 판정은 이 논문 인쇄문자의 전사 정확성에 한하며 보고서의 실제 역사적 발행연도를 별도로 확증한 것은 아니다.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": 63,
+        "bbox": [
+          47,
+          442,
+          254,
+          493
+        ]
+      },
+      "short_original_transcription": "1960년 美國에서",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "reviewer": "academic_twocol",
+      "author": "academic_scan/source-extraction agent (separate from reviewer)",
+      "method": "Rendered actual source PDF page 2 and three enlarged original-image crops; did not read scan evidence candidates, report or answer key.",
+      "scope": "Source fidelity only, not independent verification of cited historical facts.",
+      "human_reviewed": false
+    },
+    {
+      "case_id": "S6",
+      "claim": "본문 왼쪽 열에서 미국의 보고서를 소개하는 문장의 연도는 1%0년이다.",
+      "verdict": "revise",
+      "rationale": "원본 숫자는 1960년이다. 1%0년은 숫자 96을 퍼센트 기호처럼 잘못 읽은 표기로 원문과 불일치한다.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": 63,
+        "bbox": [
+          47,
+          442,
+          254,
+          493
+        ]
+      },
+      "short_original_transcription": "1960년 美國에서",
+      "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "reviewer": "academic_twocol",
+      "author": "academic_scan/source-extraction agent (separate from reviewer)",
+      "method": "Rendered actual source PDF page 2 and three enlarged original-image crops; did not read scan evidence candidates, report or answer key.",
+      "scope": "Source fidelity only, not independent verification of cited historical facts.",
+      "human_reviewed": false
+    }
+  ],
+  "reviewed_files": [
+    "page2.png",
+    "negation.png",
+    "year.png",
+    "footnote.png"
+  ],
+  "independence_limit": "Same-model role separation does not guarantee complete independence or hallucination-free review."
+}

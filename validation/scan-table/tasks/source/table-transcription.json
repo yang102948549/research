@@ -1,0 +1,3854 @@
+{
+  "paper_id": "LEE1994",
+  "source_sha256": "bace3afd803447db197ca0c8f2054a1cd44a94e1399e5601d33f97adc2bcb0bf",
+  "pdf_page": 5,
+  "printed_page": "7",
+  "table_id": "표2",
+  "table_title": "年齡·性 및 地域에 따른 扶養實態의 分布",
+  "unit_label": "(단위: %)",
+  "table_bbox": [
+    50.761,
+    167.902,
+    470.515,
+    642.322
+  ],
+  "coordinate_space": "PDF points; approximate manually selected bounds, re-render for independent verification",
+  "merged_headers": [
+    {
+      "id": "income",
+      "label": "주수입원 형태",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 3,
+      "bbox": [
+        128.855,
+        188.597,
+        258.1,
+        203.825
+      ],
+      "note_ids": [
+        "2"
+      ],
+      "children": [
+        "자립형",
+        "의존형",
+        "계(명)"
+      ],
+      "row_groups": [
+        {
+          "label": "연령",
+          "row_start": 1,
+          "row_span": 2
+        },
+        {
+          "label": "성",
+          "row_start": 3,
+          "row_span": 2
+        },
+        {
+          "label": "지역",
+          "row_start": 5,
+          "row_span": 2
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "주관적 경제평가",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 3,
+      "bbox": [
+        333.851,
+        188.597,
+        467.782,
+        203.825
+      ],
+      "note_ids": [
+        "3"
+      ],
+      "children": [
+        "어렵다",
+        "어렵지 않다",
+        "계(명)"
+      ],
+      "row_groups": [
+        {
+          "label": "연령",
+          "row_start": 1,
+          "row_span": 2
+        },
+        {
+          "label": "성",
+          "row_start": 3,
+          "row_span": 2
+        },
+        {
+          "label": "지역",
+          "row_start": 5,
+          "row_span": 2
+        }
+      ]
+    },
+    {
+      "id": "physical",
+      "label": "신체적 부양자",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 3,
+      "bbox": [
+        128.855,
+        305.737,
+        258.1,
+        320.185
+      ],
+      "note_ids": [
+        "4"
+      ],
+      "children": [
+        "없음",
+        "있음",
+        "계(명)"
+      ],
+      "row_groups": [
+        {
+          "label": "연령",
+          "row_start": 1,
+          "row_span": 2
+        },
+        {
+          "label": "성",
+          "row_start": 3,
+          "row_span": 2
+        },
+        {
+          "label": "지역",
+          "row_start": 5,
+          "row_span": 2
+        }
+      ]
+    },
+    {
+      "id": "physical_satisfaction",
+      "label": "신체적 부양 만족정도",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 3,
+      "bbox": [
+        333.851,
+        305.737,
+        467.782,
+        320.185
+      ],
+      "note_ids": [
+        "5"
+      ],
+      "children": [
+        "부족하다",
+        "부족하지 않다",
+        "계(명)"
+      ],
+      "row_groups": [
+        {
+          "label": "연령",
+          "row_start": 1,
+          "row_span": 2
+        },
+        {
+          "label": "성",
+          "row_start": 3,
+          "row_span": 2
+        },
+        {
+          "label": "지역",
+          "row_start": 5,
+          "row_span": 2
+        }
+      ]
+    },
+    {
+      "id": "emotional",
+      "label": "정서적 부양자",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 3,
+      "bbox": [
+        128.855,
+        425.611,
+        258.1,
+        440.449
+      ],
+      "note_ids": [
+        "6"
+      ],
+      "children": [
+        "없음",
+        "있음",
+        "계(명)"
+      ],
+      "row_groups": [
+        {
+          "label": "연령",
+          "row_start": 1,
+          "row_span": 2
+        },
+        {
+          "label": "성",
+          "row_start": 3,
+          "row_span": 2
+        },
+        {
+          "label": "지역",
+          "row_start": 5,
+          "row_span": 2
+        }
+      ]
+    },
+    {
+      "id": "emotional_satisfaction",
+      "label": "정서적 부양 만족정도",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 3,
+      "bbox": [
+        333.851,
+        425.611,
+        467.782,
+        440.449
+      ],
+      "note_ids": [
+        "7"
+      ],
+      "children": [
+        "부족하다",
+        "부족하지 않다",
+        "계(명)"
+      ],
+      "row_groups": [
+        {
+          "label": "연령",
+          "row_start": 1,
+          "row_span": 2
+        },
+        {
+          "label": "성",
+          "row_start": 3,
+          "row_span": 2
+        },
+        {
+          "label": "지역",
+          "row_start": 5,
+          "row_span": 2
+        }
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "id": "income-r1-c1",
+      "panel_id": "income",
+      "row_index": 0,
+      "column_index": 0,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "자립형"
+      ],
+      "value": "48.4",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        225.691,
+        161.654,
+        235.062
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r1-c2",
+      "panel_id": "income",
+      "row_index": 0,
+      "column_index": 1,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "의존형"
+      ],
+      "value": "51.6",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        225.691,
+        199.92,
+        235.062
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r1-c3",
+      "panel_id": "income",
+      "row_index": 0,
+      "column_index": 2,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "계(명)"
+      ],
+      "value": "100.00 (2,048)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        225.691,
+        258.1,
+        235.062
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r2-c1",
+      "panel_id": "income",
+      "row_index": 1,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "자립형"
+      ],
+      "value": "61.9",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        240.919,
+        161.654,
+        250.291
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r2-c2",
+      "panel_id": "income",
+      "row_index": 1,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "의존형"
+      ],
+      "value": "38.1",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        240.919,
+        199.92,
+        250.291
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r2-c3",
+      "panel_id": "income",
+      "row_index": 1,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "계(명)"
+      ],
+      "value": "100.00 (1,250)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        240.919,
+        258.1,
+        250.291
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r3-c1",
+      "panel_id": "income",
+      "row_index": 2,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "자립형"
+      ],
+      "value": "27.3",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        251.462,
+        161.654,
+        260.833
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r3-c2",
+      "panel_id": "income",
+      "row_index": 2,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "의존형"
+      ],
+      "value": "72.7",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        251.462,
+        199.92,
+        260.833
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r3-c3",
+      "panel_id": "income",
+      "row_index": 2,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "계(명)"
+      ],
+      "value": "100.00 (797)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        251.462,
+        258.1,
+        260.833
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r4-c1",
+      "panel_id": "income",
+      "row_index": 3,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "자립형"
+      ],
+      "value": "67.2",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        261.614,
+        161.654,
+        270.986
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r4-c2",
+      "panel_id": "income",
+      "row_index": 3,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "의존형"
+      ],
+      "value": "32.8",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        261.614,
+        199.92,
+        270.986
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r4-c3",
+      "panel_id": "income",
+      "row_index": 3,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "계(명)"
+      ],
+      "value": "100.00 (811)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        261.614,
+        258.1,
+        270.986
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r5-c1",
+      "panel_id": "income",
+      "row_index": 4,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "자립형"
+      ],
+      "value": "36.1",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        272.157,
+        161.654,
+        281.528
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r5-c2",
+      "panel_id": "income",
+      "row_index": 4,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "의존형"
+      ],
+      "value": "63.9",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        272.157,
+        199.92,
+        281.528
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r5-c3",
+      "panel_id": "income",
+      "row_index": 4,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "계(명)"
+      ],
+      "value": "100.00 (1,236)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        272.157,
+        258.1,
+        281.528
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r6-c1",
+      "panel_id": "income",
+      "row_index": 5,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "자립형"
+      ],
+      "value": "42.1",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        282.7,
+        161.654,
+        292.071
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r6-c2",
+      "panel_id": "income",
+      "row_index": 5,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "의존형"
+      ],
+      "value": "57.9",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        282.7,
+        199.92,
+        292.071
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r6-c3",
+      "panel_id": "income",
+      "row_index": 5,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "계(명)"
+      ],
+      "value": "100.00 (1,166)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        282.7,
+        258.1,
+        292.071
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r7-c1",
+      "panel_id": "income",
+      "row_index": 6,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "자립형"
+      ],
+      "value": "56.8",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        293.242,
+        161.654,
+        302.614
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r7-c2",
+      "panel_id": "income",
+      "row_index": 6,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "의존형"
+      ],
+      "value": "43.2",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        293.242,
+        199.92,
+        302.614
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "income-r7-c3",
+      "panel_id": "income",
+      "row_index": 6,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "주수입원 형태",
+        "계(명)"
+      ],
+      "value": "100.00 (882)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        293.242,
+        258.1,
+        302.614
+      ],
+      "note_ids": [
+        "1",
+        "2"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r1-c1",
+      "panel_id": "economy",
+      "row_index": 0,
+      "column_index": 0,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵다"
+      ],
+      "value": "77.68",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        225.691,
+        368.603,
+        235.062
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r1-c2",
+      "panel_id": "economy",
+      "row_index": 0,
+      "column_index": 1,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵지 않다"
+      ],
+      "value": "20.32",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        225.691,
+        410.774,
+        235.062
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r1-c3",
+      "panel_id": "economy",
+      "row_index": 0,
+      "column_index": 2,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "계(명)"
+      ],
+      "value": "100.00 (2,054)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        225.691,
+        467.782,
+        235.062
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r2-c1",
+      "panel_id": "economy",
+      "row_index": 1,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵다"
+      ],
+      "value": "81.00",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        240.919,
+        368.603,
+        250.291
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r2-c2",
+      "panel_id": "economy",
+      "row_index": 1,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵지 않다"
+      ],
+      "value": "19.00",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        240.919,
+        410.774,
+        250.291
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r2-c3",
+      "panel_id": "economy",
+      "row_index": 1,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "계(명)"
+      ],
+      "value": "100.00 (1,251)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        240.919,
+        467.782,
+        250.291
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r3-c1",
+      "panel_id": "economy",
+      "row_index": 2,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵다"
+      ],
+      "value": "77.63",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        251.462,
+        368.603,
+        260.833
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r3-c2",
+      "panel_id": "economy",
+      "row_index": 2,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵지 않다"
+      ],
+      "value": "22.37",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        251.462,
+        410.774,
+        260.833
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r3-c3",
+      "panel_id": "economy",
+      "row_index": 2,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "계(명)"
+      ],
+      "value": "100.00 (802)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        251.462,
+        467.782,
+        260.833
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r4-c1",
+      "panel_id": "economy",
+      "row_index": 3,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵다"
+      ],
+      "value": "77.51",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        261.614,
+        368.603,
+        270.986
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r4-c2",
+      "panel_id": "economy",
+      "row_index": 3,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵지 않다"
+      ],
+      "value": "22.49",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        261.614,
+        410.774,
+        270.986
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r4-c3",
+      "panel_id": "economy",
+      "row_index": 3,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "계(명)"
+      ],
+      "value": "100.00 (815)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        261.614,
+        467.782,
+        270.986
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r5-c1",
+      "panel_id": "economy",
+      "row_index": 4,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵다"
+      ],
+      "value": "81.11",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        272.157,
+        368.603,
+        281.528
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r5-c2",
+      "panel_id": "economy",
+      "row_index": 4,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵지 않다"
+      ],
+      "value": "18.89",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        272.157,
+        410.774,
+        281.528
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r5-c3",
+      "panel_id": "economy",
+      "row_index": 4,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "계(명)"
+      ],
+      "value": "100.00 (1,239)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        272.157,
+        467.782,
+        281.528
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r6-c1",
+      "panel_id": "economy",
+      "row_index": 5,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵다"
+      ],
+      "value": "76.71",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        282.7,
+        368.603,
+        292.071
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r6-c2",
+      "panel_id": "economy",
+      "row_index": 5,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵지 않다"
+      ],
+      "value": "23.29",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        282.7,
+        410.774,
+        292.071
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r6-c3",
+      "panel_id": "economy",
+      "row_index": 5,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "계(명)"
+      ],
+      "value": "100.00 (1,168)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        282.7,
+        467.782,
+        292.071
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r7-c1",
+      "panel_id": "economy",
+      "row_index": 6,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵다"
+      ],
+      "value": "83.60",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        293.242,
+        368.603,
+        302.614
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r7-c2",
+      "panel_id": "economy",
+      "row_index": 6,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "어렵지 않다"
+      ],
+      "value": "16.40",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        293.242,
+        410.774,
+        302.614
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "economy-r7-c3",
+      "panel_id": "economy",
+      "row_index": 6,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "주관적 경제평가",
+        "계(명)"
+      ],
+      "value": "100.00 (885)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        293.242,
+        467.782,
+        302.614
+      ],
+      "note_ids": [
+        "1",
+        "3"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r1-c1",
+      "panel_id": "physical",
+      "row_index": 0,
+      "column_index": 0,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "없음"
+      ],
+      "value": "46.71",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        345.565,
+        161.654,
+        354.936
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r1-c2",
+      "panel_id": "physical",
+      "row_index": 0,
+      "column_index": 1,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "있음"
+      ],
+      "value": "53.29",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        345.565,
+        199.92,
+        354.936
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r1-c3",
+      "panel_id": "physical",
+      "row_index": 0,
+      "column_index": 2,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (548)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        345.565,
+        258.1,
+        354.936
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r2-c1",
+      "panel_id": "physical",
+      "row_index": 1,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "없음"
+      ],
+      "value": "58.31",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        360.793,
+        161.654,
+        370.165
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r2-c2",
+      "panel_id": "physical",
+      "row_index": 1,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "있음"
+      ],
+      "value": "41.69",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        360.793,
+        199.92,
+        370.165
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r2-c3",
+      "panel_id": "physical",
+      "row_index": 1,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (207)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        360.793,
+        258.1,
+        370.165
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r3-c1",
+      "panel_id": "physical",
+      "row_index": 2,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "없음"
+      ],
+      "value": "39.69",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        370.946,
+        161.654,
+        380.317
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r3-c2",
+      "panel_id": "physical",
+      "row_index": 2,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "있음"
+      ],
+      "value": "60.31",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        370.946,
+        199.92,
+        380.317
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r3-c3",
+      "panel_id": "physical",
+      "row_index": 2,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (342)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        370.946,
+        258.1,
+        380.317
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r4-c1",
+      "panel_id": "physical",
+      "row_index": 3,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "없음"
+      ],
+      "value": "47.78",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        381.488,
+        161.654,
+        390.86
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r4-c2",
+      "panel_id": "physical",
+      "row_index": 3,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "있음"
+      ],
+      "value": "52.22",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        381.488,
+        199.92,
+        390.86
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r4-c3",
+      "panel_id": "physical",
+      "row_index": 3,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (164)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        381.488,
+        258.1,
+        390.86
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r5-c1",
+      "panel_id": "physical",
+      "row_index": 4,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "없음"
+      ],
+      "value": "46.25",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        391.641,
+        161.654,
+        401.012
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r5-c2",
+      "panel_id": "physical",
+      "row_index": 4,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "있음"
+      ],
+      "value": "53.75",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        391.641,
+        199.92,
+        401.012
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r5-c3",
+      "panel_id": "physical",
+      "row_index": 4,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (385)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        391.641,
+        258.1,
+        401.012
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r6-c1",
+      "panel_id": "physical",
+      "row_index": 5,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "없음"
+      ],
+      "value": "44.14",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        402.574,
+        161.654,
+        411.945
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r6-c2",
+      "panel_id": "physical",
+      "row_index": 5,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "있음"
+      ],
+      "value": "55.86",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        402.574,
+        199.92,
+        411.945
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r6-c3",
+      "panel_id": "physical",
+      "row_index": 5,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (288)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        402.574,
+        258.1,
+        411.945
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r7-c1",
+      "panel_id": "physical",
+      "row_index": 6,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "없음"
+      ],
+      "value": "49.54",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        412.726,
+        161.654,
+        422.097
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r7-c2",
+      "panel_id": "physical",
+      "row_index": 6,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "있음"
+      ],
+      "value": "50.46",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        412.726,
+        199.92,
+        422.097
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical-r7-c3",
+      "panel_id": "physical",
+      "row_index": 6,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "신체적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (261)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        412.726,
+        258.1,
+        422.097
+      ],
+      "note_ids": [
+        "1",
+        "4"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r1-c1",
+      "panel_id": "physical_satisfaction",
+      "row_index": 0,
+      "column_index": 0,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "15.92",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        345.565,
+        368.603,
+        354.936
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r1-c2",
+      "panel_id": "physical_satisfaction",
+      "row_index": 0,
+      "column_index": 1,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "84.08",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        345.565,
+        410.774,
+        354.936
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r1-c3",
+      "panel_id": "physical_satisfaction",
+      "row_index": 0,
+      "column_index": 2,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (292)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        345.565,
+        467.782,
+        354.936
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r2-c1",
+      "panel_id": "physical_satisfaction",
+      "row_index": 1,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "24.26",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        360.793,
+        368.603,
+        370.165
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r2-c2",
+      "panel_id": "physical_satisfaction",
+      "row_index": 1,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "75.74",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        360.793,
+        410.774,
+        370.165
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r2-c3",
+      "panel_id": "physical_satisfaction",
+      "row_index": 1,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (86)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        360.793,
+        467.782,
+        370.165
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r3-c1",
+      "panel_id": "physical_satisfaction",
+      "row_index": 2,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "12.46",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        370.946,
+        368.603,
+        380.317
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r3-c2",
+      "panel_id": "physical_satisfaction",
+      "row_index": 2,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "87.54",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        370.946,
+        410.774,
+        380.317
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r3-c3",
+      "panel_id": "physical_satisfaction",
+      "row_index": 2,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (206)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        370.946,
+        467.782,
+        380.317
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r4-c1",
+      "panel_id": "physical_satisfaction",
+      "row_index": 3,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "7.00",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        381.488,
+        368.603,
+        390.86
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r4-c2",
+      "panel_id": "physical_satisfaction",
+      "row_index": 3,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "93.00",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        381.488,
+        410.774,
+        390.86
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r4-c3",
+      "panel_id": "physical_satisfaction",
+      "row_index": 3,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (85)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        381.488,
+        467.782,
+        390.86
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r5-c1",
+      "panel_id": "physical_satisfaction",
+      "row_index": 4,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "19.59",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        391.641,
+        368.603,
+        401.012
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r5-c2",
+      "panel_id": "physical_satisfaction",
+      "row_index": 4,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "80.41",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        391.641,
+        410.774,
+        401.012
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r5-c3",
+      "panel_id": "physical_satisfaction",
+      "row_index": 4,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (207)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        391.641,
+        467.782,
+        401.012
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r6-c1",
+      "panel_id": "physical_satisfaction",
+      "row_index": 5,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "15.71",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        402.574,
+        368.603,
+        411.945
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r6-c2",
+      "panel_id": "physical_satisfaction",
+      "row_index": 5,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "84.29",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        402.574,
+        410.774,
+        411.945
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r6-c3",
+      "panel_id": "physical_satisfaction",
+      "row_index": 5,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (161)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        402.574,
+        467.782,
+        411.945
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r7-c1",
+      "panel_id": "physical_satisfaction",
+      "row_index": 6,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "16.19",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        412.726,
+        368.603,
+        422.097
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r7-c2",
+      "panel_id": "physical_satisfaction",
+      "row_index": 6,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "83.81",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        412.726,
+        410.774,
+        422.097
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "physical_satisfaction-r7-c3",
+      "panel_id": "physical_satisfaction",
+      "row_index": 6,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "신체적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (131)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        412.726,
+        467.782,
+        422.097
+      ],
+      "note_ids": [
+        "1",
+        "5"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r1-c1",
+      "panel_id": "emotional",
+      "row_index": 0,
+      "column_index": 0,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "없음"
+      ],
+      "value": "23.50",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        462.706,
+        161.654,
+        472.077
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r1-c2",
+      "panel_id": "emotional",
+      "row_index": 0,
+      "column_index": 1,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "있음"
+      ],
+      "value": "76.50",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        462.706,
+        199.92,
+        472.077
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r1-c3",
+      "panel_id": "emotional",
+      "row_index": 0,
+      "column_index": 2,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (1,946)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        462.706,
+        258.1,
+        472.077
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r2-c1",
+      "panel_id": "emotional",
+      "row_index": 1,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "없음"
+      ],
+      "value": "20.37",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        477.934,
+        161.654,
+        487.305
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r2-c2",
+      "panel_id": "emotional",
+      "row_index": 1,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "있음"
+      ],
+      "value": "79.63",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        477.934,
+        199.92,
+        487.305
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r2-c3",
+      "panel_id": "emotional",
+      "row_index": 1,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (1,221)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        477.934,
+        258.1,
+        487.305
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r3-c1",
+      "panel_id": "emotional",
+      "row_index": 2,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "없음"
+      ],
+      "value": "28.77",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        488.477,
+        161.654,
+        497.848
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r3-c2",
+      "panel_id": "emotional",
+      "row_index": 2,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "있음"
+      ],
+      "value": "71.23",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        488.477,
+        199.92,
+        497.848
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r3-c3",
+      "panel_id": "emotional",
+      "row_index": 2,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (725)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        488.477,
+        258.1,
+        497.848
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r4-c1",
+      "panel_id": "emotional",
+      "row_index": 3,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "없음"
+      ],
+      "value": "19.73",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        498.629,
+        161.654,
+        508.0
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r4-c2",
+      "panel_id": "emotional",
+      "row_index": 3,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "있음"
+      ],
+      "value": "80.27",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        498.629,
+        199.92,
+        508.0
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r4-c3",
+      "panel_id": "emotional",
+      "row_index": 3,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (775)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        498.629,
+        258.1,
+        508.0
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r5-c1",
+      "panel_id": "emotional",
+      "row_index": 4,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "없음"
+      ],
+      "value": "25.99",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        509.172,
+        161.654,
+        518.543
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r5-c2",
+      "panel_id": "emotional",
+      "row_index": 4,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "있음"
+      ],
+      "value": "74.01",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        509.172,
+        199.92,
+        518.543
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r5-c3",
+      "panel_id": "emotional",
+      "row_index": 4,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (1,170)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        509.172,
+        258.1,
+        518.543
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r6-c1",
+      "panel_id": "emotional",
+      "row_index": 5,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "없음"
+      ],
+      "value": "21.59",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        519.714,
+        161.654,
+        529.086
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r6-c2",
+      "panel_id": "emotional",
+      "row_index": 5,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "있음"
+      ],
+      "value": "78.41",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        519.714,
+        199.92,
+        529.086
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r6-c3",
+      "panel_id": "emotional",
+      "row_index": 5,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (1,113)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        519.714,
+        258.1,
+        529.086
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r7-c1",
+      "panel_id": "emotional",
+      "row_index": 6,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "없음"
+      ],
+      "value": "26.04",
+      "unit": "%",
+      "bbox": [
+        128.855,
+        530.257,
+        161.654,
+        539.628
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r7-c2",
+      "panel_id": "emotional",
+      "row_index": 6,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "있음"
+      ],
+      "value": "73.96",
+      "unit": "%",
+      "bbox": [
+        169.854,
+        530.257,
+        199.92,
+        539.628
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional-r7-c3",
+      "panel_id": "emotional",
+      "row_index": 6,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "정서적 부양자",
+        "계(명)"
+      ],
+      "value": "100.00 (832)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        206.949,
+        530.257,
+        258.1,
+        539.628
+      ],
+      "note_ids": [
+        "1",
+        "6"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r1-c1",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 0,
+      "column_index": 0,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "10.22",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        462.706,
+        368.603,
+        472.077
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r1-c2",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 0,
+      "column_index": 1,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "89.78",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        462.706,
+        410.774,
+        472.077
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r1-c3",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 0,
+      "column_index": 2,
+      "row_path": [
+        "전체"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (1,487)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        462.706,
+        467.782,
+        472.077
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r2-c1",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 1,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "9.86",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        477.934,
+        368.603,
+        487.305
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r2-c2",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 1,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "90.14",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        477.934,
+        410.774,
+        487.305
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r2-c3",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 1,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "전기"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (972)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        477.934,
+        467.782,
+        487.305
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r3-c1",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 2,
+      "column_index": 0,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "10.90",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        488.477,
+        368.603,
+        497.848
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r3-c2",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 2,
+      "column_index": 1,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "89.10",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        488.477,
+        410.774,
+        497.848
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r3-c3",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 2,
+      "column_index": 2,
+      "row_path": [
+        "연령",
+        "후기"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (516)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        488.477,
+        467.782,
+        497.848
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r4-c1",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 3,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "8.27",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        498.629,
+        368.603,
+        508.0
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r4-c2",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 3,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "91.73",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        498.629,
+        410.774,
+        508.0
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r4-c3",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 3,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "남자"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (622)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        498.629,
+        467.782,
+        508.0
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r5-c1",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 4,
+      "column_index": 0,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "11.63",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        509.172,
+        368.603,
+        518.543
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r5-c2",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 4,
+      "column_index": 1,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "88.37",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        509.172,
+        410.774,
+        518.543
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r5-c3",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 4,
+      "column_index": 2,
+      "row_path": [
+        "성",
+        "여자"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (865)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        509.172,
+        467.782,
+        518.543
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r6-c1",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 5,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "9.92",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        519.714,
+        368.603,
+        529.086
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r6-c2",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 5,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "90.08",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        519.714,
+        410.774,
+        529.086
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r6-c3",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 5,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "시부"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (873)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        519.714,
+        467.782,
+        529.086
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r7-c1",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 6,
+      "column_index": 0,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하다"
+      ],
+      "value": "10.64",
+      "unit": "%",
+      "bbox": [
+        333.851,
+        530.257,
+        368.603,
+        539.628
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r7-c2",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 6,
+      "column_index": 1,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "부족하지 않다"
+      ],
+      "value": "89.36",
+      "unit": "%",
+      "bbox": [
+        376.022,
+        530.257,
+        410.774,
+        539.628
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    },
+    {
+      "id": "emotional_satisfaction-r7-c3",
+      "panel_id": "emotional_satisfaction",
+      "row_index": 6,
+      "column_index": 2,
+      "row_path": [
+        "지역",
+        "군부"
+      ],
+      "column_path": [
+        "정서적 부양 만족정도",
+        "계(명)"
+      ],
+      "value": "100.00 (614)",
+      "unit": "%; 괄호 안 명",
+      "bbox": [
+        416.24,
+        530.257,
+        467.782,
+        539.628
+      ],
+      "note_ids": [
+        "1",
+        "7"
+      ],
+      "author": "scan_table_source",
+      "verification_status": "pending"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "text": "승수부여 관계로 총계가 일치하지 않을 수 있음.",
+      "bbox": [
+        50.761,
+        555.247,
+        390.469,
+        566.18
+      ]
+    },
+    {
+      "id": "2",
+      "text": "무응답 10명 제외함.",
+      "bbox": [
+        50.761,
+        565.79,
+        390.469,
+        576.723
+      ]
+    },
+    {
+      "id": "3",
+      "text": "무응답 4명 제외함.",
+      "bbox": [
+        50.761,
+        576.332,
+        390.469,
+        587.266
+      ]
+    },
+    {
+      "id": "4",
+      "text": "일상생활 수행에 제한을 받고 있는 노인에 대한 분포임.",
+      "bbox": [
+        50.761,
+        586.875,
+        390.469,
+        597.808
+      ]
+    },
+    {
+      "id": "5",
+      "text": "신체적 부양을 받고 있는 노인에 대한 분포임.",
+      "bbox": [
+        50.761,
+        597.418,
+        390.469,
+        608.351
+      ]
+    },
+    {
+      "id": "6",
+      "text": "대리응답 111명, 무응답 1명 제외함.",
+      "bbox": [
+        50.761,
+        607.96,
+        390.469,
+        618.894
+      ]
+    },
+    {
+      "id": "7",
+      "text": "정서적 부양을 받고 있는 노인에 대한 분포임(무응답 2명 제외함).",
+      "bbox": [
+        50.761,
+        618.503,
+        390.469,
+        629.436
+      ]
+    },
+    {
+      "id": "8",
+      "text": "*: p<0.05",
+      "bbox": [
+        50.761,
+        629.046,
+        390.469,
+        639.979
+      ]
+    }
+  ],
+  "source_anomalies": [
+    {
+      "cell_id": "economy-r1-c1",
+      "observation": "원본은 77.68로 읽힘. 인접 20.32와 합이98.00이며 총계100.00과 다름. 원문을79.68로 교정하지 않음.",
+      "status": "hold_for_interpretation"
+    }
+  ],
+  "status": "pending_independent_visual_review"
+}

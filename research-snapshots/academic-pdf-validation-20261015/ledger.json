@@ -1,0 +1,865 @@
+{
+  "schema_version": 1,
+  "research_id": "academic-pdf-validation",
+  "version": 16,
+  "sources": {
+    "TW-P001": {
+      "title": "지역대표도서관 입지 선정에 관한 연구 - 부산광역시를 중심으로 -",
+      "authors": [
+        "유재우",
+        "구본진",
+        "장덕현"
+      ],
+      "year": 2015,
+      "doi": "10.4275/KSLIS.2015.49.3.291",
+      "source_url": "https://www.accesson.kr/kslis/assets/pdf/9356/journal-49-3-291.pdf",
+      "path": "tasks/twocol/article.pdf",
+      "file_hash": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "identity_status": "matched",
+      "identity_check": {
+        "method": "Official publisher PDF first-page title/author/year/journal compared by source agent",
+        "record": "tasks/twocol/handoff.json"
+      },
+      "fulltext_status": "available",
+      "parse_status": "checked",
+      "parse_scope": "Only selected evidence regions visually checked; whole-document reading order NOT approved",
+      "hash": "aebed5847ae16b45b17176d23c579d3968e8d369d770475ae21c0b77ebde5061"
+    },
+    "SCAN-KIHASA-1994-14-2-62": {
+      "title": "가족영역에서의 ‘삶의 질’의 분석방법 연구",
+      "authors": [
+        "장현섭",
+        "김현옥"
+      ],
+      "year": 1994,
+      "doi": null,
+      "source_url": "https://www.kihasa.re.kr/hswr/assets/pdf/186/journal-14-2-62.pdf",
+      "path": "tasks/scan/article.pdf",
+      "file_hash": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "identity_status": "matched",
+      "identity_check": {
+        "method": "Official publisher PDF first-page title/author/year/journal compared by source agent",
+        "record": "tasks/scan/handoff.json"
+      },
+      "fulltext_status": "available",
+      "parse_status": "checked",
+      "parse_scope": "Only selected evidence regions visually checked; whole-document reading order NOT approved",
+      "hash": "210078d553745a46953a6d291caef92e619ca7630b0447ce0379a80e36d0db36"
+    }
+  },
+  "evidence": {
+    "TW-E001": {
+      "source_id": "TW-P001",
+      "author": "academic_twocol",
+      "quote": "도서관들이 접근성이 좋지 않은 위치에 자리 잡게 되는 경우들이 발생한 것 또한 사실이다.",
+      "context": "오른쪽 본문 부정 표현과 일부 경우 발생이라는 원문 범위에 부합한다.",
+      "limits": "A selected local excerpt test, not approval of complete paper or generalized conclusion. Footnote is a first-page provenance footnote, not a long discursive footnote.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": 292,
+        "bbox": [
+          308,
+          564,
+          502,
+          599
+        ],
+        "printed_page_note": "visible running page label inspected",
+        "context_bbox": [
+          308,
+          564,
+          502,
+          599
+        ]
+      },
+      "quote_check": "source_compared",
+      "excerpt_kind": "prose",
+      "transcription_method": "native_text",
+      "citation_type": "direct",
+      "source_hash": "aebed5847ae16b45b17176d23c579d3968e8d369d770475ae21c0b77ebde5061",
+      "pdf_review": {
+        "reviewer": "academic_scan",
+        "verdict": "pass",
+        "timestamp": "2026-10-15T07:13:13.142971+00:00",
+        "rationale": "오른쪽 본문 부정 표현과 일부 경우 발생이라는 원문 범위에 부합한다.",
+        "review_record": "tasks/review-twocol/review.json",
+        "checked_features": [
+          "reading_order",
+          "context",
+          "negation",
+          "numbers",
+          "page_label",
+          "citation_status"
+        ],
+        "proof": {
+          "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+          "dpi": 150,
+          "crop_sha256": "d156af8587a6d3ec1dd5d233a5c9685ff0b301b29538828f24acef218a04b4f2",
+          "pixel_sha256": "9cff460fb8be1478a3462e98ddbcecf77e1938ec8bf5ffbc3056096557397d13",
+          "width": 405,
+          "height": 73,
+          "annotations": false,
+          "crop_path": "proofs/TW-E001.png"
+        },
+        "evidence_binding": "ec953f81febb1004e0dd1aa308709c326a0c8f7d133041efb05f46079299b79d"
+      },
+      "hash": "b49a2a00eaec3eeb60ebd8d6a2f52c81423d5c43307a9a504d58297a4ec98c8e"
+    },
+    "TW-E002": {
+      "source_id": "TW-P001",
+      "author": "academic_twocol",
+      "quote": "* 이 논문은 부산대표도서관 건립 기본계획 연구(부산광역시, 2014)를 축약한 것임.",
+      "context": "첫 번째 별표(*) 각주를 이미지로 확인했다. 2014년 연구 축약을 명시한다.",
+      "limits": "A selected local excerpt test, not approval of complete paper or generalized conclusion. Footnote is a first-page provenance footnote, not a long discursive footnote.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 1,
+        "printed_page": null,
+        "bbox": [
+          98,
+          650,
+          490,
+          662
+        ],
+        "printed_page_note": "first page has no visible running page label; journal metadata starts at 291",
+        "context_bbox": [
+          98,
+          650,
+          490,
+          662
+        ]
+      },
+      "quote_check": "source_compared",
+      "excerpt_kind": "footnote",
+      "transcription_method": "native_text",
+      "citation_type": "direct",
+      "footnote_marker": "*",
+      "source_hash": "aebed5847ae16b45b17176d23c579d3968e8d369d770475ae21c0b77ebde5061",
+      "pdf_review": {
+        "reviewer": "academic_scan",
+        "verdict": "pass",
+        "timestamp": "2026-10-15T07:13:13.261444+00:00",
+        "rationale": "첫 번째 별표(*) 각주를 이미지로 확인했다. 2014년 연구 축약을 명시한다.",
+        "review_record": "tasks/review-twocol/review.json",
+        "checked_features": [
+          "reading_order",
+          "context",
+          "negation",
+          "numbers",
+          "page_label",
+          "citation_status",
+          "footnote_marker"
+        ],
+        "proof": {
+          "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+          "dpi": 150,
+          "crop_sha256": "7b49a1eb3a124c66f1aeb130afcc8a2f338fe70e64118167a945d32d8591ea6e",
+          "pixel_sha256": "aa2ef553c490e7744c4beca482c653ead411417348427011c9078a4de1cdd400",
+          "width": 817,
+          "height": 26,
+          "annotations": false,
+          "crop_path": "proofs/TW-E002.png"
+        },
+        "evidence_binding": "d83260ebff698395b226ec72aea5e9cc43a651bbbd17e766f7daf927f5a82317"
+      },
+      "hash": "19c4f1e22b60812195febb313b4d2da611b7b9e2b1aab6aa1f2127c556e6f156"
+    },
+    "TW-E003": {
+      "source_id": "TW-P001",
+      "author": "academic_twocol",
+      "quote": "증축 면적 20% 2,000㎡",
+      "context": "표1의 열 머리글 구분/비중/대지면적과 증축 면적 행을 교차 확인했다. 두 값과 단위가 모두 맞다.",
+      "limits": "A selected local excerpt test, not approval of complete paper or generalized conclusion. Footnote is a first-page provenance footnote, not a long discursive footnote.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 4,
+        "printed_page": 294,
+        "bbox": [
+          145,
+          405,
+          280,
+          417
+        ],
+        "printed_page_note": "visible running page label inspected",
+        "context_bbox": [
+          90,
+          340,
+          510,
+          490
+        ]
+      },
+      "quote_check": "source_compared",
+      "excerpt_kind": "table",
+      "transcription_method": "native_text",
+      "citation_type": "direct",
+      "table_context": {
+        "label": "표 1",
+        "row": "증축 면적",
+        "column": "비중 및 대지면적",
+        "unit": "% 및 ㎡"
+      },
+      "source_hash": "aebed5847ae16b45b17176d23c579d3968e8d369d770475ae21c0b77ebde5061",
+      "pdf_review": {
+        "reviewer": "academic_scan",
+        "verdict": "pass",
+        "timestamp": "2026-10-15T07:13:13.391682+00:00",
+        "rationale": "표1의 열 머리글 구분/비중/대지면적과 증축 면적 행을 교차 확인했다. 두 값과 단위가 모두 맞다.",
+        "review_record": "tasks/review-twocol/review.json",
+        "checked_features": [
+          "reading_order",
+          "context",
+          "negation",
+          "numbers",
+          "page_label",
+          "citation_status",
+          "table_headers",
+          "table_units",
+          "table_notes"
+        ],
+        "proof": {
+          "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+          "dpi": 150,
+          "crop_sha256": "418ad3da1e5e15b59ce09204b07be134f76b551a807c70ff5832be7617df95b2",
+          "pixel_sha256": "adc7664f62797bb89bef74ea266980e0134d8c3fe591cd68e8627dc8f490fa16",
+          "width": 876,
+          "height": 313,
+          "annotations": false,
+          "crop_path": "proofs/TW-E003.png"
+        },
+        "evidence_binding": "514da7eb28bb7cb02a77229f9db31e8840c7bd93fe90ce5eeb7e51832082212d"
+      },
+      "hash": "5be77276df4393ca2a45e99eb365811d3b5e49dd40c0dc0ae3eaf6d8590bccbf"
+    },
+    "TW-E004": {
+      "source_id": "TW-P001",
+      "author": "academic_twocol",
+      "quote": "합 계 100% 10,000㎡",
+      "context": "표1 합계 행의 대지면적 값과 제곱미터 단위를 확인했다.",
+      "limits": "A selected local excerpt test, not approval of complete paper or generalized conclusion. Footnote is a first-page provenance footnote, not a long discursive footnote.",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 4,
+        "printed_page": 294,
+        "bbox": [
+          130,
+          467,
+          280,
+          480
+        ],
+        "printed_page_note": "visible running page label inspected",
+        "context_bbox": [
+          90,
+          340,
+          510,
+          490
+        ]
+      },
+      "quote_check": "source_compared",
+      "excerpt_kind": "table",
+      "transcription_method": "native_text",
+      "citation_type": "direct",
+      "table_context": {
+        "label": "표 1",
+        "row": "합계",
+        "column": "비중 및 대지면적",
+        "unit": "% 및 ㎡"
+      },
+      "source_hash": "aebed5847ae16b45b17176d23c579d3968e8d369d770475ae21c0b77ebde5061",
+      "pdf_review": {
+        "reviewer": "academic_scan",
+        "verdict": "pass",
+        "timestamp": "2026-10-15T07:13:13.514470+00:00",
+        "rationale": "표1 합계 행의 대지면적 값과 제곱미터 단위를 확인했다.",
+        "review_record": "tasks/review-twocol/review.json",
+        "checked_features": [
+          "reading_order",
+          "context",
+          "negation",
+          "numbers",
+          "page_label",
+          "citation_status",
+          "table_headers",
+          "table_units",
+          "table_notes"
+        ],
+        "proof": {
+          "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+          "dpi": 150,
+          "crop_sha256": "418ad3da1e5e15b59ce09204b07be134f76b551a807c70ff5832be7617df95b2",
+          "pixel_sha256": "adc7664f62797bb89bef74ea266980e0134d8c3fe591cd68e8627dc8f490fa16",
+          "width": 876,
+          "height": 313,
+          "annotations": false,
+          "crop_path": "proofs/TW-E004.png"
+        },
+        "evidence_binding": "e1b93b8661529a65bc5149cbbfb067330f339da6608ae6c6565f2b8b1dbec473"
+      },
+      "hash": "e17c10e73ccf8a1a2ac804aa3819aefb6c2adda96f4f491879834a57b46c2663"
+    },
+    "SCAN-E001": {
+      "source_id": "SCAN-KIHASA-1994-14-2-62",
+      "author": "academic_scan",
+      "quote": "보장되지 못할 수 있다는",
+      "context": "원문은 물질적 풍요와 높은 생활수준을 성취하더라도 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개하며 단락 끝에 (김동일·경철인, 1980: 96)을 표시한다. 다른 문헌에 기대어 소개한다는 범위와 가능성 표현을 유지한 주장이다.",
+      "limits": "김동일·경철인(1980)을 인용하는 문맥이다. 이 논문의 직접 실증결과로 사용할 수 없다. 원 OCR는 보존하고 독립 원본대조 후 정정된 선택 구절만 사용.",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": "63",
+        "bbox": [
+          48.72727272727273,
+          396.6181818181818,
+          250.4,
+          425.4909090909091
+        ],
+        "context_bbox": [
+          48.72727272727273,
+          365.2,
+          250.4,
+          441.8545454545455
+        ],
+        "kind": "pdf"
+      },
+      "quote_check": "source_compared",
+      "excerpt_kind": "prose",
+      "transcription_method": "manual_visual",
+      "transcription_note": "Actual publisher scan visually transcribed and independently checked; raw OCR not used as approved quotation.",
+      "ocr_text_raw": "의 窮極的인 目標인 행복과 만족스러운 삶은 보\n장되지 못할 수 있다는 회의에서 '삶의 質'에 대",
+      "citation_type": "secondary",
+      "ocr_context_raw": "었다. 고도의 산업화로 물질적 풍요를 누리고\n경제적으로 높은 생활수준을 성취하더라도 人間\n의 窮極的인 目標인 행복과 만족스러운 삶은 보\n장되지 못할 수 있다는 회의에서 '삶의 質'에 대\n한 관심이 고조되었다(김동일•경철인, 1980: 96).",
+      "source_hash": "210078d553745a46953a6d291caef92e619ca7630b0447ce0379a80e36d0db36",
+      "pdf_review": {
+        "reviewer": "academic_twocol",
+        "verdict": "pass",
+        "timestamp": "2026-10-15T07:13:13.730379+00:00",
+        "rationale": "원문은 물질적 풍요와 높은 생활수준을 성취하더라도 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개하며 단락 끝에 (김동일·경철인, 1980: 96)을 표시한다. 다른 문헌에 기대어 소개한다는 범위와 가능성 표현을 유지한 주장이다.",
+        "review_record": "tasks/review-scan/review.json",
+        "checked_features": [
+          "reading_order",
+          "context",
+          "negation",
+          "numbers",
+          "page_label",
+          "citation_status"
+        ],
+        "proof": {
+          "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+          "dpi": 150,
+          "crop_sha256": "13a04d6ca678df00f84d7e3e63edc5cb1b174d0c9bf56e58c818a36f5b1d9ba2",
+          "pixel_sha256": "eaa63d69099f4af94fbefb04758e4950463ee5793cf9c0b4ea81857bac0ca06d",
+          "width": 421,
+          "height": 161,
+          "annotations": false,
+          "crop_path": "proofs/SCAN-E001.png"
+        },
+        "evidence_binding": "5369ab319c6650a47b13e4ab49d47743d81e85ec53343d752960f7633fa79751"
+      },
+      "hash": "bca3ee621c0c6793faf09326106f65ab028755d03977248ba01dae117093b69a"
+    },
+    "SCAN-E002": {
+      "source_id": "SCAN-KIHASA-1994-14-2-62",
+      "author": "academic_scan",
+      "quote": "1971 ~ 1981",
+      "context": "각주 1 영어 서지의 제목 끝은 1971 ~ 1981로 직접 읽힌다. 뒤의 출판연도 1973과 제목에 들어 있는 기간은 별개이다.",
+      "limits": "OCR는 기간을 7977 ~ 7987로 오인식했다. 원래 인용된 저작은 확보하지 않았으며 원 논문 각주에 실린 서지의 재인용이다. 원 OCR는 보존하고 독립 원본대조 후 정정된 선택 구절만 사용.",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": "63",
+        "bbox": [
+          285.6727272727273,
+          511.4909090909091,
+          476.54545454545456,
+          554.4363636363636
+        ],
+        "context_bbox": [
+          275.5272727272727,
+          479.41818181818184,
+          476.54545454545456,
+          554.4363636363636
+        ],
+        "kind": "pdf"
+      },
+      "quote_check": "source_compared",
+      "excerpt_kind": "footnote",
+      "transcription_method": "manual_visual",
+      "transcription_note": "Actual publisher scan visually transcribed and independently checked; raw OCR not used as approved quotation.",
+      "ocr_text_raw": "Nester E. TerIeckyj, Estimates Possibilities\nfor lmprovements in the QuaIit., of Life in the\nUnited States, 7977 ~ 7987, Wash.•ngton: National\nPIanning Association, 1973.",
+      "citation_type": "secondary",
+      "ocr_context_raw": "1) 미국에서의 노력은 다방면에 걸쳐서 이루어졌지만\n이 시대의 대표적인 저작 중에서 한 가지만 보기\n를 들면 다음과 같다.\nNester E. TerIeckyj, Estimates Possibilities\nfor lmprovements in the QuaIit., of Life in the\nUnited States, 7977 ~ 7987, Wash.•ngton: National\nPIanning Association, 1973.",
+      "footnote_marker": "1)",
+      "source_hash": "210078d553745a46953a6d291caef92e619ca7630b0447ce0379a80e36d0db36",
+      "pdf_review": {
+        "reviewer": "academic_twocol",
+        "verdict": "pass",
+        "timestamp": "2026-10-15T07:13:13.961445+00:00",
+        "rationale": "각주 1 영어 서지의 제목 끝은 1971 ~ 1981로 직접 읽힌다. 뒤의 출판연도 1973과 제목에 들어 있는 기간은 별개이다.",
+        "review_record": "tasks/review-scan/review.json",
+        "checked_features": [
+          "reading_order",
+          "context",
+          "negation",
+          "numbers",
+          "page_label",
+          "citation_status",
+          "footnote_marker"
+        ],
+        "proof": {
+          "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+          "dpi": 150,
+          "crop_sha256": "e195b526b128df7ebb591d2727c6f5073fed425735ffb5d21ffc5d602488baf3",
+          "pixel_sha256": "b67c8648ea70a7de8addb56757cb30db180ea695a6667723e434d8889bbc4c82",
+          "width": 419,
+          "height": 158,
+          "annotations": false,
+          "crop_path": "proofs/SCAN-E002.png"
+        },
+        "evidence_binding": "bb07fdb29f6fa5dd07e8590f4d175e3ab1c3e878170ad1fcf6e34610d418d846"
+      },
+      "hash": "c6a3c628a062fc6656917c298f4084423058c3cb6fd73833bccf277e27fa9734"
+    },
+    "SCAN-E003": {
+      "source_id": "SCAN-KIHASA-1994-14-2-62",
+      "author": "academic_scan",
+      "quote": "1960년",
+      "context": "왼쪽 열의 보고서 소개 문장은 1960년으로 시작한다. 이 판정은 이 논문 인쇄문자의 전사 정확성에 한하며 보고서의 실제 역사적 발행연도를 별도로 확증한 것은 아니다.",
+      "limits": "OCR는 1960을 1%0으로 인식했다. 역사적 사실 자체의 독립 검증이 아닌 원문 전사 시험이다. 원 OCR는 보존하고 독립 원본대조 후 정정된 선택 구절만 사용.",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": "63",
+        "bbox": [
+          48.4,
+          444.72727272727275,
+          250.07272727272726,
+          457.23636363636365
+        ],
+        "context_bbox": [
+          48.07272727272727,
+          444.72727272727275,
+          250.72727272727272,
+          537.0909090909091
+        ],
+        "kind": "pdf"
+      },
+      "quote_check": "source_compared",
+      "excerpt_kind": "prose",
+      "transcription_method": "manual_visual",
+      "transcription_note": "Actual publisher scan visually transcribed and independently checked; raw OCR not used as approved quotation.",
+      "ocr_text_raw": "1%0년 美國에서 『國家目標에 관한 大統領諮問",
+      "citation_type": "secondary",
+      "ocr_context_raw": "1%0년 美國에서 『國家目標에 관한 大統領諮問\n委員會의 報告書』(The Report of the President's\nCommission on National Goal)가 나은 것은 그\n러한 시대적 관심사의 표현이었다. 1964년에는\n존슨 대통령의 연설문에서도 언급되기에 이르렀\n다(SchuessIer & Fisher, 1985: 130).",
+      "source_hash": "210078d553745a46953a6d291caef92e619ca7630b0447ce0379a80e36d0db36",
+      "pdf_review": {
+        "reviewer": "academic_twocol",
+        "verdict": "pass",
+        "timestamp": "2026-10-15T07:13:14.179530+00:00",
+        "rationale": "왼쪽 열의 보고서 소개 문장은 1960년으로 시작한다. 이 판정은 이 논문 인쇄문자의 전사 정확성에 한하며 보고서의 실제 역사적 발행연도를 별도로 확증한 것은 아니다.",
+        "review_record": "tasks/review-scan/review.json",
+        "checked_features": [
+          "reading_order",
+          "context",
+          "negation",
+          "numbers",
+          "page_label",
+          "citation_status"
+        ],
+        "proof": {
+          "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+          "dpi": 150,
+          "crop_sha256": "13116f27ad5595e1b0701262ff63131c5fb4a74012a20033a196bcf3651adeaf",
+          "pixel_sha256": "e849b51ba0c72a190be4d0005557c5c99daece8bb6fc083c16b3a1fcaccc9495",
+          "width": 423,
+          "height": 193,
+          "annotations": false,
+          "crop_path": "proofs/SCAN-E003.png"
+        },
+        "evidence_binding": "47e1b4ac2c1581b7ba76afb47d0c23a4040a0dc93dd56263f70c2595ad3922ac"
+      },
+      "hash": "86ed58b56b942ddeac5136854fa55eab8fd6d3cacd92267982cf92d44209bd10"
+    }
+  },
+  "claims": {
+    "T1": {
+      "text": "이 논문은 접근성이 좋지 않은 위치에 도서관이 자리 잡는 경우가 발생했다고 서술한다.",
+      "author": "coordinator",
+      "evidence_ids": [
+        "TW-E001"
+      ],
+      "kind": "original-source-fidelity-test",
+      "hash": "fc9f8655e7181df8db7e860482a1906458daccaf71aa59eebe9e9a944fa1a9c5"
+    },
+    "T3": {
+      "text": "첫 쪽 별표 각주는 이 논문이 부산광역시의 2014년 기본계획 연구를 축약했다고 밝힌다.",
+      "author": "coordinator",
+      "evidence_ids": [
+        "TW-E002"
+      ],
+      "kind": "original-source-fidelity-test",
+      "hash": "eddf8a35a5c6826cf79945c12d90cb415ba0c88a24ae1fafa537ba641593aa0b"
+    },
+    "T5": {
+      "text": "표 1 증축 면적 행의 비중은 20%, 대지면적은 2,000㎡이다.",
+      "author": "coordinator",
+      "evidence_ids": [
+        "TW-E003"
+      ],
+      "kind": "original-source-fidelity-test",
+      "hash": "b6d2b25ea4942c4457c561cbb6e58f407be91361df7facb2901c05348070e2dc"
+    },
+    "T7": {
+      "text": "표 1 합계의 대지면적은 10,000㎡이다.",
+      "author": "coordinator",
+      "evidence_ids": [
+        "TW-E004"
+      ],
+      "kind": "original-source-fidelity-test",
+      "hash": "87a0ee23b829286f8636ef8162f30dd265248fbc0f97d150634056eea45393a4"
+    },
+    "S1": {
+      "text": "이 논문은 다른 문헌을 인용하면서 물질적 풍요와 높은 생활수준만으로 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개한다.",
+      "author": "coordinator",
+      "evidence_ids": [
+        "SCAN-E001"
+      ],
+      "kind": "original-source-fidelity-test",
+      "hash": "2c02830d23225759ab0a3e9fa3527a1d05953cb9727097c5a00b443f6f3e14b3"
+    },
+    "S3": {
+      "text": "각주 1에 적힌 영어 서지 제목에는 1971~1981이라는 기간이 들어 있다.",
+      "author": "coordinator",
+      "evidence_ids": [
+        "SCAN-E002"
+      ],
+      "kind": "original-source-fidelity-test",
+      "hash": "b110ecfcac6788c7983651618e294f7416f71d5ed1e96ff231c6eb12b60dd11c"
+    },
+    "S5": {
+      "text": "본문 왼쪽 열에서 미국의 보고서를 소개하는 문장의 연도는 1960년이다.",
+      "author": "coordinator",
+      "evidence_ids": [
+        "SCAN-E003"
+      ],
+      "kind": "original-source-fidelity-test",
+      "hash": "fe4d18dd26b51e57613050c29097e7d2e36d40c1f7df02c6bd5bd7e1dcc46162"
+    }
+  },
+  "paragraphs": {},
+  "approvals": {},
+  "tasks": {
+    "twocol": {
+      "research_id": "academic-pdf-validation",
+      "task_id": "twocol",
+      "role": "source-extraction-validation",
+      "input_version": 16,
+      "artifact_paths": [
+        "tasks/twocol/article.pdf",
+        "tasks/twocol/build_record.py",
+        "tasks/twocol/evidence-candidates.json",
+        "tasks/twocol/extraction.json",
+        "tasks/twocol/handoff.json",
+        "tasks/twocol/page1.png",
+        "tasks/twocol/page13.png",
+        "tasks/twocol/page2.png",
+        "tasks/twocol/page4.png",
+        "tasks/twocol/REPORT.md",
+        "tasks/twocol/text.txt",
+        "tasks/twocol/TW-E001.png",
+        "tasks/twocol/TW-E002.png",
+        "tasks/twocol/TW-E003.png",
+        "tasks/twocol/TW-E004.png"
+      ],
+      "paper_ids": [
+        "TW-P001"
+      ],
+      "evidence_ids": [
+        "TW-E001",
+        "TW-E002",
+        "TW-E003",
+        "TW-E004"
+      ],
+      "unresolved": [
+        "Whole-document semantic validation and original cited works outside this selected-source fidelity test."
+      ],
+      "verification_status": "pass",
+      "next_task": "source fidelity validation complete; original OCR errors retained",
+      "assigned_input_version": "installed-skill-before-current-turn-fixes",
+      "reconciliation_note": "Original task-local handoff used noncanonical keys/status/version. Coordinator retained it, reconciled IDs and selected independently checked source regions against ledger version 16 and rechecked source/proof hashes. This is validation completion, not manuscript or raw OCR approval.",
+      "original_handoff_path": "tasks/twocol/handoff.json",
+      "artifact_hashes": {
+        "tasks/twocol/article.pdf": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+        "tasks/twocol/build_record.py": "45caf0283fd0fad0e107752926994692d1f7451931a4d9a2cd7c37f171269f74",
+        "tasks/twocol/evidence-candidates.json": "59540ded53ae35e60a40ffde48d6e73c94a593b5e3f29f8538b48186748335cf",
+        "tasks/twocol/extraction.json": "ac3a73703d46dd28d0be39f30574bfeed77ae1b7601997c02e96a1ed1247644a",
+        "tasks/twocol/handoff.json": "f46633be4301170bb18c83146e4772fbb573965695f7fe8bc7a0f9165633057c",
+        "tasks/twocol/page1.png": "74c5fc4c33e9333c995b80b1627763db8dafe7d2005126539ec39d6ad700fd28",
+        "tasks/twocol/page13.png": "0d6d5d4e31bdf0162095f96196d1e67baa3e1bab1ba600f426f12d8e0ffbb0c9",
+        "tasks/twocol/page2.png": "10019c0e093a5abadf828da4d6aba9ffad46d48c5a6e887631929c23d34567c8",
+        "tasks/twocol/page4.png": "622efa5a2d49cd2f450336feab5df46d8bc202fcdc02102529f30939e545b57f",
+        "tasks/twocol/REPORT.md": "1e6304c402a9498fa0dc93633e48f5e660a918b0a0ed80840d0f6e419f07a3c5",
+        "tasks/twocol/text.txt": "e28df4bb6ad7671f0893153ee216cc4a1d3f90effe08886266ac6b4fa7b2ce0f",
+        "tasks/twocol/TW-E001.png": "24ffad86104eb5fa78e752496a943adde0e1f6ed6bbb2fb3621531a6b1add7d8",
+        "tasks/twocol/TW-E002.png": "4f73c9fca5c1fe8f818e6561c2c231743095b256dc73b4b1504929ed57e55704",
+        "tasks/twocol/TW-E003.png": "1f32f01b8d73667aaf0ede2166f4070f112e6374e6fa586950c2348ba7f5d728",
+        "tasks/twocol/TW-E004.png": "11528ef148fd5a430de429bccd9c1d2601deacae78e8f9e441d8e5b797c53d44"
+      },
+      "status": "completed",
+      "committed_at": "2026-10-15T07:17:48.233653+00:00"
+    },
+    "scan": {
+      "research_id": "academic-pdf-validation",
+      "task_id": "scan",
+      "role": "source-extraction-validation",
+      "input_version": 16,
+      "artifact_paths": [
+        "tasks/scan/article.pdf",
+        "tasks/scan/build_record.py",
+        "tasks/scan/contact.png",
+        "tasks/scan/evidence-candidates.json",
+        "tasks/scan/handoff.json",
+        "tasks/scan/ocr-page2.json",
+        "tasks/scan/page1.png",
+        "tasks/scan/page2.png",
+        "tasks/scan/parsed.json",
+        "tasks/scan/REPORT.md",
+        "tasks/scan/SCAN-E001.png",
+        "tasks/scan/SCAN-E002.png",
+        "tasks/scan/SCAN-E003.png",
+        "tasks/scan/search-log.json"
+      ],
+      "paper_ids": [
+        "SCAN-KIHASA-1994-14-2-62"
+      ],
+      "evidence_ids": [
+        "SCAN-E001",
+        "SCAN-E002",
+        "SCAN-E003"
+      ],
+      "unresolved": [
+        "Whole-document semantic validation and original cited works outside this selected-source fidelity test."
+      ],
+      "verification_status": "pass",
+      "next_task": "source fidelity validation complete; original OCR errors retained",
+      "assigned_input_version": "source sha256 ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+      "reconciliation_note": "Original task-local handoff used noncanonical keys/status/version. Coordinator retained it, reconciled IDs and selected independently checked source regions against ledger version 16 and rechecked source/proof hashes. This is validation completion, not manuscript or raw OCR approval.",
+      "original_handoff_path": "tasks/scan/handoff.json",
+      "artifact_hashes": {
+        "tasks/scan/article.pdf": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+        "tasks/scan/build_record.py": "3fe0642b31b546b950c20d0193df128e015775aad4847f766203c1775289ae2b",
+        "tasks/scan/contact.png": "f158b4314862e420eaac5ce00767fb135f59016bc18776ae261e7406a0b269c3",
+        "tasks/scan/evidence-candidates.json": "0ebfdfc65fa291a2b3864d5e63cc87936524662a85aac9e1b59c85ce34193097",
+        "tasks/scan/handoff.json": "eb32986ab1e777b695cfe6c58c0a358831fae9697a6ec8aa1662032217603a37",
+        "tasks/scan/ocr-page2.json": "2b0fc715f80903d12641a28deaf2c069b7aa3a1726172623a1cf04677decbdb9",
+        "tasks/scan/page1.png": "366568a410eaa1741a0d53387866e91ffc3af44a59af4ad63d585a064a3f468d",
+        "tasks/scan/page2.png": "0ae638167b67775e7385b5da82eb45c06dd7fdc160465b3653acc1189e3681e4",
+        "tasks/scan/parsed.json": "347b9eff40f7bbb9a0428a79c9d6d294adfb237cbd4a518d29233130f3d006dc",
+        "tasks/scan/REPORT.md": "6e7be996fc8922013849ce14e742732e2befe2b98ce2bc06b668f15e88ae0ad0",
+        "tasks/scan/SCAN-E001.png": "42e93cbdc43d728449289c9ec016595e55ffcc892f6d2e7ce195fd2e69d961e0",
+        "tasks/scan/SCAN-E002.png": "8f70fee3437b46b68ac60c26f3ceec09debf9488c93215392b6a688b0d6478e9",
+        "tasks/scan/SCAN-E003.png": "495d4fba194f45dbd0f5ade4acea27fa7a93483add4c29a74615c4661143577e",
+        "tasks/scan/search-log.json": "d3ab0bd923d144cbe616f268e5e86f5040ea4c5c3afa07335ef32bd82fbd9610"
+      },
+      "status": "completed",
+      "committed_at": "2026-10-15T07:17:49.120189+00:00"
+    },
+    "review-twocol": {
+      "research_id": "academic-pdf-validation",
+      "task_id": "review-twocol",
+      "role": "independent-review",
+      "input_version": 16,
+      "artifact_paths": [
+        "tasks/review-twocol/handoff.json",
+        "tasks/review-twocol/packet.json",
+        "tasks/review-twocol/page1.png",
+        "tasks/review-twocol/page2.png",
+        "tasks/review-twocol/page4.png",
+        "tasks/review-twocol/review.json",
+        "tasks/review-twocol/write_review.py"
+      ],
+      "paper_ids": [
+        "TW-P001"
+      ],
+      "evidence_ids": [
+        "TW-E001",
+        "TW-E002",
+        "TW-E003",
+        "TW-E004"
+      ],
+      "unresolved": [
+        "Whole-document semantic validation and original cited works outside this selected-source fidelity test."
+      ],
+      "verification_status": "pass",
+      "next_task": "source fidelity validation complete; original OCR errors retained",
+      "assigned_input_version": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "reconciliation_note": "Original task-local handoff used noncanonical keys/status/version. Coordinator retained it, reconciled IDs and selected independently checked source regions against ledger version 16 and rechecked source/proof hashes. This is validation completion, not manuscript or raw OCR approval.",
+      "original_handoff_path": "tasks/review-twocol/handoff.json",
+      "artifact_hashes": {
+        "tasks/review-twocol/handoff.json": "02e1e582ee1e9663008f607d5abbfca618a7f2c4653cac8654f969fd5891947f",
+        "tasks/review-twocol/packet.json": "0521b74b39a314d3319f39500d5d43e4553d044697b85eca4d1033f979e6ea03",
+        "tasks/review-twocol/page1.png": "dc941f988bbe220e58ae6ccbb695d2f5e57a4be782ba6262dd49d9c758ddd03b",
+        "tasks/review-twocol/page2.png": "609b7e59e7c965e660195b21a4349f6d825412215972bf944ddf35bf5bdd8bb2",
+        "tasks/review-twocol/page4.png": "9d2619ed548ebdd13b88ba5f4176dda66453573092b3b38d929efa1b3dec95b9",
+        "tasks/review-twocol/review.json": "a83b81018e161f8325f9c5d56650acb129c2ddb4702c576be4e9108f4d055e03",
+        "tasks/review-twocol/write_review.py": "12f68111cebe02f2b5ee6ca134f637aa756912472bb458fc2dff5d9029b986bd"
+      },
+      "status": "completed",
+      "committed_at": "2026-10-15T07:17:49.802064+00:00"
+    },
+    "review-scan": {
+      "research_id": "academic-pdf-validation",
+      "task_id": "review-scan",
+      "role": "independent-review",
+      "input_version": 16,
+      "artifact_paths": [
+        "tasks/review-scan/build_review.py",
+        "tasks/review-scan/footnote.png",
+        "tasks/review-scan/handoff.json",
+        "tasks/review-scan/negation.png",
+        "tasks/review-scan/packet.json",
+        "tasks/review-scan/page1.png",
+        "tasks/review-scan/page2.png",
+        "tasks/review-scan/review.json",
+        "tasks/review-scan/year.png"
+      ],
+      "paper_ids": [
+        "SCAN-KIHASA-1994-14-2-62"
+      ],
+      "evidence_ids": [
+        "SCAN-E001",
+        "SCAN-E002",
+        "SCAN-E003"
+      ],
+      "unresolved": [
+        "Whole-document semantic validation and original cited works outside this selected-source fidelity test."
+      ],
+      "verification_status": "pass",
+      "next_task": "source fidelity validation complete; original OCR errors retained",
+      "assigned_input_version": {
+        "packet_sha256": "4abe6663cee84a2fb68409e47395ab3e6fc4f06d6bd7289442fc5417ac1adc74",
+        "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867"
+      },
+      "reconciliation_note": "Original task-local handoff used noncanonical keys/status/version. Coordinator retained it, reconciled IDs and selected independently checked source regions against ledger version 16 and rechecked source/proof hashes. This is validation completion, not manuscript or raw OCR approval.",
+      "original_handoff_path": "tasks/review-scan/handoff.json",
+      "artifact_hashes": {
+        "tasks/review-scan/build_review.py": "1397b5abff0e055a67eba67bf29e931be31b65d1448106c6f7133d8e555af499",
+        "tasks/review-scan/footnote.png": "dbb87d0f8ff03d1cb6ce35bc23d22bec30d380b693dec77e7bf3a873a4e966aa",
+        "tasks/review-scan/handoff.json": "28250b0c1ee2dc34748a0705b09f52c6d5f814d7ae9bf6b47988f5abf4902976",
+        "tasks/review-scan/negation.png": "81881f182a1d6e5c3c167e60c715f88f58f785fb8d3483bdeef56b4c9b508541",
+        "tasks/review-scan/packet.json": "4abe6663cee84a2fb68409e47395ab3e6fc4f06d6bd7289442fc5417ac1adc74",
+        "tasks/review-scan/page1.png": "27e5b2fa5b4c0d10f98ceaa1c7133bd9399d447bb24b12db97b5f283b2363d0f",
+        "tasks/review-scan/page2.png": "89d8a2875efe41cc1b8af3f74f91e24610197cd78816596ef482a969dcb4a438",
+        "tasks/review-scan/review.json": "a5cec68880339e4479d6019ca2046b0dacc5f56a42530e8858f4e7dca90c3cd5",
+        "tasks/review-scan/year.png": "ed2d5054e3bba8c0f60aaa5063eadfe1a6e1fcf33d64a6d9f3fd2d16b22af147"
+      },
+      "status": "completed",
+      "committed_at": "2026-10-15T07:17:50.739741+00:00"
+    }
+  },
+  "commits": {
+    "twocol": "0000bfe18e5665d0e1be23b99a211056dafd933bcda614df37246a2f456cb118",
+    "scan": "084fda360a03ee80493b710448b5613ea9eac171eb62e23e283762d72606ad54",
+    "review-twocol": "183ef737e651ee63873c79eb7669aab481e3a0b5cb6e325d1a701c172be07a9e",
+    "review-scan": "5478fa1336480ba5b8c5c6400f4d4ab324e727aafed97e446aa28e0f9222a61f"
+  },
+  "repairs": {},
+  "reviews": {
+    "T1": {
+      "reviewer": "academic_scan",
+      "verdict": "pass",
+      "rationale": "오른쪽 본문 부정 표현과 일부 경우 발생이라는 원문 범위에 부합한다.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "fc9f8655e7181df8db7e860482a1906458daccaf71aa59eebe9e9a944fa1a9c5",
+      "version": 16,
+      "timestamp": "2026-10-15T07:13:14.529034+00:00",
+      "review_record": {
+        "reviewer": "academic_scan",
+        "verdict": "pass",
+        "rationale": "오른쪽 본문 부정 표현과 일부 경우 발생이라는 원문 범위에 부합한다."
+      }
+    },
+    "T3": {
+      "reviewer": "academic_scan",
+      "verdict": "pass",
+      "rationale": "첫 번째 별표(*) 각주를 이미지로 확인했다. 2014년 연구 축약을 명시한다.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "eddf8a35a5c6826cf79945c12d90cb415ba0c88a24ae1fafa537ba641593aa0b",
+      "version": 16,
+      "timestamp": "2026-10-15T07:13:14.987401+00:00",
+      "review_record": {
+        "reviewer": "academic_scan",
+        "verdict": "pass",
+        "rationale": "첫 번째 별표(*) 각주를 이미지로 확인했다. 2014년 연구 축약을 명시한다."
+      }
+    },
+    "T5": {
+      "reviewer": "academic_scan",
+      "verdict": "pass",
+      "rationale": "표1의 열 머리글 구분/비중/대지면적과 증축 면적 행을 교차 확인했다. 두 값과 단위가 모두 맞다.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "b6d2b25ea4942c4457c561cbb6e58f407be91361df7facb2901c05348070e2dc",
+      "version": 16,
+      "timestamp": "2026-10-15T07:13:15.406195+00:00",
+      "review_record": {
+        "reviewer": "academic_scan",
+        "verdict": "pass",
+        "rationale": "표1의 열 머리글 구분/비중/대지면적과 증축 면적 행을 교차 확인했다. 두 값과 단위가 모두 맞다."
+      }
+    },
+    "T7": {
+      "reviewer": "academic_scan",
+      "verdict": "pass",
+      "rationale": "표1 합계 행의 대지면적 값과 제곱미터 단위를 확인했다.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "87a0ee23b829286f8636ef8162f30dd265248fbc0f97d150634056eea45393a4",
+      "version": 16,
+      "timestamp": "2026-10-15T07:13:15.641838+00:00",
+      "review_record": {
+        "reviewer": "academic_scan",
+        "verdict": "pass",
+        "rationale": "표1 합계 행의 대지면적 값과 제곱미터 단위를 확인했다."
+      }
+    },
+    "S1": {
+      "reviewer": "academic_twocol",
+      "verdict": "pass",
+      "rationale": "원문은 물질적 풍요와 높은 생활수준을 성취하더라도 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개하며 단락 끝에 (김동일·경철인, 1980: 96)을 표시한다. 다른 문헌에 기대어 소개한다는 범위와 가능성 표현을 유지한 주장이다.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "2c02830d23225759ab0a3e9fa3527a1d05953cb9727097c5a00b443f6f3e14b3",
+      "version": 16,
+      "timestamp": "2026-10-15T07:13:16.073529+00:00",
+      "review_record": {
+        "reviewer": "academic_twocol",
+        "verdict": "pass",
+        "rationale": "원문은 물질적 풍요와 높은 생활수준을 성취하더라도 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개하며 단락 끝에 (김동일·경철인, 1980: 96)을 표시한다. 다른 문헌에 기대어 소개한다는 범위와 가능성 표현을 유지한 주장이다."
+      }
+    },
+    "S3": {
+      "reviewer": "academic_twocol",
+      "verdict": "pass",
+      "rationale": "각주 1 영어 서지의 제목 끝은 1971 ~ 1981로 직접 읽힌다. 뒤의 출판연도 1973과 제목에 들어 있는 기간은 별개이다.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "b110ecfcac6788c7983651618e294f7416f71d5ed1e96ff231c6eb12b60dd11c",
+      "version": 16,
+      "timestamp": "2026-10-15T07:13:16.568999+00:00",
+      "review_record": {
+        "reviewer": "academic_twocol",
+        "verdict": "pass",
+        "rationale": "각주 1 영어 서지의 제목 끝은 1971 ~ 1981로 직접 읽힌다. 뒤의 출판연도 1973과 제목에 들어 있는 기간은 별개이다."
+      }
+    },
+    "S5": {
+      "reviewer": "academic_twocol",
+      "verdict": "pass",
+      "rationale": "왼쪽 열의 보고서 소개 문장은 1960년으로 시작한다. 이 판정은 이 논문 인쇄문자의 전사 정확성에 한하며 보고서의 실제 역사적 발행연도를 별도로 확증한 것은 아니다.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "fe4d18dd26b51e57613050c29097e7d2e36d40c1f7df02c6bd5bd7e1dcc46162",
+      "version": 16,
+      "timestamp": "2026-10-15T07:13:17.042988+00:00",
+      "review_record": {
+        "reviewer": "academic_twocol",
+        "verdict": "pass",
+        "rationale": "왼쪽 열의 보고서 소개 문장은 1960년으로 시작한다. 이 판정은 이 논문 인쇄문자의 전사 정확성에 한하며 보고서의 실제 역사적 발행연도를 별도로 확증한 것은 아니다."
+      }
+    }
+  },
+  "outline": null,
+  "research_question": null,
+  "paragraph_reviews": {}
+}

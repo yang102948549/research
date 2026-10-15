@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.validation-deps/
+.env
+.env.*
+*.bundle

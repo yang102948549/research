@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-10-15T07:20:13.521445+00:00",
+  "tests_run": 61,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "pass": true,
+  "approval_scope": "Synthetic test records only; no actual research approval granted",
+  "covered": [
+    "identifier mismatch",
+    "abstract exclusion",
+    "XML exact locator quote",
+    "version invalidation",
+    "separate claim and paragraph review",
+    "handoff integrity",
+    "bounded repair",
+    "resume",
+    "KCI mocked errors pagination redaction",
+    "HWPX structural/text roundtrip",
+    "bibliography consistency"
+  ],
+  "not_validated_by_unit_suite": [
+    "live KCI authentication/schema",
+    "Korean two-column PDF visual reading",
+    "scan OCR",
+    "rendered HWPX appearance",
+    "real research end-to-end after both approvals"
+  ]
+}

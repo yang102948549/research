@@ -1,0 +1,22 @@
+{
+  "structure": "pass",
+  "text_roundtrip": "pass",
+  "visual_review": "not_performed",
+  "schema_validation": "not_performed",
+  "scope": "ZIP/XML/package links and exact text; not full standard conformity or render proof",
+  "ledger_version": 16,
+  "citation_reference_match": "pass",
+  "cited_source_ids": [
+    "S001"
+  ],
+  "submission_ready": false,
+  "template_conversion": "Bundled blank HWPX section/page properties retained; text inserted as XML; ZIP/XML and exact re-extraction checked; no rendering or full schema proof",
+  "files": {
+    "manuscript.hwpx": "0faa5edf70c5255b4335e8eac5e54cda8d0d17bed1c132124b09bba453672af5",
+    "manuscript.md": "2ee4811889b238de3b5eac0fe0bdedcfcb646915abfda44d727cf99426ecc31a",
+    "evidence.csv": "8ca1c87325f653141a771a99214fc4d1232828dc3c1b75b97fdb75f316d32277",
+    "references.bib": "6004c659c165755b87fdd3baab0b19b7710c2038837718162960e6cbad009bcd",
+    "references.csl.json": "6a252137883480c355981ca08c875aa7a7f922f7535e70471e9e64535ff66ba5",
+    "manuscript-trace.json": "2cca274f2e769d1e5b5aa685edefc745a6546c800a2e600f97f4ee80726de83c"
+  }
+}

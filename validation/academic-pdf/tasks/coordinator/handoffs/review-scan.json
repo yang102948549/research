@@ -1,0 +1,47 @@
+{
+  "research_id": "academic-pdf-validation",
+  "task_id": "review-scan",
+  "role": "independent-review",
+  "input_version": 16,
+  "artifact_paths": [
+    "tasks/review-scan/build_review.py",
+    "tasks/review-scan/footnote.png",
+    "tasks/review-scan/handoff.json",
+    "tasks/review-scan/negation.png",
+    "tasks/review-scan/packet.json",
+    "tasks/review-scan/page1.png",
+    "tasks/review-scan/page2.png",
+    "tasks/review-scan/review.json",
+    "tasks/review-scan/year.png"
+  ],
+  "paper_ids": [
+    "SCAN-KIHASA-1994-14-2-62"
+  ],
+  "evidence_ids": [
+    "SCAN-E001",
+    "SCAN-E002",
+    "SCAN-E003"
+  ],
+  "unresolved": [
+    "Whole-document semantic validation and original cited works outside this selected-source fidelity test."
+  ],
+  "verification_status": "pass",
+  "next_task": "source fidelity validation complete; original OCR errors retained",
+  "assigned_input_version": {
+    "packet_sha256": "4abe6663cee84a2fb68409e47395ab3e6fc4f06d6bd7289442fc5417ac1adc74",
+    "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867"
+  },
+  "reconciliation_note": "Original task-local handoff used noncanonical keys/status/version. Coordinator retained it, reconciled IDs and selected independently checked source regions against ledger version 16 and rechecked source/proof hashes. This is validation completion, not manuscript or raw OCR approval.",
+  "original_handoff_path": "tasks/review-scan/handoff.json",
+  "artifact_hashes": {
+    "tasks/review-scan/build_review.py": "1397b5abff0e055a67eba67bf29e931be31b65d1448106c6f7133d8e555af499",
+    "tasks/review-scan/footnote.png": "dbb87d0f8ff03d1cb6ce35bc23d22bec30d380b693dec77e7bf3a873a4e966aa",
+    "tasks/review-scan/handoff.json": "28250b0c1ee2dc34748a0705b09f52c6d5f814d7ae9bf6b47988f5abf4902976",
+    "tasks/review-scan/negation.png": "81881f182a1d6e5c3c167e60c715f88f58f785fb8d3483bdeef56b4c9b508541",
+    "tasks/review-scan/packet.json": "4abe6663cee84a2fb68409e47395ab3e6fc4f06d6bd7289442fc5417ac1adc74",
+    "tasks/review-scan/page1.png": "27e5b2fa5b4c0d10f98ceaa1c7133bd9399d447bb24b12db97b5f283b2363d0f",
+    "tasks/review-scan/page2.png": "89d8a2875efe41cc1b8af3f74f91e24610197cd78816596ef482a969dcb4a438",
+    "tasks/review-scan/review.json": "a5cec68880339e4479d6019ca2046b0dacc5f56a42530e8858f4e7dca90c3cd5",
+    "tasks/review-scan/year.png": "ed2d5054e3bba8c0f60aaa5063eadfe1a6e1fcf33d64a6d9f3fd2d16b22af147"
+  }
+}

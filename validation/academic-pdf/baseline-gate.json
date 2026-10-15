@@ -1,0 +1,7 @@
+{
+  "scope": "Pre-fix installed PDF evidence gate only; no user approval or manuscript generated",
+  "control": "invented quote, nonexistent page 9999, no bbox or original-image review",
+  "errors": [],
+  "incorrectly_accepted": true,
+  "pre_fix_workflow_sha256": "3405c4b05e78e02364a820c1bbe26f8f89033c8c2db999f34cfe92f4ae28f203"
+}

@@ -1,0 +1,104 @@
+{
+  "reviewer_id": "manuscript_verify",
+  "research_id": "pilot-kross-2013",
+  "input_version": 16,
+  "source_file_hash": "57af401c1c177c919fa770f1fc88392bc79ee20190328dfab6d4354934a76291",
+  "ledger_file_hash": "8d41386bb09dba2c055fed1bee08b47908cd88726db1c63aed34d379b6d915e8",
+  "timestamp": "2026-10-15T06:27:02.3732921+00:00",
+  "review_kind": "agent_reviewed",
+  "human_reviewed": false,
+  "independence": "Reviewer did not draft these paragraphs. Separate agent review does not guarantee full methodological or model independence.",
+  "scope": "Read original JATS front matter and body, E001-E004, C001-C004 and P001-P005. No new web lookup or new evidence added.",
+  "evidence_checks": [
+    {
+      "id": "E001",
+      "verdict": "pass",
+      "locator": "//sec[@id='s2c2']/p[1]",
+      "quote_exact": true,
+      "context_exact": true
+    },
+    {
+      "id": "E002",
+      "verdict": "pass",
+      "locator": "//sec[@id='s4']/p[1]",
+      "quote_exact": true,
+      "context_exact": true
+    },
+    {
+      "id": "E003",
+      "verdict": "pass",
+      "locator": "//sec[@id='s4a']/p[3]",
+      "quote_exact": true,
+      "context_exact": true
+    },
+    {
+      "id": "E004",
+      "verdict": "pass",
+      "locator": "//sec[@id='s4a']/p[1]",
+      "quote_exact": true,
+      "context_exact": true
+    }
+  ],
+  "reference_check": {
+    "verdict": "pass",
+    "rationale": "Original front matter matches title, ordered nine authors, year 2013, PLoS ONE, volume 8, issue 8, e69841 and DOI 10.1371/journal.pone.0069841. Reference text, CSL and BibTeX agree substantively. No independent Crossref recheck performed."
+  },
+  "claims": [
+    {
+      "id": "C001",
+      "verdict": "pass",
+      "rationale": "Exact E001 at s2c2/p[1] supports fourteen days and five daily text messages. Wording describes sampling without treating randomized message timing as intervention assignment."
+    },
+    {
+      "id": "C002",
+      "verdict": "pass",
+      "rationale": "Exact E002 at s4/p[1] reports the original authors' own result. Korean wording preserves prediction and attribution. Results s3c1 and s3c2 distinguish affect and baseline-controlled life satisfaction; summary asserts neither identical timescales nor universal causality."
+    },
+    {
+      "id": "C003",
+      "verdict": "pass",
+      "rationale": "E003 is an exact substring of s4a/p[3]. Context calls for manipulation experiments to corroborate findings and establish definitive causal relations. Translation neither says experiments already occurred nor denies temporal information from observations."
+    },
+    {
+      "id": "C004",
+      "verdict": "pass",
+      "rationale": "Exact E004 and full context at s4a/p[1] identify young-adult focus and unresolved extension to other ages. Claim correctly calls for examination without asserting absence of association elsewhere."
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "P001",
+      "verdict": "pass",
+      "rationale": "Empirical sentence is supported by C001/E001. Opening and closing define this review's scope, not external findings. No randomized intervention is implied."
+    },
+    {
+      "id": "P002",
+      "verdict": "pass",
+      "rationale": "First sentence faithfully summarizes C002/E002. Last sentence rejects an inference of identical effects for every user, without claiming proven heterogeneity or failed replication. This is a justified authorial scope caution, not a new empirical finding. C002 alone does not identify groups that differ; reviewed E004 context leaves other ages unresolved, and s2a identifies a young-adult sample. Do not recast this caution as an original-author quotation or proof that effects differ across all users."
+    },
+    {
+      "id": "P003",
+      "verdict": "pass",
+      "rationale": "Expanded paraphrase includes corroborating findings, explicitly present in E003 context. Final sentence states this review's decision not to convert prediction into definitive causation and preserves the original distinction."
+    },
+    {
+      "id": "P004",
+      "verdict": "pass",
+      "rationale": "C004/E004 supports additional age-group examination. Final sentence correctly distinguishes unresolved generalization from demonstrated absence of the relationship elsewhere; it introduces no unsupported negative result."
+    },
+    {
+      "id": "P005",
+      "verdict": "pass",
+      "rationale": "Separate causal and age-generalization requirements track C003/E003 and C004/E004. Final sentence is normative interpretive guidance, not a new empirical result. Opening is read within this approved review's two focal questions, not as an exhaustive limitations inventory. Reviewed s4a also raises mechanisms/other networks and s4b effect size/affect measurement. Paragraph does not say these are the only limitations or that presenting them guarantees all conclusions are valid."
+    }
+  ],
+  "overall_verdict": "pass",
+  "unresolved": [],
+  "limitations": [
+    "Agent review only; no human citation review or full-independence guarantee.",
+    "Single-source pilot; no systematic literature review or comprehensive correction/retraction check.",
+    "Original JATS text reviewed; no PDF visual check, supplemental-data replication or statistical reanalysis.",
+    "Export must preserve author-year citation alignment. Review applies to ledger version 16, not a rendered HWPX.",
+    "P002 scope caution and P005 guidance remain manuscript-author interpretations, not directly demonstrated original empirical findings."
+  ]
+}

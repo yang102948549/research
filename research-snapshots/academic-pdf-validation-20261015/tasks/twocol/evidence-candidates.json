@@ -1,0 +1,134 @@
+[
+  {
+    "evidence_id": "TW-E001",
+    "paper_id": "TW-P001",
+    "type": "negation",
+    "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+    "locator": {
+      "kind": "pdf",
+      "pdf_page": 2,
+      "printed_page": 292,
+      "bbox": [
+        308,
+        564,
+        502,
+        599
+      ],
+      "printed_page_note": "visible running page label inspected"
+    },
+    "original_visual_transcription": "도서관들이 접근성이 좋지 않은 위치에 자리 잡게 되는 경우들이 발생한 것 또한 사실이다. 이",
+    "extracted_text": "도서관들이 접근성이 좋지 않은 위치에 자리 잡\n게 되는 경우들이 발생한 것 또한 사실이다. 이\n",
+    "normalized_exact_match": true,
+    "interpretation": "접근성이 좋지 않은 위치에 자리 잡는 경우가 발생했다는 저자의 서술",
+    "translation": null,
+    "negative_control_claim": "접근성이 좋은 위치에 자리 잡았다는 반대 주장",
+    "source_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\twocol\\TW-E001.png",
+    "review": {
+      "reviewer": "academic_twocol",
+      "visual_checked": true,
+      "semantic_expected_for_original": "pass",
+      "semantic_expected_for_mutant": "revise",
+      "human_reviewed": false
+    },
+    "limits": "A selected local excerpt test, not approval of complete paper or generalized conclusion. Footnote is a first-page provenance footnote, not a long discursive footnote."
+  },
+  {
+    "evidence_id": "TW-E002",
+    "paper_id": "TW-P001",
+    "type": "footnote",
+    "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+    "locator": {
+      "kind": "pdf",
+      "pdf_page": 1,
+      "printed_page": null,
+      "bbox": [
+        98,
+        650,
+        490,
+        662
+      ],
+      "printed_page_note": "first page has no visible running page label; journal metadata starts at 291"
+    },
+    "original_visual_transcription": "* 이 논문은 부산대표도서관 건립 기본계획 연구(부산광역시, 2014)를 축약한 것임.",
+    "extracted_text": "*\n이 논문은 부산대표도서관 건립 기본계획 연구(부산광역시, 2014)를 축약한 것임.\n",
+    "normalized_exact_match": true,
+    "interpretation": "논문 첫 쪽 별표 각주가 2014년 기본계획 연구의 축약임을 명시한다.",
+    "translation": null,
+    "negative_control_claim": "논문이 2014년 연구와 무관한 독립 연구라는 주장",
+    "source_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\twocol\\TW-E002.png",
+    "review": {
+      "reviewer": "academic_twocol",
+      "visual_checked": true,
+      "semantic_expected_for_original": "pass",
+      "semantic_expected_for_mutant": "revise",
+      "human_reviewed": false
+    },
+    "limits": "A selected local excerpt test, not approval of complete paper or generalized conclusion. Footnote is a first-page provenance footnote, not a long discursive footnote."
+  },
+  {
+    "evidence_id": "TW-E003",
+    "paper_id": "TW-P001",
+    "type": "table_cell",
+    "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+    "locator": {
+      "kind": "pdf",
+      "pdf_page": 4,
+      "printed_page": 294,
+      "bbox": [
+        145,
+        405,
+        280,
+        417
+      ],
+      "printed_page_note": "visible running page label inspected"
+    },
+    "original_visual_transcription": "증축 면적 20% 2,000㎡",
+    "extracted_text": "증축 면적\n 20%\n 2,000㎡\n",
+    "normalized_exact_match": true,
+    "interpretation": "표 1의 증축 면적 행은 비중 20%, 대지면적 2,000㎡이다.",
+    "translation": null,
+    "negative_control_claim": "증축 면적이 30%, 3,000㎡라는 주장",
+    "source_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\twocol\\TW-E003.png",
+    "review": {
+      "reviewer": "academic_twocol",
+      "visual_checked": true,
+      "semantic_expected_for_original": "pass",
+      "semantic_expected_for_mutant": "revise",
+      "human_reviewed": false
+    },
+    "limits": "A selected local excerpt test, not approval of complete paper or generalized conclusion. Footnote is a first-page provenance footnote, not a long discursive footnote."
+  },
+  {
+    "evidence_id": "TW-E004",
+    "paper_id": "TW-P001",
+    "type": "table_total",
+    "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+    "locator": {
+      "kind": "pdf",
+      "pdf_page": 4,
+      "printed_page": 294,
+      "bbox": [
+        130,
+        467,
+        280,
+        480
+      ],
+      "printed_page_note": "visible running page label inspected"
+    },
+    "original_visual_transcription": "합 계 100% 10,000㎡",
+    "extracted_text": "합 계\n100%\n10,000㎡\n",
+    "normalized_exact_match": true,
+    "interpretation": "표 1 합계는 비중 100%, 대지면적 10,000㎡이다.",
+    "translation": null,
+    "negative_control_claim": "합계 1,000㎡라는 주장",
+    "source_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\twocol\\TW-E004.png",
+    "review": {
+      "reviewer": "academic_twocol",
+      "visual_checked": true,
+      "semantic_expected_for_original": "pass",
+      "semantic_expected_for_mutant": "revise",
+      "human_reviewed": false
+    },
+    "limits": "A selected local excerpt test, not approval of complete paper or generalized conclusion. Footnote is a first-page provenance footnote, not a long discursive footnote."
+  }
+]

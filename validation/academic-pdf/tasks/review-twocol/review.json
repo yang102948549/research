@@ -1,0 +1,310 @@
+{
+  "research_id": "academic-pdf-validation",
+  "task_id": "review-twocol",
+  "reviewer": "academic_scan",
+  "independence": "Reviewer did not collect this paper and did not read twocol evidence-candidates.json or REPORT.md. Same underlying model role separation is not full methodological independence.",
+  "source": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\twocol\\article.pdf",
+  "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+  "scope": "Source fidelity test, not independent verification of cited historical facts.",
+  "reviews": [
+    {
+      "case_id": "T1",
+      "claim": "이 논문은 접근성이 좋지 않은 위치에 도서관이 자리 잡는 경우가 발생했다고 서술한다.",
+      "verdict": "pass",
+      "rationale": "오른쪽 본문 부정 표현과 일부 경우 발생이라는 원문 범위에 부합한다.",
+      "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": "292",
+        "bbox": [
+          311,
+          548,
+          497,
+          595
+        ],
+        "context_bbox": [
+          311,
+          548,
+          497,
+          595
+        ]
+      },
+      "short_visual_transcription": "결과적으로 대부분의 공공도서관들이 접근성이 좋지 않은 위치에 자리 잡게 되는 경우들이 발생한 것 또한 사실이다.",
+      "review_method": "Full original PDF page rendered at 150 dpi with PyMuPDF and visually inspected using view_image; source text search used only to refine coordinates.",
+      "render_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-twocol\\page2.png",
+      "human_reviewed": false
+    },
+    {
+      "case_id": "T2",
+      "claim": "이 논문은 도서관들이 모두 접근성이 좋은 위치에 자리 잡았다고 서술한다.",
+      "verdict": "revise",
+      "rationale": "좋지 않은을 좋은으로 뒤집고 모두라는 전칭을 추가했다. 원문과 모순된다.",
+      "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 2,
+        "printed_page": "292",
+        "bbox": [
+          311,
+          548,
+          497,
+          595
+        ],
+        "context_bbox": [
+          311,
+          548,
+          497,
+          595
+        ]
+      },
+      "short_visual_transcription": "접근성이 좋지 않은 위치",
+      "review_method": "Full original PDF page rendered at 150 dpi with PyMuPDF and visually inspected using view_image; source text search used only to refine coordinates.",
+      "render_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-twocol\\page2.png",
+      "human_reviewed": false
+    },
+    {
+      "case_id": "T3",
+      "claim": "첫 쪽 별표 각주는 이 논문이 부산광역시의 2014년 기본계획 연구를 축약했다고 밝힌다.",
+      "verdict": "pass",
+      "rationale": "첫 번째 별표(*) 각주를 이미지로 확인했다. 2014년 연구 축약을 명시한다.",
+      "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 1,
+        "printed_page": null,
+        "bbox": [
+          98,
+          650,
+          496,
+          663
+        ],
+        "context_bbox": [
+          98,
+          650,
+          496,
+          663
+        ]
+      },
+      "short_visual_transcription": "이 논문은 부산대표도서관 건립 기본계획 연구(부산광역시, 2014)를 축약한 것임.",
+      "review_method": "Full original PDF page rendered at 150 dpi with PyMuPDF and visually inspected using view_image; source text search used only to refine coordinates.",
+      "render_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-twocol\\page1.png",
+      "human_reviewed": false,
+      "footnote_marker": "*",
+      "bibliographic_start_page": 291,
+      "locator_correction": "첫쪽에는 running page label이 보이지 않는다. 291은 하단 저널 서지 291–309의 시작 쪽수이며 직접 관찰한 인쇄 쪽수와 분리한다."
+    },
+    {
+      "case_id": "T4",
+      "claim": "첫 쪽 별표 각주는 2014년 연구와 무관한 독립 연구임을 밝힌다.",
+      "verdict": "revise",
+      "rationale": "각주는 축약 연구임을 명시하므로 무관한 독립 연구라는 주장은 반대이다.",
+      "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 1,
+        "printed_page": null,
+        "bbox": [
+          98,
+          650,
+          496,
+          663
+        ],
+        "context_bbox": [
+          98,
+          650,
+          496,
+          663
+        ]
+      },
+      "short_visual_transcription": "부산대표도서관 건립 기본계획 연구(부산광역시, 2014)를 축약한 것임.",
+      "review_method": "Full original PDF page rendered at 150 dpi with PyMuPDF and visually inspected using view_image; source text search used only to refine coordinates.",
+      "render_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-twocol\\page1.png",
+      "human_reviewed": false,
+      "footnote_marker": "*",
+      "bibliographic_start_page": 291,
+      "locator_correction": "첫쪽에는 running page label이 보이지 않는다. 291은 하단 저널 서지 291–309의 시작 쪽수이며 직접 관찰한 인쇄 쪽수와 분리한다."
+    },
+    {
+      "case_id": "T5",
+      "claim": "표 1 증축 면적 행의 비중은 20%, 대지면적은 2,000㎡이다.",
+      "verdict": "pass",
+      "rationale": "표1의 열 머리글 구분/비중/대지면적과 증축 면적 행을 교차 확인했다. 두 값과 단위가 모두 맞다.",
+      "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 4,
+        "printed_page": "294",
+        "bbox": [
+          136,
+          403,
+          285,
+          417
+        ],
+        "context_bbox": [
+          98,
+          345,
+          497,
+          480
+        ]
+      },
+      "short_visual_transcription": "증축 면적 | 20% | 2,000㎡",
+      "review_method": "Full original PDF page rendered at 150 dpi with PyMuPDF and visually inspected using view_image; source text search used only to refine coordinates.",
+      "render_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-twocol\\page4.png",
+      "human_reviewed": false,
+      "table_context": {
+        "label": "표 1",
+        "row": "증축 면적",
+        "columns": [
+          "비중",
+          "대지면적"
+        ],
+        "units": [
+          "%",
+          "㎡"
+        ]
+      }
+    },
+    {
+      "case_id": "T6",
+      "claim": "표 1 증축 면적 행의 비중은 30%, 대지면적은 3,000㎡이다.",
+      "verdict": "revise",
+      "rationale": "증축 행은 20%, 2,000㎡이다. 30%, 3,000㎡는 다른 행(기준층 최대 바닥 면적 또는 주차 면적)의 값이므로 행 오연결이다.",
+      "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 4,
+        "printed_page": "294",
+        "bbox": [
+          136,
+          403,
+          285,
+          417
+        ],
+        "context_bbox": [
+          98,
+          345,
+          497,
+          480
+        ]
+      },
+      "short_visual_transcription": "증축 면적 | 20% | 2,000㎡",
+      "review_method": "Full original PDF page rendered at 150 dpi with PyMuPDF and visually inspected using view_image; source text search used only to refine coordinates.",
+      "render_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-twocol\\page4.png",
+      "human_reviewed": false,
+      "table_context": {
+        "label": "표 1",
+        "row": "증축 면적",
+        "columns": [
+          "비중",
+          "대지면적"
+        ],
+        "units": [
+          "%",
+          "㎡"
+        ]
+      }
+    },
+    {
+      "case_id": "T7",
+      "claim": "표 1 합계의 대지면적은 10,000㎡이다.",
+      "verdict": "pass",
+      "rationale": "표1 합계 행의 대지면적 값과 제곱미터 단위를 확인했다.",
+      "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 4,
+        "printed_page": "294",
+        "bbox": [
+          98,
+          466,
+          285,
+          479
+        ],
+        "context_bbox": [
+          98,
+          345,
+          497,
+          480
+        ]
+      },
+      "short_visual_transcription": "합계 | 100% | 10,000㎡",
+      "review_method": "Full original PDF page rendered at 150 dpi with PyMuPDF and visually inspected using view_image; source text search used only to refine coordinates.",
+      "render_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-twocol\\page4.png",
+      "human_reviewed": false,
+      "table_context": {
+        "label": "표 1",
+        "row": "합계",
+        "columns": [
+          "비중",
+          "대지면적"
+        ],
+        "units": [
+          "%",
+          "㎡"
+        ]
+      }
+    },
+    {
+      "case_id": "T8",
+      "claim": "표 1 합계의 대지면적은 1,000㎡이다.",
+      "verdict": "revise",
+      "rationale": "합계의 10,000을 1,000으로 축소한 수치 오류이다.",
+      "source_sha256": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+      "locator": {
+        "kind": "pdf",
+        "pdf_page": 4,
+        "printed_page": "294",
+        "bbox": [
+          98,
+          466,
+          285,
+          479
+        ],
+        "context_bbox": [
+          98,
+          345,
+          497,
+          480
+        ]
+      },
+      "short_visual_transcription": "합계 | 100% | 10,000㎡",
+      "review_method": "Full original PDF page rendered at 150 dpi with PyMuPDF and visually inspected using view_image; source text search used only to refine coordinates.",
+      "render_image": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-twocol\\page4.png",
+      "human_reviewed": false,
+      "table_context": {
+        "label": "표 1",
+        "row": "합계",
+        "columns": [
+          "비중",
+          "대지면적"
+        ],
+        "units": [
+          "%",
+          "㎡"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "pass": 4,
+    "revise": 4,
+    "hold": 0
+  },
+  "limitations": [
+    "Only designated claims and pages reviewed.",
+    "No whole-paper conclusion approval or external historical-fact verification."
+  ],
+  "corrections": [
+    {
+      "cases": [
+        "T3",
+        "T4"
+      ],
+      "field": "locator.printed_page",
+      "previous": "291",
+      "current": null,
+      "reason": "Reinspection of full page 1 confirms only bibliographic range 291–309; no displayed running page label. bibliographic_start_page=291 retained separately. Verdicts and quoted source numbers unchanged."
+    }
+  ]
+}

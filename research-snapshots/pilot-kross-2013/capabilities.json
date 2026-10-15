@@ -1,0 +1,34 @@
+{
+  "research_id": "pilot-kross-2013",
+  "kci": {
+    "configuration": "not_configured",
+    "live_probe": "not_run",
+    "reason": "KCI_API_KEY not set in this execution environment",
+    "response_schema": "official detail total omission fixed and mocked; live compatibility pending"
+  },
+  "crossref": {
+    "single_doi_metadata": "retrieved_and_compared_with_original_JATS",
+    "systematic_search": "not_run"
+  },
+  "fulltext": {
+    "format": "JATS XML",
+    "source": "Europe PMC",
+    "acquired": true,
+    "table_evidence_in_pilot_manuscript": false
+  },
+  "pdf": {
+    "optional_local_extraction": "implemented",
+    "korean_two_column_visual_test": "exam PDF selected pages reviewed; academic corpus pending",
+    "ocr": "Windows ko local; controlled scan tests partial; failures retained",
+    "report": "validation/pdf-ocr/REPORT.md"
+  },
+  "paid_model_services": "not_configured_or_used",
+  "human_source_review": "not_performed",
+  "question_gate": "approved_actual_user_reply",
+  "outline_gate": "approved_actual_user_message",
+  "hwpx": {
+    "synthetic_integration_test": "available_in_test_suite",
+    "real_research_export": "completed_structure_text_and_reference_checks",
+    "visual_review": "checked_all_1_page_native_Hangul_2022"
+  }
+}

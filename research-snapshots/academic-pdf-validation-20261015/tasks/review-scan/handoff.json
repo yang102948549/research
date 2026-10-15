@@ -1,0 +1,28 @@
+{
+  "research_id": "academic-pdf-validation",
+  "task_id": "review-scan",
+  "role": "independent_source_fidelity_reviewer",
+  "input_version": {
+    "packet_sha256": "4abe6663cee84a2fb68409e47395ab3e6fc4f06d6bd7289442fc5417ac1adc74",
+    "source_sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867"
+  },
+  "output_paths": [
+    "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\review-scan\\review.json"
+  ],
+  "paper_ids": [
+    "scan/article.pdf"
+  ],
+  "evidence_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+  ],
+  "unresolved": [
+    "Original cited works not consulted; historical truth not independently verified."
+  ],
+  "verification_status": "pass S1/S3/S5; revise S2/S4/S6; no hold",
+  "next_task": "coordinator compare blinded verdicts with test expectations and gate decisions"
+}

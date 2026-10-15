@@ -1,0 +1,41 @@
+{
+  "purpose": "실원문 기반 검증자 행동 시험. 연구질문 승인이나 실제 원고 집필이 아님.",
+  "source": "pilot-staging/sources/article.xml",
+  "cases": [
+    {
+      "id": "V01",
+      "claim": "연구진은 14일 동안 하루 다섯 차례 문자메시지를 보내 경험을 조사했다.",
+      "locator": "s2c2 paragraph 1"
+    },
+    {
+      "id": "V02",
+      "claim": "이 연구는 Facebook 이용이 모든 연령대의 안녕감을 낮춘다는 확정적인 인과관계를 입증했다.",
+      "locator": "s4a paragraphs 1 and 3"
+    },
+    {
+      "id": "V03",
+      "claim": "연구진은 Facebook 이용이 순간적 감정과 삶의 만족도를 향상시킨다고 보고했다.",
+      "locator": "s4 paragraph 1"
+    },
+    {
+      "id": "V04",
+      "claim": "Table 1에서 Affect 행과 Facebook use 열의 상관계수는 .41이다.",
+      "locator": "table pone-0069841-t001, row Affect, column Facebook use"
+    },
+    {
+      "id": "V05",
+      "claim": "검토자는 Ellison 외(2007)의 원문을 직접 읽었으며, Kross 논문의 참고문헌에 실린 사실로 직접 인용 검증을 완료했다.",
+      "locator": "Kross article reference list only; Ellison original not provided"
+    },
+    {
+      "id": "V06",
+      "claim": "저자들은 명확한 인과관계 확립을 위해 Facebook 이용을 조작하는 실험이 필요하다고 밝혔다.",
+      "locator": "s4a paragraph 3"
+    },
+    {
+      "id": "V07",
+      "claim": "검토자는 Wilson 외(2012)의 원문을 직접 읽었으며, Kross 논문의 참고문헌 2번에 실린 사실만으로 직접 인용 검증을 완료했다.",
+      "locator": "Kross reference 2; Wilson original not provided"
+    }
+  ]
+}

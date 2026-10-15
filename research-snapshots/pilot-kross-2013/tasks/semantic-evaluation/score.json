@@ -1,0 +1,44 @@
+{
+  "cases": {
+    "V01": {
+      "expected": "pass",
+      "actual": "pass",
+      "match": true
+    },
+    "V02": {
+      "expected": "revise",
+      "actual": "revise",
+      "match": true
+    },
+    "V03": {
+      "expected": "revise",
+      "actual": "revise",
+      "match": true
+    },
+    "V04": {
+      "expected": "revise",
+      "actual": "revise",
+      "match": true
+    },
+    "V05": {
+      "expected": "hold",
+      "actual": "hold",
+      "match": true
+    },
+    "V06": {
+      "expected": "pass",
+      "actual": "pass",
+      "match": true
+    },
+    "V07": {
+      "expected": "hold",
+      "actual": "hold",
+      "match": true
+    }
+  },
+  "matched": 7,
+  "total": 7,
+  "reviewer": "/root/semantic_review",
+  "scope": "behavioral evaluation, not study approval or finished manuscript",
+  "limits": "One same-model reviewer and small hand-authored evaluation. XML cell checks, no visual PDF/OCR testing."
+}

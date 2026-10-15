@@ -1,0 +1,41 @@
+{
+  "research_id": "academic-pdf-validation",
+  "task_id": "review-twocol",
+  "role": "independent-review",
+  "input_version": 16,
+  "artifact_paths": [
+    "tasks/review-twocol/handoff.json",
+    "tasks/review-twocol/packet.json",
+    "tasks/review-twocol/page1.png",
+    "tasks/review-twocol/page2.png",
+    "tasks/review-twocol/page4.png",
+    "tasks/review-twocol/review.json",
+    "tasks/review-twocol/write_review.py"
+  ],
+  "paper_ids": [
+    "TW-P001"
+  ],
+  "evidence_ids": [
+    "TW-E001",
+    "TW-E002",
+    "TW-E003",
+    "TW-E004"
+  ],
+  "unresolved": [
+    "Whole-document semantic validation and original cited works outside this selected-source fidelity test."
+  ],
+  "verification_status": "pass",
+  "next_task": "source fidelity validation complete; original OCR errors retained",
+  "assigned_input_version": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+  "reconciliation_note": "Original task-local handoff used noncanonical keys/status/version. Coordinator retained it, reconciled IDs and selected independently checked source regions against ledger version 16 and rechecked source/proof hashes. This is validation completion, not manuscript or raw OCR approval.",
+  "original_handoff_path": "tasks/review-twocol/handoff.json",
+  "artifact_hashes": {
+    "tasks/review-twocol/handoff.json": "02e1e582ee1e9663008f607d5abbfca618a7f2c4653cac8654f969fd5891947f",
+    "tasks/review-twocol/packet.json": "0521b74b39a314d3319f39500d5d43e4553d044697b85eca4d1033f979e6ea03",
+    "tasks/review-twocol/page1.png": "dc941f988bbe220e58ae6ccbb695d2f5e57a4be782ba6262dd49d9c758ddd03b",
+    "tasks/review-twocol/page2.png": "609b7e59e7c965e660195b21a4349f6d825412215972bf944ddf35bf5bdd8bb2",
+    "tasks/review-twocol/page4.png": "9d2619ed548ebdd13b88ba5f4176dda66453573092b3b38d929efa1b3dec95b9",
+    "tasks/review-twocol/review.json": "a83b81018e161f8325f9c5d56650acb129c2ddb4702c576be4e9108f4d055e03",
+    "tasks/review-twocol/write_review.py": "12f68111cebe02f2b5ee6ca134f637aa756912472bb458fc2dff5d9029b986bd"
+  }
+}

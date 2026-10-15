@@ -1,0 +1,639 @@
+{
+  "schema_version": 1,
+  "research_id": "pilot-kross-2013",
+  "version": 16,
+  "sources": {
+    "S001": {
+      "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+      "doi": "10.1371/journal.pone.0069841",
+      "authors": [
+        "Kross",
+        "Verduyn",
+        "Demiralp",
+        "Park",
+        "Lee",
+        "Lin",
+        "Shablack",
+        "Jonides",
+        "Ybarra"
+      ],
+      "year": 2013,
+      "identity_status": "matched",
+      "identity_check": "Crossref DOI/title/ordered author surnames/year compared with original JATS front matter",
+      "fulltext_status": "available",
+      "parse_status": "checked",
+      "parse_review": "Coordinator read body sections, method and limitations in JATS; no table evidence used",
+      "path": "sources/article.xml",
+      "file_hash": "57af401c1c177c919fa770f1fc88392bc79ee20190328dfab6d4354934a76291",
+      "citation_label": "Kross et al., 2013",
+      "reference_text": "Kross, E., Verduyn, P., Demiralp, E., Park, J., Lee, D. S., Lin, N., Shablack, H., Jonides, J., & Ybarra, O. (2013). Facebook use predicts declines in subjective well-being in young adults. PLOS ONE, 8(8), e69841. https://doi.org/10.1371/journal.pone.0069841",
+      "csl": {
+        "type": "article-journal",
+        "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+        "author": [
+          {
+            "family": "Kross",
+            "given": "Ethan"
+          },
+          {
+            "family": "Verduyn",
+            "given": "Philippe"
+          },
+          {
+            "family": "Demiralp",
+            "given": "Emre"
+          },
+          {
+            "family": "Park",
+            "given": "Jiyoung"
+          },
+          {
+            "family": "Lee",
+            "given": "David Seungjae"
+          },
+          {
+            "family": "Lin",
+            "given": "Natalie"
+          },
+          {
+            "family": "Shablack",
+            "given": "Holly"
+          },
+          {
+            "family": "Jonides",
+            "given": "John"
+          },
+          {
+            "family": "Ybarra",
+            "given": "Oscar"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2013
+            ]
+          ]
+        },
+        "container-title": "PLOS ONE",
+        "volume": "8",
+        "issue": "8",
+        "page": "e69841",
+        "DOI": "10.1371/journal.pone.0069841"
+      },
+      "bibtex": "@article{S001,\n  title = {Facebook Use Predicts Declines in Subjective Well-Being in Young Adults},\n  author = {Kross, Ethan and Verduyn, Philippe and Demiralp, Emre and Park, Jiyoung and Lee, David Seungjae and Lin, Natalie and Shablack, Holly and Jonides, John and Ybarra, Oscar},\n  year = {2013},\n  journal = {PLOS ONE},\n  volume = {8},\n  number = {8},\n  pages = {e69841},\n  doi = {10.1371/journal.pone.0069841}\n}",
+      "provider_verified": null,
+      "human_reviewed": false,
+      "correction_retraction_status": "not_comprehensively_checked",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3743827/fullTextXML",
+      "hash": "a9f90a9a02d7671fad6022167e319bc5167a36df4bb30a68eacdf9d1f432e83c"
+    }
+  },
+  "evidence": {
+    "E001": {
+      "source_id": "S001",
+      "source_hash": "a9f90a9a02d7671fad6022167e319bc5167a36df4bb30a68eacdf9d1f432e83c",
+      "quote": "Participants were text-messaged 5 times per day between 10am and midnight over 14-days.",
+      "context": "Participants were text-messaged 5 times per day between 10am and midnight over 14-days. Text-messages occurred at random times within 168-minute windows per day. Each text-message contained a link to an online survey, which asked participants to answer five questions using a slider scale: (1) How do you feel right now? (very positive [0] to very negative [100]; M = 37.47, SD = 25.88); (2) How worried are you right now? (not at all [0] to a lot [100]; M = 44.04, SD = 30.42); (3) How lonely do you feel right now? (not at all [0] to a lot [100]; M = 27.61, SD = 26.13); (4) How much have you used Facebook since the last time we asked? (not at all [0] to a lot [100]; M = 33.90, SD = 30.48); (5) How much have you interacted with other people “directly” since the last time we asked? (not at all [0]to a lot [100]; M = 64.26, SD = 31.11). When the protocol for answering these questions was explained, interacting with other people “directly” was defined as face-to-face or phone interactions. An experimenter carefully walked participants through this protocol to ensure that they understood how to answer each question and fulfill the study requirements.",
+      "translation": "연구진은 14일 동안 하루 다섯 차례 문자메시지를 보내 참여자의 경험을 조사했다",
+      "interpretation": "연구진은 14일 동안 하루 다섯 차례 문자메시지를 보내 참여자의 경험을 조사했다",
+      "supports_claim_ids": [
+        "C001"
+      ],
+      "limits": "원문에 보고된 자료 수집 절차이며 무작위 처치 실험을 뜻하지 않는다.",
+      "quote_check": "source_compared",
+      "locator": {
+        "kind": "xml",
+        "section": "s2c2",
+        "paragraph": 1,
+        "printed_page": null
+      },
+      "hash": "744bdc666081c96e46e875c074a08745c25aa329b21063daf627ff5148fb9c5e"
+    },
+    "E002": {
+      "source_id": "S001",
+      "source_hash": "a9f90a9a02d7671fad6022167e319bc5167a36df4bb30a68eacdf9d1f432e83c",
+      "quote": "These analyses indicated that Facebook use predicts declines in the two components of subjective well-being: how people feel moment to moment and how satisfied they are with their lives.",
+      "context": "Within a relatively short timespan, Facebook has revolutionized the way people interact. Yet, whether using Facebook predicts changes in subjective well-being over time is unknown. We addressed this issue by performing lagged analyses on experience sampled data, an approach that allowed us to take advantage of the relative timing of participants' naturally occurring behaviors and psychological states to draw inferences about their likely causal sequence [17], [18]. These analyses indicated that Facebook use predicts declines in the two components of subjective well-being: how people feel moment to moment and how satisfied they are with their lives.",
+      "translation": "연구진은 Facebook 이용이 순간적 감정과 삶의 만족도라는 두 안녕감 요소의 저하를 예측한다고 보고했다",
+      "interpretation": "연구진은 Facebook 이용이 순간적 감정과 삶의 만족도라는 두 안녕감 요소의 저하를 예측한다고 보고했다",
+      "supports_claim_ids": [
+        "C002"
+      ],
+      "limits": "해당 표본과 분석에서의 예측 관계이며 모든 이용자에게 동일한 인과 효과가 있다는 주장이 아니다.",
+      "quote_check": "source_compared",
+      "locator": {
+        "kind": "xml",
+        "section": "s4",
+        "paragraph": 1,
+        "printed_page": null
+      },
+      "hash": "c29043dc8675ef2c4bcb19bdc0c28b79797dbae343fb113e092d83f9aba3759d"
+    },
+    "E003": {
+      "source_id": "S001",
+      "source_hash": "a9f90a9a02d7671fad6022167e319bc5167a36df4bb30a68eacdf9d1f432e83c",
+      "quote": "experiments that manipulate Facebook use in daily life are needed to corroborate these findings and establish definitive causal relations.",
+      "context": "Finally, although the analytic approach we used in this study is useful for drawing inferences about the likely causal ordering of associations between naturally occurring variables, experiments that manipulate Facebook use in daily life are needed to corroborate these findings and establish definitive causal relations. Though potentially challenging to perform—Facebook use prevalence, its centrality to young adult daily social interactions, and addictive properties may make it a difficult intervention target—such studies are important for extending this work and informing future interventions.",
+      "translation": "저자들은 명확한 인과관계를 확립하려면 일상생활에서 Facebook 이용을 조작하는 실험이 필요하다고 밝혔다",
+      "interpretation": "저자들은 명확한 인과관계를 확립하려면 일상생활에서 Facebook 이용을 조작하는 실험이 필요하다고 밝혔다",
+      "supports_claim_ids": [
+        "C003"
+      ],
+      "limits": "종단 분석의 시간적 정보와 확정적인 인과관계를 구분해야 한다.",
+      "quote_check": "source_compared",
+      "locator": {
+        "kind": "xml",
+        "section": "s4a",
+        "paragraph": 3,
+        "printed_page": null
+      },
+      "hash": "a345d7ab8b9b13016f0a83ab5be8c048bac08f500e09a019846fae172ffdf2b9"
+    },
+    "E004": {
+      "source_id": "S001",
+      "source_hash": "a9f90a9a02d7671fad6022167e319bc5167a36df4bb30a68eacdf9d1f432e83c",
+      "quote": "However, examining whether these findings generalize to additional age groups is important.",
+      "context": "Although these findings raise numerous future research questions, four stand out as most pressing. First, do these findings generalize? We concentrated on young adults in this study because they represent a core Facebook user demographic. However, examining whether these findings generalize to additional age groups is important. Future research should also examine whether these findings generalize to other online social networks. As a recent review of the Facebook literature indicated [2] “[different online social networks] have varied histories and are associated with different patterns of use, user characteristics, and social functions (p. 205).” Therefore, it is possible that the current findings may not neatly generalize to other online social networks.",
+      "translation": "저자들은 다른 연령집단에 대한 일반화 여부를 추가로 검토할 필요가 있다고 밝혔다",
+      "interpretation": "저자들은 다른 연령집단에 대한 일반화 여부를 추가로 검토할 필요가 있다고 밝혔다",
+      "supports_claim_ids": [
+        "C004"
+      ],
+      "limits": "청년 중심의 단일 연구를 다른 연령층이나 모든 소셜네트워크로 확대하지 않는다.",
+      "quote_check": "source_compared",
+      "locator": {
+        "kind": "xml",
+        "section": "s4a",
+        "paragraph": 1,
+        "printed_page": null
+      },
+      "hash": "212112157e72fe8eb848e3b356e36faf81f7ac5d8979f7d9e0c0824fc7f4e2d4"
+    }
+  },
+  "claims": {
+    "C001": {
+      "text": "연구진은 14일 동안 하루 다섯 차례 문자메시지를 보내 참여자의 경험을 조사했다",
+      "kind": "방법 보고",
+      "author": "coordinator",
+      "evidence_ids": [
+        "E001"
+      ],
+      "hash": "593592aa2f957199449aabfbf1f2f4d7953615e8c79473393268cbc2b3a7e722"
+    },
+    "C002": {
+      "text": "연구진은 Facebook 이용이 순간적 감정과 삶의 만족도라는 두 안녕감 요소의 저하를 예측한다고 보고했다",
+      "kind": "원저자 결과 보고",
+      "author": "coordinator",
+      "evidence_ids": [
+        "E002"
+      ],
+      "hash": "7da2c956737075241cadc017370d570d6286d8eb9f4efc312f2bd3c6cde8716b"
+    },
+    "C003": {
+      "text": "저자들은 명확한 인과관계를 확립하려면 일상생활에서 Facebook 이용을 조작하는 실험이 필요하다고 밝혔다",
+      "kind": "원저자 한계",
+      "author": "coordinator",
+      "evidence_ids": [
+        "E003"
+      ],
+      "hash": "d655a1e3b4877b9c5ca1b29bddff9e3ec05e52151b001dfe7fafec34c5d5a5da"
+    },
+    "C004": {
+      "text": "저자들은 다른 연령집단에 대한 일반화 여부를 추가로 검토할 필요가 있다고 밝혔다",
+      "kind": "원저자 한계",
+      "author": "coordinator",
+      "evidence_ids": [
+        "E004"
+      ],
+      "hash": "610cc623efbafc3a45e1699dbfbeb59d5ede03dbb91363e86d84c064a3459c8d"
+    }
+  },
+  "paragraphs": {
+    "P001": {
+      "heading": "서론: 검토 대상과 방법",
+      "claim_ids": [
+        "C001"
+      ],
+      "text": "이 글은 Kross 외의 연구 한 편을 대상으로, 보고된 결과와 그 결과가 허용하는 해석의 범위를 구분한다. 연구진은 14일 동안 하루 다섯 차례 문자메시지를 보내 참여자의 경험을 조사했다. 이러한 조사 절차를 검토의 출발점으로 삼되, 본고는 새로운 실증 분석이나 분야 전체의 문헌고찰을 수행하지 않는다",
+      "author": "coordinator",
+      "hash": "b52eeaba0b962214a039b7e49aa77ec5344d27badeee5f734bd81dee36633abb"
+    },
+    "P002": {
+      "heading": "본론: 예측 관계와 해석의 한계",
+      "claim_ids": [
+        "C002"
+      ],
+      "text": "연구진은 Facebook 이용이 순간적 감정과 삶의 만족도라는 두 가지 주관적 안녕감 요소의 저하를 예측한다고 보고했다. 여기서 핵심은 저자들이 보고한 예측 관계를 정확히 전달하는 것이다. 이 결과를 모든 이용자에게 동일하게 작용하는 효과로 확대하는 해석은 해당 진술의 범위를 넘어선다",
+      "author": "coordinator",
+      "hash": "50fa9bf5face7f54f4e0857c46d51ab491e27fb29a1a1d3f9668de5a06453ceb"
+    },
+    "P003": {
+      "heading": null,
+      "claim_ids": [
+        "C003"
+      ],
+      "text": "인과관계에 대해서는 원문이 제시한 유보를 유지해야 한다. 저자들은 연구 결과를 뒷받침하고 명확한 인과관계를 확립하려면 일상생활에서 Facebook 이용을 조작하는 실험이 필요하다고 밝혔다. 따라서 본고에서는 보고된 예측 관계를 곧바로 확정적인 인과관계로 바꾸어 서술하지 않는다",
+      "author": "coordinator",
+      "hash": "1c6153600a34e898867544b8d05179595f06f2781bb8879df8e68c6d08fbf898"
+    },
+    "P004": {
+      "heading": null,
+      "claim_ids": [
+        "C004"
+      ],
+      "text": "일반화의 범위 역시 구분할 필요가 있다. 저자들은 다른 연령집단에서도 같은 결과가 나타나는지 추가로 검토하는 일이 중요하다고 밝혔다. 이는 다른 연령집단에 대한 적용 여부가 확인되어야 한다는 뜻이며, 다른 집단에서는 관계가 성립하지 않는다고 입증했다는 뜻은 아니다",
+      "author": "coordinator",
+      "hash": "3d5c70000edc5b25026839f66ffbfbeeb7597a13cb268ee5b2d3370e234b9714"
+    },
+    "P005": {
+      "heading": "결론: 근거가 허용하는 주장 범위",
+      "claim_ids": [
+        "C003",
+        "C004"
+      ],
+      "text": "이 단일 논문 검토에서 유지해야 할 해석의 경계는 인과관계의 확정과 다른 연령집단으로의 일반화를 구분하는 데 있다. 전자에는 이용을 조작하는 실험이, 후자에는 해당 집단에 대한 추가 검토가 필요하다는 것이 원문이 밝힌 한계다. 이 두 한계를 함께 제시하면 연구 결과를 소개하면서도 근거가 확보되지 않은 범위까지 결론을 넓히는 일을 피할 수 있다",
+      "author": "coordinator",
+      "hash": "b7e1b1afd7bd337070db3abb5159421b68611fe8174f939d2168afa7fa315860"
+    }
+  },
+  "approvals": {
+    "research_question": {
+      "version": 2,
+      "content_hash": "e3c48fc4cd0c7e78894362a0d4520dada29541d20789082705ea456077bd2804",
+      "user_record": {
+        "explicit": true,
+        "message_id": "request_user_input_async/call_a0cd7e65a2bb42e4b6c38e55bff31763/0/user-reply",
+        "verbatim": "이 질문과 1편 시험 범위 승인"
+      }
+    },
+    "outline": {
+      "version": 11,
+      "content_hash": "f0c6f4fd8ccc22ca685435f6f04c0187dba3bb994bd84ae72ceb0e64c1514275",
+      "user_record": {
+        "explicit": true,
+        "message_id": "chat-user-outline-approval-2026-10-15",
+        "verbatim": "이 개요 승인해. 짧은 한국어 원고 작성하고 독립 검증, HWPX 생성과 내용 재추출까지 진행해줘."
+      }
+    }
+  },
+  "tasks": {
+    "semantic-evaluation": {
+      "research_id": "pilot-kross-2013",
+      "task_id": "semantic-evaluation",
+      "role": "independent-citation-review",
+      "input_version": 2,
+      "artifact_paths": [
+        "tasks/semantic-evaluation/review.json"
+      ],
+      "paper_ids": [
+        "S001"
+      ],
+      "evidence_ids": [],
+      "unresolved": [],
+      "verification_status": "pass",
+      "next_task": "coordinator-score",
+      "status": "completed",
+      "artifact_hashes": {
+        "tasks/semantic-evaluation/review.json": "216c2133453e7b2c30ee06090d426c61f86c572f33d21adbb455accdeea8bee3"
+      },
+      "committed_at": "2026-10-15T05:37:03.120361+00:00"
+    },
+    "outline-review": {
+      "research_id": "pilot-kross-2013",
+      "task_id": "outline-review",
+      "role": "independent-outline-review",
+      "input_version": 11,
+      "artifact_paths": [
+        "tasks/outline-review/review.json"
+      ],
+      "paper_ids": [
+        "S001"
+      ],
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "unresolved": [],
+      "verification_status": "pass",
+      "next_task": "user-outline-approval",
+      "status": "completed",
+      "artifact_hashes": {
+        "tasks/outline-review/review.json": "73ce6b63f5ea5a1ce4b9a9425cdca7ce645f797a08ac6324596c72afbcd771fb"
+      },
+      "committed_at": "2026-10-15T05:57:18.002284+00:00"
+    },
+    "manuscript-draft": {
+      "research_id": "pilot-kross-2013",
+      "task_id": "manuscript-draft",
+      "role": "integrated-writer",
+      "input_version": 16,
+      "assigned_input_version": 11,
+      "reconciliation_note": "Coordinator added paragraphs under unchanged user-approved outline; semantic reviews invalidated for independent re-review.",
+      "artifact_paths": [
+        "tasks/manuscript-draft/paragraphs.json"
+      ],
+      "paper_ids": [
+        "S001"
+      ],
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "unresolved": [],
+      "verification_status": "pending",
+      "next_task": "independent-manuscript-review",
+      "status": "completed",
+      "artifact_hashes": {
+        "tasks/manuscript-draft/paragraphs.json": "8864e6ea356e6354be62012f62ec96b63e1b971402f1b51971dc19503c7381d0"
+      },
+      "committed_at": "2026-10-15T06:23:55.244592+00:00"
+    },
+    "manuscript-review": {
+      "paper_ids": [
+        "S001"
+      ],
+      "role": "independent-citation-review",
+      "input_version": 16,
+      "artifact_paths": [
+        "tasks/manuscript-review/review.json"
+      ],
+      "verification_status": "pass",
+      "unresolved": [],
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004"
+      ],
+      "research_id": "pilot-kross-2013",
+      "task_id": "manuscript-review",
+      "next_task": "export",
+      "status": "completed",
+      "artifact_hashes": {
+        "tasks/manuscript-review/review.json": "1b010af27711368e1a20381fc32e690ec8e52868a272c7f90109a9aa40c57bd5"
+      },
+      "committed_at": "2026-10-15T06:27:38.682995+00:00"
+    }
+  },
+  "commits": {
+    "semantic-evaluation": "da4155f8c2d8d88d0b2a86440a6af952c37dc4587777d9692e6a2a33480be29c",
+    "outline-review": "4c002d0d7aa108646bfe710f7060c6fb72936b89805552eb9bdb611cdf418691",
+    "manuscript-draft": "ee6ba244d167d1da2ede19c13349c37b8c7df51fd108ed944e44faba0fb3d640",
+    "manuscript-review": "3b723d75be4486a0b5897489ec3064df370499e87e89efb28944beb1bf7155db"
+  },
+  "repairs": {},
+  "reviews": {
+    "C001": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "Exact E001 at s2c2/p[1] supports fourteen days and five daily text messages. Wording describes sampling without treating randomized message timing as intervention assignment.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "593592aa2f957199449aabfbf1f2f4d7953615e8c79473393268cbc2b3a7e722",
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.643447+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "Exact E001 at s2c2/p[1] supports fourteen days and five daily text messages. Wording describes sampling without treating randomized message timing as intervention assignment."
+      }
+    },
+    "C002": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "Exact E002 at s4/p[1] reports the original authors' own result. Korean wording preserves prediction and attribution. Results s3c1 and s3c2 distinguish affect and baseline-controlled life satisfaction; summary asserts neither identical timescales nor universal causality.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "7da2c956737075241cadc017370d570d6286d8eb9f4efc312f2bd3c6cde8716b",
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.651309+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "Exact E002 at s4/p[1] reports the original authors' own result. Korean wording preserves prediction and attribution. Results s3c1 and s3c2 distinguish affect and baseline-controlled life satisfaction; summary asserts neither identical timescales nor universal causality."
+      }
+    },
+    "C003": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "E003 is an exact substring of s4a/p[3]. Context calls for manipulation experiments to corroborate findings and establish definitive causal relations. Translation neither says experiments already occurred nor denies temporal information from observations.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "d655a1e3b4877b9c5ca1b29bddff9e3ec05e52151b001dfe7fafec34c5d5a5da",
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.658175+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "E003 is an exact substring of s4a/p[3]. Context calls for manipulation experiments to corroborate findings and establish definitive causal relations. Translation neither says experiments already occurred nor denies temporal information from observations."
+      }
+    },
+    "C004": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "Exact E004 and full context at s4a/p[1] identify young-adult focus and unresolved extension to other ages. Claim correctly calls for examination without asserting absence of association elsewhere.",
+      "review_kind": "agent_reviewed",
+      "claim_hash": "610cc623efbafc3a45e1699dbfbeb59d5ede03dbb91363e86d84c064a3459c8d",
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.665613+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "Exact E004 and full context at s4a/p[1] identify young-adult focus and unresolved extension to other ages. Claim correctly calls for examination without asserting absence of association elsewhere."
+      }
+    }
+  },
+  "outline": {
+    "version": 1,
+    "thesis": "원문의 예측 관계와 인과·일반화의 한계를 구분한다.",
+    "sections": [
+      {
+        "title": "서론: 검토 대상과 방법",
+        "claim_ids": [
+          "C001"
+        ],
+        "evidence_ids": [
+          "E001"
+        ]
+      },
+      {
+        "title": "본론: 보고된 관계와 해석의 한계",
+        "claim_ids": [
+          "C002",
+          "C003",
+          "C004"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E003",
+          "E004"
+        ]
+      },
+      {
+        "title": "결론: 주장 범위",
+        "claim_ids": [
+          "C003",
+          "C004"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ]
+      }
+    ],
+    "limits": "단일 논문 기술 시험. 체계적 검색·분야 전체 결론·독자적 실증 결과 없음."
+  },
+  "research_question": {
+    "text": "Kross 외(2013)의 Facebook 이용과 주관적 안녕감 연구가 뒷받침하는 주장과 인과·일반화의 한계는 무엇인가?",
+    "scope": "공개 원문 1편의 근거 추적 기술 시험. 분야 전체 문헌고찰이나 최신 결론이 아님.",
+    "review_type": "single_source_methodological_pilot",
+    "language": "ko",
+    "length": "사용자가 승인할 짧은 시험 원고",
+    "venue": null,
+    "deadline": null
+  },
+  "paragraph_reviews": {
+    "P001": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "Empirical sentence is supported by C001/E001. Opening and closing define this review's scope, not external findings. No randomized intervention is implied.",
+      "review_kind": "agent_reviewed",
+      "paragraph_hash": "b52eeaba0b962214a039b7e49aa77ec5344d27badeee5f734bd81dee36633abb",
+      "claim_hashes": {
+        "C001": "593592aa2f957199449aabfbf1f2f4d7953615e8c79473393268cbc2b3a7e722"
+      },
+      "evidence_hashes": {
+        "E001": "744bdc666081c96e46e875c074a08745c25aa329b21063daf627ff5148fb9c5e"
+      },
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.665933+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "Empirical sentence is supported by C001/E001. Opening and closing define this review's scope, not external findings. No randomized intervention is implied."
+      }
+    },
+    "P002": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "First sentence faithfully summarizes C002/E002. Last sentence rejects an inference of identical effects for every user, without claiming proven heterogeneity or failed replication. This is a justified authorial scope caution, not a new empirical finding. C002 alone does not identify groups that differ; reviewed E004 context leaves other ages unresolved, and s2a identifies a young-adult sample. Do not recast this caution as an original-author quotation or proof that effects differ across all users.",
+      "review_kind": "agent_reviewed",
+      "paragraph_hash": "50fa9bf5face7f54f4e0857c46d51ab491e27fb29a1a1d3f9668de5a06453ceb",
+      "claim_hashes": {
+        "C002": "7da2c956737075241cadc017370d570d6286d8eb9f4efc312f2bd3c6cde8716b"
+      },
+      "evidence_hashes": {
+        "E002": "c29043dc8675ef2c4bcb19bdc0c28b79797dbae343fb113e092d83f9aba3759d"
+      },
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.665980+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "First sentence faithfully summarizes C002/E002. Last sentence rejects an inference of identical effects for every user, without claiming proven heterogeneity or failed replication. This is a justified authorial scope caution, not a new empirical finding. C002 alone does not identify groups that differ; reviewed E004 context leaves other ages unresolved, and s2a identifies a young-adult sample. Do not recast this caution as an original-author quotation or proof that effects differ across all users."
+      }
+    },
+    "P003": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "Expanded paraphrase includes corroborating findings, explicitly present in E003 context. Final sentence states this review's decision not to convert prediction into definitive causation and preserves the original distinction.",
+      "review_kind": "agent_reviewed",
+      "paragraph_hash": "1c6153600a34e898867544b8d05179595f06f2781bb8879df8e68c6d08fbf898",
+      "claim_hashes": {
+        "C003": "d655a1e3b4877b9c5ca1b29bddff9e3ec05e52151b001dfe7fafec34c5d5a5da"
+      },
+      "evidence_hashes": {
+        "E003": "a345d7ab8b9b13016f0a83ab5be8c048bac08f500e09a019846fae172ffdf2b9"
+      },
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.666002+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "Expanded paraphrase includes corroborating findings, explicitly present in E003 context. Final sentence states this review's decision not to convert prediction into definitive causation and preserves the original distinction."
+      }
+    },
+    "P004": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "C004/E004 supports additional age-group examination. Final sentence correctly distinguishes unresolved generalization from demonstrated absence of the relationship elsewhere; it introduces no unsupported negative result.",
+      "review_kind": "agent_reviewed",
+      "paragraph_hash": "3d5c70000edc5b25026839f66ffbfbeeb7597a13cb268ee5b2d3370e234b9714",
+      "claim_hashes": {
+        "C004": "610cc623efbafc3a45e1699dbfbeb59d5ede03dbb91363e86d84c064a3459c8d"
+      },
+      "evidence_hashes": {
+        "E004": "212112157e72fe8eb848e3b356e36faf81f7ac5d8979f7d9e0c0824fc7f4e2d4"
+      },
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.666019+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "C004/E004 supports additional age-group examination. Final sentence correctly distinguishes unresolved generalization from demonstrated absence of the relationship elsewhere; it introduces no unsupported negative result."
+      }
+    },
+    "P005": {
+      "reviewer": "manuscript_verify",
+      "verdict": "pass",
+      "rationale": "Separate causal and age-generalization requirements track C003/E003 and C004/E004. Final sentence is normative interpretive guidance, not a new empirical result. Opening is read within this approved review's two focal questions, not as an exhaustive limitations inventory. Reviewed s4a also raises mechanisms/other networks and s4b effect size/affect measurement. Paragraph does not say these are the only limitations or that presenting them guarantees all conclusions are valid.",
+      "review_kind": "agent_reviewed",
+      "paragraph_hash": "b7e1b1afd7bd337070db3abb5159421b68611fe8174f939d2168afa7fa315860",
+      "claim_hashes": {
+        "C003": "d655a1e3b4877b9c5ca1b29bddff9e3ec05e52151b001dfe7fafec34c5d5a5da",
+        "C004": "610cc623efbafc3a45e1699dbfbeb59d5ede03dbb91363e86d84c064a3459c8d"
+      },
+      "evidence_hashes": {
+        "E003": "a345d7ab8b9b13016f0a83ab5be8c048bac08f500e09a019846fae172ffdf2b9",
+        "E004": "212112157e72fe8eb848e3b356e36faf81f7ac5d8979f7d9e0c0824fc7f4e2d4"
+      },
+      "version": 16,
+      "timestamp": "2026-10-15T06:27:38.666038+00:00",
+      "review_record": {
+        "reviewer": "manuscript_verify",
+        "verdict": "pass",
+        "rationale": "Separate causal and age-generalization requirements track C003/E003 and C004/E004. Final sentence is normative interpretive guidance, not a new empirical result. Opening is read within this approved review's two focal questions, not as an exhaustive limitations inventory. Reviewed s4a also raises mechanisms/other networks and s4b effect size/affect measurement. Paragraph does not say these are the only limitations or that presenting them guarantees all conclusions are valid."
+      }
+    }
+  },
+  "feasibility": {
+    "source_ids": [
+      "S001"
+    ],
+    "rationale": "Full original XML, original metadata and Crossref match; explicit results and causal/generalization limitations are present.",
+    "source_hashes": {
+      "S001": "a9f90a9a02d7671fad6022167e319bc5167a36df4bb30a68eacdf9d1f432e83c"
+    },
+    "question_hash": "e3c48fc4cd0c7e78894362a0d4520dada29541d20789082705ea456077bd2804",
+    "timestamp": "2026-10-15T05:32:57.028431+00:00"
+  },
+  "export_validation": {
+    "structure_valid": true,
+    "content_reextracted": true,
+    "citation_alignment": true,
+    "material_unresolved": [],
+    "visual_status": "checked",
+    "validation_scope": "ZIP/XML/package links and exact text; not full standard conformity or render proof",
+    "output_hashes": {
+      "manuscript.hwpx": "e81c3522e2b11717a0c9ad1ea64ff1cea0a469fca6b878e915f87c36ef547e26",
+      "manuscript.md": "e100ce3d911802369c1f9a72a803c6e863df9372260885f07ad098be71505382",
+      "evidence.csv": "8ca1c87325f653141a771a99214fc4d1232828dc3c1b75b97fdb75f316d32277",
+      "references.bib": "6004c659c165755b87fdd3baab0b19b7710c2038837718162960e6cbad009bcd",
+      "references.csl.json": "6a252137883480c355981ca08c875aa7a7f922f7535e70471e9e64535ff66ba5",
+      "manuscript-trace.json": "2cca274f2e769d1e5b5aa685edefc745a6546c800a2e600f97f4ee80726de83c",
+      "export-validation.json": "9204bba41b8eeabbc53172abeaeb3cb965de39144005860d3e0953e443c74c91",
+      "hwpx-reextracted.txt": "e100ce3d911802369c1f9a72a803c6e863df9372260885f07ad098be71505382",
+      "verification-report.md": "0af8204032a8ead96cc581989de3238006757091a4f1696641181aa2cb474fa4",
+      "validation/hwpx/visual-review.json": "f2af34aa52681a7c26b41bd5d3cddb0fbf933640922560294af2a028fc304b09",
+      "validation/hwpx/manuscript-hancom.pdf": "6d7c91119af86aaff11dd335063d16ea1ab637add7c05d388a9e1593e35b1dbe",
+      "validation/hwpx/page1.png": "012d2c2e50cd519271fded6deac2d7974a57fa8197b1075a0f6eff73ba56ce44"
+    },
+    "artifact_path": "manuscript.hwpx",
+    "artifact_hash": "e81c3522e2b11717a0c9ad1ea64ff1cea0a469fca6b878e915f87c36ef547e26",
+    "version": 16,
+    "timestamp": "2026-10-15T06:56:59.119063+00:00",
+    "visual_review_record": "validation/hwpx/visual-review.json"
+  }
+}

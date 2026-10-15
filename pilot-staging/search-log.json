@@ -1,0 +1,33 @@
+{
+  "purpose": "known-item feasibility pilot; not systematic search",
+  "date": "2026-10-15",
+  "queries": [
+    {
+      "source": "Crossref",
+      "query": "10.1371/journal.pone.0069841",
+      "scope": "single DOI",
+      "retrieved_count": 1
+    },
+    {
+      "source": "Europe PMC",
+      "query": "PMC3743827/fullTextXML",
+      "scope": "single known item",
+      "retrieved_count": 1
+    }
+  ],
+  "selection": [
+    {
+      "paper_id": "S001",
+      "decision": "include",
+      "reason": "public full text and explicit causal limitations for integration test"
+    }
+  ],
+  "failed_candidates": [
+    {
+      "id": "PMC4066473",
+      "reason": "fullTextXML acquisition failed; no evidence extracted"
+    }
+  ],
+  "kci": "not_searched",
+  "paid_services": "not_configured"
+}

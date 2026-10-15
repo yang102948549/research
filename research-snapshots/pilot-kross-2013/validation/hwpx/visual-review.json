@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-15T06:56:59.023555+00:00",
+  "reviewer": "coordinator-agent",
+  "human_reviewed": false,
+  "application": "Hancom Hangul 2022; native File > Save as PDF",
+  "hwpx_sha256": "e81c3522e2b11717a0c9ad1ea64ff1cea0a469fca6b878e915f87c36ef547e26",
+  "pdf_sha256": "6d7c91119af86aaff11dd335063d16ea1ab637add7c05d388a9e1593e35b1dbe",
+  "pages": 1,
+  "pages_visually_reviewed": [
+    1
+  ],
+  "visual_status": "checked",
+  "rendered_text_match": "pass_whitespace_normalized",
+  "findings": [
+    "Korean glyphs, title, five paragraphs, citations, reference DOI readable; no clipping or overlap on all 1 page.",
+    "Original justified bibliography spacing repaired with left alignment; reopened revised HWPX and inspected rendered PDF.",
+    "Mutable status banner replaced with reference to current verification report."
+  ],
+  "limitations": [
+    "Agent visual review, not human acceptance.",
+    "Full HWPX schema and full APA typography not certified."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "연구ID": "academic-pdf-validation",
+  "작업ID": "scan",
+  "역할": "실제 스캔 원문 확보·OCR·위치 검토",
+  "입력 버전": "source sha256 ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867",
+  "결과물 경로": "C:\\Users\\USER\\Desktop\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\academic-pdf\\tasks\\scan",
+  "논문ID": [
+    "SCAN-KIHASA-1994-14-2-62"
+  ],
+  "근거ID": [
+    "SCAN-E001",
+    "SCAN-E002",
+    "SCAN-E003"
+  ],
+  "미해결 사항": [
+    "원OCR 각주 기간 오인식",
+    "원OCR 본문 연도 오인식",
+    "원 인용저작 미확보",
+    "전체 문서 OCR·의미검증 미실시",
+    "본 작업 표 수치 시험 없음"
+  ],
+  "검증 상태": "selected_original_visual_comparison_complete; independent_gate_pending; raw_ocr_mismatches_hold",
+  "다음 작업": "총괄 독립 이미지 검토와 게이트 변이시험, 필요시 스캔 열 탐지 상태 표시 개선"
+}

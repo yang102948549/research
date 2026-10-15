@@ -1,0 +1,57 @@
+{
+  "research_id": "academic-pdf-validation",
+  "task_id": "twocol",
+  "role": "source-extraction-validation",
+  "input_version": 16,
+  "artifact_paths": [
+    "tasks/twocol/article.pdf",
+    "tasks/twocol/build_record.py",
+    "tasks/twocol/evidence-candidates.json",
+    "tasks/twocol/extraction.json",
+    "tasks/twocol/handoff.json",
+    "tasks/twocol/page1.png",
+    "tasks/twocol/page13.png",
+    "tasks/twocol/page2.png",
+    "tasks/twocol/page4.png",
+    "tasks/twocol/REPORT.md",
+    "tasks/twocol/text.txt",
+    "tasks/twocol/TW-E001.png",
+    "tasks/twocol/TW-E002.png",
+    "tasks/twocol/TW-E003.png",
+    "tasks/twocol/TW-E004.png"
+  ],
+  "paper_ids": [
+    "TW-P001"
+  ],
+  "evidence_ids": [
+    "TW-E001",
+    "TW-E002",
+    "TW-E003",
+    "TW-E004"
+  ],
+  "unresolved": [
+    "Whole-document semantic validation and original cited works outside this selected-source fidelity test."
+  ],
+  "verification_status": "pass",
+  "next_task": "source fidelity validation complete; original OCR errors retained",
+  "assigned_input_version": "installed-skill-before-current-turn-fixes",
+  "reconciliation_note": "Original task-local handoff used noncanonical keys/status/version. Coordinator retained it, reconciled IDs and selected independently checked source regions against ledger version 16 and rechecked source/proof hashes. This is validation completion, not manuscript or raw OCR approval.",
+  "original_handoff_path": "tasks/twocol/handoff.json",
+  "artifact_hashes": {
+    "tasks/twocol/article.pdf": "2aadac258d4fd618ede12861c2f476b67037101c9c1b3f01956471c6e95e1b93",
+    "tasks/twocol/build_record.py": "45caf0283fd0fad0e107752926994692d1f7451931a4d9a2cd7c37f171269f74",
+    "tasks/twocol/evidence-candidates.json": "59540ded53ae35e60a40ffde48d6e73c94a593b5e3f29f8538b48186748335cf",
+    "tasks/twocol/extraction.json": "ac3a73703d46dd28d0be39f30574bfeed77ae1b7601997c02e96a1ed1247644a",
+    "tasks/twocol/handoff.json": "f46633be4301170bb18c83146e4772fbb573965695f7fe8bc7a0f9165633057c",
+    "tasks/twocol/page1.png": "74c5fc4c33e9333c995b80b1627763db8dafe7d2005126539ec39d6ad700fd28",
+    "tasks/twocol/page13.png": "0d6d5d4e31bdf0162095f96196d1e67baa3e1bab1ba600f426f12d8e0ffbb0c9",
+    "tasks/twocol/page2.png": "10019c0e093a5abadf828da4d6aba9ffad46d48c5a6e887631929c23d34567c8",
+    "tasks/twocol/page4.png": "622efa5a2d49cd2f450336feab5df46d8bc202fcdc02102529f30939e545b57f",
+    "tasks/twocol/REPORT.md": "1e6304c402a9498fa0dc93633e48f5e660a918b0a0ed80840d0f6e419f07a3c5",
+    "tasks/twocol/text.txt": "e28df4bb6ad7671f0893153ee216cc4a1d3f90effe08886266ac6b4fa7b2ce0f",
+    "tasks/twocol/TW-E001.png": "24ffad86104eb5fa78e752496a943adde0e1f6ed6bbb2fb3621531a6b1add7d8",
+    "tasks/twocol/TW-E002.png": "4f73c9fca5c1fe8f818e6561c2c231743095b256dc73b4b1504929ed57e55704",
+    "tasks/twocol/TW-E003.png": "1f32f01b8d73667aaf0ede2166f4070f112e6374e6fa586950c2348ba7f5d728",
+    "tasks/twocol/TW-E004.png": "11528ef148fd5a430de429bccd9c1d2601deacae78e8f9e441d8e5b797c53d44"
+  }
+}

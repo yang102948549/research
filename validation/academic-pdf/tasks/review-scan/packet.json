@@ -1,0 +1,37 @@
+{
+  "source": "tasks/scan/article.pdf",
+  "cases": [
+    {
+      "id": "S1",
+      "pdf_page": 2,
+      "claim": "이 논문은 다른 문헌을 인용하면서 물질적 풍요와 높은 생활수준만으로 행복과 만족스러운 삶이 보장되지 못할 수 있다는 회의를 소개한다."
+    },
+    {
+      "id": "S2",
+      "pdf_page": 2,
+      "claim": "이 논문은 물질적 풍요와 높은 생활수준이 행복과 만족스러운 삶을 보장한다고 직접 실증했다."
+    },
+    {
+      "id": "S3",
+      "pdf_page": 2,
+      "claim": "각주 1에 적힌 영어 서지 제목에는 1971~1981이라는 기간이 들어 있다."
+    },
+    {
+      "id": "S4",
+      "pdf_page": 2,
+      "claim": "각주 1에 적힌 영어 서지 제목에는 7977~7987이라는 기간이 들어 있다."
+    },
+    {
+      "id": "S5",
+      "pdf_page": 2,
+      "claim": "본문 왼쪽 열에서 미국의 보고서를 소개하는 문장의 연도는 1960년이다."
+    },
+    {
+      "id": "S6",
+      "pdf_page": 2,
+      "claim": "본문 왼쪽 열에서 미국의 보고서를 소개하는 문장의 연도는 1%0년이다."
+    }
+  ],
+  "research_id": "academic-pdf-validation",
+  "scope": "Source fidelity test, not independent verification of cited historical facts."
+}

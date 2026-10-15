@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-15",
+  "query": "site.kihasa.re.kr/hswr \"가족영역에서의\" \"장현섭\"",
+  "scope": "official publisher web search + one direct PDF download",
+  "relevant_results": 1,
+  "selected": "SCAN-KIHASA-1994-14-2-62",
+  "excluded": "repository research report 94-30.pdf excluded: report not journal article",
+  "download_attempts": [
+    {
+      "status": "sandbox_dns_failure"
+    },
+    {
+      "status": "download_success_after_authorized_network_access"
+    }
+  ],
+  "source": "https://www.kihasa.re.kr/hswr/assets/pdf/186/journal-14-2-62.pdf",
+  "sha256": "ad3111faf0dfc81485af9d20470d0f17236bf2f4c0de8bef6426a12a6c356867"
+}

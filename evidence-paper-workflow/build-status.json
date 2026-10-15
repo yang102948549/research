@@ -1,0 +1,64 @@
+{
+  "release": "0.4-scanned-table-cell-trace",
+  "date": "2026-10-15",
+  "skill_path": "C:/Users/USER/.codex/skills/evidence-paper-workflow",
+  "research_path": "C:/Users/USER/Documents/ResearchWorkspace/pilot-kross-2013",
+  "upstream_commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "upstream_file_count": 44,
+  "upstream_scripts_executed": false,
+  "official_skill_validator": "passed (workspace-local PyYAML dependency)",
+  "regression_tests": {
+    "passed": 64,
+    "failed": 0
+  },
+  "independent_behavioral_evaluation": {
+    "matched": 7,
+    "total": 7,
+    "report": "C:/Users/USER/Documents/ResearchWorkspace/pilot-kross-2013/tasks/semantic-evaluation/review.json",
+    "score": "C:/Users/USER/Documents/ResearchWorkspace/pilot-kross-2013/tasks/semantic-evaluation/score.json"
+  },
+  "synthetic_integration": "manuscript gate -> HWPX -> exact text re-extraction -> serialized bibliography checks -> reopened final gate passed; only synthetic approvals in temporary test directory",
+  "real_source_pilot": "Completed with actual question and outline approvals: 4 claims, 5 paragraphs independently agent-reviewed; HWPX generated, text roundtrip exactly matched, bibliography alignment and reloaded final gate passed",
+  "remaining": [
+    "live KCI key/schema validation",
+    "broader Korean academic scan/layout corpus and more complex tables"
+  ],
+  "complete_research_workflow_acceptance": false,
+  "limitations": [
+    "Initial bibliography exporter handles restricted BibTeX format; not a full APA CSL processor",
+    "Same-model role separation is not full independence",
+    "Tools operate within host permissions; approval records are auditable records, not identity authentication",
+    "Selected real Korean PDF/scanned table regions validated; entire126-cell table not independently approved; no automatic semantic OCR correctness guarantee."
+  ],
+  "real_source_pilot_completion": "C:/Users/USER/Documents/ResearchWorkspace/pilot-kross-2013/pilot-completion.json",
+  "bounded_real_source_pilot_acceptance": true,
+  "pdf_ocr_validation": {
+    "report": "validation/pdf-ocr/REPORT.md",
+    "selected_phrase_matches": 8,
+    "selected_phrase_total": 10,
+    "table_status": "failed_headers",
+    "scope": "exam PDF and simulated scans; not real academic/physical scan corpus"
+  },
+  "hwpx_visual_validation": {
+    "status": "checked",
+    "application": "Hangul 2022",
+    "pages": 1,
+    "report": "C:\\Users\\USER\\Documents\\ResearchWorkspace\\pilot-kross-2013\\validation\\hwpx\\visual-review.json"
+  },
+  "academic_pdf_validation": {
+    "sources": 2,
+    "selected_evidence": 7,
+    "correct_claims_passed": 7,
+    "wrong_claims_rejected": 7,
+    "structural_mutations_blocked": 10,
+    "report": "C:\\Users\\USER\\Documents\\ResearchWorkspace\\academic-pdf-validation-20261015\\REPORT.md"
+  },
+  "scan_table_validation": {
+    "independent_cases": 16,
+    "pass": 6,
+    "revise": 10,
+    "real_cell_gate_passed": 1,
+    "mutations_blocked": 7,
+    "report": "references/scan-table-validation.md"
+  }
+}

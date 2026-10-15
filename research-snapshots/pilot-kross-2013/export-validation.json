@@ -1,0 +1,25 @@
+{
+  "structure": "pass",
+  "text_roundtrip": "pass",
+  "visual_review": "checked",
+  "schema_validation": "not_performed",
+  "scope": "ZIP/XML/package links and exact text; not full standard conformity or render proof",
+  "ledger_version": 16,
+  "citation_reference_match": "pass",
+  "cited_source_ids": [
+    "S001"
+  ],
+  "submission_ready": false,
+  "template_conversion": "Bundled template, ZIP/XML and exact HWPX re-extraction; Hangul 2022 native open/PDF render and all-page agent visual review. Full schema not validated.",
+  "files": {
+    "manuscript.hwpx": "e81c3522e2b11717a0c9ad1ea64ff1cea0a469fca6b878e915f87c36ef547e26",
+    "manuscript.md": "e100ce3d911802369c1f9a72a803c6e863df9372260885f07ad098be71505382",
+    "evidence.csv": "8ca1c87325f653141a771a99214fc4d1232828dc3c1b75b97fdb75f316d32277",
+    "references.bib": "6004c659c165755b87fdd3baab0b19b7710c2038837718162960e6cbad009bcd",
+    "references.csl.json": "6a252137883480c355981ca08c875aa7a7f922f7535e70471e9e64535ff66ba5",
+    "manuscript-trace.json": "2cca274f2e769d1e5b5aa685edefc745a6546c800a2e600f97f4ee80726de83c"
+  },
+  "native_open": "pass",
+  "rendered_text_match": "pass_whitespace_normalized",
+  "visual_review_record": "validation/hwpx/visual-review.json"
+}

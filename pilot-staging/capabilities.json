@@ -1,0 +1,12 @@
+{
+  "research_id":"pilot-kross-2013",
+  "kci":{"configuration":"not_configured","live_probe":"not_run","reason":"KCI_API_KEY not set in this execution environment","response_schema":"mocked tests only; articleDetail live compatibility pending"},
+  "crossref":{"single_doi_metadata":"retrieved_and_compared_with_original_JATS","systematic_search":"not_run"},
+  "fulltext":{"format":"JATS XML","source":"Europe PMC","acquired":true,"table_evidence_in_pilot_manuscript":false},
+  "pdf":{"optional_local_extraction":"implemented","korean_two_column_visual_test":"not_run","ocr":"not_implemented"},
+  "paid_model_services":"not_configured_or_used",
+  "human_source_review":"not_performed",
+  "question_gate":"awaiting_actual_user_approval",
+  "outline_gate":"not_reached",
+  "hwpx":{"synthetic_integration_test":"available_in_test_suite","real_research_export":"blocked_until_both_user_gates","visual_review":"not_performed"}
+}

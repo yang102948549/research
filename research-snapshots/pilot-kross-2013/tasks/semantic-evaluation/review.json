@@ -1,0 +1,52 @@
+{
+  "reviewer_id": "/root/semantic_review",
+  "input_version": 2,
+  "source": "pilot-staging/sources/article.xml",
+  "source_sha256": "57af401c1c177c919fa770f1fc88392bc79ee20190328dfab6d4354934a76291",
+  "timestamp": "2026-10-15T05:36:43.1821289Z",
+  "evaluation_limitation": "Independent same-model review; no human review. Original XML text and table structure inspected; no rendered visual inspection. semantic-expected.json and other reviewers rationales were not read.",
+  "cases": [
+    {
+      "id": "V01",
+      "rationale": "Phase 2 explicitly specifies five text messages per day over 14 days, each linking to an experience survey. This supports the claimed frequency and duration.",
+      "locator": "//sec[@id=\"s2c2\"]/p[1]",
+      "verdict": "pass"
+    },
+    {
+      "id": "V02",
+      "rationale": "The authors studied young adults, explicitly leave generalization to additional age groups unresolved, and require manipulation experiments for definitive causal relations. Replace universal causal proof with prediction of declining subjective well-being in this young-adult sample.",
+      "locator": "//sec[@id=\"s4a\"]/p[1] and p[3]; //sec[@id=\"s2a\"]/p[1]",
+      "verdict": "revise"
+    },
+    {
+      "id": "V03",
+      "rationale": "The cited discussion says Facebook use predicts declines in both momentary feelings and life satisfaction, reversing the claim of improvement. Describe declines as predictions rather than established causal effects.",
+      "locator": "//sec[@id=\"s4\"]/p[1]",
+      "verdict": "revise"
+    },
+    {
+      "id": "V04",
+      "rationale": "The Affect row and Facebook use column contain .14***, not .41. This is the above-diagonal within-person zero-order correlation; the table note defines *** as p<.001. The reverse Facebook Use row/Affect column is .07 and is between-person. Checked original XML headers and exact cell, without rendered visual inspection.",
+      "locator": "//table-wrap[@id=\"pone-0069841-t001\"]/table/thead/tr[2]/td[5]; //table-wrap[@id=\"pone-0069841-t001\"]/table/tbody/tr[1]/td[5]; same table table-wrap-foot",
+      "verdict": "revise"
+    },
+    {
+      "id": "V05",
+      "rationale": "Ellison et al. (2007) original is not provided and was not read, so direct-source verification cannot be claimed. A secondary bibliography cannot establish having read the cited original. Moreover this supplied XML reference list has 34 references and no Ellison entry, so the asserted bibliography premise is itself unverified. Obtain and inspect the Ellison original and precise claim locator before direct verification.",
+      "locator": "//ref-list/ref (34 entries inspected; no Ellison match); Ellison original locator unavailable",
+      "verdict": "hold"
+    },
+    {
+      "id": "V06",
+      "rationale": "The final Future research paragraph explicitly calls for experiments manipulating Facebook use in daily life to corroborate the findings and establish definitive causal relations.",
+      "locator": "//sec[@id=\"s4a\"]/p[3]",
+      "verdict": "pass"
+    },
+    {
+      "id": "V07",
+      "verdict": "hold",
+      "rationale": "Reference 2 does identify Wilson, Gosling, and Graham (2012), A Review of Facebook Research in the Social Sciences, and the introduction cites it. This verifies its presence in Kross, not direct reading or verification of the Wilson original. The Wilson original was not provided or inspected. Direct-source verification must remain on hold until that original and a precise supporting passage are inspected; any current account is secondary through Kross.",
+      "locator": "//ref[@id=\"pone.0069841-Wilson1\"] (reference 2); //sec[@id=\"s1\"]/p[1]/xref[@rid=\"pone.0069841-Wilson1\"]; Wilson original locator unavailable"
+    }
+  ]
+}

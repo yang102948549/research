@@ -1,0 +1,16 @@
+{
+  "research_id": "pilot-kross-2013",
+  "task_id": "semantic-evaluation",
+  "role": "independent-citation-review",
+  "input_version": 2,
+  "artifact_paths": [
+    "tasks/semantic-evaluation/review.json"
+  ],
+  "paper_ids": [
+    "S001"
+  ],
+  "evidence_ids": [],
+  "unresolved": [],
+  "verification_status": "pass",
+  "next_task": "coordinator-score"
+}

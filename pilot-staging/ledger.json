@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "research_id": "pilot-kross-2013",
+  "version": 2,
+  "sources": {
+    "S001": {
+      "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+      "doi": "10.1371/journal.pone.0069841",
+      "authors": [
+        "Kross",
+        "Verduyn",
+        "Demiralp",
+        "Park",
+        "Lee",
+        "Lin",
+        "Shablack",
+        "Jonides",
+        "Ybarra"
+      ],
+      "year": 2013,
+      "identity_status": "matched",
+      "identity_check": "Crossref DOI/title/ordered author surnames/year compared with original JATS front matter",
+      "fulltext_status": "available",
+      "parse_status": "checked",
+      "parse_review": "Coordinator read body sections, method and limitations in JATS; no table evidence used",
+      "path": "sources/article.xml",
+      "file_hash": "57af401c1c177c919fa770f1fc88392bc79ee20190328dfab6d4354934a76291",
+      "citation_label": "Kross et al., 2013",
+      "reference_text": "Kross, E., Verduyn, P., Demiralp, E., Park, J., Lee, D. S., Lin, N., Shablack, H., Jonides, J., & Ybarra, O. (2013). Facebook use predicts declines in subjective well-being in young adults. PLOS ONE, 8(8), e69841. https://doi.org/10.1371/journal.pone.0069841",
+      "csl": {
+        "type": "article-journal",
+        "title": "Facebook Use Predicts Declines in Subjective Well-Being in Young Adults",
+        "author": [
+          {
+            "family": "Kross",
+            "given": "Ethan"
+          },
+          {
+            "family": "Verduyn",
+            "given": "Philippe"
+          },
+          {
+            "family": "Demiralp",
+            "given": "Emre"
+          },
+          {
+            "family": "Park",
+            "given": "Jiyoung"
+          },
+          {
+            "family": "Lee",
+            "given": "David Seungjae"
+          },
+          {
+            "family": "Lin",
+            "given": "Natalie"
+          },
+          {
+            "family": "Shablack",
+            "given": "Holly"
+          },
+          {
+            "family": "Jonides",
+            "given": "John"
+          },
+          {
+            "family": "Ybarra",
+            "given": "Oscar"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2013
+            ]
+          ]
+        },
+        "container-title": "PLOS ONE",
+        "volume": "8",
+        "issue": "8",
+        "page": "e69841",
+        "DOI": "10.1371/journal.pone.0069841"
+      },
+      "bibtex": "@article{S001,\n  title = {Facebook Use Predicts Declines in Subjective Well-Being in Young Adults},\n  author = {Kross, Ethan and Verduyn, Philippe and Demiralp, Emre and Park, Jiyoung and Lee, David Seungjae and Lin, Natalie and Shablack, Holly and Jonides, John and Ybarra, Oscar},\n  year = {2013},\n  journal = {PLOS ONE},\n  volume = {8},\n  number = {8},\n  pages = {e69841},\n  doi = {10.1371/journal.pone.0069841}\n}",
+      "provider_verified": null,
+      "human_reviewed": false,
+      "correction_retraction_status": "not_comprehensively_checked",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3743827/fullTextXML",
+      "hash": "a9f90a9a02d7671fad6022167e319bc5167a36df4bb30a68eacdf9d1f432e83c"
+    }
+  },
+  "evidence": {},
+  "claims": {},
+  "paragraphs": {},
+  "approvals": {},
+  "tasks": {},
+  "commits": {},
+  "repairs": {},
+  "reviews": {},
+  "outline": null,
+  "research_question": {
+    "text": "Kross 외(2013)의 Facebook 이용과 주관적 안녕감 연구가 뒷받침하는 주장과 인과·일반화의 한계는 무엇인가?",
+    "scope": "공개 원문 1편의 근거 추적 기술 시험. 분야 전체 문헌고찰이나 최신 결론이 아님.",
+    "review_type": "single_source_methodological_pilot",
+    "language": "ko",
+    "length": "사용자가 승인할 짧은 시험 원고",
+    "venue": null,
+    "deadline": null
+  },
+  "paragraph_reviews": {},
+  "feasibility": {
+    "source_ids": [
+      "S001"
+    ],
+    "rationale": "Full original XML, original metadata and Crossref match; explicit results and causal/generalization limitations are present.",
+    "source_hashes": {
+      "S001": "a9f90a9a02d7671fad6022167e319bc5167a36df4bb30a68eacdf9d1f432e83c"
+    },
+    "question_hash": "e3c48fc4cd0c7e78894362a0d4520dada29541d20789082705ea456077bd2804",
+    "timestamp": "2026-10-15T05:32:57.028431+00:00"
+  }
+}

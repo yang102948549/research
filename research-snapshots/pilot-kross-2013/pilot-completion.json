@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-15T06:27:39.004471+00:00",
+  "research_id": "pilot-kross-2013",
+  "ledger_version": 16,
+  "claim_count": 4,
+  "paragraph_count": 5,
+  "manuscript_gate": {
+    "pass": true,
+    "errors": []
+  },
+  "final_gate": {
+    "pass": true,
+    "errors": []
+  },
+  "hwpx_text_exactly_matches_markdown": true,
+  "citation_reference_alignment": "pass",
+  "human_reviewed": false,
+  "visual_review": "checked",
+  "submission_ready": false,
+  "scope": "Approved one-paper real-source pilot; not full KCI/PDF/OCR workflow coverage",
+  "visual_review_record": "validation/hwpx/visual-review.json"
+}

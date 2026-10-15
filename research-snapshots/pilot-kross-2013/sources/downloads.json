@@ -1,0 +1,12 @@
+[
+  {
+    "path": "article.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3743827/fullTextXML",
+    "sha256": "57af401c1c177c919fa770f1fc88392bc79ee20190328dfab6d4354934a76291"
+  },
+  {
+    "path": "crossref.json",
+    "url": "https://api.crossref.org/works/10.1371/journal.pone.0069841",
+    "sha256": "1c6971b71bbd2bed50aac37e176b28299f2525438ca9a291b89befb66c40d96d"
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "source_sha256": "ddb1ede52e317cb67c94172b39aad24b0150bf888455be33f8e333010ce16a0a",
+  "scope": "Real Korean two-column exam, controlled rasterized scans; not physical scan nor scholarly paper.",
+  "checks": [
+    {
+      "scan_pdf_page": 1,
+      "kind": "negation",
+      "expected": "설명하지는 않는다",
+      "whitespace_insensitive_match": false
+    },
+    {
+      "scan_pdf_page": 1,
+      "kind": "number",
+      "expected": "2026",
+      "whitespace_insensitive_match": true
+    },
+    {
+      "scan_pdf_page": 1,
+      "kind": "left-column",
+      "expected": "글을 읽고 그 의미를 이해하는 독해에는",
+      "whitespace_insensitive_match": true
+    },
+    {
+      "scan_pdf_page": 1,
+      "kind": "right-column",
+      "expected": "단순 관점에 대한 비판으로 가장 적절한 것은",
+      "whitespace_insensitive_match": false
+    },
+    {
+      "scan_pdf_page": 2,
+      "kind": "footnote",
+      "expected": "봉고파출",
+      "whitespace_insensitive_match": true
+    },
+    {
+      "scan_pdf_page": 2,
+      "kind": "footnote-definition",
+      "expected": "어사가 고을 원을 파면하고 관가의 창고를 잠금",
+      "whitespace_insensitive_match": true
+    },
+    {
+      "source_pdf_page": 18,
+      "kind": "raster-notice-number",
+      "expected": "월 5권 이내, 14일간",
+      "whitespace_insensitive_match": true
+    },
+    {
+      "source_pdf_page": 18,
+      "kind": "raster-notice-number",
+      "expected": "09:00",
+      "whitespace_insensitive_match": true
+    },
+    {
+      "source_pdf_page": 18,
+      "kind": "raster-notice-number",
+      "expected": "18:00",
+      "whitespace_insensitive_match": true
+    },
+    {
+      "source_pdf_page": 18,
+      "kind": "raster-notice-number",
+      "expected": "3일간 재신청 불가",
+      "whitespace_insensitive_match": true
+    }
+  ],
+  "passed": 8,
+  "total": 10,
+  "evidence_verified": false,
+  "gold_transcription_note": "Footnote gold corrected from 아사가 to 어사가 after 220dpi original-image crop inspection.",
+  "table": {
+    "source_pdf_page": 19,
+    "printed_page_top": "3",
+    "printed_page_footer": "19 / 20",
+    "crop_pdf_bbox": [
+      600,
+      395,
+      755,
+      455
+    ],
+    "crop_dpi": 300,
+    "expected_columns": [
+      "일",
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토"
+    ],
+    "expected_digits": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "digits_found": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "digit_cell_order_matches": true,
+    "weekday_headers_complete": false,
+    "closure_label_expected": "정기 휴관",
+    "closure_label_match": false,
+    "status": "failed_requires_manual_transcription_and_review"
+  },
+  "native_text": [
+    {
+      "pdf_page": 1,
+      "two_columns_detected": true,
+      "native_blocks_preserved": 85,
+      "proposal_has_all_blocks_once": true,
+      "ocr_region_count": 0,
+      "reading_order_verified": false
+    },
+    {
+      "pdf_page": 11,
+      "two_columns_detected": true,
+      "native_blocks_preserved": 85,
+      "proposal_has_all_blocks_once": true,
+      "ocr_region_count": 0,
+      "reading_order_verified": false
+    },
+    {
+      "pdf_page": 18,
+      "two_columns_detected": true,
+      "native_blocks_preserved": 48,
+      "proposal_has_all_blocks_once": true,
+      "ocr_region_count": 2,
+      "reading_order_verified": false
+    },
+    {
+      "pdf_page": 19,
+      "two_columns_detected": true,
+      "native_blocks_preserved": 55,
+      "proposal_has_all_blocks_once": true,
+      "ocr_region_count": 2,
+      "reading_order_verified": false
+    }
+  ]
+}

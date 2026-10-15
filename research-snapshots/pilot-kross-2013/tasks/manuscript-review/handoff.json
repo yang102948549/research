@@ -1,0 +1,21 @@
+{
+  "paper_ids": [
+    "S001"
+  ],
+  "role": "independent-citation-review",
+  "input_version": 16,
+  "artifact_paths": [
+    "tasks/manuscript-review/review.json"
+  ],
+  "verification_status": "pass",
+  "unresolved": [],
+  "evidence_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004"
+  ],
+  "research_id": "pilot-kross-2013",
+  "task_id": "manuscript-review",
+  "next_task": "export"
+}

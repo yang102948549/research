@@ -1,0 +1,37 @@
+{
+  "research_id": "scan-table-validation-20261015",
+  "task_id": "source",
+  "role": "source_acquisition_and_table_transcription",
+  "input_version": 0,
+  "artifact_paths": [
+    "tasks/source/article.pdf",
+    "tasks/source/build_source.py",
+    "tasks/source/C1-proof.png",
+    "tasks/source/cells.csv",
+    "tasks/source/contact.png",
+    "tasks/source/evidence-candidate.json",
+    "tasks/source/evidence-reviewed.json",
+    "tasks/source/gate-test-results.json",
+    "tasks/source/header.png",
+    "tasks/source/issue.html",
+    "tasks/source/metadata.json",
+    "tasks/source/notes.png",
+    "tasks/source/ocr-page5.json",
+    "tasks/source/ocr-page5.txt",
+    "tasks/source/page5.png",
+    "tasks/source/REPORT.md",
+    "tasks/source/run_gate_test.py",
+    "tasks/source/search-log.json",
+    "tasks/source/table-transcription.json",
+    "tasks/source/table.png"
+  ],
+  "paper_ids": [
+    "LEE1994"
+  ],
+  "evidence_ids": [],
+  "unresolved": [
+    "Independent reviewer must check126cells and notes; source economic total discrepancy must remain hold; coordinates approximate."
+  ],
+  "verification_status": "pending",
+  "next_task": "independent_scan_table_review"
+}
