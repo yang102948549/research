@@ -11,7 +11,7 @@
 
 `Ledger.evidence_errors(eid)`는 미검토·변경된 근거, 범위 밖 쪽수, 원본과 다른 검토 이미지, native 구절 불일치, 미검토 raw OCR를 거부한다. 실제 PDF 원문을 HTML/XML 위치 유형으로 바꿔 PDF 검사를 우회할 수 없다. 검토자는 이어서 주장의 범위·부정·재인용·표의 행과 단위를 대조하고 `review()`에 의미 판정을 남긴다. 문구 일치 검사만으로 의미 검토를 대체할 수 없다.
 
-실제 학술논문 시험에서 전폭 표와 2단 본문이 섞인 페이지의 읽기 순서 제안이 표를 분해했고, 실스캔의 각주 기간과 본문 연도가 오인식됐다. `reading_order_blockers`가 있거나 `layout_status=unknown_no_native_text`이면 원본을 수동 확인한다. 문서 전체의 파싱 품질과 선택한 근거 영역의 검토 범위를 구분한다. [실제 학술논문 검증 결과](academic-pdf-validation.md)를 참고한다.
+`reading_order_blockers`가 있거나 `layout_status=unknown_no_native_text`이면 원본을 수동 확인한다. 문서 전체의 파싱 품질과 선택한 근거 영역의 검토 범위를 구분한다.
 
 ## 스캔 표의 선택 셀 추적
 
@@ -19,7 +19,7 @@
 
 - `value`: 원문 그대로의 선택 셀(quote와 일치), `bbox`: locator와 동일. 괄호 안 인원수와 백분율을 혼동하지 않는다.
 - `row_index`, `column_index`: 패널 내부 0부터 시작하는 행·열. `row_headers`, `column_headers`는 상위에서 하위 순서의 `{text,bbox,span:[시작,끝]}` 목록이다. 병합/묶음 범위는 선택 인덱스를 포함하며 자식 범위는 부모 안에 있어야 한다. table_context의 row/column은 텍스트를 ` > `로 연결한다.
-- `unit`: `{text,status:printed|not_printed,bbox}`. 인쇄 단위가 없으면 rationale을 기록한다. 합계 셀의 `100.00 (548)`은 `% (명)`처럼 혼합 단위를 명시한다.
+- `unit`: `{text,status:printed|not_printed,bbox}`. 인쇄 단위가 없으면 rationale을 기록한다. 백분율과 인원수가 함께 인쇄된 셀은 두 단위와 각각의 대응을 명시한다.
 - `notes`: 원본 주석 목록의 `{text,bbox,scope,applies_to_cell:boolean}`. 관련 없는 주석도 범위를 구분한다. 주석이 없으면 해당 사실과 표 영역 bbox를 명시한 항목을 기록한다. `population_scope`에 분모/응답 대상 제한을 기록한다.
 - 검토자는 `merged_headers,cell_mapping,note_scope,unit_origin`도 확인한다. 모든 좌표는 검토용 context 안에 있어야 한다. 원 OCR 및 오류가 난 토큰은 별도로 보존한다.
 
