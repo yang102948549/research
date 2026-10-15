@@ -1,0 +1,147 @@
+{
+  "research_id": "ai-moral-status",
+  "task_id": "domestic-acquisition",
+  "role": "fulltext_acquisition",
+  "input_version": 1,
+  "date": "2026-10-15",
+  "timezone": "Asia/Seoul",
+  "paper_ids": [
+    "KR001",
+    "KR002",
+    "KR003",
+    "KR004",
+    "KR005"
+  ],
+  "evidence_ids": [],
+  "verification_status": "hold",
+  "records": [
+    {
+      "paper_id": "KR001",
+      "kci_id": "ART003263554",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/artiPreView.kci?sereArticleSearchBean.artiId=ART003263554&v=2019",
+      "path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003263554-preview.pdf",
+      "file_hash": "e4600a81b5f59d5b471a8db5bf02978e5a25463051890056ce2eb60f28ba8bb9",
+      "size_bytes": 233397,
+      "pdf_pages": 1,
+      "fulltext_status": "preview_only",
+      "identity_status": "first_page_title_author_matched",
+      "parse_status": "text_extracted_not_reviewed",
+      "evidence_verified": false,
+      "text_path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003263554-preview.pages.json",
+      "notes": "KCI explicitly offers preview only; one-page abstract; no full body acquired."
+    },
+    {
+      "paper_id": "KR002",
+      "kci_id": "ART003155341",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteServHistIFrame.kci?sereArticleSearchBean.artiId=ART003155341&sereArticleSearchBean.orteFileId=KCI_FI003155341",
+      "path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003155341.pdf",
+      "file_hash": "0dc04c7f39e68666f363ffdd0cdd62c2f6d410252a4432bd9a6668e4bf7b72d7",
+      "size_bytes": 459369,
+      "pdf_pages": 28,
+      "fulltext_status": "acquired",
+      "identity_status": "first_page_title_author_matched",
+      "parse_status": "text_extracted_not_reviewed",
+      "evidence_verified": false,
+      "text_path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003155341.pages.json",
+      "notes": "Public KCI download via page-established session and Referer; direct request initially returned guidance to use KCI homepage. Last PDF page has no extracted text; bibliographic page count must not equal physical PDF page count."
+    },
+    {
+      "paper_id": "KR003",
+      "kci_id": "ART002439977",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteServHistIFrame.kci?sereArticleSearchBean.artiId=ART002439977&sereArticleSearchBean.orteFileId=KCI_FI002439977",
+      "path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART002439977.pdf",
+      "file_hash": "916ea33e0e5530549df24de7c7781483086b27cdd5e2aabaf1f5ca144430ff05",
+      "size_bytes": 351329,
+      "pdf_pages": 32,
+      "fulltext_status": "acquired",
+      "identity_status": "first_page_title_author_matched",
+      "parse_status": "text_extracted_not_reviewed",
+      "evidence_verified": false,
+      "text_path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART002439977.pages.json",
+      "notes": "Public KCI download via page-established session and Referer; direct request initially returned guidance to use KCI homepage. Last PDF page has no extracted text; bibliographic page count must not equal physical PDF page count."
+    },
+    {
+      "paper_id": "KR004",
+      "kci_id": "ART003160334",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteServHistIFrame.kci?sereArticleSearchBean.artiId=ART003160334&sereArticleSearchBean.orteFileId=KCI_FI003160334",
+      "path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160334.pdf",
+      "file_hash": "97f9552cbb87d97ce448c1fd7474d3ca83dd86cf5dbebdfef98f5db90e404e50",
+      "size_bytes": 1270880,
+      "pdf_pages": 30,
+      "fulltext_status": "acquired",
+      "identity_status": "first_page_title_author_matched",
+      "parse_status": "text_extracted_not_reviewed",
+      "evidence_verified": false,
+      "text_path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160334.pages.json",
+      "notes": "Public KCI download via page-established session and Referer; direct request initially returned guidance to use KCI homepage. Last PDF page has no extracted text; bibliographic page count must not equal physical PDF page count."
+    },
+    {
+      "paper_id": "KR005",
+      "kci_id": "ART003160318",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteServHistIFrame.kci?sereArticleSearchBean.artiId=ART003160318&sereArticleSearchBean.orteFileId=KCI_FI003160318",
+      "path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160318.pdf",
+      "file_hash": "fc35255ef3f51fe77b42f5a8a495c9c18e27e0708746f281be191c9856dd1dfd",
+      "size_bytes": 1215343,
+      "pdf_pages": 24,
+      "fulltext_status": "acquired",
+      "identity_status": "first_page_title_author_matched",
+      "parse_status": "text_extracted_not_reviewed",
+      "evidence_verified": false,
+      "text_path": "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160318.pages.json",
+      "notes": "Public KCI download via page-established session and Referer; direct request initially returned guidance to use KCI homepage. Last PDF page has no extracted text; bibliographic page count must not equal physical PDF page count."
+    }
+  ],
+  "artifact_paths": [
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART002439977-download.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART002439977.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART002439977.pages.json",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART002439977.pdf",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART002439977.png",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003155341-download.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003155341.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003155341.pages.json",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003155341.pdf",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003155341.png",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160318-download.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160318.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160318.pages.json",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160318.pdf",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160318.png",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160334-download.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160334.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160334.pages.json",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160334.pdf",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003160334.png",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003263554-preview.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003263554-preview.pages.json",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003263554-preview.pdf",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003263554-preview.png",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\ART003263554.html",
+    "C:\\Users\\yang4\\OneDrive\\claude\\논문검색\\문헌검색\\validation\\transfer-recovery\\research-workspaces\\ai-moral-status\\tasks\\domestic-acquisition\\build_record.py"
+  ],
+  "attempts": [
+    {
+      "scope": "all five",
+      "method": "Fetched official KCI article HTML and inspected actually exposed download/preview actions. HTML saved with KCI article IDs."
+    },
+    {
+      "scope": "KR002-KR005",
+      "method": "Initial direct download returned HTML: 원문 직접 열람이 불가능합니다. KCI 홈페이지에서 열람하세요. Then loaded article page and invoked its exact public link within same session, with page Referer; returned PDF."
+    },
+    {
+      "scope": "KR001",
+      "method": "Exact DOI web search found KCI and PhilPapers metadata only. KCI offers 원문 미리보기 instead of full download. Followed public embedded preview URL; returned 1-page PDF. No access restriction bypass attempted."
+    }
+  ],
+  "search_queries": [
+    "\"10.20433/jnkpa.2025.10.177\"",
+    "\"인공지능의 도덕적 지위와 관계론적 접근\" filetype:pdf",
+    "\"동물과 AI를 통한 인간의 도덕적 지위 탐구\" pdf"
+  ],
+  "unresolved": [
+    "KR001 full body unavailable in these bounded attempts; preview only.",
+    "Acquisition does not constitute semantic evidence validation.",
+    "KR004 last text page is printed 179 and final PDF page has no extracted text; KCI metadata ends 180. Retain discrepancy until visual review."
+  ],
+  "next_task": "Extract bounded, page-located evidence from KR002-KR005 and conduct independent source review; keep KR001 abstract-only pending lawful publisher/library access."
+}

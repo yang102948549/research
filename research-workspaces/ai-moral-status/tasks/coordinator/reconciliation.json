@@ -1,0 +1,23 @@
+[
+  {
+    "task_id": "domestic",
+    "assigned_input_version": 1,
+    "artifact_path": "tasks/domestic/candidates.json",
+    "artifact_sha256": "819ecbb3a1b5f08a47fa081885c5c17ad8e1056c9638816dc90f993a3a765f04",
+    "note": "Candidate discovery only under narrowed question stated in task. Input version1 retained; coordinator checked scope and files before registering candidates; not a semantic review."
+  },
+  {
+    "task_id": "international",
+    "assigned_input_version": 1,
+    "artifact_path": "tasks/international/candidates.json",
+    "artifact_sha256": "f523ee7502a943b01db4a895ac7eed99c4a2a9a0e54f4259dcd3e945a2b90207",
+    "note": "Candidate discovery only under narrowed question stated in task. Input version1 retained; coordinator checked scope and files before registering candidates; not a semantic review."
+  },
+  {
+    "task_id": "theory",
+    "assigned_input_version": 1,
+    "artifact_path": "tasks/theory/findings.json",
+    "artifact_sha256": "684d7759f9a208fe1855074a3c2f77c82e0b910b6c9199d13096fd23d14853b1",
+    "note": "Candidate discovery only under narrowed question stated in task. Input version1 retained; coordinator checked scope and files before registering candidates; not a semantic review."
+  }
+]

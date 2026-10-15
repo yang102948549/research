@@ -1,0 +1,47 @@
+{
+  "research_id": "ai-moral-status",
+  "status": "web_discovery_in_progress_kci_collection_not_executed",
+  "user_selected_scope": "현재 생성형 AI·LLM의 도덕적 지위에 집중하는 문헌연구",
+  "kci_title_queries": [
+    "생성형 인공지능",
+    "대규모 언어모델",
+    "거대언어모델",
+    "도덕적 지위",
+    "인공지능 권리"
+  ],
+  "international_query_proposals": [
+    "(\"large language model\" OR \"generative AI\") AND (\"moral status\" OR \"moral patienthood\")",
+    "(\"large language model\" OR chatbot) AND (consciousness OR sentience OR welfare)"
+  ],
+  "record_fields": [
+    "query",
+    "date",
+    "service",
+    "filters",
+    "reported_total",
+    "collected_count",
+    "pages",
+    "stop_reason",
+    "candidate_id",
+    "selection_reason"
+  ],
+  "screening_dimensions": [
+    "현재 모델에 관한 주장인지 미래 가능성인지",
+    "AI 자체의 이익인지 인간을 위한 간접 보호인지",
+    "도덕적 피동성·행위자성·법적 인격의 구분",
+    "동료심사 논문과 프리프린트의 구분",
+    "의식·감응능력 평가의 방법과 적용 모델/시점"
+  ],
+  "question_approval": "user narrowed scope to grounds for moral status; provisional protection excluded; actual response recorded",
+  "length": null,
+  "deadline": null,
+  "target_journal": null,
+  "excluded_focus": [
+    "잠정적 보호 정책"
+  ],
+  "kci_collection_policy": {
+    "operation": "articleSearch",
+    "page_size": 20,
+    "referenceSearch": "hold_unverified_pagination_and_identity"
+  }
+}

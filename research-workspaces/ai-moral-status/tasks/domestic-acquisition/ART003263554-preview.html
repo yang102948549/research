@@ -1,0 +1,26 @@
+
+
+
+<html>
+<head>
+    <title>한국학술지인용색인</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="/kciportal/resources/newkci/js/pdfobject.min.js"></script>
+</head>
+<body style="margin: 0; padding: 0">
+<div id="my-pdf"></div>
+<script>
+var options = {
+		pdfOpenParams: {
+			pagemode: "thumbs",
+			navpanes: 0,
+			toolbar: 0,
+			statusbar: 0
+		}
+	};
+var container = document.querySelector("#my-pdf");
+PDFObject.embed("/kciportal/ci/sereArticleSearch/artiPreView.kci?sereArticleSearchBean.artiId=ART003263554&v=2019", container, options);
+</script>
+</body>
+</html>

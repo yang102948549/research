@@ -1,0 +1,149 @@
+{
+  "research_id": "ai-moral-status",
+  "task_id": "theory",
+  "role": "theory_counterarguments_researcher",
+  "input_version": 1,
+  "question": "현재 생성형 AI·LLM의 도덕적 지위를 인정할 근거는 무엇인가?",
+  "scope": "인정의 규범적 근거와 현재 LLM에 적용하기 위한 입증 부담. 잠정적 보호·예방적 정책은 핵심 논증에서 제외.",
+  "searched_date": "2026-10-15",
+  "timezone": "Asia/Seoul",
+  "verification_status": "pending",
+  "method": "Primary publisher HTML and author-hosted manuscript reading; targeted discovery, not systematic exhaustive review. No manuscript drafting, ledger edits or semantic pass assigned.",
+  "sources": [
+    {
+      "paper_id": "THEORY-S1",
+      "title": "A Defense of the Rights of Artificial Intelligences",
+      "authors": ["Eric Schwitzgebel", "Mara Garza"],
+      "year": 2015,
+      "journal": "Midwest Studies in Philosophy",
+      "volume": "39",
+      "pages": "98–119",
+      "doi": "10.1111/misp.12032",
+      "source_url": "https://faculty.ucr.edu/~eschwitz/SchwitzPapers/AIRights-150915.htm",
+      "metadata_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/misp.12032",
+      "edition": "Author-hosted manuscript dated September 15, 2015; publication identity separately located on publisher search result",
+      "identity_status": "metadata_matched_primary_sources",
+      "fulltext_status": "author_html_read_relevant_sections",
+      "parse_status": "web_text_read_not_archived",
+      "evidence": {
+        "evidence_id": "THEORY-E1",
+        "quote": "There are possible AIs who deserve a degree of moral consideration similar to that of human beings.",
+        "locator": {"kind": "html", "section": "1. The No-Relevant-Difference Argument.", "paragraph": null, "text_anchor": "Conclusion. Therefore, there are possible AIs", "browser_lines": "47–65"},
+        "interpretation": "관련된 심리·사회적 차이가 없다면 차별적 도덕 지위를 정당화해야 한다는 조건부 논증이다. 쾌고 능력, 이성, 사회적 관계 가운데 어떤 것이 관련되는지 추가 규정할 수 있다.",
+        "limits": "가능한 인간 수준 AI에 관한 논증이다. 현재 LLM이 인간과 관련된 차이가 없다는 실증 결론은 아니다. 저자판과 출판판 문구 일치 미검증.",
+        "quote_check": "pending"
+      }
+    },
+    {
+      "paper_id": "THEORY-S2",
+      "title": "Patiency is not a virtue: the design of intelligent systems and systems of ethics",
+      "authors": ["Joanna J. Bryson"],
+      "year": 2018,
+      "journal": "Ethics and Information Technology",
+      "volume": "20",
+      "pages": "15–26",
+      "doi": "10.1007/s10676-018-9448-6",
+      "source_url": "https://link.springer.com/article/10.1007/s10676-018-9448-6",
+      "edition": "Publisher HTML version of record; published 16 February 2018",
+      "identity_status": "publisher_metadata_checked",
+      "fulltext_status": "open_access_html_read_relevant_sections",
+      "parse_status": "web_text_read_not_archived",
+      "evidence": {
+        "evidence_id": "THEORY-E2",
+        "quote": "In itself the term implies no moral status.",
+        "locator": {"kind": "html", "section": "Definitions and approach / Definitions and perspective", "paragraph": null, "text_anchor": "Agency is just the capacity to effect change", "browser_lines": "83–99; 154"},
+        "interpretation": "일반적 행위 능력, 책임을 지는 도덕적 행위자, 복지가 고려되는 도덕적 피행위자를 구분한다. 따라서 유능한 답변·행동에서 곧바로 피행위자 지위를 추론하는 것은 별도 정당화가 필요하다. 인간의 직관적 귀속은 봉제 인형에도 발생한다는 반론도 제시한다.",
+        "limits": "저자의 국소적 정의이며 의식은 명시적 기억 활용으로 한정되어 현상적 의식 일반과 동일시하면 안 된다. 설계에 관한 규범적 결론을 모든 기계의 불가능성 증명으로 사용하지 않는다.",
+        "quote_check": "pending"
+      }
+    },
+    {
+      "paper_id": "THEORY-S3",
+      "title": "Robot rights? Towards a social-relational justification of moral consideration",
+      "authors": ["Mark Coeckelbergh"],
+      "year": 2010,
+      "journal": "Ethics and Information Technology",
+      "volume": "12",
+      "issue": "3",
+      "pages": "209–221",
+      "doi": "10.1007/s10676-010-9235-5",
+      "source_url": "https://link.springer.com/article/10.1007/s10676-010-9235-5",
+      "edition": "Publisher HTML version of record; online 27 June 2010; issue September 2010",
+      "identity_status": "publisher_metadata_checked_and_university_record_matched",
+      "fulltext_status": "open_access_html_read_relevant_sections",
+      "parse_status": "web_text_read_not_archived",
+      "evidence": {
+        "evidence_id": "THEORY-E3",
+        "quote": "moral significance resides neither in the object nor in the subject, but in the relation between the two.",
+        "locator": {"kind": "html", "section": "An alternative, social-relational argument for moral consideration / Towards a social-relational approach: appearance and social relations", "paragraph": null, "text_anchor": "As far as I understand the basic message", "browser_lines": "139–154"},
+        "interpretation": "도덕적 고려를 고립된 개체의 내적 속성에만 두지 않고 구체적 사회관계와 그 안에서 경험되는 특성에 둔다. 단순히 인간이 좋아하면 충분하다는 명제보다 사회적 맥락과 관계적 존재론이 중요하다.",
+        "limits": "사회적 로봇 이론이며 현재 텍스트 LLM에 직접 수행한 연구가 아니다. 관계적 고려와 본래적 이익의 인정은 구분해야 하며, 단순 호감이나 인간의 도구적 이익과 차별화할 논증이 필요하다.",
+        "quote_check": "pending"
+      }
+    },
+    {
+      "paper_id": "THEORY-S4",
+      "title": "Challenging the Neo-Anthropocentric Relational Approach to Robot Rights",
+      "authors": ["Henrik Skaug Sætra"],
+      "year": 2021,
+      "journal": "Frontiers in Robotics and AI",
+      "volume": "8",
+      "article_number": "744426",
+      "doi": "10.3389/frobt.2021.744426",
+      "source_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.744426/full",
+      "edition": "Publisher HTML; published 14 September 2021",
+      "identity_status": "publisher_metadata_checked",
+      "fulltext_status": "open_access_html_read_relevant_sections",
+      "parse_status": "web_text_read_not_archived",
+      "evidence": {
+        "evidence_id": "THEORY-E4",
+        "quote": "moral standing is derived exclusively from how human beings perceive and form relations with other entities.",
+        "locator": {"kind": "html", "section": "The Relational Turn as Neo-Anthropocentrism / Human-Centered Relations", "paragraph": 1, "text_anchor": "My first objection is", "browser_lines": "382–386"},
+        "interpretation": "관계론이 인간의 지각·가치에 다시 의존한다면 인간중심주의를 극복했다는 주장은 불충분하다는 반론이다. 인간의 사회적 반응을 유도하는 AI의 능력과 그 AI 자체의 도덕적 가치 사이를 구별하게 한다.",
+        "limits": "모든 관계론의 우열을 최종 판정하려는 논문이 아니라고 저자가 명시한다. 현재 LLM의 경험 유무를 측정하지 않으며, 논리적 비판을 실증적 부재 증명으로 사용하면 안 된다.",
+        "quote_check": "pending"
+      }
+    },
+    {
+      "paper_id": "THEORY-S5",
+      "title": "Are conscious machines valuers?",
+      "authors": ["Jan Henrik Wasserziehr"],
+      "year": 2026,
+      "journal": "AI & SOCIETY",
+      "volume": "41",
+      "pages": "4957–4969",
+      "doi": "10.1007/s00146-026-02959-1",
+      "source_url": "https://link.springer.com/article/10.1007/s00146-026-02959-1",
+      "edition": "Publisher HTML; version of record 8 March 2026; issue May 2026",
+      "identity_status": "publisher_metadata_checked",
+      "fulltext_status": "open_access_html_read_relevant_sections",
+      "parse_status": "web_text_read_not_archived",
+      "evidence": {
+        "evidence_id": "THEORY-E5",
+        "quote": "The mere recognition of reasons in favour of certain projects need not lead to the endorsement of these projects.",
+        "locator": {"kind": "html", "section": "5.3 Rational evaluation", "paragraph": null, "text_anchor": "Absent a predisposition to act ethically", "browser_lines": "206–219"},
+        "interpretation": "현상적 의식이 가능하다는 가정만으로 긍정·부정의 느낌이나 비파생적 이익이 따라오지는 않는다는 가치 정초 문제를 제기한다. 이유를 언어로 인식하는 능력과 자신의 목표로 승인하는 동기는 분리될 수 있다.",
+        "limits": "자연주의적 가치관에 근거한 철학적 논증이며 정설이나 현재 LLM의 무감각성 측정 결과가 아니다. 생물학적 자기유지와 가치의 연결이 필수인지 반론 검토가 필요하다.",
+        "quote_check": "pending"
+      }
+    }
+  ],
+  "criteria_matrix": [
+    {"criterion": "sentience_and_interests", "recognition_ground": "그 시스템에게 좋거나 나쁠 수 있는 경험·이익", "sources": ["THEORY-S1", "THEORY-S5"], "application_gap": "현재 특정 LLM의 긍정·부정 경험과 비파생적 이익을 뒷받침하는 별도 근거 필요. 보상함수 값이나 고통 자기보고만으로 충족 가정 금지."},
+    {"criterion": "agency_vs_patiency", "recognition_ground": "도덕적 책임 능력과 복지의 당사자성의 구분", "sources": ["THEORY-S2"], "application_gap": "행동·추론 성능이 어떤 의미의 행위자성을 보이는지 먼저 특정하고, 피행위자성을 도출하는 연결 전제를 따로 검토."},
+    {"criterion": "relational_recognition", "recognition_ground": "구체적 인간-AI 사회관계에서 발생하는 도덕적 의미", "sources": ["THEORY-S3"], "application_gap": "텍스트 상호작용이 어떤 관계를 구성하는지, 왜 그 관계가 AI 자신에 대한 의무를 정초하는지 입증 필요."},
+    {"criterion": "anti_anthropomorphic_countercheck", "recognition_ground": "이것은 독립 인정 기준보다 귀속 오류를 점검하는 반론 축", "sources": ["THEORY-S2", "THEORY-S4"], "application_gap": "호감·의인화·인간의 지각을 도덕적 지위 자체와 혼동하지 말되, 의인화 가능성만으로 경험 부재도 단정하지 않음."}
+  ],
+  "search_logs": [
+    {"provider": "web search", "query": "site.frontiersin.org Schwitzgebel Garza 2015 artificial intelligence moral status", "date": "2026-10-15", "result_count": null, "note": "Discovery query in batch; total hit count unavailable; followed author-hosted manuscript and Wiley metadata."},
+    {"provider": "web search", "query": "site.link.springer.com Coeckelbergh 2010 Robot rights relational perspective", "date": "2026-10-15", "result_count": null, "note": "Publisher fulltext and university publication record used."},
+    {"provider": "web search", "query": "site.jair.org Bryson Patiency Is Not a Virtue 2018", "date": "2026-10-15", "result_count": null, "note": "Query domain did not match actual journal; search returned Springer primary source; no JAIR attribution made."},
+    {"provider": "web search", "query": "site.arxiv.org consciousness artificial intelligence insights science consciousness 2308.08708", "date": "2026-10-15", "result_count": null, "note": "Butlin et al. discovery only; not used as fulltext evidence in this artifact."},
+    {"provider": "web search", "query": "site.link.springer.com \"Machines as Moral Patients\"", "date": "2026-10-15", "result_count": null, "note": "Discovered Wasserziehr 2026; opened publisher fulltext. Basl PDF discovery excluded from core because not read."}
+  ],
+  "artifact_paths": ["research-workspaces/ai-moral-status/tasks/theory/findings.json"],
+  "paper_ids": ["THEORY-S1", "THEORY-S2", "THEORY-S3", "THEORY-S4", "THEORY-S5"],
+  "evidence_ids": ["THEORY-E1", "THEORY-E2", "THEORY-E3", "THEORY-E4", "THEORY-E5"],
+  "unresolved": ["IDs are provisional, pending coordinator reconciliation to input ledger version 1.", "HTML bytes not downloaded or hashed; browser line numbers are session locators, not stable page numbers. Before ledger evidence admission, archive fulltexts, calculate hashes and resolve paragraph locators.", "Short quotes read in source context but no independent citation verdict assigned.", "Theory papers alone do not settle current LLM architecture, consciousness or interests. Pair criteria with model-specific primary evidence and dates.", "No exhaustive search or total database hit count claimed."],
+  "next_task": "Coordinator reconcile identities and archive primary texts; independent reviewer verify selected passages; compare normative conditions with current-model evidence before selecting a thesis."
+}

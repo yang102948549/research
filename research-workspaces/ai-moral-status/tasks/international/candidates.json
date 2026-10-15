@@ -1,0 +1,269 @@
+{
+  "research_id": "ai-moral-status",
+  "task_id": "international",
+  "role": "international_researcher",
+  "input_version": 1,
+  "artifact_paths": [
+    "C:/Users/yang4/OneDrive/claude/논문검색/문헌검색/validation/transfer-recovery/research-workspaces/ai-moral-status/tasks/international/candidates.json"
+  ],
+  "paper_ids": [
+    "intl-chalmers-2023",
+    "intl-shardlow-przybyla-2024",
+    "intl-overgaard-kirkebyhinrup-2024",
+    "intl-ladak-2024"
+  ],
+  "evidence_ids": [],
+  "verification_status": "pending",
+  "question": "현재 생성형 AI·LLM의 도덕적 지위를 인정할 근거는 무엇인가?",
+  "excluded_scope": "잠정적 보호 및 예방적 정책 처방",
+  "search_date": "2026-10-15",
+  "timezone": "Asia/Seoul",
+  "search_log": [
+    {
+      "engine": "web.run",
+      "queries": [
+        "large language models moral status consciousness Chalmers 2023 could large language models conscious",
+        "site.arxiv.org large language models moral status interests welfare 2025 2026"
+      ],
+      "returned_displayed_results": 40,
+      "total_hits": null,
+      "scope": "Open web discovery, no native database exhaustive retrieval",
+      "selected_count": 4,
+      "screening": "Excluded moral judgment/alignment performance studies because those do not establish the model's own moral status. News/social posts and encyclopedia sources not used as evidence."
+    }
+  ],
+  "candidates": [
+    {
+      "paper_id": "intl-chalmers-2023",
+      "title": "Could a Large Language Model Be Conscious?",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "year": 2023,
+      "doi": "10.48550/arXiv.2303.07103",
+      "publication_type": "authored_essay_and_preprint",
+      "venue": "Boston Review",
+      "published": "2023-08-09",
+      "version": "Publisher essay; arXiv metadata lists v3 revised 2024-08-18",
+      "metadata_url": "https://arxiv.org/abs/2303.07103",
+      "fulltext_url": "https://www.bostonreview.net/articles/could-a-large-language-model-be-conscious/",
+      "version_note": "Publisher HTML was read; arXiv v3 byte identity with this HTML not established. Do not conflate versions.",
+      "read_sections": [
+        "II. Evidence for consciousness in large language models?",
+        "III. Evidence against consciousness in large language models?: World Models and Self Models; Recurrent Processing; Global Workspace; Unified Agency"
+      ],
+      "observations": [
+        {
+          "locator": {
+            "kind": "html",
+            "section": "II",
+            "paragraph_anchor": "X = Reports of Consciousness / X = General Intelligence"
+          },
+          "paraphrase": "저자는 프롬프트에 따라 변하는 자기보고의 증거력을 낮게 보며, 일반적 능력은 의식 가설을 고려할 제한적 이유로 평가한다."
+        },
+        {
+          "locator": {
+            "kind": "html",
+            "section": "III",
+            "paragraph_anchor": "X = Recurrent Processing; X = Unified Agency"
+          },
+          "paraphrase": "재귀 처리·작업공간·통합된 행위성을 의식 이론별 장애물로 논의하면서 이론과 모델 구조 양쪽 전제를 분리한다."
+        }
+      ],
+      "evidence_type": "philosophical evaluation of proposed consciousness indicators, not a new model experiment",
+      "moral_status_role": "의식에 기반한 지위 논증의 사실적 전제를 평가하는 자료; 도덕적 지위의 독립적 증명은 아님",
+      "limits": [
+        "2023년 맥락에서 논의하는 LLM과 후속 LLM+ 구별",
+        "2026년 모든 모델의 의식 여부를 판정하지 않음",
+        "Boston Review essay를 peer-reviewed experimental article로 표시하지 않음"
+      ],
+      "identity_status": "publisher_or_author_repository_metadata_checked",
+      "fulltext_status": "public_html_relevant_sections_read",
+      "full_read": false,
+      "downloaded": false,
+      "source_file_hash": null,
+      "semantic_review_status": "not_independently_reviewed",
+      "evidence_verified": false
+    },
+    {
+      "paper_id": "intl-shardlow-przybyla-2024",
+      "title": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "authors": [
+        "Matthew Shardlow",
+        "Piotr Przybyła"
+      ],
+      "year": 2024,
+      "doi": "10.1371/journal.pone.0307521",
+      "publication_type": "journal_article",
+      "venue": "PLOS ONE",
+      "volume": "19",
+      "issue": "12",
+      "article_number": "e0307521",
+      "published": "2024-12-04",
+      "version": "publisher version of record",
+      "metadata_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307521",
+      "fulltext_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307521",
+      "read_sections": [
+        "Transformer-based LLMs in IIT",
+        "Conclusion"
+      ],
+      "observations": [
+        {
+          "locator": {
+            "kind": "html",
+            "section": "Transformer-based LLMs in IIT",
+            "paragraph_anchor": "One way to measure the likelihood"
+          },
+          "paraphrase": "계산 비용 때문에 Φ를 직접 계산하지 않고 구조적 특성을 IIT의 전제에 대조한다. 저자들은 LaMDA의 정보 결합과 피드포워드 구조 및 구현 하드웨어를 의식 부정 논거로 삼는다."
+        },
+        {
+          "locator": {
+            "kind": "html",
+            "section": "Conclusion",
+            "paragraph_anchor": "We have discussed the capacity"
+          },
+          "paraphrase": "LaMDA의 언어 출력에서 의식을 추론하는 데 반대하며 분석이 영어 모델과 사례에 한정됨을 밝힌다."
+        }
+      ],
+      "evidence_type": "IIT-dependent architectural argument and discourse analysis; not direct measurement of consciousness",
+      "moral_status_role": "의식 기반 인정 논증의 반론; 비의식적 이익·관계에 근거한 지위까지 반박한 것으로 읽지 않음",
+      "limits": [
+        "IIT의 타당성과 논리 모델/물리 구현의 구분을 검토해야 함",
+        "LaMDA 사례 및 분석된 Transformer 계열 밖으로 자동 일반화 금지",
+        "저자의 확정적 표현을 연구 전체의 합의로 바꾸지 않음"
+      ],
+      "identity_status": "publisher_or_author_repository_metadata_checked",
+      "fulltext_status": "public_html_relevant_sections_read",
+      "full_read": false,
+      "downloaded": false,
+      "source_file_hash": null,
+      "semantic_review_status": "not_independently_reviewed",
+      "evidence_verified": false
+    },
+    {
+      "paper_id": "intl-overgaard-kirkebyhinrup-2024",
+      "title": "A clarification of the conditions under which Large language Models could be conscious",
+      "authors": [
+        "Morten Overgaard",
+        "Asger Kirkeby-Hinrup"
+      ],
+      "year": 2024,
+      "doi": "10.1057/s41599-024-03553-w",
+      "publication_type": "journal_comment",
+      "venue": "Humanities and Social Sciences Communications",
+      "volume": "11",
+      "article_number": "1031",
+      "published": "2024-08-12",
+      "version": "publisher version of record, 2024-08-12",
+      "metadata_url": "https://www.nature.com/articles/s41599-024-03553-w",
+      "fulltext_url": "https://www.nature.com/articles/s41599-024-03553-w",
+      "read_sections": [
+        "Opening discussion before The biological-functional distinction",
+        "The biological-functional distinction (opening paragraphs)"
+      ],
+      "observations": [
+        {
+          "locator": {
+            "kind": "html",
+            "section": "Opening discussion",
+            "paragraph_anchor": "How to measure consciousness remains"
+          },
+          "paraphrase": "의식 측정과 이론 선택이 미해결이라는 점을 강조하고 생물학적/기능적, 단순/복잡의 두 축으로 LLM 의식 가능성의 이론적 조건을 분류한다."
+        },
+        {
+          "locator": {
+            "kind": "html",
+            "section": "Opening discussion",
+            "paragraph_anchor": "Segmenting the landscape"
+          },
+          "paraphrase": "언어 행동만으로 의식을 단정하는 대신 각 이론이 어떤 조건에서 LLM 의식을 허용하는지 명시하도록 한다."
+        }
+      ],
+      "evidence_type": "conceptual clarification/comment, not empirical consciousness test",
+      "moral_status_role": "의식 사실 판단의 전제와 한계 정리; 도덕적 지위 기준의 규범적 정당화와 구분",
+      "limits": [
+        "이론 중립성 및 생물학/기능 이분법 자체도 비판 검토 대상",
+        "논쟁적 입장이지 의식 연구 전반의 합의로 간주할 수 없음",
+        "URL suffix는 s41599이나 DOI prefix는 출판사 명시대로 10.1057"
+      ],
+      "identity_status": "publisher_or_author_repository_metadata_checked",
+      "fulltext_status": "public_html_relevant_sections_read",
+      "full_read": false,
+      "downloaded": false,
+      "source_file_hash": null,
+      "semantic_review_status": "not_independently_reviewed",
+      "evidence_verified": false
+    },
+    {
+      "paper_id": "intl-ladak-2024",
+      "title": "What would qualify an artificial intelligence for moral standing?",
+      "authors": [
+        "Ali Ladak"
+      ],
+      "year": 2024,
+      "online_first_year": 2023,
+      "doi": "10.1007/s43681-023-00260-1",
+      "publication_type": "journal_article",
+      "venue": "AI and Ethics",
+      "volume": "4",
+      "pages": "213–228",
+      "published": "2023-01-25",
+      "version": "publisher version of record; volume citation year 2024",
+      "metadata_url": "https://link.springer.com/article/10.1007/s43681-023-00260-1",
+      "fulltext_url": "https://link.springer.com/article/10.1007/s43681-023-00260-1",
+      "read_sections": [
+        "1 Introduction",
+        "2.1 Sentience",
+        "2.2 Consciousness",
+        "2.3 Cognition",
+        "2.6 (Social) relations",
+        "2.7 Behavior",
+        "2.8 Potentiality"
+      ],
+      "observations": [
+        {
+          "locator": {
+            "kind": "html",
+            "section": "2.1–2.3",
+            "paragraph_anchor": "Sentience; Consciousness; Cognition"
+          },
+          "paraphrase": "감응능력의 충분조건과 필요조건을 분리하며 의식·선호·목표 및 인지적 복잡성에 근거한 비감응 AI의 지위 가능성을 논한다."
+        },
+        {
+          "locator": {
+            "kind": "html",
+            "section": "2.8 Potentiality",
+            "paragraph_anchor": "The potentiality criterion may have an interesting implication"
+          },
+          "paraphrase": "GPT-3의 잠재능력 논증은 후속 능력 획득 중 동일성 유지라는 조건에 의존한다. 실제 GPT-3의 도덕적 능력을 측정한 결과가 아니다."
+        }
+      ],
+      "evidence_type": "normative criteria comparison and philosophical argument",
+      "moral_status_role": "지위 인정 근거 자체를 다루는 핵심 기준 논문; LLM-specific empirical study가 아닌 GPT-3 적용을 포함한 이론 자료",
+      "limits": [
+        "현재 LLM이 해당 기준을 충족한다는 독립 증거 필요",
+        "잠정적 보호·전략적 정책 제안 부분은 사용자 범위에서 제외",
+        "2023 온라인 발표와 2024 권호년을 구분"
+      ],
+      "identity_status": "publisher_or_author_repository_metadata_checked",
+      "fulltext_status": "public_html_relevant_sections_read",
+      "full_read": false,
+      "downloaded": false,
+      "source_file_hash": null,
+      "semantic_review_status": "not_independently_reviewed",
+      "evidence_verified": false
+    }
+  ],
+  "findings": [
+    "규범적 기준의 정당화와 특정 모델의 기준 충족 증거를 별도 논증 단계로 관리해야 한다.",
+    "자기보고·대화능력·의식·감응능력·선호/이익은 서로 대체 가능한 용어가 아니다.",
+    "이번 후보는 직접 LLM 의식 논의 3건과 GPT-3 적용을 포함한 기준 논문 1건이다."
+  ],
+  "unresolved": [
+    "2025–2026 모델별 최신 실험 자료는 이번 제한 검색에서 선별되지 않음; 최신성 포괄 주장 금지",
+    "HTML 원문 파일 보존·해시·근거 구절 등록과 독립 검토 미실시",
+    "Chalmers publisher/arXiv 판본 관계 추가 대조 필요",
+    "인지/선호 및 관계적 근거를 현재 LLM에 적용한 추가 논문 필요"
+  ],
+  "next_task": "총괄이 후보를 장부와 조정한 뒤 승인 범위 내 원문 보존·증거 추출·반론 비교 수행"
+}

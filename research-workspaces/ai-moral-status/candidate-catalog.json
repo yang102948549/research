@@ -1,0 +1,205 @@
+{
+  "research_question": "현재 생성형 AI·LLM의 도덕적 지위를 인정할 근거는 무엇인가?",
+  "candidate_count": 14,
+  "candidates": [
+    {
+      "paper_id": "KR001",
+      "group": "domestic",
+      "title": "인공지능의 도덕적 지위와 윤리적 주체성 - 철학적 조건과 관계 윤리의 재구성 -",
+      "authors": [
+        "이재숭"
+      ],
+      "year": 2025,
+      "doi": "10.20433/jnkpa.2025.10.177",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003263554",
+      "local_fulltext": false,
+      "semantic_verified": false,
+      "fulltext_status": "preview_only"
+    },
+    {
+      "paper_id": "KR002",
+      "group": "domestic",
+      "title": "동물과 AI를 통한 인간의 도덕적 지위 탐구",
+      "authors": [
+        "이경근"
+      ],
+      "year": 2024,
+      "doi": "10.38199/KJE.13.6",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003155341",
+      "local_fulltext": true,
+      "semantic_verified": false,
+      "fulltext_status": "available"
+    },
+    {
+      "paper_id": "KR003",
+      "group": "domestic",
+      "title": "인공지능의 도덕적 지위와 관계론적 접근",
+      "authors": [
+        "신상규"
+      ],
+      "year": 2019,
+      "doi": "10.20293/jokps.2019.149.243",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002439977",
+      "local_fulltext": true,
+      "semantic_verified": false,
+      "fulltext_status": "available"
+    },
+    {
+      "paper_id": "KR004",
+      "group": "domestic",
+      "title": "로봇과 인간의 우정은 가능한가? －로봇의 도덕적 지위와 인간성의 의미－",
+      "authors": [
+        "이원봉"
+      ],
+      "year": 2024,
+      "doi": "10.22932/pkps.2024.115.4.151",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003160334",
+      "local_fulltext": true,
+      "semantic_verified": false,
+      "fulltext_status": "available"
+    },
+    {
+      "paper_id": "KR005",
+      "group": "domestic",
+      "title": "인공지능 로봇의 도덕적 지위로서 권리 부여에 대한 비판적 검토－유가적 접근과 대안",
+      "authors": [
+        "장운혁"
+      ],
+      "year": 2024,
+      "doi": "10.22932/pkps.2024.115.4.5",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003160318",
+      "local_fulltext": true,
+      "semantic_verified": false,
+      "fulltext_status": "available"
+    },
+    {
+      "paper_id": "intl-chalmers-2023",
+      "group": "international",
+      "title": "Could a Large Language Model Be Conscious?",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "year": 2023,
+      "doi": null,
+      "source_url": "https://arxiv.org/abs/2303.07103",
+      "local_fulltext": true,
+      "semantic_verified": false,
+      "fulltext_status": "available"
+    },
+    {
+      "paper_id": "intl-shardlow-przybyla-2024",
+      "group": "international",
+      "title": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "authors": [
+        "Matthew Shardlow",
+        "Piotr Przybyła"
+      ],
+      "year": 2024,
+      "doi": "10.1371/journal.pone.0307521",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307521",
+      "local_fulltext": true,
+      "semantic_verified": false,
+      "fulltext_status": "available"
+    },
+    {
+      "paper_id": "intl-overgaard-kirkebyhinrup-2024",
+      "group": "international",
+      "title": "A clarification of the conditions under which Large language Models could be conscious",
+      "authors": [
+        "Morten Overgaard",
+        "Asger Kirkeby-Hinrup"
+      ],
+      "year": 2024,
+      "doi": "10.1057/s41599-024-03553-w",
+      "source_url": "https://www.nature.com/articles/s41599-024-03553-w",
+      "local_fulltext": false,
+      "semantic_verified": false,
+      "fulltext_status": "not_downloaded"
+    },
+    {
+      "paper_id": "intl-ladak-2024",
+      "group": "international",
+      "title": "What would qualify an artificial intelligence for moral standing?",
+      "authors": [
+        "Ali Ladak"
+      ],
+      "year": 2024,
+      "doi": "10.1007/s43681-023-00260-1",
+      "source_url": "https://link.springer.com/article/10.1007/s43681-023-00260-1",
+      "local_fulltext": false,
+      "semantic_verified": false,
+      "fulltext_status": "not_downloaded"
+    },
+    {
+      "paper_id": "THEORY-S1",
+      "group": "theory",
+      "title": "A Defense of the Rights of Artificial Intelligences",
+      "authors": [
+        "Eric Schwitzgebel",
+        "Mara Garza"
+      ],
+      "year": 2015,
+      "doi": "10.1111/misp.12032",
+      "source_url": "https://faculty.ucr.edu/~eschwitz/SchwitzPapers/AIRights-150915.htm",
+      "local_fulltext": false,
+      "semantic_verified": false,
+      "fulltext_status": "not_downloaded"
+    },
+    {
+      "paper_id": "THEORY-S2",
+      "group": "theory",
+      "title": "Patiency is not a virtue: the design of intelligent systems and systems of ethics",
+      "authors": [
+        "Joanna J. Bryson"
+      ],
+      "year": 2018,
+      "doi": "10.1007/s10676-018-9448-6",
+      "source_url": "https://link.springer.com/article/10.1007/s10676-018-9448-6",
+      "local_fulltext": false,
+      "semantic_verified": false,
+      "fulltext_status": "not_downloaded"
+    },
+    {
+      "paper_id": "THEORY-S3",
+      "group": "theory",
+      "title": "Robot rights? Towards a social-relational justification of moral consideration",
+      "authors": [
+        "Mark Coeckelbergh"
+      ],
+      "year": 2010,
+      "doi": "10.1007/s10676-010-9235-5",
+      "source_url": "https://link.springer.com/article/10.1007/s10676-010-9235-5",
+      "local_fulltext": false,
+      "semantic_verified": false,
+      "fulltext_status": "not_downloaded"
+    },
+    {
+      "paper_id": "THEORY-S4",
+      "group": "theory",
+      "title": "Challenging the Neo-Anthropocentric Relational Approach to Robot Rights",
+      "authors": [
+        "Henrik Skaug Sætra"
+      ],
+      "year": 2021,
+      "doi": "10.3389/frobt.2021.744426",
+      "source_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.744426/full",
+      "local_fulltext": false,
+      "semantic_verified": false,
+      "fulltext_status": "not_downloaded"
+    },
+    {
+      "paper_id": "THEORY-S5",
+      "group": "theory",
+      "title": "Are conscious machines valuers?",
+      "authors": [
+        "Jan Henrik Wasserziehr"
+      ],
+      "year": 2026,
+      "doi": "10.1007/s00146-026-02959-1",
+      "source_url": "https://link.springer.com/article/10.1007/s00146-026-02959-1",
+      "local_fulltext": false,
+      "semantic_verified": false,
+      "fulltext_status": "not_downloaded"
+    }
+  ]
+}

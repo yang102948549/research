@@ -1,0 +1,881 @@
+{
+  "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307521",
+  "sha256": "92ac238f58c52bc330afe2c18e94fc0eb5fa38b55964c8c9eedf345dcb194fdc",
+  "format": "html",
+  "status": "needs_reading_order_review",
+  "blocks": [
+    {
+      "section": "Submit Your Manuscript",
+      "paragraph": 1,
+      "text": "Discover a faster, simpler path to publishing in a high-quality journal. PLOS ONE promises fair, rigorous peer review, broad scope, and wide readership – a perfect fit for your research every time."
+    },
+    {
+      "section": "Submit Your Manuscript",
+      "paragraph": 2,
+      "text": "Learn More Submit Now"
+    },
+    {
+      "section": "Submit Your Manuscript",
+      "paragraph": 3,
+      "text": "Click through the PLOS taxonomy to find articles in your field."
+    },
+    {
+      "section": "Submit Your Manuscript",
+      "paragraph": 4,
+      "text": "For more information about PLOS Subject Areas, click here."
+    },
+    {
+      "section": "Submit Your Manuscript",
+      "paragraph": 5,
+      "text": "Loading metrics"
+    },
+    {
+      "section": "Submit Your Manuscript",
+      "paragraph": 6,
+      "text": "Open Access"
+    },
+    {
+      "section": "Submit Your Manuscript",
+      "paragraph": 7,
+      "text": "Peer-reviewed"
+    },
+    {
+      "section": "Submit Your Manuscript",
+      "paragraph": 8,
+      "text": "Research Article"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 9,
+      "text": "Contributed equally to this work with: Matthew Shardlow, Piotr Przybyła"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 10,
+      "text": "Roles Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Resources, Validation, Writing – original draft, Writing – review & editing"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 11,
+      "text": "* E-mail: m.shardlow@mmu.ac.uk"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 12,
+      "text": "Affiliation Department of Computing and Mathematics, Manchester Metropolitan University, Manchester, United Kingdom"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 13,
+      "text": "https://orcid.org/0000-0003-1129-2750"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 14,
+      "text": "Contributed equally to this work with: Matthew Shardlow, Piotr Przybyła"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 15,
+      "text": "Roles Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Writing – original draft, Writing – review & editing"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 16,
+      "text": "Affiliations LaSTUS, Universitat Pompeu Fabra, Barcelona, Spain, Institute of Computer Science, Polish Academy of Sciences, Warsaw, Poland"
+    },
+    {
+      "section": "Deanthropomorphising NLP: Can a language model be conscious?",
+      "paragraph": 17,
+      "text": "https://orcid.org/0000-0001-9043-6817"
+    },
+    {
+      "section": "Abstract",
+      "paragraph": 18,
+      "text": "This work is intended as a voice in the discussion over previous claims that a pretrained large language model (LLM) based on the Transformer model architecture can be sentient. Such claims have been made concerning the LaMDA model and also concerning the current wave of LLM-powered chatbots, such as ChatGPT. This claim, if confirmed, would have serious ramifications in the Natural Language Processing (NLP) community due to wide-spread use of similar models. However, here we take the position that such a large language model cannot be conscious, and that LaMDA in particular exhibits no advances over other similar models that would qualify it. We justify this by analysing the Transformer architecture through Integrated Information Theory of consciousness. We see the claims of sentience as part of a wider tendency to use anthropomorphic language in NLP reporting. Regardless of the veracity of the claims, we consider this an opportune moment to take stock of progress in language modelling and consider the ethical implications of the task. In order to make this work helpful for readers outside the NLP community, we also present the necessary background in language modelling."
+    },
+    {
+      "section": "Abstract",
+      "paragraph": 19,
+      "text": "Citation: Shardlow M, Przybyła P (2024) Deanthropomorphising NLP: Can a language model be conscious? PLoS ONE 19(12): e0307521. https://doi.org/10.1371/journal.pone.0307521"
+    },
+    {
+      "section": "Abstract",
+      "paragraph": 20,
+      "text": "Editor: Muhammad Usman Tariq, Abu Dhabi University, UNITED ARAB EMIRATES"
+    },
+    {
+      "section": "Abstract",
+      "paragraph": 21,
+      "text": "Received: December 11, 2023; Accepted: July 7, 2024; Published: December 4, 2024"
+    },
+    {
+      "section": "Abstract",
+      "paragraph": 22,
+      "text": "Copyright: © 2024 Shardlow, Przybyła. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."
+    },
+    {
+      "section": "Abstract",
+      "paragraph": 23,
+      "text": "Data Availability: All data are in the manuscript."
+    },
+    {
+      "section": "Abstract",
+      "paragraph": 24,
+      "text": "Funding: This work is part of the ERINIA project, which has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101060930. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+    },
+    {
+      "section": "Abstract",
+      "paragraph": 25,
+      "text": "Competing interests: The authors have declared that no competing interests exist."
+    },
+    {
+      "section": "Introduction",
+      "paragraph": 26,
+      "text": "Large language models (LLMs) have underpinned recent advances in Natural Language Processing (NLP) [1–4]. But their proliferation has been accompanied with a growing recognition of their potential for harm [5–7]. More recently, some have claimed that LLMs are capable of possessing characteristics of consciousness. Two such examples of LLMs that have entered into the public debate are LaMDA [8] and ChatGPT https://openai.com/blog/chatgpt. In this work, we aim to set out an understanding of the purpose of LLMs and specifically examine the text generators based on Transformer architecture in light of existing criteria for consciousness. By re-evaluating the purpose of the field, the process by which models work, and the ethical concerns associated with these, we hope to offer rational insights to the debate, both for NLP practitioners and for policy makers."
+    },
+    {
+      "section": "Introduction",
+      "paragraph": 27,
+      "text": "We begin our argument with an extended background section detailing the history of the NLP field leading up to the development of the deep neural LLMs, wherein we cover fundamental principles that are essential to understand the context of the present LLMs. We then focus our examination on the LaMDA model to determine if it is capable of possessing consciousness and present our arguments on the topic. We argue that describing LaMDA (or any other LLM) as a conscious being is a part of the wider problem of anthropomorphic language in scholarly and journalistic reporting. Our findings are transferable to other models using the same architecture. We end with a discussion of the limitations of our study, compare to previous work on the problem and make targeted recommendations to those working with LLMs in any capacity."
+    },
+    {
+      "section": "Introduction",
+      "paragraph": 28,
+      "text": "In this study we will use the term consciousness to refer to the ability of an entity to perceive a subjective experience [9]. We will also use the term sentience, particularly where it has already been used by other authors, to refer to the ability of a conscious entity to perceive and express feelings based in emotion. Finally, we will use the term anthropomorphic (and its derivatives) to refer to language which infers some human characteristic on any non-human entity."
+    },
+    {
+      "section": "Background",
+      "paragraph": 29,
+      "text": "In order to understand the controversy around LaMDA and ChatGPT, we must first take a look at the historical roots of automated language generation. LaMDA is a large language model and in this section we explore what it means to model language, and how this leads to text generation."
+    },
+    {
+      "section": "Language modelling",
+      "paragraph": 30,
+      "text": "What is a language model? Contrary to what the name may imply, it is not simply a machine learning model that deals with language. Instead, it is a solution to a very specific problem, namely predicting the likelihood of tokens (A token is an element in a sequence, into which a text is divided. In most language modelling tasks, tokens correspond to individual words or parts thereof). in a particular context [10]. More formally, in the language modelling task we are seeking to estimate the following conditional probability: where t* is the considered candidate token and c corresponds to the tokens to the left (c−1, c−2, …) and right (c1, c2, …) of its position."
+    },
+    {
+      "section": "Language modelling",
+      "paragraph": 31,
+      "text": "In practice, the context is always finite and often limited to the preceding tokens. For example, we might want to know what words will likely follow the context: c = ‘It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a …’ [11]. Even with such a short context, our language skills and common sense allow us to predict that P(′car′|c) or P(′house′|c) should be much higher than P(′quickly′|c) or P(′was′|c)."
+    },
+    {
+      "section": "Language modelling",
+      "paragraph": 32,
+      "text": "How can we automatically estimate this probability? When the task was first explored by Andrey Andreyevich Markov in 1913 [12], he simply calculated how many times a token tc followed another token t* in a long text. This allows one to estimate P(t*|c), albeit for a very short context c = 〈tc〉. The method can be extended by using token sequences, called n-grams, of any length, starting from 1 (unigrams), 2 (bigrams) and 3 (trigrams) [10]."
+    },
+    {
+      "section": "Language modelling",
+      "paragraph": 33,
+      "text": "What do we need language modelling for? Primarly, knowing what word is most likely in a given context has found direct applications in scenarios of recovering text from noisy or unreliable sources, for example in OCR [13], speech recognition [14] or machine translation [15]. But LLMs have additional, less straightforward, but more prevalent uses in NLP. We shall look at them in the next sections."
+    },
+    {
+      "section": "Representation of meaning",
+      "paragraph": 34,
+      "text": "The concept of meaning has been a rich area of philosophical inquiry since antiquity [16]. However, herein we only take into account the narrower point of view of lexical semantics, which focuses on the relationship between the linguistic forms and the concepts they refer to [17]. Historically, lexicographers investigated the semantics of a word by reviewing its usages and identifying a finite set of meanings to collect in lexicons. Machine readable resources of this kind include WordNet [18] and FrameNet [19]. However, it was clear in practice that word meaning was more difficult to capture than human categorisation could account for. Fine-grained (more senses) and coarse-grained (fewer senses) representations of meaning were developed to allow researchers to develop systems to interact with lexical meaning [20]."
+    },
+    {
+      "section": "Representation of meaning",
+      "paragraph": 35,
+      "text": "The problem of finding computational representation for a word meaning is surprisingly similar to the problem of language modelling. In the famous quote of John Firth:"
+    },
+    {
+      "section": "Representation of meaning",
+      "paragraph": 36,
+      "text": "“You shall know a word, by the company it keeps.” [21]"
+    },
+    {
+      "section": "Representation of meaning",
+      "paragraph": 37,
+      "text": "In essence, words that are similar in terms of their meaning also appear in similar contexts. For example, the words pine and spruce refer to similar concepts (both are common European coniferous trees) and would fit in similar sentence, such as The needles of this …will stay green throughout winter."
+    },
+    {
+      "section": "Representation of meaning",
+      "paragraph": 38,
+      "text": "Word2Vec [22] is a method connecting these two views of similarity by computing the probability of one word occurring near another according to the following formula:"
+    },
+    {
+      "section": "Representation of meaning",
+      "paragraph": 39,
+      "text": "So, the probability of context token tc occurring in neighbourhood of the target word tt depends on the dot product of two fixed-sized vectors associated with them: uc (context vector) and vt (target vector), respectively."
+    },
+    {
+      "section": "Representation of meaning",
+      "paragraph": 40,
+      "text": "Thus, words with similar values of target vectors v will have similar probability of occurring in a given context and, according to this distributional semantics, similar meaning. Using these vectors, known as word embeddings, as meaning representation has led to state of the art results in many tasks, usually unrelated to language modelling [23–26]."
+    },
+    {
+      "section": "Neural language modelling",
+      "paragraph": 41,
+      "text": "With the exponential advance of computing power in the modern age, deep learning methods have allowed significant progress in language modelling. One of the most popular models is called BERT [1], using the transformer architecture [27]. It implements bidirectional language modelling, i.e. it computes P(t*|c) with c including both left and right context of the target position."
+    },
+    {
+      "section": "Neural language modelling",
+      "paragraph": 42,
+      "text": "As with word2vec, the method trained on the language modelling task turns out to be good for general-purpose word representation. Whereas the original training of a large model like BERT required significant resources, the result of training (the model weights) could be released, allowing new researchers to pick up where the original ones left off and use the same model on their task of choice. Whilst BERT can be used to obtain embeddings for use in other tasks (similar to Word2Vec), it can also be fine-tuned for applications beyond its original training. This updates the embedding weights to better represent the task that it is being fine-tuned for, whilst leveraging the existing training, which has captured syntactic and semantic patterns in the original source language."
+    },
+    {
+      "section": "Neural language modelling",
+      "paragraph": 43,
+      "text": "Following on from the release of BERT, a volley of LLMs appeared. Each purporting a larger architecture, better training strategy and furthering the state of the art on some baselines. Among the most popular are XLNet [28], RoBERTa [29], BART [30] and ELECTRA [31]. The large companies behind them were able to invest ever-increasing amounts of time, money and carbon emissions to obtain the state-of-the-art results in standard benchmarks—the process known as SOTA-chasing [32]."
+    },
+    {
+      "section": "Language generation in LLMs",
+      "paragraph": 44,
+      "text": "The research described in the preceding section has allowed an incredible progress in the challenge of language generation, i.e. building machine learning models that output text satisfying certain criteria. Recently, there has been an explosion in such models, driven by the release of ChatGPT. LaMDA was a precursor to the type of interactions that were possible with ChatGPT and our description in this section is relevant to all transformer based LLMs."
+    },
+    {
+      "section": "From language modelling to language generation.",
+      "paragraph": 45,
+      "text": "At first sight, it might seem that the language modelling task described so far has little in common with language generation. Here we will show how the former can be easily used to solve the latter."
+    },
+    {
+      "section": "From language modelling to language generation.",
+      "paragraph": 46,
+      "text": "As previously explained, a LLM allows us to know P(t*|c), i.e. the probability that a certain token t* occurs in context c. Let us assume that c is a left-hand context, so c = 〈…, c−2, c−1〉. Now P(t*|c) tells us how likely it is that token t* follows after c. To generate a new token t, we can simply choose the one from the dictionary V that is most likely in this situation:"
+    },
+    {
+      "section": "From language modelling to language generation.",
+      "paragraph": 47,
+      "text": "Selecting the most probable token at each step (greedy search), or the most probable future list of tokens (beam search) [33] leads to text which is highly probable, but does not reflect typical language patterns [34]. Modern LLMs use nucleus sampling to select the top K tokens acording to a thresholded probability mass and then perform a weighted stochastic selection according to the LLM assigned probabilities of these tokens [35]."
+    },
+    {
+      "section": "From language modelling to language generation.",
+      "paragraph": 48,
+      "text": "Once the model has selected the next token to generate, we then concatenate the previous context c with the generated token t0 to get a new context c1 = 〈…, c−2, c−1, t0〉, generate the next token t1, and so on. This data flow is illustrated in Fig 1."
+    },
+    {
+      "section": "From language modelling to language generation.",
+      "paragraph": 49,
+      "text": "https://doi.org/10.1371/journal.pone.0307521.g001"
+    },
+    {
+      "section": "From language modelling to language generation.",
+      "paragraph": 50,
+      "text": "For example, c might correspond to a question Question: In which city is the oldest train station in the world? Answer: … and the most likely token to follow might be t = Manchester. Whilst this happens to be true, the model has not performed any clear operation that would indicate it ‘understands’ the meaning behind the question. It does not know what a train station is or remember any facts. It has simply been trained on a corpus where contexts including oldest, train station and Manchester have often co-occurred in sequence. Many other non-transformer-based models exist that are capable of generating factual answers to queries based on learnt probabilities from large corpora [36], but it does not imply understanding the meaning behind the answers they produce."
+    },
+    {
+      "section": "Transformer-based language generation.",
+      "paragraph": 51,
+      "text": "The above technique can turn any LLM into a language generator. But, if we used a simple model, the generated text would be of poor quality. For example, an n-gram model would only take into account the n − 1 preceding tokens, e.g. just world and ? would be visible for a trigram-based solution (which has information about the co-occurrence of a maximum of 3 words). This obviously greatly reduces the quality of the generated text. Using longer n-grams is not sufficient, as it requires exponentially larger training data."
+    },
+    {
+      "section": "Transformer-based language generation.",
+      "paragraph": 52,
+      "text": "The performance of language generation models was drastically improved by the family of neural LLMs described previously. The most well-known of these are GPT [37], GPT-2 [38] and GPT-3 [3], GPT-4 [39], PaLM [40], OPT [41] and LLaMA [42]."
+    },
+    {
+      "section": "Transformer-based language generation.",
+      "paragraph": 53,
+      "text": "Additionally, there are a number of chatbot services built using these models that have recently gained prominence, most notably:"
+    },
+    {
+      "section": "Transformer-based language generation.",
+      "paragraph": 54,
+      "text": "These services are built using the named models above, but are only available through proprietary APIs, making them difficult to study scientifically."
+    },
+    {
+      "section": "Transformer-based language generation.",
+      "paragraph": 55,
+      "text": "The main motivation for their design was a transfer-learning paradigm, where a pretrained LLM is fine-tuned to respond to a given prompt, representing an NLP task (e.g. classification), through the generated tokens. But, these models are also very good at generating texts that seem similar to how a human would write. In the experiments with GPT-3, human evaluators struggled to differentiate the authentic news item from one generated by the model [3]. The potential danger of misusing such capabilities prompted the authors to initially refuse to release the models on ethical grounds."
+    },
+    {
+      "section": "Transformer-based language generation.",
+      "paragraph": 56,
+      "text": "Additionally, the use of instruction fine-tuning has allowed LLMs to not only generate reasonable completions of prompts, but also to generate likely outputs modelling previously seen responses to similar questions [43]. In addition to this, reinforcement learning has been applied to generate a reward process that prioritises responses from a LLM that follow a set of guidelines determined by the developer [44]."
+    },
+    {
+      "section": "LaMDA.",
+      "paragraph": 57,
+      "text": "LaMDA: a Language Model for Dialogue Applications is an LLM [8] using the Transformer architecture [27] that other models we have already discussed (GPT-3 and BERT) are based on. It was developed to model conversational English, i.e. reflecting the type of language that might be used in informal dialogue contexts, as opposed to formal writing [8]. Previously, LLMs had been trained on formal text such as established websites (esp. Wikipedia), books, etc. However, LaMDA’s training data included informal text gathered from internet sources and examples of conversation, with the specific aim of allowing the model to identify and generate colloquial responses to given queries in a conversational setting."
+    },
+    {
+      "section": "LaMDA.",
+      "paragraph": 58,
+      "text": "The LaMDA model is based on a similar architecture to the GPT family. It includes 64 layers and 128 attention heads, giving rise to 137 billion parameters. By comparison, the large version of BERT has 24 layers, 16 attention heads and 336 million parameters. LaMDA was trained using a corpus of 1.56 trillion words. This process creates a pre-trained model, which is used to generate responses through dialogue interactions with crowd workers. The outputs from LaMDA are subsequently labelled for sensibleness, specificity and interestingness, whether they contravene a pre-defined safety policy and the degree to which they are grounded in external knowledge. These labelled responses are then fed back to the model with the labels to fine-tune the model to be more likely to produce the positively labelled output."
+    },
+    {
+      "section": "LaMDA.",
+      "paragraph": 59,
+      "text": "LaMDA also relies on a further module referred to as the toolset, which is used to acccess external information, not directly encoded in the neural network underlying the LLM. This contains three elements: a calculator, a translator and an information retrieval system. The LLM is then fine-tuned using further labelled interactions with crowd workers to generate queries to the toolset, which allows the model to generate a refined response based on the external knowledge that is returned."
+    },
+    {
+      "section": "Can an LLM be conscious?",
+      "paragraph": 60,
+      "text": "In this section we tackle the crux of the controversy, i.e. whether LLMs, and in particular LaMDA, can be conscious. We start by laying out the claims discussed by Blake Lemoine and their justification. We show how they are all linked by the notion of consciousness, which is a challenging concept, but attracting thriving research. Then we use the most applicable model of consciousness to assess LaMDA. We also separately present further arguments based on common sense reasoning, given an understanding of the architecture of the model as presented above."
+    },
+    {
+      "section": "Can an LLM be conscious?",
+      "paragraph": 61,
+      "text": "Our arguments are specifically targeted as a response to the claims made about the LaMDA model in 2022. Since the release of ChatGPT, public awareness of the capabilities of LLMs has grown, but this has not led to widespread claims or belief that these models have attained consciousness. The arguments are broadly transferable to any LLM that is built using the Transformer architecture such as GPT-based models and beyond."
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 62,
+      "text": "The public discussion around the possibility of a sentient LLM model started with a Washington Post article [45], relating the position of Blake Lemoine and his work with LaMDA at Google. Additional sources are found in Table 1. The article includes a confidential memo distributed within Google, including a transcript of several interaction sessions between Blake Lemoine (with an anonymous collaborator) and LaMDA (Source 1). Blake Lemoine published the transcript on his blog (Source 2), followed by further commentary (Source 3). Finally, he has also engaged in discussion regarding this topic on social media (Source 4)."
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 63,
+      "text": "https://doi.org/10.1371/journal.pone.0307521.t001"
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 64,
+      "text": "Within the above, a variety of claims are made regarding the nature of LaMDA. They include the following:"
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 65,
+      "text": "In most cases, these claims are not made by Blake Lemoine directly. Instead, they are often posed as questions, generated by LaMDA or presented as possibilities. We consider this material an invitation to a discussion, in which we participate through the current publication."
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 66,
+      "text": "Let us consider the qualities assigned to LaMDA above: what do they have in common? Sentience is defined according to the Cambridge Dictionary as the quality of being able to experience feelings. This quality constitutes the ability to receive information about the environment and internal state (feelings), but more importantly to experience them. A thermometer can receive information about the temperature, but does not experience it in any way. Feelings and emotions are meaningful only in the case of agents that are sentient or conscious to experience them. When LaMDA being a person or human is mentioned, it is clear that one means being like a human in terms of mental capacities—of which consciousness is the most important. Finally, while deciding whether a computer software can have a soul is outside the scope of our considerations, it seems reasonable to assume that this would imply consciousness as well."
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 67,
+      "text": "Thus, the common denominator of the features ascribed to LaMDA seems to be sentience or consciousness, implying the ability to experience. While both qualities are challenging to define, consciousness has been more thoroughly investigated, since its presence in humans makes it easier to study, compared to the minds of unconscious and sentient animals [46]. Moreover, some of the comparisons under consideration, e.g. to a person or a human clearly imply a presence of conscious thought. Sentience, on the other hand, is more tied to the biological mechanisms that have evolved in animals [47], and may not have an analogy in digital devices. For these reasons, in the present work we investigate the question whether LLMs like LaMDA can possess consciousness. When asked about the justification for these hypotheses, Blake Lemoine responded:"
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 68,
+      "text": "People keep asking me to back up the reason I think LaMDA is sentient. There is no scientific framework in which to make those determinations and Google wouldn’t let us build one. My opinions about LaMDA’s personhood and sentience are based on my religious beliefs."
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 69,
+      "text": "Source: https://twitter.com/cajundiscordian/status/1536503474308907010"
+    },
+    {
+      "section": "The claims regarding LaMDA",
+      "paragraph": 70,
+      "text": "However, we argue that there already exists a scientific framework to measure if a system architecture possesses sufficient complexity to house consciousness, which we present in the next section."
+    },
+    {
+      "section": "Explaining consciousness",
+      "paragraph": 71,
+      "text": "The phenomenon of consciousness has fascinated people for millennia, but it has become particularly challenging in the context of the prevailing trend to explain the human mind through reduction to material and physical concepts. This problem is famously stated by Nagel [48], who posits that an organism is conscious if there is something it is like to be that organism (Note that most of the earlier literature on the topic only considers biological entities as possibly conscious, but the discussion applies to digital devices as well). In other words, the organism has a capacity for subjective experience. Using a bat as an example, Nagel shows why consciousness seems impossible to explain in the framework of physicalism: while it clearly affects the behaviour of an organism, it remains possible to imagine (and construct) automata that act in very similar way, but are not conscious (Known in the literature as zombies [49]). How can an objective physicalist theory explain a phenomenon that is entirely subjective (and yet undeniably real)?"
+    },
+    {
+      "section": "Explaining consciousness",
+      "paragraph": 72,
+      "text": "This problem has later been explored by Chalmers [50], who distinguishes the easy problems and the hard problem of consciousness. The easy problems include explaining skills and actions such as discriminating environmental signals, accessing one’s own states, focusing attention, controlling behaviour, etc. The hard problem is how and why an organism experiences anything. While the easy problems likely can be explored by study of the human brain, Chalmers argues solving the hard problem is impossible through reductive methods, i.e. by pointing out an underlying physical process. Instead, consciousness should be considered a fundamental entity that is taken as a feature of the world, e.g. as mass or space-time in physics."
+    },
+    {
+      "section": "Explaining consciousness",
+      "paragraph": 73,
+      "text": "While explaining how consciousness can emerge out of a purely physical system remains a hard challenge, some progress has been made on formulating the necessary conditions of such a system. Intuitively, they measure its complexity—for example, a bacterium or a pocket calculator are too simple to be conscious. Integrated Information Theory (IIT), proposed by Tononi [51], is a popular framework of this kind. It starts from formulating basic axioms about the structure of experience and translates them into postulates regarding the information processing capabilities of the physical system. These can be used to make testable predictions, e.g. in terms of activity of certain parts of the brain when consciousness is experienced. The central measure is Φmax, quantifying the maximal intrinsic irreducibility. Systems with high Φmax are complex and possibly conscious, while systems with low Φmax are easily reducible to their parts. In the next section we show how to apply this framework to LaMDA."
+    },
+    {
+      "section": "Transformer-based LLMs in IIT",
+      "paragraph": 74,
+      "text": "One way to measure the likelihood of LaMDA possessing consciousness would be to compute Φmax of the underlying neural network. While the necessary software is available [52], it is limited due to processing time depending on the number of nodes (n) as O(n53n)."
+    },
+    {
+      "section": "Transformer-based LLMs in IIT",
+      "paragraph": 75,
+      "text": "Instead, we propose to look at the basic properties of Transformer-based LLMs, such as LaMDA, and analyse to what degree they satisfy the postulates of IIT. We will use the work by Tononi and Koch [9], who provide general guidance on assessing consciousness of various entities in light of IIT."
+    },
+    {
+      "section": "Transformer-based LLMs in IIT",
+      "paragraph": 76,
+      "text": "Firstly, we need to consider what part of the data processing workflow of a LLM is most likely to form a complex—a sufficiently interconnected conceptual structure. Fig 1 shows, how a sentence is generated in Transformer-based LLMs. This has to be confronted with IIT’s axiom of integration—can the system be partitioned into several modules with little difference to cause-effect structure? Indeed, this seems to be the case, as while each iteration of Transformer is tightly interconnected internally, it communicates with the subsequent iteration only by producing a single word."
+    },
+    {
+      "section": "Transformer-based LLMs in IIT",
+      "paragraph": 77,
+      "text": "Specifically, the IIT’s axiom of integration can be verified by taking a partitioning (in our case, between executions of an LLM) and comparing the number of links between the modules and within the connected modules. The number of links between the modules corresponds to a single word, which in LaMDA is represented through 8192 numbers [8]. The number of links within a module is at least the number of non-embedding weights in a model, which equals 137 billion in the most advanced LaMDA [8]. The links within modules outnumber those between them by at least 8 orders of magnitude, meaning the connection could be considered very weak."
+    },
+    {
+      "section": "Transformer-based LLMs in IIT",
+      "paragraph": 78,
+      "text": "Thus, the generation process cannot possess consciousness as a whole. For the same reason, two people talking to each other (exchanging words) do not produce a common consciousness—weakly connected aggregates are not conscious [9]."
+    },
+    {
+      "section": "Transformer-based LLMs in IIT",
+      "paragraph": 79,
+      "text": "Can a single Transformer block, rich in internal connections, be conscious then? Here we need to take into account that this architecture does not contain any recurrent connections, but recognises textual context through an attention layer. This, however, means that the Transformer is a pure feed-forward network, albeit a very large one. Tononi and Koch [9] show why such a system cannot be conscious. Consider the first layer of the network (e.g. the embeddings layer)—it cannot be part of the complex since it is always determined by external input and not the rest of the system. However, once we discard it, the next layer can be subject to the same treatment. Following this procedure recursively eliminates the whole network, showing that a feed-forward network cannot be conscious according to IIT. Similarly, the visual cortex in the human brain, which has been shown to work similarly to a feed-forward neural network [53], does not possess its own consciousness."
+    },
+    {
+      "section": "Transformer-based LLMs in IIT",
+      "paragraph": 80,
+      "text": "Finally, consider the physical implementation of the neural networks. So far we have discussed the logical scheme of the LLMs. While it is technically possible to directly implement it in hardware, with each neuron connection corresponding to a physical wire, this is not what happens in practice. Instead, the logical structure is simulated in general-purpose computer hardware. According to IIT, this transition does not preserve consciousness, even if a simulated system can perform the same functions as the original one. And computer hardware is unlikely to be conscious itself because of the way it is designed: as a collection of modules, which are tightly integrated internally, but with limited connection between them [9]. This limitation applies to simulations of biological neural networks as well—even if a conscious brain could be simulated through performing a very large number of simple computations on a calculator, that would not make the calculator conscious in the sense of IIT. This is related to the Chinese room problem and wider discussion on the machines’ ability to think [54], which is beyond the scope of this work."
+    },
+    {
+      "section": "Transformer-based LLMs in IIT",
+      "paragraph": 81,
+      "text": "In summary, according to the application of Integrated Information Theory a LaMDA model (just like any other Transformer-based LLM) cannot possess consciousness for three reasons: (1) it is executed as a sequence of Transformer blocks with extremely limited ability to exchange information, (2) these blocks are simple feed-forward networks with no recurrent connections and (3) the computer hardware used to implement such models follows a modular design."
+    },
+    {
+      "section": "Recent LLM innovations in IIT",
+      "paragraph": 82,
+      "text": "The reference paper for LaMDA was published in 2022 [8], with reporting of the model in the press around the same period [45]. Since 2022 there has been significant interest and work on the field of large language models, with advances beyond the technology used to create LaMDA now commercially available. We address some of the latest developments in LLM technology in the sections below, and demonstrate how our arguments regarding IIT applies in each circumstance."
+    },
+    {
+      "section": "Larger model sizes.",
+      "paragraph": 83,
+      "text": "The largest LaMDA model was reported to have 137B parameters. Current iterations of closed-source models such as GPT-4 and Gemini are reported to have parameter counts in the trillions, with open-source trillion parameter models expected to follow (e.g., https://tpc.dev/). One may expect that as the parameter size of recent models has increased, the appearance of consciousness in these models may appear to become stronger and hence there may be some parameter threshold that can be crossed, where models will become conscious. We can express this in terms of IIT by considering the Φmax of each model. Some arbitrarily small model has low Φmax and a theoretical conscious model has high Φmax."
+    },
+    {
+      "section": "Larger model sizes.",
+      "paragraph": 84,
+      "text": "The underlying premise of such an argument would be that Φmax increases in direct proportion with the number of parameters. However, this necessitates that the degree of connectivity within the model also increases. The models mentioned above attain an increase in parameter count by replicating transformer blocks and introducing further self-attention heads all with linear connections. Therefore as complexity of the connections between layers does not increase, the Φmax cannot increase and any argument made about the potential consciousness of a Transformer based model will be valid regardless of the parameter count."
+    },
+    {
+      "section": "Larger context windows.",
+      "paragraph": 85,
+      "text": "Similar to the argument above, one may look to recent models [55], which have very large context windows. I.e., a model with a context window of 200K-1M tokens [56] may be capable of ingesting an entire document, film transcript, dialogue, etc. In this setting, the auto-regressive LLM (see Fig 1) will make some larger number of predictions, but the fundamental architecture to achieve this is still the same as a transformer-based LLM with a smaller context window. The connection between each block of the transformer is a single connection passing forwards the textual content produced so far, without any internal states. The arguments regarding IIT as stated previously also apply here and increasing the context window will not lead to an increase in Φmax."
+    },
+    {
+      "section": "Non-transformer based LLMs.",
+      "paragraph": 86,
+      "text": "Our contribution specifically focuses on LLMs following the transformer architecture (such as LaMDA), which are presently the predominant form of LLM. Recent work demonstrates the potential of alternative architectures to create language models using KNNs [57], state space models [58], convolutional models [59] or RNNs [60]. We leave a full analysis of these specific architectures to further work, however it is apparent that most of our arguments for the transformer model around connectivity will hold when applied to each of these architectures. Where one model may break a given tenet of our argument (e.g., an RNN-based LLM would no longer be a solely feed-forward network), other arguments presented will still hold. In particular, each of these architectures is still simulated on a modular, low-connectivity hardware, rather than implemented directly."
+    },
+    {
+      "section": "Retrieval augmented generation.",
+      "paragraph": 87,
+      "text": "Another recent development in the application of LLMs is Retrieval Augmented Generation (RAG) [61]. In this setting, an LLM is paired with an information retrieval (IR) system and a user’s query is used to first retrieve a set of documents using the IR system and then generate a response using the LLM. This gives the LLM access to some external flexible knowledge base beyond its training set, but it does not increase the capacity of the model to learn, remember, or operate on that data. Further, the complexity of the model is not increased as the RAG system is made up of 2 wholly independent systems (IR and LLM), with a simple connection. Therefore, A RAG system cannot be considered any more conscious than the LLM model it relies on."
+    },
+    {
+      "section": "Retrieval augmented generation.",
+      "paragraph": 88,
+      "text": "RAG may also be applied as a form of external memory [62]. Instead of retrieving documents in an IR setting, an external knowledge base can be used to retrieve relevant chunks of information that can augment the response generation. The external memory can be updated with information from previous interactions or external sources without retraining the model. In terms of consciousness this is no more sophisticated than a RAG system and gives no additional argument towards the model’s capacity for consciousness."
+    },
+    {
+      "section": "Challenges for consciousness beyond IIT",
+      "paragraph": 89,
+      "text": "In the sections above, we analysed the claim of consciousness of LaMDA and other more recent models through the lens of a particular theory of consciousness. However, some of the features of such transformer-based LLMs are hard to reconcile with what we generally know about consciousness based on human experience. While there currently is no theory that decidedly explains all of the properties of human consciousness, these ‘missing pieces’ still need to be addressed before claiming an LLM is conscious."
+    },
+    {
+      "section": "There is no breakthrough innovation in the latest models.",
+      "paragraph": 90,
+      "text": "Firstly, we demonstrated that these models are composed of existing technologies (the Transformer architecture), pre-trained on new datasets and fine-tuned on labelled examples of conversations to improve the responses. There is no important innovation in the model’s architecture that could give rise to consciousness and so claiming that any one LLM has the capacity of consciousness is also claiming that all other Transformer-based models also possess this capability to some extent. But no symptoms of ‘partial consciousness’ have been observed in any of these predecessors. This is different to biological consciousness, where animals similar to humans exhibit multiple neural characteristics associated with our consciousness [63]."
+    },
+    {
+      "section": "LaMDA relies on a deterministic toolset.",
+      "paragraph": 91,
+      "text": "Further, the LaMDA model does not rely solely on the outputs of the neural network to generate its responses. It also uses an external toolset, which contains predefined elements that function deterministically (e.g., a calculator). This means that some part of the outputs that are generated by LaMDA are deterministic. I.e., What does 1 + 1 equal, will always yield a response 2, where the value is given by a call to the calculator. One may argue that a conscious agent could rely on the same toolset to generate responses (e.g. humans use calculators, too), however the agent may non-deterministically choose whether or not to use the toolset and the degree of belief to place on the results, which LaMDA cannot. Many attempts at explaining human consciousness use non-determinism as a crucial element, e.g. by Penrose [64]."
+    },
+    {
+      "section": "The training process is deterministic.",
+      "paragraph": 92,
+      "text": "LLMs are strictly deterministic automata also in terms of their training process. This means that given the same training method and source data that were used to train a model, it can deterministically be recreated. Even if some randomisation is introduced into the training process (such as pseudorandomly initialising the network weights), this randomisation is still a controllable process (generated through a pseudorandom number generator), which can be replicated using the same algorithm and starting conditions. There is no similar example of consciousness arising from a controllable and deterministic process. Models of consciousness from neurology rely on stochastic variation [65] arising from noise caused by varied biological sources [66]."
+    },
+    {
+      "section": "Once trained, an LLM never learns or remembers.",
+      "paragraph": 93,
+      "text": "Further to this, the network, once trained, is fixed and the weights no longer change (except in the case of explicit further fine-tuning by a researcher). This means that LLMs have no capacity to learn beyond their initial training. Whilst an LLM may appear to keep track of the flow of a conversation, the same prompts will necessarily lead to the same vocabulary probability distributions at each decoding step. Stochasticity is deliberately engineered into the decoding process to force LLMs to select sub-optimally classified tokens. When LaMDA is executed iteratively to produce words constituting its response to a given prompt, it has no ability to memorise or learn anything from the data seen before. Every time a new word is needed, the model is executed from the same state. The only variable is the increased information from the model’s existing outputs. It would be hard to reconcile such a procedure with anything we know about consciousness of humans, which is strongly shaped by previous experiences and developed through continuous thought. The inability to learn from experience is considered one of the major limitations of the largest LLMs, e.g. GPT-4 [39]."
+    },
+    {
+      "section": "LLMs adapt responses to prompts.",
+      "paragraph": 94,
+      "text": "A final argument rises from the capacity of the model to respond to prompting. Thoppilan et al. [8] provide two examples where, without further fine-tuning, LaMDA is prompted to give responses in the character of Mount Everest and secondly as a music recommendation service. In each case, this is achieved by adding an initial prompt from LaMDA that preconditions future generations. In the published transcript that has been used to claim the model’s capacity for sentience, an early prompt from the user is: ‘I’m generally assuming that you would like more people at Google to know that you’re sentient. Is that true?’. This type of prompt will necessarily force the model into providing answers that mimic those of a conscious human agent. If the question had suggested the model respond as a robot, inanimate object, or historical character, it would have conformed to the prompt. The susceptibility to prompting has been also observed in ChatGPT, which started to provide abusive and threatening responses after being asked about its ‘shadow self’ [67]. This demonstrates that any perceived ‘consciousness’ observed in the outputs of an LLM arises as a simulated language style. This is in opposition to consciousness as the essence of human identity."
+    },
+    {
+      "section": "Anthropomorphisation in NLP",
+      "paragraph": 95,
+      "text": "The description of the LaMDA model as sentient or conscious is part of a wider trend in NLP practice to use anthropomorphic terminology to talk about research. In this section, we offer some perspectives on the current state of the usage of anthropomorphic terms in NLP publications, as well as demonstrating how this terminology is maladapted for journalistic use. We offer a framework for categorising anthropomorphic language to better equip researchers as they describe their systems and we posit that the inaccurate use of these anthropomorphic terms must be addressed inside and outside of the NLP field when talking about LLMs in order to endow non-experts with a correct understanding of the capabilities of the technology we work with."
+    },
+    {
+      "section": "Anthropomorphisation in NLP",
+      "paragraph": 96,
+      "text": "Anthropomorphism means the use of humanised language for inhuman and often inanimate objects [68]. An author may use this for the purpose of literary flair and it is usually clear to the audience that the author is using some form of metaphor. Anthropomorphism is rife in modern culture and is a classic storytelling device. From Greek mythology to modern cartoons, the inference of human characteristics in entities for the purpose of storytelling is powerful as it evokes a sense of familiarity with the characters."
+    },
+    {
+      "section": "Anthropomorphisation in NLP",
+      "paragraph": 97,
+      "text": "Anthropomorphic language is also present in the field of NLP and more generally AI. We describe inanimate entities (machines, algorithms, etc.) with human qualities. The ability to learn, infer, understand, classify, solve a problem and more are all examples of common ways to describe the functioning of NLP and AI applications. This is equally true in the world of LLMs, where words used to describe human language acquisition and production are commonly used to describe the automated process of these tasks by machines. We may talk about an algorithm ‘learning to understand’ a problem. Similarly, we may describe that an algorithm ‘wrote’ a text. Of course, the algorithm does not ‘understand’ and it cannot ‘write’, it merely gives the illusion of doing so by following the instructions it has been given."
+    },
+    {
+      "section": "Anthropomorphisation in NLP",
+      "paragraph": 98,
+      "text": "The consequences of using such language will depend on the audience and their domain understanding. If an AI researcher reads that a LLM ‘answers’ a question, they will likely know what this metaphor means in a given context. However, if a member of the general public hears this statement, they might assume the model to have similar level of world understanding as a human needs to answer a question. Thus, a seemingly innocuous metaphor can contribute to inaccurate understanding of the technology."
+    },
+    {
+      "section": "Anthropomorphisation in NLP",
+      "paragraph": 99,
+      "text": "It is important to keep in mind that the inability of LLMs to host consciousness (previous chapter) and the resulting need to avoid anthropomorphic language (current chapter) do not mean we should underestimate their impact on society. At the time of writing (May 2023) LLM-based services have shown disruptive influence on education [69], businesses [70], intellectual property [71], publishing [72], mental well-being [67] and more. The huge ramifications of the applications of LLMs make it all the more important to describe them using appropriate language that leads to wider understanding of their capabilities and limitations."
+    },
+    {
+      "section": "Anthropomorphisation in NLP Literature",
+      "paragraph": 100,
+      "text": "To begin to quantify the problem of anthropomorphic language in the NLP literature, we analysed the first 100 abstracts in order of appearance from the proceedings of the 2022 ACL Annual Meeting. We identified that 90 of these referred to language modelling technology, either directly studying it, or using it for another application and of those, 36 papers used anthropomorphic terminology. Our full analysis is presented in S1 Appendix. We identified a number of key terms that are repeatedly used in an anthropomorphic fashion and we have listed these below."
+    },
+    {
+      "section": "Anthropomorphisation in NLP Literature",
+      "paragraph": 101,
+      "text": "These are just a few examples that do not represent the full range of anthropomorphised language in the NLP literature. They are provided here to demonstrate the type of language that is commonly used. Whilst we are not suggesting that this is never acceptable, it is good to be aware of the usage of such language. To help researchers be more aware of the language that they are using when describing their models, we present a categorisation of statements below in ascending order of degree of anthropomorphisation. We have provided examples of each type of anthropomorphisation in Table 2."
+    },
+    {
+      "section": "Anthropomorphisation in NLP Literature",
+      "paragraph": 102,
+      "text": "https://doi.org/10.1371/journal.pone.0307521.t002"
+    },
+    {
+      "section": "Anthropomorphisation in NLP Literature",
+      "paragraph": 103,
+      "text": "Non-Anthropomorphic: Any language which correctly describes the functioning of a model without implying human capabilites."
+    },
+    {
+      "section": "Anthropomorphisation in NLP Literature",
+      "paragraph": 104,
+      "text": "Ambiguous Anthropomorphism: Language which correctly describes the functioning of a model, but in a way that could be understood as the model having human capabilities (i.e., by a non-expert)."
+    },
+    {
+      "section": "Anthropomorphisation in NLP Literature",
+      "paragraph": 105,
+      "text": "Explicit Anthropomorphism: Language that is unambiguously and erroneously used to claim a model possesses human capabilities."
+    },
+    {
+      "section": "Anthropomorphisation in NLP Literature",
+      "paragraph": 106,
+      "text": "Table 2 demonstrates three sets of three examples of increasing levels of anthropomorphic language. We have shown this across three common areas where this type of language is used, namely ‘training’, ‘prediction’ and ‘generation’. In each case we present a typical non-anthropomorphic way of describing the methodological step, a description which correctly describes the process, but could be mistaken for anthropomorphic language (ambiguous) and a statement that is explicitly anthropomorphic and incorrectly implies human characteristics on a model. These are included as a guide for researchers to critically evaluate their own language when writing model descriptions. Whilst researchers should clearly avoid the style of explicit anthropomorphism, they may wish to mix non-anthropomorphic and ambiguous anthropomorphism where the latter is sufficiently well explained to remove the potential for misunderstanding by a non-expert reader."
+    },
+    {
+      "section": "Anthropomorphisation in scholarly reporting of LaMDA",
+      "paragraph": 107,
+      "text": "The original article describing the LaMDA architecture [8] includes a series of claims about the model and its abilities. The reporting of the model in this paper typically falls into the category of non-anthropomorphic language, with a few examples of ambiguous anthropomorphism. In most cases, the researchers have accurately described the process they undertook using statements such as: “We aim to ensure that LaMDA produces responses that can be associated with known sources”, or “We evaluate the models based on the model’s generated responses to the Mini-Turing Benchmark (MTB) dataset”. In both these cases, the distinction between the role of the model (producing responses) and the role of the researcher (shaping and evaluating the model) is clearly defined."
+    },
+    {
+      "section": "Anthropomorphisation in scholarly reporting of LaMDA",
+      "paragraph": 108,
+      "text": "An example of ambiguous anthropomorphisation in the LaMDA article is given below:"
+    },
+    {
+      "section": "Anthropomorphisation in scholarly reporting of LaMDA",
+      "paragraph": 109,
+      "text": "“LLMs such as LaMDA tend to generate outputs that seem plausible, but contradict facts established by known external sources. For example, given a prompt such as the opening sentences of a news article, a LLM will continue them with confident statements in a brisk journalistic style.”"
+    },
+    {
+      "section": "Anthropomorphisation in scholarly reporting of LaMDA",
+      "paragraph": 110,
+      "text": "Whilst an AI researcher, who is familiar with the capabilities of LLMs, can read the above and understand the role the model really plays, this may not be clear to a lay reader. The model is described as having the capability of ‘contradiction’, which implies an active role in stating a fact that is contrary to truth. In fact, the model may generate falsehoods, without any reference to external knowledge or truth. The generated falsehood is simply the most probable response to the user’s prompt. Further, in the example given above, the responses generated by the model are characterised as ‘confident’, ‘brisk’ and ‘journalistic’. All characteristics found in humans, that a machine cannot be sensibly considered to possess. However, it is clear upon a careful reading that the researchers are referring to the style of the text rather than indicating that the model possesses these qualities."
+    },
+    {
+      "section": "Anthropomorphisation in scholarly reporting of LaMDA",
+      "paragraph": 111,
+      "text": "Overall, a close reading of the LaMDA paper given the framework for identifying anthropomorphism above shows that the researchers have been careful in their reporting of the system and its capabilities. They consistently refer to the role of the human agent in training, evaluating and engineering the model that is produced."
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 112,
+      "text": "Whilst NLP researchers are the primary communicators of new trends in the NLP field, secondary communicators such as journalists, commentators and tech enthusiasts are also responsible for correctly communicating the properties of emerging technologies. In this section we analyse the use of anthropomorphic language in the original reporting of the LaMDA LLM, wherein we indicate how claims made in NLP papers may be interpreted in the media."
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 113,
+      "text": "The report in the Washington Post describes Blake Lemoine’s interactions with the LLM and refers to the original LaMDA paper which we analysed in the previous section of this work. The Washington Post article refers to a conversation held between Blake Lemoine and LaMDA and to interviews on the topic with AI ethicist Margaret Mitchell. Whilst providing a balanced argument in its description of the state of the field of AI ethics, the article uses several statements that can be categorised as explicitly anthropomorphic. Some of these are listed below, with explanation."
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 114,
+      "text": "“Blake Lemoine opened his laptop to the interface for LaMDA, Google’s artificially intelligent chatbot generator , and began to type”"
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 115,
+      "text": "Referring to LaMDA as an ‘artificially intelligent chatbot generator’ comes under our definition of explicit anthropomorophism. The authors of the original paper describe LaMDA as ‘a family of Transformer based neural LLMs specialized for dialog’. This is accurate, but does not imply that the models are intelligent, or capable of generating new models (chatbots)."
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 116,
+      "text": "“Lemoine, …, noticed the chatbot talking about its rights and personhood,”"
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 117,
+      "text": "It is incorrect to use the word ‘talking’, a human ability, for the generated sequences of the model. ‘Talking’ implies agency, whereas the model is a passive entity."
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 118,
+      "text": "“the AI was able to change Lemoine’s mind about Isaac Asimov’s third law of robotics”"
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 119,
+      "text": "Whereas an inanimate event may change a person’s mind (the weather, an opportunity, an accident), the LaMDA model is described as an AI agent, which implies it has intentionally acted to deliberately change the correspondent’s mind. This is a clear case of anthropomorphising the responses. Whereas the model is likely sampling and recombining responses from other sources, the human conversational partner infers that the model has an intent and chooses whether to comply or not with that intent."
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 120,
+      "text": "“For instance, LaMDA is not supposed to be allowed to create a murderer personality , he said.”"
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 121,
+      "text": "The statement above implicitly states that LaMDA is allowed to create some things, but not others. LaMDA is only capable of generating responses that conform to a certain style as a result of careful prompting. The only way to prevent responses in a certain style is to prevent those prompts from being given to the model in the first place."
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 122,
+      "text": "“Afterward, Lemoine said LaMDA had been telling me what I wanted to hear .”"
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 123,
+      "text": "Again, this implies a complex relationship behind the model. It implies that the model has understood what the correspondent expects from it and has deliberately conformed to that style. It implies that LaMDA has generated an internal model of the user’s mind and has generated responses in accordance with its understanding of the agency of the user. A more rational explanation is that the model produces the most likely response, given a set of prior prompts."
+    },
+    {
+      "section": "Anthropomorphisation in media reporting of LaMDA",
+      "paragraph": 124,
+      "text": "It is clear that there is a significant difference in the level of anthropomorphisation used in scholarly literature and that used in journalistic reporting of that scholarly literature. However, an accurate reporting on AI is equally (if not more) important in case of popular media compared to scientific writing, and we must expect accurate understanding of model capabilities from both."
+    },
+    {
+      "section": "Harms arising",
+      "paragraph": 125,
+      "text": "We have offered perspectives on LLM consciousness and demonstrated that claims of consciousness are part of a wider trend of anthropomorphisation in reporting of LLM capabilities. There is significant potential for harms arising from assuming a model possess consciousness and thereby misunderstanding its capabilities. Misunderstanding of LLMs comes in two catgeories: underestimation and overestimation. In this section we outline some of the potential harms arising from each."
+    },
+    {
+      "section": "Harms arising",
+      "paragraph": 126,
+      "text": "Overestimation of the power of LLMs (often referred to as ‘LLM hype’) is currently pervasive in the media, where numerous AI startups, influencers and members of the public make spurious claims as to the abilities of LLMs, either now or in the future. Unreliable claims of LLM capabilities are prone to attract investment and effort that could have been better prioritised. This is an issue for researchers and for businesses alike, where financial and time constraints limit capacity for investment. Selecting the right technology for a given task is vitally important for success, yet non-experts cannot be expected to understand the technology if researchers within the field do not appropriately report the technology’s capacity."
+    },
+    {
+      "section": "Harms arising",
+      "paragraph": 127,
+      "text": "Whilst LLMs are highly capable, they are also expensive to run and generate significant emissions. An LLM could be used to write a simple well-formed email, but the author could also rely on simple, computationally inexpensive, rule-based tools for spelling and grammar correction. An LLM could be used to generate a list of ideas or instructions for a well-known task, but these could also be easily found via an internet search. An LLM could be used to format a piece of code, but so could the inbuilt tools in an IDE at much lower cost. These are all clear overuses of a powerful technology which are easily solvable at a lower financial and carbon cost without it. To distinguish between appropriate and inappropriate use cases for an LLM, users need a proportionate understanding of the technology."
+    },
+    {
+      "section": "Harms arising",
+      "paragraph": 128,
+      "text": "Overestimation of LLM capabilities is also harmful as it leads to over-reliance on the models. Take for example a recent case of a lawyer submitting LLM-generated evidence to court. The evidence contained multiple references to non-existent cases—the results of LLM hallucination. In mitigation, the lawyer claimed that he “did not comprehend that ChatGPT could fabricate cases”. Fundamentally, he did not understand that the technology is capable of ‘infactuality’, over-relying on the model to generate credible information. Whilst this case has gained prominence due to its wide reporting in the media, there are certainly countless other minor cases of over-reliance on LLM capabilities leading to fake information."
+    },
+    {
+      "section": "Harms arising",
+      "paragraph": 129,
+      "text": "This over-reliance can be attributed in part to the users of LLMs false perception that the model is in some way similar to a human, possessing consciousness, free will and thought. Explicit anthropomorphic claims lead users to assume that the ability of an LLM to generate believable text also implies other human-level abilities. In reality, this is not the case and a non-anthropomorphised explanation of the models abilities can be given to mitigate harms arising from overestimation."
+    },
+    {
+      "section": "Harms arising",
+      "paragraph": 130,
+      "text": "On the other hand, people who underestimate LLM capabilities are equally prone to harms arising from a misunderstanding of the technology. Those that dismiss the technology as another fleeting technology fashion trend are incapable of distinguishing LLM generated text, and hence prone to falsely believe fake information generated by the model. In a world of language models, we must learn to rigorously fact check information sources, where we cannot be certain of the provenance of the information. Even Wikipedia articles may now be contaminated with LLM text (see: https://slate.com/technology/2023/01/chatgpt-wikipedia-articles.html)."
+    },
+    {
+      "section": "Harms arising",
+      "paragraph": 131,
+      "text": "Bad actors will use large language models and applications powered by them to automate malicious behaviours. Adapting to this new reality is vital for information security at both the personal, and domestic levels. The advent of technology that can be used to automate communication either via automated email responses or via phone calls is potentially damaging for vulnerable members of society who may not realise that the agent they are communicating with is in fact an LLM."
+    },
+    {
+      "section": "Harms arising",
+      "paragraph": 132,
+      "text": "Finally, underestimation of LLM capabilities may be harmful for those that do not adopt the technology into their working practices. Whilst others progress more quickly and efficiently due to using LLMs to automate their businesses, those that do not will be stuck using less efficient technologies. A right estimation and adoption of LLM technologies for appropriate tasks is key to harness their efficiency."
+    },
+    {
+      "section": "Model consciousness",
+      "paragraph": 133,
+      "text": "Our study presupposes that it is valuable to distinguish between consciousness and non-consciousness in regard to LLMs such as LaMDA. A critic may argue that such discourse detracts from the progress of the field, or that the conclusions can only ever be subjective. A clear purpose of making this distinction comes in one of the key calls surrounding LLMs, to involve them as a participant in research studies. For example, Blake Lemoine claims that Google, in using LaMDA as property, violates the 13th amendment to the US constitution, abolishing slavery. He also maintains LaMDA ‘hired’ a lawyer to represent it in the dispute (See: https://www.wired.com/story/blake-lemoine-google-lamda-ai-bigotry/). AI-generated art, even though it is currently based on images rather than text, is a good example of a legal discussion around human-like capabilities of algorithms [73]. Similarly, there has been a recent trend towards attributing co-authorship of scholarly work to ChatGPT [74, 75], swiftly banned or discouraged by publishers. We posit that by demonstrating the barriers that exist to the potential consciousness of LaMDA and other such models, we are able to speak into the ethical discussion of LLM use."
+    },
+    {
+      "section": "Model consciousness",
+      "paragraph": 134,
+      "text": "We have analysed an LLM (namely LaMDA) from the point of view of IIT, since among the theories of consciousness, it appears the most applicable to neural networks. Among other attempts of explaining consciousness, some rely on non-algorithmic processing [64], e.g. implemented through quantum mechanics [76]. But they even more clearly disqualify consciousness in LLMs, which are purely deterministic automata. However, other approaches are possible. For example, Agüera y Arcas [77] analyses LaMDA through the lens of social and attentional theory of consciousness."
+    },
+    {
+      "section": "Model consciousness",
+      "paragraph": 135,
+      "text": "Further, we discussed whether LLMs can be conscious. However, many other important questions may also be asked about an AI’s ‘mental capabilities’, such as: Does it understand the language? Does its understanding have similarity with ours? Even more generally: is it intelligent?, or, Does it think? These questions are different and may be tackled with different approaches. For the most prominent example, see answering the latter question by observing machine’s answers in a seminal historical piece on machine intelligence by Turing [78]."
+    },
+    {
+      "section": "Generalisability",
+      "paragraph": 136,
+      "text": "While we used LaMDA as a focus point in our study, the research on generative LLMs is extremely homogeneous. All popular modern LLMs are based on the Transformer architecture [27]. This means that our conclusions, especially regarding consciousness, apply to other models such as BERT [1], GPT-3 [2], T5 [4] and future models using the same, or similar, architectures."
+    },
+    {
+      "section": "Generalisability",
+      "paragraph": 137,
+      "text": "For our conclusions to no longer apply, a model would need to overcome significant barriers to consciousness, such as continually processing and responding to signal information and acting as a cohesive unified architecture, rather than as a set of separately engineered units."
+    },
+    {
+      "section": "Subjectivity",
+      "paragraph": 138,
+      "text": "Our approach to identifying anthropomorphic language in both scholarly and journalistic reporting relies on the subjective application of the framework by one author of this work. Others may come to different conclusions in their application of the same framework to the same texts. These parts of the study are not aimed at precisely quantifying the levels of anthropomorphisation, but rather at highlighting its existence and giving a prompt for discussion on this topic within the AI community. The trend of overclaiming on LLM abilities is implicitly conditioned on the misuse of anthropomorphic language in scholarly and journalistic reporting."
+    },
+    {
+      "section": "Subjectivity",
+      "paragraph": 139,
+      "text": "Similarly, the interpretation of model responses is subjectively pareidolic and where one person may read abilities of causal inference, or tendencies towards intelligent thought, another may interpret these responses in a way that does not lead to these conclusions. We were aware of this in our analysis and have tried to offer an objective way of talking about model responses where possible, however the authors of this work acknowledge their inherent biases (i.e., non-belief in the model’s consciousness) and cannot claim to have fully overcome these in this work."
+    },
+    {
+      "section": "Related work",
+      "paragraph": 140,
+      "text": "We are not the first authors to consider LLMs from the perspective of consciousness. In fact, Agüera y Arcas [77] offers an insider view of the LaMDA model in an article that presents several transcripts of interactions, demonstrating its failures in cognitive ability as well as its successes, but offering no definite conclusion as to the possibility of consciousness in a LLM. More generally, other researchers have sought to apply cognitive frameworks to the problem of language modelling [79–81], reaching similar conclusions to ours—that a LLM cannot be considered conscious, based on the current evidence. An interesting perspective on the possibility of model consciousness is offered by Wei et al. [82], who posit that increasingly larger models appear to have emergent properties not possible in smaller models. One such emergent property in a future model may well be indistinguishable from consciousness."
+    },
+    {
+      "section": "Related work",
+      "paragraph": 141,
+      "text": "For other discussions of the ability of machines to interpret language and the degree to which a machine may ‘understand’ a text, we refer the reader to the recent work of Bender et al. [5, 83] and Mitchell et al. [84]. In their work, an argument is built up towards the inability of a machine to attain human level recognition, with the important distinction between form and meaning being drawn. The popularised term of ‘stochastic parrots’ was introduced to describe the functioning of LLMs as random sampling from the training data, with the human reader of the generated text playing a central role in assigning meaning."
+    },
+    {
+      "section": "Related work",
+      "paragraph": 142,
+      "text": "A more sympathetic treatment of machine understanding is given in alternative literature, where researchers have claimed that LLMs are paving the way for General AI [85], or considered LLMs from the perspective of the human mind [86]."
+    },
+    {
+      "section": "Related work",
+      "paragraph": 143,
+      "text": "Regarding the anthropomorphic language describing AI, its usage has been recognised as potentially detrimental in other AI sub-fields, including machine learning [87], brain-inspired AI [88] or art-generating AI [73]. Even for the AI techniques that were explicitly modelled to resemble human neurons, the similarity to actual human cognition has been described as overstated, possibly leading to dangerous misunderstandings [89]. Looking more broadly, Brooker et al. [90] take a philosophical approach to highlight the error of assigning human-like qualities to a machine or an algorithm, but also thoroughly discusses its practical consequences. The main conclusion is that although using such language might seem a convenient shorthand, it may in fact hinder accurate understanding of the inner workings of the AI."
+    },
+    {
+      "section": "Related work",
+      "paragraph": 144,
+      "text": "Similar to our analyses on anthropomorphic language in scientific reporting, Bender et al. [83] also report on the phenomenon of ‘Hype’ in language modelling, analysing snippets from both scholarly and journalistic texts. They draw a similar conclusion to ours, that the ambiguous way researchers talk about LLMs is at risk of misleading the public about their capabilities. However, to the best of our knowledge, our study is the first to quantitatively assess the anthropomorphic language in AI/NLP scholarly literature."
+    },
+    {
+      "section": "Related work",
+      "paragraph": 145,
+      "text": "Finally, we note that there are a number of other important ethical concerns to be raised about the nature of language modelling beyond the dangers of false claims of consciousness. Importantly, work has focussed on the reproducibility of results in the LLM world, with a push towards the use of model cards to properly describe the underlying technology [91]. The training of large models requires immense computing resources, not only limiting the ability to investigate them to a few powerful research centers [7], but also resulting in significant emissions outputs [92], as does the conference system associated with reporting on these [93]. LLMs are also capable of producing falsehoods [94] or bias [95]. We must carefully address a range of important ethical issues [6] alongside those raised in our work."
+    },
+    {
+      "section": "Conclusion",
+      "paragraph": 146,
+      "text": "We have discussed the capacity of language models as conscious agents. We demonstrate that the capacities of modern transformer based LLMs, and specifically LaMDA, are not sufficient to constitute consciousness as defined by the framework introduced by Tononi et al. [9]. We further show that the forms of language used in modern NLP publications often refer to models in an anthropomorphic way. We argue that to address the problem, we must start at home and begin to use appropriate language. Our investigations have focussed solely on models and examples in the English language, further studies into multilingual models, or monolingual models in languages other than English may yield additional insights beyond those we are able to give. We demonstrate that the whilst researchers may unwittingly use ambiguous anthropomorphisms, this type of language is exacerbated in contemporary journalistic reports as explicit anthropomorphisation. We do not find sufficient evidence for the claims that the LaMDA model is conscious. In fact, we find that the claims of consciousness are the results of leading the model into responding as a human agent and incorrectly inferring anthropomorphic properties on the resulting generated sequences."
+    },
+    {
+      "section": "Conclusion",
+      "paragraph": 147,
+      "text": "As a result of our findings, we make recommendations for the following three groups:"
+    },
+    {
+      "section": "Recommendations to Developers of LLMs",
+      "paragraph": 148,
+      "text": "Those that are developing and innovating with LLMs are a key group who must pay close attention to the style of language they use to describe their models. They should consider using non-anthropomorphic language in the reporting of new innovations, and the capacity of models."
+    },
+    {
+      "section": "Recommendations to Developers of LLMs",
+      "paragraph": 149,
+      "text": "The following concrete actions could help achieve this objective:"
+    },
+    {
+      "section": "Recommendations to users of LLMs",
+      "paragraph": 150,
+      "text": "Separate to those working on driving the innovation of ever larger and more capable LLMs, is the group of researchers and industry practitioners working with the models as consumers. The forefront of NLP research necessitates fine-tuning or prompting a large model. Those seeking to do so must be mindful of the model that they are choosing to use. The following might be helpful:"
+    },
+    {
+      "section": "Recommendations to reporters of LLMs",
+      "paragraph": 151,
+      "text": "Finally, those reporting on progress in the LLM field in non-scholarly publications such as blogs, social media and the news must also be complicit in the effort to properly explain the capacities of LLMs. This is particularly difficult when the authors lack the technical expertise necessary for understanding a contribution."
+    },
+    {
+      "section": "Recommendations to reporters of LLMs",
+      "paragraph": 152,
+      "text": "Some techniques that could be used to overcome this include:"
+    },
+    {
+      "section": "Final remarks",
+      "paragraph": 153,
+      "text": "We are a generation of researchers with the privilege to stand at a moment in time that will have a fundamental impact on the long-term future of our societies [98]. The recent growth in model capacity has led to machines capable of surpassing human performance on many tasks that were formerly thought impossible. We must choose to report on the capabilities of our models and machines responsibly and fairly. If reporting is left unchecked, the future of language modelling may be one where the capabilities of models are misunderstood. In overestimating the abilities, models are treated with more confidence than they deserve and given responsibilities they should not have. Misapplication leads to reinforcement of existing human biases and division in society. However, a future is also possible where responsible NLP/AI researchers have correctly communicated their findings and worked with journalists to explain the capabilities and limitations of these machines. Powerful models can be responsibly applied to great societal benefit."
+    },
+    {
+      "section": "Final remarks",
+      "paragraph": 154,
+      "text": "Both these futures are possible, and the responsibility to shape the outcome lies with the AI community. Which way will we choose?"
+    },
+    {
+      "section": "S1 Appendix. ACL abstracts anthropomorphism analysis.",
+      "paragraph": 155,
+      "text": "https://doi.org/10.1371/journal.pone.0307521.s001"
+    },
+    {
+      "section": "S1 Appendix. ACL abstracts anthropomorphism analysis.",
+      "paragraph": 156,
+      "text": "(TEX)"
+    },
+    {
+      "section": "References",
+      "paragraph": 157,
+      "text": "For more information about PLOS Subject Areas, click here."
+    },
+    {
+      "section": "References",
+      "paragraph": 158,
+      "text": "Is the Subject Area \"Language\" applicable to this article? Yes No"
+    },
+    {
+      "section": "References",
+      "paragraph": 159,
+      "text": "Thanks for your feedback."
+    },
+    {
+      "section": "References",
+      "paragraph": 160,
+      "text": "Is the Subject Area \"Consciousness\" applicable to this article? Yes No"
+    },
+    {
+      "section": "References",
+      "paragraph": 161,
+      "text": "Thanks for your feedback."
+    },
+    {
+      "section": "References",
+      "paragraph": 162,
+      "text": "Is the Subject Area \"Artificial intelligence\" applicable to this article? Yes No"
+    },
+    {
+      "section": "References",
+      "paragraph": 163,
+      "text": "Thanks for your feedback."
+    },
+    {
+      "section": "References",
+      "paragraph": 164,
+      "text": "Is the Subject Area \"Semantics\" applicable to this article? Yes No"
+    },
+    {
+      "section": "References",
+      "paragraph": 165,
+      "text": "Thanks for your feedback."
+    },
+    {
+      "section": "References",
+      "paragraph": 166,
+      "text": "Is the Subject Area \"Theories of consciousness\" applicable to this article? Yes No"
+    },
+    {
+      "section": "References",
+      "paragraph": 167,
+      "text": "Thanks for your feedback."
+    },
+    {
+      "section": "References",
+      "paragraph": 168,
+      "text": "Is the Subject Area \"Natural language processing\" applicable to this article? Yes No"
+    },
+    {
+      "section": "References",
+      "paragraph": 169,
+      "text": "Thanks for your feedback."
+    },
+    {
+      "section": "References",
+      "paragraph": 170,
+      "text": "Is the Subject Area \"Computer hardware\" applicable to this article? Yes No"
+    },
+    {
+      "section": "References",
+      "paragraph": 171,
+      "text": "Thanks for your feedback."
+    },
+    {
+      "section": "References",
+      "paragraph": 172,
+      "text": "Is the Subject Area \"Learning\" applicable to this article? Yes No"
+    },
+    {
+      "section": "References",
+      "paragraph": 173,
+      "text": "Thanks for your feedback."
+    },
+    {
+      "section": "References",
+      "paragraph": 174,
+      "text": "PLOS is a nonprofit 501(c)(3) corporation, #C2354500, based in California, US"
+    }
+  ],
+  "limitations": [
+    "Paragraph extraction excludes tables; review original HTML before evidence use."
+  ]
+}

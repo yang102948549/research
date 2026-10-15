@@ -1,0 +1,75 @@
+{
+  "input_version": 18,
+  "result_version": 33,
+  "cards": [
+    {
+      "draft_id": "draft-chalmers-self-report",
+      "evidence_id": "E001",
+      "claim_id": "C001",
+      "review": {
+        "evidence_id": "draft-chalmers-self-report",
+        "verdict": "pass",
+        "quote_match": true,
+        "locator_match": true,
+        "file_hash_match": true,
+        "source_record_hash_match": true,
+        "rationale": "Paragraph 42 and adjoining 41/43 support the limited claim that prompt-sensitive and learned consciousness reports have weak evidential force. Translation preserves conditional fragility. Card correctly treats the GPT-3 demonstration as a reported test by another person and does not infer absence of consciousness.",
+        "limitations": "Support is for this author argument at the dated essay, not a 2026 cross-model experimental result."
+      }
+    },
+    {
+      "draft_id": "draft-chalmers-recurrence",
+      "evidence_id": "E002",
+      "claim_id": "C002",
+      "review": {
+        "evidence_id": "draft-chalmers-recurrence",
+        "verdict": "pass",
+        "quote_match": true,
+        "locator_match": true,
+        "file_hash_match": true,
+        "source_record_hash_match": true,
+        "rationale": "Paragraph 81 states a conditional architectural objection; 82 and 83 explicitly supply responses, limited recurrence and alternatives. Card retains conditional theory dependence and temporal limits.",
+        "terminology_note": "For Korean clarity, 순환 처리 or 재순환 처리 is preferable to 재귀적 처리, which may suggest computational recursion. Non-blocking terminology harmonization; preserve English recurrent processing.",
+        "limitations": "No inference that every present LLM is feedforward or unconscious."
+      }
+    },
+    {
+      "draft_id": "draft-shardlow-method",
+      "evidence_id": "E003",
+      "claim_id": "C003",
+      "review": {
+        "evidence_id": "draft-shardlow-method",
+        "verdict": "pass",
+        "quote_match": true,
+        "locator_match": true,
+        "file_hash_match": true,
+        "source_record_hash_match": true,
+        "rationale": "Paragraph 75 describes examining Transformer properties against IIT postulates, and 74 explains why direct Φ computation is not undertaken. Card accurately distinguishes theoretical architecture analysis from direct measurement or consciousness detection.",
+        "source_anchor": "article1.body1.sec3.sec3.p2",
+        "limitations": "IIT-dependent argument and LaMDA-focused application; does not settle competing consciousness theories."
+      }
+    },
+    {
+      "draft_id": "draft-shardlow-limits",
+      "evidence_id": "E004",
+      "claim_id": "C004",
+      "review": {
+        "evidence_id": "draft-shardlow-limits",
+        "verdict": "pass",
+        "quote_match": true,
+        "locator_match": true,
+        "file_hash_match": true,
+        "source_record_hash_match": true,
+        "rationale": "Full paragraph 146 explicitly limits models and examples to English and suggests further multilingual/non-English work. Short quote omits English but card explicitly relies on the same verified paragraph for that qualification. Paraphrase is supported.",
+        "source_anchor": "article1.body1.sec8.p1",
+        "limitations": "Language scope is not evidence that non-English models are conscious; no claim about all 2026 models."
+      }
+    }
+  ],
+  "source_metadata_updates": "Actual acquisition URLs and edition limits retained; parse approval limited to selected evidence paragraphs.",
+  "fulltext_counts": {
+    "html": 2,
+    "pdf": 4,
+    "preview_only": 1
+  }
+}

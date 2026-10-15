@@ -1,0 +1,255 @@
+{
+  "research_id": "ai-moral-status",
+  "task_id": "preliminary",
+  "role": "preliminary_discovery",
+  "input_version": null,
+  "input_version_note": "No ledger/version supplied or found at task start; coordinator must reconcile before committing handoff.",
+  "artifact_paths": [
+    "C:/Users/yang4/OneDrive/claude/논문검색/문헌검색/validation/transfer-recovery/research-workspaces/ai-moral-status/tasks/preliminary/discovery.json"
+  ],
+  "paper_ids": [
+    "prelim-long-2024",
+    "prelim-butlin-2023",
+    "prelim-butlin-lappas-2025",
+    "prelim-muller-2021",
+    "prelim-lohr-dennis-2025",
+    "prelim-jang-2024"
+  ],
+  "evidence_ids": [],
+  "verification_status": "pending",
+  "next_task": "총괄이 구체적 연구질문·포함기준 제안을 검토하고 실제 사용자 승인 후 수집 단계로 진행",
+  "unresolved": [
+    "연구질문 전체 승인 미기록",
+    "분량·기한·투고처 미설정",
+    "최신 2026년 LLM 직접 평가 연구 추가 탐색 필요",
+    "후보 6건 전체 원문 독해와 독립 검토 미실시",
+    "국내 LLM 직접 대상 연구 보완 필요"
+  ],
+  "date": "2026-10-15",
+  "timezone": "Asia/Seoul",
+  "user_scope_reported_by_coordinator": "현재 생성형 AI·LLM의 도덕적 지위에 집중하는 문헌연구",
+  "approval_status": "scope selection reported; no full question/plan approval inferred",
+  "proposed_question": "현재 생성형 AI·대규모 언어모델을 그 자체로 도덕적 고려의 대상으로 인정할 근거는 무엇이며, 의식·감응능력에 관한 불확실성은 잠정적 보호를 어느 범위까지 정당화하는가?",
+  "proposed_method": "비판적 문헌연구 및 개념·논증 비교. 체계적 문헌고찰 완료나 PRISMA 준수를 선언하지 않는다.",
+  "concepts": {
+    "moral_status": "그 존재 자체를 위해 도덕적으로 고려해야 하는 지위",
+    "moral_patiency": "행위 책임과 별개로 해악·이익의 당사자로 고려되는 성격",
+    "moral_agency": "도덕적 판단·행위·책임 능력; 소프트웨어 agent와 구분",
+    "legal_personhood": "법률상 권리·의무 주체성; 도덕적 지위와 자동 등치하지 않음",
+    "temporal_scope": "2026-10-15까지의 현재 생성형 AI/LLM 문헌 중심, 미래 의식 AI는 조건부 비교",
+    "unit_of_analysis": "모델, 실행 인스턴스, 대화형 서비스, 의인화된 캐릭터를 구분"
+  },
+  "proposed_inclusion": [
+    "한국어·영어 학술논문 및 식별 가능한 프리프린트",
+    "2022~2026 생성형 AI·LLM 직접 관련 연구 우선; 이전 핵심 이론은 별도 층으로 포함",
+    "의식/감응능력·복지/이익·관계적 인정·불확실성하 보호를 다루는 논증"
+  ],
+  "proposed_exclusion": [
+    "인간에 대한 AI 공정성/개인정보 이슈만 다루며 AI 자체 지위와 무관한 자료",
+    "법인격 부여만으로 도덕적 지위를 입증하는 추론",
+    "LLM 자기보고만으로 의식/고통을 확증하는 자료의 무비판적 채택",
+    "미래 초지능을 현재 LLM에 그대로 적용하는 논증"
+  ],
+  "search_log": [
+    {
+      "batch": 1,
+      "queries": [
+        "site.kci.go.kr 인공지능 도덕적 지위",
+        "site.frontiersin.org Gunkel other question can should robots rights 2018",
+        "site.link.springer.com Joanna Bryson robots should be slaves moral status",
+        "site.tandfonline.com Schwitzgebel Garza 2015 case robot rights"
+      ],
+      "returned_items": 31,
+      "date": "2026-10-15",
+      "engine": "web.run search_query",
+      "total_hits": null,
+      "range": "Open web, literal site restrictions in queries; no database-native systematic search",
+      "result_count_note": "Count of returned displayed items across batch, not per-query total hits"
+    },
+    {
+      "batch": 2,
+      "queries": [
+        "site.kci.go.kr \"인공지능\" \"도덕적 지위\"",
+        "site.arxiv.org Taking AI Welfare Seriously 2024",
+        "site.arxiv.org Consciousness in Artificial Intelligence Insights Science Consciousness Butlin 2023",
+        "site.link.springer.com \"Is it time for robot rights\" Müller Shevlin"
+      ],
+      "returned_items": 36,
+      "date": "2026-10-15",
+      "engine": "web.run search_query",
+      "total_hits": null,
+      "range": "Open web, literal site restrictions in queries; no database-native systematic search",
+      "result_count_note": "Count of returned displayed items across batch, not per-query total hits"
+    }
+  ],
+  "screening_note": "Purposeful feasibility sampling, six candidates retained. News, Reddit, Wikipedia and secondary aggregator material excluded as evidentiary sources. No exhaustive result-level exclusion screening performed.",
+  "failed_opens": [
+    {
+      "url": "https://kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002282165",
+      "status": "internal_error"
+    },
+    {
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002282165",
+      "status": "timeout"
+    }
+  ],
+  "candidates": [
+    {
+      "paper_id": "prelim-long-2024",
+      "title": "Taking AI Welfare Seriously",
+      "authors": [
+        "Robert Long",
+        "Jeff Sebo",
+        "Patrick Butlin",
+        "Kathleen Finlinson",
+        "Kyle Fish",
+        "Jacqueline Harding",
+        "Jacob Pfau",
+        "Toni Sims",
+        "Jonathan Birch",
+        "David Chalmers"
+      ],
+      "year": 2024,
+      "doi": "10.48550/arXiv.2411.00986",
+      "version": "arXiv v1, 2024-11-04",
+      "source_url": "https://arxiv.org/abs/2411.00986",
+      "publication_type": "preprint_report",
+      "fulltext_status": "PDF/HTML links observed; full text not read or downloaded",
+      "discovery_basis": "Primary repository metadata and abstract",
+      "relevance": "AI 복지와 도덕적 피동성 및 불확실성 아래의 대응. 현재 모델의 의식 확증으로 사용하지 않는다.",
+      "scope": "current/near-future comparison",
+      "identity_status": "metadata_observed",
+      "provider_verified": false,
+      "evidence_verified": false,
+      "full_read": false
+    },
+    {
+      "paper_id": "prelim-butlin-2023",
+      "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+      "authors": [
+        "Patrick Butlin",
+        "Robert Long",
+        "Eric Elmoznino",
+        "Yoshua Bengio",
+        "Jonathan Birch",
+        "Axel Constant",
+        "George Deane",
+        "Stephen M. Fleming",
+        "Chris Frith",
+        "Xu Ji",
+        "Ryota Kanai",
+        "Colin Klein",
+        "Grace Lindsay",
+        "Matthias Michel",
+        "Liad Mudrik",
+        "Megan A. K. Peters",
+        "Eric Schwitzgebel",
+        "Jonathan Simon",
+        "Rufin VanRullen"
+      ],
+      "year": 2023,
+      "doi": "10.48550/arXiv.2308.08708",
+      "version": "arXiv v3, 2023-08-22",
+      "source_url": "https://arxiv.org/abs/2308.08708",
+      "publication_type": "preprint_report",
+      "fulltext_status": "PDF/HTML links observed; full text not read or downloaded",
+      "discovery_basis": "Primary repository metadata and abstract",
+      "relevance": "의식 평가 지표의 방법론 후보. 당시 시스템에 대한 평가를 2026년 모든 LLM으로 일반화할 수 없다.",
+      "scope": "historically bounded AI assessment",
+      "identity_status": "metadata_observed",
+      "provider_verified": false,
+      "evidence_verified": false,
+      "full_read": false
+    },
+    {
+      "paper_id": "prelim-butlin-lappas-2025",
+      "title": "Principles for Responsible AI Consciousness Research",
+      "authors": [
+        "Patrick Butlin",
+        "Theodoros Lappas"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arXiv.2501.07290",
+      "version": "arXiv v1, 2025-01-13",
+      "source_url": "https://arxiv.org/abs/2501.07290",
+      "publication_type": "preprint",
+      "fulltext_status": "PDF link observed; full text not read or downloaded",
+      "discovery_basis": "Primary repository metadata and abstract",
+      "relevance": "의식 연구/배포 및 공적 소통 원칙. 의식처럼 보이는 AI와 의식 있는 AI를 구분하는 정책 논의.",
+      "scope": "current research governance with future possibility",
+      "identity_status": "metadata_observed",
+      "provider_verified": false,
+      "evidence_verified": false,
+      "full_read": false
+    },
+    {
+      "paper_id": "prelim-muller-2021",
+      "title": "Is it time for robot rights? Moral status in artificial entities",
+      "authors": [
+        "Vincent C. Müller"
+      ],
+      "year": 2021,
+      "doi": "10.1007/s10676-021-09596-w",
+      "journal": "Ethics and Information Technology",
+      "volume": "23",
+      "pages": "579–587",
+      "source_url": "https://link.springer.com/article/10.1007/s10676-021-09596-w",
+      "publication_type": "journal_article",
+      "fulltext_status": "Open-access HTML available; abstract/introduction and selected passages seen; no complete reading or extraction",
+      "discovery_basis": "Publisher metadata and partial HTML",
+      "relevance": "관계론/행동주의 및 권리 부여 논증에 대한 반론. 파생적 지위와 직접적 지위를 구분할 이론 자료.",
+      "scope": "pre-generative-AI theoretical comparator; not contemporary LLM evidence",
+      "identity_status": "metadata_observed",
+      "provider_verified": false,
+      "evidence_verified": false,
+      "full_read": false
+    },
+    {
+      "paper_id": "prelim-lohr-dennis-2025",
+      "title": "Prudential reasons for designing entitled chatbots: How robot \"rights\" can improve human well-being",
+      "authors": [
+        "Guido Löhr",
+        "Matthew Dennis"
+      ],
+      "year": 2025,
+      "doi": "10.1007/s43681-025-00676-x",
+      "journal": "AI and Ethics",
+      "volume": "5",
+      "pages": "3791–3802",
+      "source_url": "https://link.springer.com/article/10.1007/s43681-025-00676-x",
+      "publication_type": "journal_article",
+      "fulltext_status": "Open-access HTML available; abstract and introductory passages seen; no complete reading or extraction",
+      "discovery_basis": "Publisher metadata and partial HTML",
+      "relevance": "챗봇에 일정한 지위를 설계하는 인간 복지상 이유. AI 자체의 이익과 인간의 관계적 이익을 혼동하지 않기 위한 대비.",
+      "scope": "chatbot design and human welfare",
+      "identity_status": "metadata_observed",
+      "provider_verified": false,
+      "evidence_verified": false,
+      "full_read": false
+    },
+    {
+      "paper_id": "prelim-jang-2024",
+      "title": "인공지능 로봇의 도덕적 지위로서 권리 부여에 대한 비판적 검토－유가적 접근과 대안",
+      "authors": [
+        "장운혁"
+      ],
+      "year": 2024,
+      "doi": "10.22932/pkps.2024.115.4.5",
+      "kci_id": "ART003160318",
+      "journal": "범한철학",
+      "volume": "115",
+      "issue": "4",
+      "pages": "5–27",
+      "source_url": "https://www.kci.go.kr/kciportal/mobile/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003160318",
+      "publication_type": "journal_article",
+      "fulltext_status": "KCI fulltext download label observed; actual file access not tested; abstract only",
+      "discovery_basis": "KCI official metadata and abstract via web, not authenticated API",
+      "relevance": "권리자 대신 예자와 역할의무를 제안하는 국내 이론적 대안. LLM에의 적용 가능성은 별도 검토 대상.",
+      "scope": "robot-based theoretical comparator",
+      "identity_status": "metadata_observed",
+      "provider_verified": false,
+      "evidence_verified": false,
+      "full_read": false
+    }
+  ]
+}

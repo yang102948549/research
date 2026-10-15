@@ -1,0 +1,103 @@
+{
+  "research_id": "ai-moral-status",
+  "task_id": "evidence-review",
+  "role": "independent_source_evidence_reviewer",
+  "input_version": 18,
+  "verification_status": "pass",
+  "review_kind": "agent_reviewed",
+  "human_reviewed": false,
+  "scope": "Pass covers the four selected author-argument cards, their saved-byte hashes, selected paragraph locators, and contextual limits only. Whole-source extraction remains partial; no verdict about the consciousness or moral status of all current LLMs.",
+  "inspected_cards_sha256": "f988d9b9c484a15c92af475987c82910af3937f81749fc51bb47d0a4239f78b8",
+  "method": "Read saved HTML bytes and adjoining extracted paragraphs; independently stripped p-element tags and decoded HTML entities to compare full selected paragraphs; each selected paragraph matched exactly once in actual HTML. Compared card file hashes and source-record hashes with current read-only ledger.",
+  "source_parse_reviews": [
+    {
+      "source_id": "intl-chalmers-2023",
+      "selected_passages": "pass",
+      "whole_source_parse": "hold",
+      "actual_body_confirmed": true,
+      "metadata": "Saved HTML names David J. Chalmers and title Could a Large Language Model Be Conscious?; visible publication date August 9, 2023. Editorial note says edited NeurIPS November 28, 2022 talk. JSON-LD dateModified is 2025-06-10; this is a saved later webpage snapshot, not independently proven original 2023 bytes.",
+      "edition_limit": "Boston Review essay must remain distinct from arXiv manuscript/version. Ledger source_url currently points to arXiv; coordinator should record actual Boston Review acquisition URL separately or correct source_url while retaining related preprint URL.",
+      "extraction_limit": "Includes donation/navigation/footer text, and inline subsection labels are flattened. Paragraph 42 and 81 are confirmed article-body p elements, not navigation. Existing extraction paragraph IDs are valid only with saved extraction hash.",
+      "acquisition_url": "https://www.bostonreview.net/articles/could-a-large-language-model-be-conscious/",
+      "file_sha256": "193544670fc3c728ae7c2bbcb4eff9cea39810b18a93a431ba5cf48d5b9f9a39"
+    },
+    {
+      "source_id": "intl-shardlow-przybyla-2024",
+      "selected_passages": "pass",
+      "whole_source_parse": "hold",
+      "actual_body_confirmed": true,
+      "metadata": "Saved publisher metadata directly confirms Matthew Shardlow, Piotr Przybyła, Deanthropomorphising NLP: Can a language model be conscious?, PLOS ONE 19(12), e0307521, Dec 4 2024, DOI 10.1371/journal.pone.0307521.",
+      "edition_limit": "Publisher HTML, not inferred equivalent to an unidentified preprint.",
+      "extraction_limit": "Navigation and feedback/footer paragraphs remain in extraction. Paragraphs 75 and 146 are actual body; source anchors are article1.body1.sec3.sec3.p2 and article1.body1.sec8.p1. No table, formula or figure numerical claim is reviewed.",
+      "file_sha256": "92ac238f58c52bc330afe2c18e94fc0eb5fa38b55964c8c9eedf345dcb194fdc"
+    }
+  ],
+  "cards": [
+    {
+      "evidence_id": "draft-chalmers-self-report",
+      "verdict": "pass",
+      "quote_match": true,
+      "locator_match": true,
+      "file_hash_match": true,
+      "source_record_hash_match": true,
+      "rationale": "Paragraph 42 and adjoining 41/43 support the limited claim that prompt-sensitive and learned consciousness reports have weak evidential force. Translation preserves conditional fragility. Card correctly treats the GPT-3 demonstration as a reported test by another person and does not infer absence of consciousness.",
+      "limitations": "Support is for this author argument at the dated essay, not a 2026 cross-model experimental result."
+    },
+    {
+      "evidence_id": "draft-chalmers-recurrence",
+      "verdict": "pass",
+      "quote_match": true,
+      "locator_match": true,
+      "file_hash_match": true,
+      "source_record_hash_match": true,
+      "rationale": "Paragraph 81 states a conditional architectural objection; 82 and 83 explicitly supply responses, limited recurrence and alternatives. Card retains conditional theory dependence and temporal limits.",
+      "terminology_note": "For Korean clarity, 순환 처리 or 재순환 처리 is preferable to 재귀적 처리, which may suggest computational recursion. Non-blocking terminology harmonization; preserve English recurrent processing.",
+      "limitations": "No inference that every present LLM is feedforward or unconscious."
+    },
+    {
+      "evidence_id": "draft-shardlow-method",
+      "verdict": "pass",
+      "quote_match": true,
+      "locator_match": true,
+      "file_hash_match": true,
+      "source_record_hash_match": true,
+      "rationale": "Paragraph 75 describes examining Transformer properties against IIT postulates, and 74 explains why direct Φ computation is not undertaken. Card accurately distinguishes theoretical architecture analysis from direct measurement or consciousness detection.",
+      "source_anchor": "article1.body1.sec3.sec3.p2",
+      "limitations": "IIT-dependent argument and LaMDA-focused application; does not settle competing consciousness theories."
+    },
+    {
+      "evidence_id": "draft-shardlow-limits",
+      "verdict": "pass",
+      "quote_match": true,
+      "locator_match": true,
+      "file_hash_match": true,
+      "source_record_hash_match": true,
+      "rationale": "Full paragraph 146 explicitly limits models and examples to English and suggests further multilingual/non-English work. Short quote omits English but card explicitly relies on the same verified paragraph for that qualification. Paraphrase is supported.",
+      "source_anchor": "article1.body1.sec8.p1",
+      "limitations": "Language scope is not evidence that non-English models are conscious; no claim about all 2026 models."
+    }
+  ],
+  "artifact_paths": [
+    "research-workspaces/ai-moral-status/tasks/evidence-review/review.json"
+  ],
+  "paper_ids": [
+    "intl-chalmers-2023",
+    "intl-shardlow-przybyla-2024"
+  ],
+  "evidence_ids": [
+    "draft-chalmers-self-report",
+    "draft-chalmers-recurrence",
+    "draft-shardlow-method",
+    "draft-shardlow-limits"
+  ],
+  "unresolved": [
+    "Whole-page extraction cannot be marked fully clean: navigation/footer and incomplete section labeling remain.",
+    "Cards have no linked claim IDs yet; coordinator must reconcile provisional source IDs and source hashes after any metadata change.",
+    "Record Chalmers actual acquisition URL and modified-page metadata without pretending to have proved textual identity with arXiv or original 2023 snapshot."
+  ],
+  "next_task": "Coordinator reconcile source metadata, preserve reviewed card/extraction hashes and link appropriately limited author-argument claims. This review is not manuscript-wide approval.",
+  "extraction_sha256": {
+    "intl-chalmers-2023": "323a10093622c6ff689a3a6276773c7379fa8e3d500cc29f79d7d9e313006df6",
+    "intl-shardlow-przybyla-2024": "f7592e1df293f08fbc8e6641a327208f1fd42d579204397e2e1dc6bc4351b981"
+  }
+}

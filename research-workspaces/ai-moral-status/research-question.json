@@ -1,0 +1,19 @@
+{
+  "topic": "AI는 도덕적 지위를 인정받을 수 있는가?",
+  "scope_user_selected": "현재 생성형 AI·LLM의 도덕적 지위에 집중하는 문헌연구",
+  "research_question": "현재 생성형 AI·LLM의 도덕적 지위를 인정할 근거는 무엇인가?",
+  "method": "비판적 문헌연구",
+  "languages": [
+    "ko",
+    "en"
+  ],
+  "literature_scope": "2022년 이후 LLM 연구 중심; 이전 핵심 이론 보완",
+  "focus": "AI 자체의 이익과 인간을 위한 간접 보호를 구분하며 도덕적 지위 인정 근거와 반론을 비교",
+  "excluded_focus": [
+    "잠정적 보호 정책"
+  ],
+  "length": null,
+  "deadline": null,
+  "target_journal": null,
+  "citation_style_default": "APA 7"
+}

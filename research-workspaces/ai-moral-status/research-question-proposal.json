@@ -1,0 +1,22 @@
+{
+  "topic": "AI는 도덕적 지위를 인정받을 수 있는가?",
+  "scope_user_selected": "현재 생성형 AI·LLM의 도덕적 지위에 집중하는 문헌연구",
+  "question_proposed": "현재 생성형 AI·대규모 언어모델을 그 자체로 도덕적 고려의 대상으로 인정할 근거는 무엇이며, 의식·감응능력에 관한 불확실성은 잠정적 보호를 어느 범위까지 정당화하는가?",
+  "method_proposed": "비판적 문헌연구 및 개념·논증 비교. 체계적 문헌고찰 완료나 PRISMA 준수를 선언하지 않는다.",
+  "inclusion_proposed": [
+    "한국어·영어 학술논문 및 식별 가능한 프리프린트",
+    "2022~2026 생성형 AI·LLM 직접 관련 연구 우선; 이전 핵심 이론은 별도 층으로 포함",
+    "의식/감응능력·복지/이익·관계적 인정·불확실성하 보호를 다루는 논증"
+  ],
+  "exclusion_proposed": [
+    "인간에 대한 AI 공정성/개인정보 이슈만 다루며 AI 자체 지위와 무관한 자료",
+    "법인격 부여만으로 도덕적 지위를 입증하는 추론",
+    "LLM 자기보고만으로 의식/고통을 확증하는 자료의 무비판적 채택",
+    "미래 초지능을 현재 LLM에 그대로 적용하는 논증"
+  ],
+  "length": null,
+  "deadline": null,
+  "target_journal": null,
+  "citation_style_default": "APA 7",
+  "status": "draft_pending_question_and_scope_approval"
+}

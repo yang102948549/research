@@ -1,0 +1,44 @@
+[
+  {
+    "paper_id": "intl-chalmers-2023",
+    "url": "https://www.bostonreview.net/articles/could-a-large-language-model-be-conscious/",
+    "date": "2026-10-15T11:16:40.477052+00:00",
+    "final_url": "https://www.bostonreview.net/articles/could-a-large-language-model-be-conscious/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded_needs_original_comparison",
+    "path": "sources/intl-chalmers-2023.html",
+    "sha256": "193544670fc3c728ae7c2bbcb4eff9cea39810b18a93a431ba5cf48d5b9f9a39",
+    "extracted_path": "extracted/intl-chalmers-2023.json",
+    "blocks": 132
+  },
+  {
+    "paper_id": "intl-shardlow-przybyla-2024",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307521",
+    "date": "2026-10-15T11:16:40.478051+00:00",
+    "final_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307521",
+    "content_type": "text/html;charset=UTF-8",
+    "status": "downloaded_needs_original_comparison",
+    "path": "sources/intl-shardlow-przybyla-2024.html",
+    "sha256": "92ac238f58c52bc330afe2c18e94fc0eb5fa38b55964c8c9eedf345dcb194fdc",
+    "extracted_path": "extracted/intl-shardlow-przybyla-2024.json",
+    "blocks": 174
+  },
+  {
+    "paper_id": "intl-overgaard-kirkebyhinrup-2024",
+    "url": "https://www.nature.com/articles/s41599-024-03553-w",
+    "date": "2026-10-15T11:16:40.479050+00:00",
+    "final_url": "https://www.nature.com/articles/s41599-024-03553-w",
+    "content_type": "text/html; charset=utf-8",
+    "status": "acquisition_failed",
+    "error_type": "ValueError"
+  },
+  {
+    "paper_id": "intl-ladak-2024",
+    "url": "https://link.springer.com/article/10.1007/s43681-023-00260-1",
+    "date": "2026-10-15T11:16:40.480049+00:00",
+    "final_url": "https://link.springer.com/article/10.1007/s43681-023-00260-1",
+    "content_type": "text/html; charset=utf-8",
+    "status": "acquisition_failed",
+    "error_type": "ValueError"
+  }
+]
