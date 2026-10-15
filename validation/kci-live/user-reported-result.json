@@ -1,0 +1,32 @@
+{
+  "recorded_date": "2026-10-15",
+  "provenance": "User supplied probe output in chat; not independently executed by agent",
+  "search_term": null,
+  "suggested_search_term": "컴퓨터",
+  "search_term_confirmed": false,
+  "top_level_status_supplied": false,
+  "assessment": "all_three_operations_ok_user_reported",
+  "checks": [
+    {
+      "operation": "articleSearch",
+      "status": "ok",
+      "total": 2816,
+      "returned_records": 10
+    },
+    {
+      "operation": "articleDetail",
+      "status": "ok",
+      "returned_records": 1
+    },
+    {
+      "operation": "referenceSearch",
+      "status": "ok",
+      "total": 19706,
+      "returned_records": 10
+    }
+  ],
+  "evidence_verified": false,
+  "pagination_observation": "Local probe requests displayCount=1, user output returns 10 for both searches. Cause unconfirmed; pagination not validated.",
+  "raw_xml_reviewed": false,
+  "agent_environment_key_configured": false
+}

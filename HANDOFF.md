@@ -67,3 +67,30 @@ python -X utf8 "$env:USERPROFILE/.codex/skills/evidence-paper-workflow/scripts/c
 “이 폴더의 HANDOFF.md와 evidence-paper-workflow/SKILL.md를 먼저 읽고 현재 완료 상태를 확인해줘. 기존 승인·원문·검토 기록을 보존하고, 내가 지정하는 다음 연구 또는 남은 KCI 실연결 시험만 진행해줘.”
 
 사용자 요청에 따라 이번 작업은 커밋·인수인계 문서 작성 후 종료한다. 자동 후속 실행이나 자동 투고는 설정하지 않았다.
+
+
+## 2026-10-15 현재 컴퓨터 재개 점검
+
+- Python 회귀시험 64개 통과.
+- pilot-kross-2013 스냅샷의 하위 폴더 파일 누락을 확인했다. 전달 bundle 커밋 c633fc41ca63c324ba1022cc1724df19ed4be3d4와 기존 파일의 바이트 일치를 확인한 후, 누락 41개 파일만 복원했다. 기존 장부·승인·원고는 변경하지 않았다.
+- 복원 후 cli.py status의 research_question, outline, manuscript, final 게이트 모두 통과했다. 보존된 검토 기록의 재검증이며, 현재 컴퓨터에서 한글을 새로 열어 검토했다는 의미는 아니다.
+- 복원 파일과 SHA-256 목록: validation/pilot-recovery.json. 복구용 저장소: validation/transfer-recovery (no-checkout). 기존 프로젝트 .git에서는 HEAD 객체를 읽지 못했으며 덮어쓰거나 초기화하지 않았다.
+- KCI 프로브 결과: not_configured. 현재 프로세스에 KCI_API_KEY가 없어 실제 인증·XML 3종 시험은 미완료다. 키를 채팅에 보내지 말고 로컬 PowerShell에서 아래 명령을 실행해 숨김 입력으로 제공한다. 결과의 상태·건수만 공유하면 후속 판정이 가능하다.
+
+```powershell
+& 'C:/Users/yang4/OneDrive/claude/논문검색/문헌검색/evidence-paper-workflow/scripts/kci_probe.ps1' -Title '컴퓨터'
+```
+
+
+## 2026-10-15 KCI 사용자 실행 결과 수신
+
+- 사용자 제공 프로브 출력에서 articleSearch / articleDetail / referenceSearch 모두 ok 확인. 논문검색 총 2,816건 중 10건, 상세 1건, 참고문헌검색 총 19,706건 중 10건 반환.
+- 기본 인증·3종 응답 파싱의 실연결 성공은 사용자 실행 결과 기준으로 확인했다. 원문 XML을 직접 검토하거나 현재 Codex 프로세스의 키 설정을 확인한 것은 아니다. evidence_verified=false는 정상이며 원문 근거 검토는 별도다.
+- 검색어는 앞서 '컴퓨터'를 안내했으나 수신 출력에는 없으므로 확정 기록하지 않았다. 최상위 status도 발췌에 없어 추가하지 않았다.
+- 로컬 프로브는 displayCount=1을 요청하지만 제공 결과는 두 검색 모두 10건이다. 공식 명세의 기본값은 10, 최대값은 100이다. 10건 반환 원인은 미확정이며 페이지 크기·다음 페이지 검증은 남아 있다. 대량 수집 완료로 해석하지 않는다.
+- 기록: validation/kci-live/user-reported-result.json. 다음 연구 착수에는 연구 주제·범위 설정 및 연구질문 승인이 필요하다.
+
+
+## GitHub 업로드 준비
+
+전달 bundle의 정상 이력을 기반으로 최신 재개·KCI 기록을 반영했다. 현재 폴더의 build-status.json은 0.3으로 오래되어 업로드 작업본에서는 bundle의 0.4 기록을 기준으로 최신 KCI 상태를 추가했다. 원래 폴더의 파일과 손상된 .git은 보존했다.

@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-15",
+  "bundle_commit": "c633fc41ca63c324ba1022cc1724df19ed4be3d4",
+  "existing_files_preserved": true,
+  "restored": [
+    {
+      "path": "research-snapshots/pilot-kross-2013/extracted/article.json",
+      "sha256": "5711137b3253e9b8b204a516dce6ca812640dfb899a313b26ed3cae749d1c3e6"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/sources/article.xml",
+      "sha256": "57af401c1c177c919fa770f1fc88392bc79ee20190328dfab6d4354934a76291"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/sources/crossref.json",
+      "sha256": "1c6971b71bbd2bed50aac37e176b28299f2525438ca9a291b89befb66c40d96d"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/sources/downloads.json",
+      "sha256": "dbc5c5608cff94cef3d255167061f0dc0e8f03530cc33d858cf456224980111e"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/tasks/manuscript-draft/paragraphs.json",
+      "sha256": "8864e6ea356e6354be62012f62ec96b63e1b971402f1b51971dc19503c7381d0"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/tasks/manuscript-review/handoff.json",
+      "sha256": "741770d5749e895423c16c8db2010325b676575ff61b32bd330efc5a7fbd860a"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/tasks/manuscript-review/review.json",
+      "sha256": "1b010af27711368e1a20381fc32e690ec8e52868a272c7f90109a9aa40c57bd5"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/tasks/outline-review/handoff.json",
+      "sha256": "acbbf7d67252a0db8b328f81e4327d271d2def128920d5f0f7d17e0ad3e3579a"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/tasks/outline-review/review.json",
+      "sha256": "73ce6b63f5ea5a1ce4b9a9425cdca7ce645f797a08ac6324596c72afbcd771fb"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/tasks/semantic-evaluation/handoff.json",
+      "sha256": "45a515a82a004056306ce1d8cd4dc493ef660ead57b2dc06dd06259e6de02e88"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/tasks/semantic-evaluation/review.json",
+      "sha256": "216c2133453e7b2c30ee06090d426c61f86c572f33d21adbb455accdeea8bee3"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/tasks/semantic-evaluation/score.json",
+      "sha256": "dc5c4f893ca33122e581ee55a0a7eb41db109ff5c6516f18b073ebf34f712103"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/hwpx/manuscript-hancom.pdf",
+      "sha256": "6d7c91119af86aaff11dd335063d16ea1ab637add7c05d388a9e1593e35b1dbe"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/hwpx/page1.png",
+      "sha256": "012d2c2e50cd519271fded6deac2d7974a57fa8197b1075a0f6eff73ba56ce44"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/hwpx/visual-review.json",
+      "sha256": "f2af34aa52681a7c26b41bd5d3cddb0fbf933640922560294af2a028fc304b09"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/REPORT.md",
+      "sha256": "32294d8586136f3bb772cdd8d51e50451de7075a599afcb22cee8f251d6b676e"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/calendar-crop.png",
+      "sha256": "11f93df646f7e55003668f1a7819f3fd6c762e321839ea06e38e9d472c41fdc4"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/calendar-ocr.json",
+      "sha256": "eb8c05ffd07ecc11e0b9b198e00444417b011baeaa3698d918f802990c154edf"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/checks.json",
+      "sha256": "70be685f17c87a22e7ec939cbbf33caa59c3b7d746f6ab71a03b8889427dfdad"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/finish_checks.py",
+      "sha256": "52e22dc458b154c2eed6d3a94a27f7931ea8cab9f98b294b8e7733d60cd07242"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/footnote-crop.png",
+      "sha256": "6f2cba12bb14b4f62d6d3ee7486386da15d43648f85540d92c13bdce196e05cb"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/handoff.json",
+      "sha256": "e7f373702a302d319963613e53d12fc0de4fb7f3522a868052757d9dc0b008bb"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/real-mixed-page-18-ocr.json",
+      "sha256": "3d208107827ef38e7b6a9c15e8a32bd0af9b7e0d0e77602ff6ec04e8645eca35"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/run_validation.py",
+      "sha256": "723cfdce5f4d9fa672b1701eae355af775b4343d0677b64c99338c524e5a2619"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/scan-extraction.json",
+      "sha256": "d079b32a56789f1b574e1a193ad8f2e6009611c4de0a6f139d0831d8ab948013"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/scan-ocr.json",
+      "sha256": "d0220d87c88cc09e5942d27ce1f5dbd434406857b8e7fd14f833e5f7a3c397cb"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/scan-source-page-1.png",
+      "sha256": "761beec9894dbf9d78d3e978d4cc85782cbb79c1b19e2901079951fae8109a62"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/scan-source-page-11.png",
+      "sha256": "effce484c01f81f0137b4b63f0981b28c8874b8a9b4c8ca9357abf627113e561"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/simulated-scans.pdf",
+      "sha256": "4495f2127459d4a7060c3dde4f47693059f10ae2c3fe7984bc0ba46efefc3834"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/source-extraction.json",
+      "sha256": "50f8991d4be29d568448d0a7eed36fbd07e2ac894c451fb9fab16df314b86d37"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/source-page-1.png",
+      "sha256": "196f2bd33605a58481ab724754ebb9997342ca93d54e33f74bd87ba332c6ca80"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/source-page-11.png",
+      "sha256": "d0f5bd1f34cee41a0e4439aec2a52476f91bbd5a56854b6ba6ef5fe64b719343"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/source-page-16.png",
+      "sha256": "ee14a246df1ca7bce1033a7e3f9decaa74eee83d6ca86ebb4f4b79a6927ea355"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/source-page-18.png",
+      "sha256": "335ec990cac06e385f63e427285368209500d4cebc99d17273273499aee8d1e9"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/validation/pdf-ocr/source-page-19.png",
+      "sha256": "b14251584140bc141607546449a02536a1a4e66f275df9116833075b0b3abd1f"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/versions/pre-visual-fix/export-validation.json",
+      "sha256": "d930689b620a2eca79ca58f1bb010a4470d80a60bdb4020bbf51f82903517fbd"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/versions/pre-visual-fix/hwpx-reextracted.txt",
+      "sha256": "2ee4811889b238de3b5eac0fe0bdedcfcb646915abfda44d727cf99426ecc31a"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/versions/pre-visual-fix/ledger.json",
+      "sha256": "c416f89754c32f0245ac1d6d452f4b672d8a4ab73e2599f01a829ca2f84edad1"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/versions/pre-visual-fix/manuscript.hwpx",
+      "sha256": "0faa5edf70c5255b4335e8eac5e54cda8d0d17bed1c132124b09bba453672af5"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/versions/pre-visual-fix/manuscript.md",
+      "sha256": "2ee4811889b238de3b5eac0fe0bdedcfcb646915abfda44d727cf99426ecc31a"
+    },
+    {
+      "path": "research-snapshots/pilot-kross-2013/versions/pre-visual-fix/verification-report.md",
+      "sha256": "5e3cbe5f5e99909227bd4398695580ba6fad03a730b27b64c85019d1adf6595b"
+    }
+  ]
+}

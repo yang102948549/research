@@ -20,7 +20,7 @@
   "synthetic_integration": "manuscript gate -> HWPX -> exact text re-extraction -> serialized bibliography checks -> reopened final gate passed; only synthetic approvals in temporary test directory",
   "real_source_pilot": "Completed with actual question and outline approvals: 4 claims, 5 paragraphs independently agent-reviewed; HWPX generated, text roundtrip exactly matched, bibliography alignment and reloaded final gate passed",
   "remaining": [
-    "live KCI key/schema validation",
+    "KCI pagination/page-size live verification and raw XML field audit",
     "broader Korean academic scan/layout corpus and more complex tables"
   ],
   "complete_research_workflow_acceptance": false,
@@ -60,5 +60,12 @@
     "real_cell_gate_passed": 1,
     "mutations_blocked": 7,
     "report": "references/scan-table-validation.md"
+  },
+  "kci_live_probe": {
+    "status": "all_three_operations_ok_user_reported",
+    "date": "2026-10-15",
+    "report": "../validation/kci-live/user-reported-result.json",
+    "evidence_verified": false,
+    "pagination_verified": false
   }
 }
