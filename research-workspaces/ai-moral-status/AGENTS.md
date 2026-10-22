@@ -1,6 +1,6 @@
 # ai-moral-status 연구 운영 지침
 
-이 폴더에서 작업할 때 루트 [AGENTS.md](../../AGENTS.md)에 더해 적용한다. 역할, 동시 실행 수, 단계 게이트, 파일 소유권, 사용자 승인은 루트가 정하며 여기서 다시 정하지 않는다. 충돌하면 루트 지침과 사용자의 현재 지시를 따른다. 실행 절차는 [SKILL.md](../../evidence-paper-workflow/SKILL.md), 인계 형식은 [orchestration.md](../../evidence-paper-workflow/references/orchestration.md)를 따른다.
+이 폴더에서 작업할 때 루트 [AGENTS.md](../../AGENTS.md)에 더해 적용한다. 역할, 동시 실행 수, 단계 게이트, 파일 소유권은 루트가, 문헌연구의 역할 대응과 사용자 승인은 [argument-pipeline.md](../../evidence-paper-workflow/references/argument-pipeline.md)가 정하며 여기서 다시 정하지 않는다. 충돌하면 루트 지침과 사용자의 현재 지시를 따른다. 실행 절차는 [SKILL.md](../../evidence-paper-workflow/SKILL.md), 인계 형식은 [orchestration.md](../../evidence-paper-workflow/references/orchestration.md)를 따른다.
 
 이 문서에는 연구 결론, 근거 내용, 진행 수치, 승인 상태를 쓰지 않는다. 아래 기준 파일을 직접 읽어 확인한다.
 

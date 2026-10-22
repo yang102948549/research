@@ -154,3 +154,8 @@ workflow.py에 `record_disposition`을 추가하고 cli.py에 `dispose`를 추�
 ## 2026-10-22 ai-moral-status 발굴 작업 3건의 처분 기록
 
 사용자 지시로 domestic-discovery, international-discovery, theory-discovery의 미해결 항목 각 1건에 `carried_as_limitation`을 기록했다(`dispositions`만 추가, 장부 버전 33 유지, 원본 인계 불변). 항목의 내용(출처 단위의 원문·추출 검증 필요, 승인된 주장 없음)은 해결되지 않았다. 국내는 PDF 확보와 서지 확인 단계, 국외는 2편의 선택 문단 4건만 검증, 이론 5편은 원문 미확보이므로 `resolved`로 기록하지 않았다. 이월 위치는 PROGRESS.md와 장부 sources의 상태 필드이며, 개요·논증 기록을 만들 때 한계 서술로 다시 옮겨야 한다. 처분은 원고 게이트의 항목 오류만 해소하고 근거별 원문 대조와 독립 검토 요건은 그대로다. 이 장부는 CRLF이고 `save()`는 LF로 쓰므로 저장 뒤 줄바꿈을 CRLF로 되돌려 diff를 32줄로 유지했다.
+
+
+## 2026-10-22 루트 지침의 범용화
+
+루트 AGENTS.md에 섞여 있던 문헌연구 전용 내용(원전 분석·반론 분석 표, 논증 구성, 연구 승인 게이트, 문헌 검증 규칙, 게이트의 장부 코드 매핑)을 evidence-paper-workflow/references/argument-pipeline.md로 옮겼다. 루트는 주제와 작업 유형에 관계없는 규칙만 둔다: 동시 실행 한도, 복합 작업의 표준 단계(기준 분석·도전 분석 → 총괄 통합 → 독립 검토 → 총괄 수정), 게이트 G0–G4, 파일 소유권, 일반 사용자 승인, 전문 절차 연결 표. 기준 분석은 문헌연구에서 원전 분석, 도전 분석은 반론 분석에 대응한다. 사용자가 정한 파이프라인과 역할 정책의 내용은 바뀌지 않았다. 새 전문 절차는 루트의 연결 표에 한 줄만 추가한다. 스크립트는 변경하지 않았다. 남은 환경 종속: install.py·score_evaluation.py·cli.py 기본값의 C:/Users/USER 경로(스킬 쪽 이식성 문제로, 이번에는 고치지 않았다).
