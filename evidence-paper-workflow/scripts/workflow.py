@@ -324,8 +324,10 @@ class Ledger:
                     errors.append(pid + ': paragraph factual fidelity not independently reviewed')
                 if any(self.data['claims'].get(cid, {}).get('hash') != h for cid, h in pr.get('claim_hashes', {}).items()) or any(self.data['evidence'].get(eid, {}).get('hash') != h for eid, h in pr.get('evidence_hashes', {}).items()):
                     errors.append(pid + ': stale paragraph dependencies')
-            if any(t.get('unresolved') for t in self.data['tasks'].values()):
-                errors.append('unresolved handoff issues')
+            for tid, t in self.data['tasks'].items():
+                for i, item in enumerate(t.get('unresolved') or []):
+                    if digest(item) not in self.data.get('dispositions', {}).get(tid, {}):
+                        errors.append('unresolved handoff issues: %s item %d has no disposition' % (tid, i))
         if name == 'final':
             for task in self.data['tasks'].values():
                 try:
@@ -452,6 +454,36 @@ class Ledger:
         self.data['commits'][tid] = signature
         self.save()
         return True
+
+    DISPOSITIONS = ('resolved', 'carried_as_limitation', 'out_of_scope')
+
+    def record_disposition(self, task_id, item_index, disposition, rationale, carried_to=None):
+        """Attach a coordinator decision to one unresolved item of a committed handoff.
+
+        The committed handoff is never modified. The decision is stored under the
+        item's content hash, so it survives reloads and cannot be applied to a
+        different item. It does not bump the ledger version: it is gate metadata,
+        not claim or evidence content. Call save() afterwards.
+        """
+        if self.actor != 'coordinator':
+            raise WorkflowError('Coordinator required')
+        task = self.data['tasks'].get(task_id)
+        if not task:
+            raise WorkflowError('Unknown task')
+        items = task.get('unresolved') or []
+        if not isinstance(item_index, int) or isinstance(item_index, bool) or not 0 <= item_index < len(items):
+            raise WorkflowError('Unresolved item index out of range')
+        if disposition not in self.DISPOSITIONS:
+            raise WorkflowError('Disposition must be one of ' + ', '.join(self.DISPOSITIONS))
+        if not str(rationale or '').strip():
+            raise WorkflowError('Disposition rationale required')
+        if disposition == 'carried_as_limitation' and not str(carried_to or '').strip():
+            raise WorkflowError('carried_to required: where the limitation is recorded')
+        record = dict(disposition=disposition, rationale=rationale, item_index=item_index,
+                      version=self.data['version'], timestamp=now())
+        if carried_to:
+            record['carried_to'] = carried_to
+        self.data.setdefault('dispositions', {}).setdefault(task_id, {})[digest(items[item_index])] = record
 
     def _check_artifacts(self, task):
         for path, expected in task.get('artifact_hashes', {}).items():

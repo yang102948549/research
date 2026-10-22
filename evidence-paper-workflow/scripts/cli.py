@@ -12,6 +12,8 @@ def main():
     for cmd in ('status','resume'):
         p=sub.add_parser(cmd); p.add_argument('root',type=Path)
     arg=sub.add_parser('check-argument'); arg.add_argument('root',type=Path); arg.add_argument('--map',type=Path); arg.add_argument('--objections',type=Path)
+    disp=sub.add_parser('dispose'); disp.add_argument('root',type=Path); disp.add_argument('task_id'); disp.add_argument('item_index',type=int)
+    disp.add_argument('disposition',choices=list(Ledger.DISPOSITIONS)); disp.add_argument('--rationale',required=True); disp.add_argument('--carried-to')
     approval=sub.add_parser('approve'); approval.add_argument('root',type=Path); approval.add_argument('gate',choices=['research_question','outline']); approval.add_argument('--message-file',required=True,type=Path)
     args=parser.parse_args()
     if args.command=='init':
@@ -30,6 +32,8 @@ def main():
             required=[o['objection_id'] for o in json.loads(args.objections.read_text(encoding='utf-8')).get('objections',[])]
         errors=ledger.check_argument_map(json.loads(path.read_text(encoding='utf-8')),required)
         print(json.dumps({'pass':not errors,'errors':errors},ensure_ascii=False,indent=2)); raise SystemExit(1 if errors else 0)
+    if args.command=='dispose':
+        ledger.record_disposition(args.task_id,args.item_index,args.disposition,args.rationale,args.carried_to); ledger.save()
     if args.command=='resume': ledger.resume()
     if args.command=='approve':
         message=args.message_file.read_text(encoding='utf-8').strip()

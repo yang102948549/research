@@ -14,7 +14,7 @@ handoff 검증 후 총괄이 `put`으로 장부 반영하고 `commit_handoff`로
 1. 인계를 모두 받아 파일·해시·ID·형식을 재대조하고 결과를 tasks/coordinator/의 조정 기록에 남긴다. 이 단계에서는 장부를 바꾸지 않는다.
 2. 인계를 하나씩 `put`한 뒤 정규화본으로 `commit_handoff`한다. 정규화본은 `assigned_input_version`에 실제 배정 기준을, `input_version`에 커밋 시점의 장부 버전을, `reconciliation_note`에 재대조 근거를 담는다.
 3. 형식·해시가 맞지 않는 인계는 그 인계만 보류하고 사유를 기록한다. 보류된 인계의 내용은 논증 구성에 쓰지 않으며 재배정은 새 작업 ID로 한다.
-4. 커밋된 모든 인계의 `unresolved`는 원고 게이트(manuscript·final)에서 비어 있어야 하고, 커밋된 task_id는 바꿀 수 없다. 미해결 항목은 커밋 전에 항목별 처분(해결 / 한계로 이월 / 범위 제외)과 근거를 조정 기록에 남긴다. 한계로 이월한 항목은 논증 기록의 `open_items`와 원고의 한계 서술로 옮긴다. 처분을 기록한 항목만 비운 정규화본으로 커밋하며 처분 없이 비우지 않는다.
+4. 커밋된 인계의 `unresolved` 항목은 원고 게이트(manuscript·final) 전에 항목마다 처분이 기록되어 있어야 한다. 커밋된 task_id와 원본 인계는 바꾸지 않으며, 총괄이 `record_disposition(task_id, 항목 번호, 처분, 사유, carried_to)` 후 `save()`로 덧붙인다(CLI: `cli.py dispose <연구폴더> <작업ID> <항목 번호> <처분> --rationale <사유> [--carried-to <위치>]`). 처분은 `resolved`(해결), `carried_as_limitation`(한계로 이월), `out_of_scope`(범위 제외)이며 사유는 필수이고 이월에는 한계가 적힌 위치(`carried_to`, 예: 논증 기록의 `open_items`)가 필수다. 처분은 항목 내용의 해시에 묶이므로 다른 항목에 적용되지 않고, 장부 버전을 올리지 않아 기존 의미 검토를 무효화하지 않는다. 처분은 사유의 기록이며 해결 여부의 검증이 아니므로 총괄은 실제 근거를 사유에 쓴다. 아직 커밋하지 않은 인계는 처분 후 정규화본으로 커밋해도 된다.
 
 ## 작업 산출물 형식
 

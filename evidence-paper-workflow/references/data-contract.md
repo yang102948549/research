@@ -32,6 +32,7 @@ handoff: research_id/task_id/role/input_version/artifact_paths/paper_ids/evidenc
 unresolved/verification_status/next_task. 선택: claim_ids, artifact_hashes, assigned_input_version,
 reconciliation_note. 총괄이 파일 경로·해시·버전을 확인하고 반영한다.
 선택 `contributor_id`는 근거 생성에 기여한 작업자 식별자이며, 그 근거에 연결된 주장·문단의 검토자와 같으면 review가 거절한다(식별자 인증은 아님).
+`record_disposition(task_id,item_index,disposition,rationale,carried_to=None)`는 커밋된 인계의 unresolved 항목에 처분(resolved/carried_as_limitation/out_of_scope)을 항목 해시 기준으로 `dispositions`에 덧붙인다. 원본 인계와 장부 버전은 바꾸지 않으며 원고 게이트는 처분 없는 항목만 오류로 센다.
 `Ledger.check_argument_map(argmap, required_objection_ids)`는 논증 기록의 구조·연결 오류 목록을 반환한다([인계 계약](orchestration.md) 참조).
 `input_version`은 장부 정수 버전이며 `verification_status`는 pending/pass/revise/hold 중 하나다.
 `output_paths`나 한글 키·자유 판정문은 이 계약과 다르므로 그대로 commit하지 않는다.

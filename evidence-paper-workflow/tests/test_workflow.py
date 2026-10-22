@@ -205,6 +205,42 @@ class WorkflowTests(unittest.TestCase):
         self.w.commit_handoff(self.handoff())
         self.w.review('c1', 'independent-reviewer', 'pass', 'Compared original.')
 
+    def unresolved_errors(self):
+        return [e for e in self.w.gate('manuscript')['errors'] if e.startswith('unresolved handoff issues')]
+
+    def test_unresolved_item_blocks_until_disposition_recorded(self):
+        self.w.commit_handoff(dict(self.handoff(), unresolved=['open question', 'second issue']))
+        self.assertEqual(len(self.unresolved_errors()), 2)
+        self.w.record_disposition('t1', 0, 'resolved', 'Checked against the original source.')
+        self.assertEqual(len(self.unresolved_errors()), 1)
+        self.w.record_disposition('t1', 1, 'carried_as_limitation', 'Stated as a limit.', carried_to='argument-map open_items o1')
+        self.assertEqual(self.unresolved_errors(), [])
+        # The committed handoff itself is untouched and re-commit stays idempotent.
+        self.assertEqual(self.w.data['tasks']['t1']['unresolved'], ['open question', 'second issue'])
+        self.assertFalse(self.w.commit_handoff(dict(self.handoff(), unresolved=['open question', 'second issue'], input_version=self.w.data['tasks']['t1']['input_version'])))
+
+    def test_disposition_persists_and_does_not_invalidate_reviews(self):
+        self.w.commit_handoff(dict(self.handoff(), unresolved=['open question']))
+        self.w.review('c1', 'independent-reviewer', 'pass', 'Compared original.')
+        version = self.w.data['version']
+        self.w.record_disposition('t1', 0, 'out_of_scope', 'Excluded by approved scope.')
+        self.assertEqual(self.w.data['version'], version)
+        self.assertIn('c1', self.w.data['reviews'])
+        self.w.save()
+        self.assertEqual(Ledger(self.tmp.name).data['dispositions']['t1'][next(iter(self.w.data['dispositions']['t1']))]['disposition'], 'out_of_scope')
+
+    def test_disposition_rejects_invalid_input(self):
+        self.w.commit_handoff(dict(self.handoff(), unresolved=['open question']))
+        bad = [('t1', 5, 'resolved', 'r'), ('t1', -1, 'resolved', 'r'), ('t1', True, 'resolved', 'r'),
+               ('nope', 0, 'resolved', 'r'), ('t1', 0, 'ignored', 'r'), ('t1', 0, 'resolved', '  '),
+               ('t1', 0, 'carried_as_limitation', 'r')]
+        for args in bad:
+            with self.assertRaises(WorkflowError, msg=str(args)):
+                self.w.record_disposition(*args)
+        with self.assertRaises(WorkflowError):
+            Ledger(self.tmp.name, actor='writer').record_disposition('t1', 0, 'resolved', 'r')
+        self.assertEqual(len(self.unresolved_errors()), 1)
+
     def argmap(self, **override):
         base = dict(ledger_version=self.w.data['version'],
             claims=[dict(claim_id='c1', reconstruction_refs=['p1:thesis'], evidence_ids=['e1'], objection_refs=['o1'])],
