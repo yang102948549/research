@@ -1,11 +1,34 @@
 # 연구 장부 인계 계약
 
-총괄·하위 역할, 동시 실행 수, 배정 규칙과 사용자 승인 정책은 프로젝트 AGENTS.md에서 정한다. 이 문서는 문헌연구 장부에 결과를 반영할 때만 읽는다. 작업자는 총괄이 지정한 tasks/<작업ID>/ 경로에 자신의 산출물을 저장한다.
+총괄·하위 역할, 동시 실행 수, 단계 게이트, 파일 소유권과 사용자 승인 정책은 프로젝트 AGENTS.md에서 정한다. 이 문서는 문헌연구 장부에 결과를 반영할 때와 작업 산출물의 형식을 정할 때만 읽는다. 작업자는 총괄이 지정한 tasks/<작업ID>/ 경로에 자신의 산출물을 저장한다.
+
+## 인수와 장부 반영
 
 handoff 검증 후 총괄이 `put`으로 장부 반영하고 `commit_handoff`로 결과물 해시를 확정한다.
-새 근거를 반환하는 handoff는 총괄 반영 뒤 알려진 source/evidence ID로 커밋한다.
+새 근거를 반환하는 handoff는 총괄 반영 뒤 알려진 source/evidence ID로 커밋한다. 작업자의 임시 ID는 장부 ID와 대응시킨 정규화본에서만 바꾸고 원본 handoff는 보존한다.
 원래 배정 input_version과 통합 기준 버전이 다르면 재검토 기록을 남겨야 하며 원래 전달물 버전을 덮어쓰지 않는다.
 공통 장부의 버전 변화로 늦게 도착한 작업은 자동 병합하지 않는다.
+
+병렬로 배정한 인계(예: 원전 분석과 반론 분석)는 같은 input_version을 받는다. `put`이 장부 버전을 올리므로 먼저 반영한 인계 때문에 나머지 인계의 input_version은 어긋난다. 오류가 아니라 정상 경로이며 다음 순서로 처리한다.
+
+1. 인계를 모두 받아 파일·해시·ID·형식을 재대조하고 결과를 tasks/coordinator/의 조정 기록에 남긴다. 이 단계에서는 장부를 바꾸지 않는다.
+2. 인계를 하나씩 `put`한 뒤 정규화본으로 `commit_handoff`한다. 정규화본은 `assigned_input_version`에 실제 배정 기준을, `input_version`에 커밋 시점의 장부 버전을, `reconciliation_note`에 재대조 근거를 담는다.
+3. 형식·해시가 맞지 않는 인계는 그 인계만 보류하고 사유를 기록한다. 보류된 인계의 내용은 논증 구성에 쓰지 않으며 재배정은 새 작업 ID로 한다.
+4. 커밋된 모든 인계의 `unresolved`는 원고 게이트(manuscript·final)에서 비어 있어야 하고, 커밋된 task_id는 바꿀 수 없다. 미해결 항목은 커밋 전에 항목별 처분(해결 / 한계로 이월 / 범위 제외)과 근거를 조정 기록에 남긴다. 한계로 이월한 항목은 논증 기록의 `open_items`와 원고의 한계 서술로 옮긴다. 처분을 기록한 항목만 비운 정규화본으로 커밋하며 처분 없이 비우지 않는다.
+
+## 작업 산출물 형식
+
+인계 JSON(handoff.json)은 데이터 계약의 영문 키를 쓴다. 아래 본문 산출물은 같은 작업 폴더에 두고 인계의 `artifact_paths`에 포함한다. 이 형식은 코드가 검사하지 않는 운영 계약이므로 검토자가 누락 항목을 직접 확인한다. 위치(locator)와 해시는 데이터 계약의 규격을 따른다.
+
+**원전 분석 — `source-reconstruction.json`**: 문헌마다 `source_id`·`source_hash`·판본, `question`, `thesis`(text·strength: 확정/조건부/탐색적·locator), `premises`, `key_terms`(저자 정의), `scope`, `author_stated_limits`, `author_addressed_objections`(objection·reply·locator), `disconfirming_passages`, `alternative_readings`, 항목별 `quotation_status`(direct·paraphrase·secondary·translation), 미확인 항목 목록, 재구성과 분리된 `analyst_assessment`. 찬반 판정 필드는 두지 않는다.
+
+**반론 분석 — `objections.json`**: 이의마다 `objection_id`, `targets`(주장 또는 전제), `type`(premise·inference·application·alternative·scope), `statement`(가장 강한 형태), `basis`(literature·constructed), `locators`(literature일 때), `impact_if_sound`, `existing_replies`와 `residual_burden`, `strength_rationale`, 이의 전체의 순위와 순위 근거.
+
+**독립 대조 — `review.json`**: `verification_status`(pass·revise·hold), `review_kind`(`agent_reviewed`)와 `human_reviewed: false`, 검토한 입력의 장부 버전·파일 해시, 항목별 판정(재구성 충실성·이의 처리·근거 위치와 해시·사실/규범/해석 구분·결론 강도), 검토자가 발견한 추가 이의, 독립성 한계.
+
+**총괄 논증 기록 — `tasks/coordinator/argument-map.json`**: 기록 시점의 `ledger_version`, 주장마다 `claim_id`·재구성 항목·`evidence_ids`·강도, 이의마다 처리 상태(addressed·partially_addressed·unresolved_limit·scope_narrowed·out_of_scope)와 처리 설명·한계 서술 위치, 폐기한 이의의 사유, `open_items`. 장부 버전이 `ledger_version`과 다르면 이 기록은 최신으로 취급하지 않는다. 문헌 근거 없이 구성한 이의는 시험용으로만 기록하며 장부 주장으로 올리지 않는다(장부는 근거 없는 주장을 받지 않는다).
+
+## 중단·승인
 
 중단 재개: `Ledger.resume()`는 running/interrupted를 pending으로 돌리고 기존 파일을 보존한다.
 완료 handoff task_id 재커밋은 동일 내용·동일 파일이면 무작업, 변경되었으면 거절한다.
