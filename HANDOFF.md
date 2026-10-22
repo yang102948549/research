@@ -149,3 +149,8 @@ AGENTS.md에 논증형 문헌연구의 단계(원전 분석·반론 분석 병�
 ## 2026-10-22 미해결 항목 처분 기록 기능
 
 workflow.py에 `record_disposition`을 추가하고 cli.py에 `dispose`를 추가했다. 커밋된 인계는 바꾸지 않고 unresolved 항목별 처분(resolved·carried_as_limitation·out_of_scope)과 사유를 항목 해시에 묶어 `dispositions`에 덧붙이며, 원고 게이트는 처분 없는 항목만 오류로 센다. 장부 버전을 올리지 않아 기존 검토를 무효화하지 않는다. 시험 3개를 추가해 85개가 되었고 리눅스 점검에서 Windows OCR 시험 2개를 제외한 83개가 통과했다(제외한 2개는 변경 전에도 같은 오류). ai-moral-status 장부의 발굴 작업 3건의 미해결 항목에는 처분을 기록하지 않았다. 연구 판단이 필요하므로 사용자의 지시 후 총괄이 기록한다.
+
+
+## 2026-10-22 ai-moral-status 발굴 작업 3건의 처분 기록
+
+사용자 지시로 domestic-discovery, international-discovery, theory-discovery의 미해결 항목 각 1건에 `carried_as_limitation`을 기록했다(`dispositions`만 추가, 장부 버전 33 유지, 원본 인계 불변). 항목의 내용(출처 단위의 원문·추출 검증 필요, 승인된 주장 없음)은 해결되지 않았다. 국내는 PDF 확보와 서지 확인 단계, 국외는 2편의 선택 문단 4건만 검증, 이론 5편은 원문 미확보이므로 `resolved`로 기록하지 않았다. 이월 위치는 PROGRESS.md와 장부 sources의 상태 필드이며, 개요·논증 기록을 만들 때 한계 서술로 다시 옮겨야 한다. 처분은 원고 게이트의 항목 오류만 해소하고 근거별 원문 대조와 독립 검토 요건은 그대로다. 이 장부는 CRLF이고 `save()`는 LF로 쓰므로 저장 뒤 줄바꿈을 CRLF로 되돌려 diff를 32줄로 유지했다.
