@@ -6,6 +6,8 @@
 |---|---|---|
 | 루트 AGENTS.md | 범용 규칙: 총괄·하위 역할, 동시 실행 수, 복합 작업의 표준 단계(기준 분석·도전 분석 → 통합 → 독립 검토 → 수정), 게이트, 인계, 파일 소유권, 사용자 승인 | 이 저장소에서 작업할 때 |
 | `research-workspaces/<연구ID>/AGENTS.md` | 해당 연구의 기준 파일, 장부·폴더 연결, 작업 폴더 규칙 | 그 연구 폴더에서 작업할 때 |
+| evidence-paper-workflow/roles/ | 문헌연구 하위 작업자에게 전달하는 역할 카드 5종(원문 확보·원전 분석·반론 분석·독립 검토·초안 작성) | 하위 작업 배정 시 |
+| hwpx-document/SKILL.md | 주제와 무관한 HWPX 읽기·치환·생성·구조 검증 스킬(`hwpx_tool.py`, 시험 10개) | .hwpx를 다룰 때 |
 | evidence-paper-workflow/SKILL.md | 문헌연구 전용: 검색·파싱·OCR·근거 장부·HWPX 실행 절차와 스크립트, 원전 분석·반론 분석 등 단계·역할·승인(references/argument-pipeline.md) | 해당 문헌연구 단계에서 선택 |
 
 일반 코드 수정에는 연구질문·개요 승인 게이트를 적용하지 않습니다. 특정 연구 주제·논문·검증 사례는 루트 운영 지침과 분리하며, 연구별 규칙은 그 연구 폴더의 AGENTS.md에 둡니다.
@@ -32,6 +34,7 @@
 ```powershell
 python -m pip install pymupdf pillow
 python -X utf8 -m unittest discover -s evidence-paper-workflow/tests -v
+python -X utf8 -m unittest discover -s hwpx-document/tests -v
 python -X utf8 evidence-paper-workflow/scripts/cli.py init my-research --base research-workspaces
 python -X utf8 evidence-paper-workflow/scripts/cli.py status research-workspaces/my-research
 ```
@@ -42,7 +45,8 @@ python -X utf8 evidence-paper-workflow/scripts/cli.py status research-workspaces
 
 - `AGENTS.md`: 범용 총괄 운영 지침
 - `research-workspaces/`: 개별 연구의 질문·자료·장부·진행 기록과 연구별 AGENTS.md
-- `evidence-paper-workflow/`: 스킬·스크립트·회귀시험·고정된 외부 참고 스킬
+- `evidence-paper-workflow/`: 문헌연구 스킬·역할 카드(roles/)·스크립트·회귀시험·고정된 외부 참고 스킬
+- `hwpx-document/`: HWPX 스킬과 도구, 서식 자산(Apache-2.0 출처 기록 포함), 시험
 - `research-snapshots/`: 연구 및 검증 보관본
 - `validation/`: 실제·합성 검증 자료와 KCI 사용자 실행 결과
 - `pilot-staging/`: 초기 파일럿 작업 기록

@@ -99,7 +99,8 @@
 
 | 작업 | 읽을 문서 |
 |---|---|
-| 문헌 검색, 원문 근거 추출, 논증 구성, 원고 출력 | [evidence-paper-workflow/SKILL.md](evidence-paper-workflow/SKILL.md), 단계·역할·승인은 [argument-pipeline.md](evidence-paper-workflow/references/argument-pipeline.md) |
+| 문헌 검색, 원문 근거 추출, 논증 구성, 원고 출력 | [evidence-paper-workflow/SKILL.md](evidence-paper-workflow/SKILL.md), 단계·역할·승인은 [argument-pipeline.md](evidence-paper-workflow/references/argument-pipeline.md), 하위 작업자에게 전달하는 역할 카드는 [roles/](evidence-paper-workflow/roles/README.md) |
+| 한글(.hwpx) 문서 읽기·치환·생성·검증 | [hwpx-document/SKILL.md](hwpx-document/SKILL.md) |
 
 그 밖의 작업에는 해당 목적의 스킬·도구를 선택한다. 특정 작업 폴더에 자체 AGENTS.md가 있으면 그 폴더에서 작업할 때 함께 따른다. 새 전문 절차를 추가할 때는 이 표에 한 줄을 더하고, 주제·작업 유형별 내용은 그 절차나 작업 폴더의 문서에 둔다. 스킬 설치 여부와 무관하게 이 파일이 총괄 운영의 기준이다.
 
