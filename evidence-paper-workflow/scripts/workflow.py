@@ -217,10 +217,23 @@ class Ledger:
                 errors.append('XML quote verification failed: ' + type(exc).__name__)
         return errors
 
+    def _contributor_conflict(self, reviewer, evidence_ids):
+        """True if a committed handoff names the reviewer as contributor to this evidence.
+
+        Handoffs may carry an optional ``contributor_id`` (the worker who produced
+        the analysis). Review handoffs must not set it. Handoffs without it are
+        not checked, so older ledgers remain valid; identity is still a convention.
+        """
+        wanted = set(evidence_ids)
+        return any(t.get('contributor_id') == reviewer and wanted & set(t.get('evidence_ids', []))
+                   for t in self.data['tasks'].values())
+
     def review(self, claim_id, reviewer, verdict, rationale, review_kind='agent_reviewed'):
         c = self.data['claims'].get(claim_id)
         if not c or not c.get('author') or not reviewer or reviewer == c.get('author'):
             raise WorkflowError('Independent identified reviewer required')
+        if self._contributor_conflict(reviewer, c.get('evidence_ids', [])):
+            raise WorkflowError('Reviewer contributed to the analysis behind this claim')
         if verdict not in ('pass', 'revise', 'hold') or not rationale:
             raise WorkflowError('Explicit semantic verdict and rationale required')
         if review_kind not in ('agent_reviewed', 'human_reviewed'):
@@ -247,6 +260,8 @@ class Ledger:
         claims = [self.data['claims'].get(cid) for cid in p['claim_ids']]
         if any(c is None for c in claims) or not p.get('author') or not reviewer or reviewer == p.get('author') or any(not c.get('author') or reviewer == c.get('author') for c in claims):
             raise WorkflowError('Independent identified paragraph reviewer required')
+        if self._contributor_conflict(reviewer, [e for c in claims for e in c.get('evidence_ids', [])]):
+            raise WorkflowError('Reviewer contributed to the analysis behind this paragraph')
         if verdict not in ('pass', 'revise', 'hold') or review_kind not in ('agent_reviewed', 'human_reviewed'):
             raise WorkflowError('Invalid paragraph verdict/review kind')
         self.data.setdefault('paragraph_reviews', {})[paragraph_id] = dict(
@@ -342,6 +357,59 @@ class Ledger:
         if name not in ('research_question', 'outline', 'manuscript', 'final'):
             raise WorkflowError('Unknown gate')
         return {'pass': not errors, 'errors': errors}
+
+    OBJECTION_STATUSES = ('addressed', 'partially_addressed', 'unresolved_limit',
+                          'scope_narrowed', 'out_of_scope')
+
+    def check_argument_map(self, argmap, required_objection_ids=()):
+        """Structural check of the coordinator's argument map; returns error strings.
+
+        Verifies completeness and linkage only. It cannot judge whether an
+        objection was handled well; that remains independent review.
+        """
+        errors = []
+        if not isinstance(argmap, dict):
+            return ['argument map must be an object']
+        if argmap.get('ledger_version') != self.data['version']:
+            errors.append('argument map ledger_version is stale')
+        entries = {}
+        for e in argmap.get('claims', []):
+            if isinstance(e, dict) and e.get('claim_id'):
+                entries[e['claim_id']] = e
+        objections = {}
+        for o in argmap.get('objections', []):
+            if isinstance(o, dict) and o.get('objection_id'):
+                objections[o['objection_id']] = o
+        for cid, claim in self.data['claims'].items():
+            e = entries.get(cid)
+            if e is None:
+                errors.append(cid + ': missing from argument map')
+                continue
+            if set(e.get('evidence_ids', [])) != set(claim.get('evidence_ids', [])):
+                errors.append(cid + ': argument map evidence differs from ledger')
+            if not e.get('reconstruction_refs'):
+                errors.append(cid + ': no source reconstruction reference')
+            for oid in e.get('objection_refs', []):
+                if oid not in objections:
+                    errors.append(cid + ': unknown objection ' + str(oid))
+        for cid in entries:
+            if cid not in self.data['claims']:
+                errors.append(cid + ': argument map claim not in ledger')
+        referenced = {oid for e in entries.values() for oid in e.get('objection_refs', [])}
+        open_items = set(argmap.get('open_items', []))
+        for oid, o in objections.items():
+            if o.get('status') not in self.OBJECTION_STATUSES:
+                errors.append(oid + ': invalid objection status')
+            if not str(o.get('handling_note', '')).strip():
+                errors.append(oid + ': handling note required')
+            if oid not in referenced and o.get('status') != 'out_of_scope':
+                errors.append(oid + ': objection not linked to any claim')
+            if o.get('status') == 'unresolved_limit' and oid not in open_items:
+                errors.append(oid + ': unresolved limit missing from open_items')
+        for oid in required_objection_ids:
+            if oid not in objections:
+                errors.append(oid + ': objection from analysis missing in argument map')
+        return errors
 
     def repair(self, gate, cycle_id='initial'):
         # Stable cycle IDs survive fixes. New IDs require a new externally

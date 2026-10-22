@@ -11,6 +11,7 @@ def main():
     init=sub.add_parser('init'); init.add_argument('research_id'); init.add_argument('--base',type=Path,default=Path('C:/Users/USER/Documents/ResearchWorkspace'))
     for cmd in ('status','resume'):
         p=sub.add_parser(cmd); p.add_argument('root',type=Path)
+    arg=sub.add_parser('check-argument'); arg.add_argument('root',type=Path); arg.add_argument('--map',type=Path); arg.add_argument('--objections',type=Path)
     approval=sub.add_parser('approve'); approval.add_argument('root',type=Path); approval.add_argument('gate',choices=['research_question','outline']); approval.add_argument('--message-file',required=True,type=Path)
     args=parser.parse_args()
     if args.command=='init':
@@ -22,6 +23,13 @@ def main():
         for name in ('sources','extracted','tasks','outlines','approvals'): (root/name).mkdir()
         print(str(root)); return
     ledger=Ledger(args.root)
+    if args.command=='check-argument':
+        path=args.map or args.root/'tasks'/'coordinator'/'argument-map.json'
+        required=()
+        if args.objections:
+            required=[o['objection_id'] for o in json.loads(args.objections.read_text(encoding='utf-8')).get('objections',[])]
+        errors=ledger.check_argument_map(json.loads(path.read_text(encoding='utf-8')),required)
+        print(json.dumps({'pass':not errors,'errors':errors},ensure_ascii=False,indent=2)); raise SystemExit(1 if errors else 0)
     if args.command=='resume': ledger.resume()
     if args.command=='approve':
         message=args.message_file.read_text(encoding='utf-8').strip()

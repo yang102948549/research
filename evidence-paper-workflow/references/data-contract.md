@@ -31,6 +31,8 @@ API가 reviewer 문자열의 실제 신원을 인증하지는 않는다. 총괄�
 handoff: research_id/task_id/role/input_version/artifact_paths/paper_ids/evidence_ids/
 unresolved/verification_status/next_task. 선택: claim_ids, artifact_hashes, assigned_input_version,
 reconciliation_note. 총괄이 파일 경로·해시·버전을 확인하고 반영한다.
+선택 `contributor_id`는 근거 생성에 기여한 작업자 식별자이며, 그 근거에 연결된 주장·문단의 검토자와 같으면 review가 거절한다(식별자 인증은 아님).
+`Ledger.check_argument_map(argmap, required_objection_ids)`는 논증 기록의 구조·연결 오류 목록을 반환한다([인계 계약](orchestration.md) 참조).
 `input_version`은 장부 정수 버전이며 `verification_status`는 pending/pass/revise/hold 중 하나다.
 `output_paths`나 한글 키·자유 판정문은 이 계약과 다르므로 그대로 commit하지 않는다.
 정규화가 필요하면 원본을 보존하고 `assigned_input_version`에 실제 배정 기준을,

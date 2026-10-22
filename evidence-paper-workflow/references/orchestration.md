@@ -26,7 +26,9 @@ handoff 검증 후 총괄이 `put`으로 장부 반영하고 `commit_handoff`로
 
 **독립 대조 — `review.json`**: `verification_status`(pass·revise·hold), `review_kind`(`agent_reviewed`)와 `human_reviewed: false`, 검토한 입력의 장부 버전·파일 해시, 항목별 판정(재구성 충실성·이의 처리·근거 위치와 해시·사실/규범/해석 구분·결론 강도), 검토자가 발견한 추가 이의, 독립성 한계.
 
-**총괄 논증 기록 — `tasks/coordinator/argument-map.json`**: 기록 시점의 `ledger_version`, 주장마다 `claim_id`·재구성 항목·`evidence_ids`·강도, 이의마다 처리 상태(addressed·partially_addressed·unresolved_limit·scope_narrowed·out_of_scope)와 처리 설명·한계 서술 위치, 폐기한 이의의 사유, `open_items`. 장부 버전이 `ledger_version`과 다르면 이 기록은 최신으로 취급하지 않는다. 문헌 근거 없이 구성한 이의는 시험용으로만 기록하며 장부 주장으로 올리지 않는다(장부는 근거 없는 주장을 받지 않는다).
+**총괄 논증 기록 — `tasks/coordinator/argument-map.json`**: 기록 시점의 `ledger_version`, `claims`(주장마다 `claim_id`·`reconstruction_refs`·`evidence_ids`·`objection_refs`·강도), `objections`(이의마다 `objection_id`·`status`: addressed·partially_addressed·unresolved_limit·scope_narrowed·out_of_scope·`handling_note`), `open_items`(unresolved_limit인 이의 ID). 장부 버전이 `ledger_version`과 다르면 이 기록은 최신으로 취급하지 않는다. 구조는 `python -X utf8 evidence-paper-workflow/scripts/cli.py check-argument <연구폴더> [--objections <objections.json>]`로 검사한다. 검사 항목은 장부 주장 누락, 근거 불일치, 재구성 참조 누락, 알 수 없는 이의, 잘못된 상태, 처리 설명 누락, 주장에 연결되지 않은 이의, `open_items` 누락, 반론 분석 이의의 누락이다. 이의 처리가 적절한지는 검사하지 않는다.
+
+**분석 인계의 `contributor_id`**: 원전 분석·반론 분석 등 근거 생성에 기여한 인계에는 선택 키 `contributor_id`(작업자 식별자)를 적는다. 해당 근거가 연결된 주장·문단의 검토자가 같은 식별자이면 `review`·`review_paragraph`가 거절한다. 독립 검토 인계에는 이 키를 쓰지 않는다. 키가 없는 인계는 검사되지 않는다. 문헌 근거 없이 구성한 이의는 시험용으로만 기록하며 장부 주장으로 올리지 않는다(장부는 근거 없는 주장을 받지 않는다).
 
 ## 중단·승인
 

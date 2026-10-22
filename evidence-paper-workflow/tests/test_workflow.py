@@ -191,6 +191,48 @@ class WorkflowTests(unittest.TestCase):
         with self.assertRaises(WorkflowError):
             stale.save()
 
+    def test_reviewer_who_contributed_analysis_rejected(self):
+        h = self.handoff()
+        self.w.commit_handoff(dict(h, task_id='source-analysis', contributor_id='analyst-1'))
+        for call in (lambda: self.w.review('c1', 'analyst-1', 'pass', 'Compared original.'),
+                     lambda: self.w.review_paragraph('para1', 'analyst-1', 'pass', 'Compared original.')):
+            with self.assertRaises(WorkflowError):
+                call()
+        self.w.review('c1', 'fresh-reviewer', 'pass', 'Compared original.')
+        self.assertEqual(self.w.data['reviews']['c1']['reviewer'], 'fresh-reviewer')
+
+    def test_handoff_without_contributor_id_keeps_old_behavior(self):
+        self.w.commit_handoff(self.handoff())
+        self.w.review('c1', 'independent-reviewer', 'pass', 'Compared original.')
+
+    def argmap(self, **override):
+        base = dict(ledger_version=self.w.data['version'],
+            claims=[dict(claim_id='c1', reconstruction_refs=['p1:thesis'], evidence_ids=['e1'], objection_refs=['o1'])],
+            objections=[dict(objection_id='o1', status='addressed', handling_note='Scope limited to association.')],
+            open_items=[])
+        return dict(base, **override)
+
+    def test_argument_map_complete_passes(self):
+        self.assertEqual(self.w.check_argument_map(self.argmap(), ['o1']), [])
+
+    def test_argument_map_detects_gaps(self):
+        cases = {
+            'stale': self.argmap(ledger_version=-1),
+            'missing claim': self.argmap(claims=[]),
+            'evidence mismatch': self.argmap(claims=[dict(claim_id='c1', reconstruction_refs=['x'], evidence_ids=[], objection_refs=['o1'])]),
+            'no reconstruction': self.argmap(claims=[dict(claim_id='c1', reconstruction_refs=[], evidence_ids=['e1'], objection_refs=['o1'])]),
+            'unknown objection': self.argmap(claims=[dict(claim_id='c1', reconstruction_refs=['x'], evidence_ids=['e1'], objection_refs=['zz'])]),
+            'bad status': self.argmap(objections=[dict(objection_id='o1', status='ignored', handling_note='n')]),
+            'no note': self.argmap(objections=[dict(objection_id='o1', status='addressed', handling_note=' ')]),
+            'limit not open item': self.argmap(objections=[dict(objection_id='o1', status='unresolved_limit', handling_note='n')]),
+            'unlinked objection': self.argmap(objections=[dict(objection_id='o1', status='addressed', handling_note='n'),
+                dict(objection_id='o2', status='addressed', handling_note='n')]),
+        }
+        for name, m in cases.items():
+            self.assertTrue(self.w.check_argument_map(m), name)
+        self.assertTrue(self.w.check_argument_map(self.argmap(), ['o1', 'o9']))
+        self.assertTrue(self.w.check_argument_map('not a map'))
+
 
 if __name__ == '__main__':
     unittest.main()
